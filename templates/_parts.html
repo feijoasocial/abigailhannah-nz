@@ -28,10 +28,10 @@
 
 {% macro player(e) %}
 <div class="player">
-  {% if e.spotify %}
-  <iframe src="https://open.spotify.com/embed/episode/{{ e.spotify }}?utm_source=generator&amp;theme=0" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Listen on Spotify: {{ e.title }}"></iframe>
-  {% elif e.guid %}
+  {% if e.guid and not e.guid.startswith("snapshot-") %}
   <iframe src="https://player.captivate.fm/episode/{{ e.guid }}" height="170" loading="lazy" allow="autoplay" title="Listen: {{ e.title }}"></iframe>
+  {% elif e.spotify %}
+  <iframe src="https://open.spotify.com/embed/episode/{{ e.spotify }}?utm_source=generator&amp;theme=0" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Listen on Spotify: {{ e.title }}"></iframe>
   {% endif %}
 </div>
 {% endmacro %}
