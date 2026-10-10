@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = (e.content.seoTitle if e.content and e.content.seoTitle else e.title) %}
+{% set page_desc = e.description %}
+{% set page_image = e.image if e.image.startswith("/") else "" %}
+{% set og_type = "article" %}
+{% set published = e.date %}
+{% set modified = e.content.updated if e.content else e.date %}
+{% set jsonld = [{
+  "@context": "https://schema.org", "@type": "PodcastEpisode", "name": e.title, "url": cfg.domain ~ e.url,
+  "datePublished": e.date.isoformat(), "description": e.description, "episodeNumber": e.number,
+  "timeRequired": e.duration, "image": (e.image if e.image.startswith("http") else cfg.domain ~ e.image) if e.image else None,
+  "associatedMedia": ({"@type": "MediaObject", "contentUrl": e.audio_url} if e.audio_url else None),
+  "partOfSeries": {"@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/"},
+  "author": {"@type": "Person", "name": "Abigail Hannah"}
+}] %}
+{% block main %}
+<section class="band band-olive ep-head">
+  <div class="wrap">
+    <p class="kicker"><a href="/podcast/">Aotearoa Adventures</a></p>
+    <p class="ep-num">{{ "Bonus episode" if e.bonus else "Episode " ~ e.label }}</p>
+    <h1>{{ e.clean_title }}</h1>
+    <p class="meta-row">
+      <time datetime="{{ e.date.isoformat() }}">{{ e.date | date }}</time>
+      {% if e.duration | duration %}<span>{{ e.duration | duration }}</span>{% endif %}
+    </p>
+  </div>
+</section>
+<section class="band">
+  <div class="measure stack">
+    {{ parts.player(e) }}
+    <p class="pill-row">
+      <a class="pill" href="{{ cfg.spotify_show }}">Spotify</a>
+      <a class="pill" href="{{ cfg.apple_podcasts }}">Apple Podcasts</a>
+      <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
+      {% if e.audio_url %}<a class="pill" href="{{ e.audio_url }}">Download</a>{% endif %}
+    </p>
+    {% if e.image %}<img class="hero-art" src="{{ e.image }}" alt="{{ e.content.imageAlt if e.content else '' }}" width="1200" height="800">{% endif %}
+    <div class="prose">
+      {% if e.content %}{{ e.content.html | safe }}{% else %}{{ e.description_html | safe }}{% endif %}
+    </div>
+  </div>
+</section>
+{{ parts.map_band(compact=True) }}
+{% if related %}
+<section class="band">
+  <div class="wrap">
+    <p class="kicker">Keep listening</p>
+    {{ parts.ledger(related) }}
+    <p class="more"><a class="btn btn-outline" href="/podcast/">All episodes</a></p>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

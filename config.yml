@@ -1,0 +1,41 @@
+# abigailhannah.nz site configuration. Every outbound link lives here, nothing is hard-coded in templates.
+name: Abigail Hannah
+domain: https://abigailhannah.nz
+title: "New Zealand Travel Blogger | Travel Photographer - Abigail Hannah"
+description: "Explore New Zealand like a local. Home of the Aotearoa Adventures podcast, the NZ Road Trip Adventure Guide and map, and real stories from real Kiwi adventures."
+author: Abigail Hannah
+email: hello@abigailhannah.nz
+
+podcast_name: "Aotearoa Adventures: The New Zealand Travel Podcast"
+feed_url: https://feeds.captivate.fm/aotearoa-adventures/
+spotify_show: https://open.spotify.com/show/3Y20EhFHvw8KPEVgXximUx
+apple_podcasts: https://podcasts.apple.com/us/podcast/aotearoa-adventures/id1626687552
+apple_review: https://podcasts.apple.com/us/podcast/aotearoa-adventures-the-new-zealand-travel-podcast/id1626687552
+pod_link: https://pod.link/1626687552
+
+# The product
+rexby_map: https://www.rexby.com/abigailhannnah/newzealand
+
+# Lead magnets and Ivorey embeds. Sections only render when set.
+itinerary_freebie: ""      # 14-day South Island itinerary opt-in page
+travel_quiz: ""            # "What's your unique travel style?" quiz
+newsletter_embed: "https://api.leadconnectorhq.com/widget/form/ynrsZ9h9ls2xAAzhZlQB"       # Ivorey form embed src for the VIP list
+guest_form_link: "https://forms.clickup.com/36641775/f/12y6zf-12396/24REL6JPBYJ8ZA75K7"       # Ivorey form embed src for "Apply to be a guest"
+contact_form_embed: "https://api.leadconnectorhq.com/widget/form/fTZ94MdSrnHNzurHQaq2"     # Ivorey form embed src for the contact page
+
+instagram: https://www.instagram.com/abigailhannnah/
+tiktok: https://www.tiktok.com/@abigailhannnah
+facebook: https://www.facebook.com/abigailhannnah
+linkedin: https://www.linkedin.com/in/abigailhnaylor/
+feijoa_social: https://feijoasocial.com
+
+nav:
+  - { href: /podcast/, label: Podcast }
+  - { href: /map/, label: NZ map }
+  - { href: /blog/, label: Blog }
+  - { href: /about/, label: About }
+  - { href: /contact/, label: Contact }
+
+# Home page picks
+favourite_episodes: [36, 1, 43, 17]
+blog_picks: [2019-tama-lakes, 2020-south-island-roadie, 2021-northland-roadie]

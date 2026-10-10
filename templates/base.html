@@ -1,0 +1,100 @@
+{% set page_title = page_title | default(cfg.title) %}
+{% set full_title = page_title if page_title == cfg.title else page_title ~ " | Abigail Hannah" %}
+{% set page_desc = page_desc | default(cfg.description) %}
+{% set og_image = (cfg.domain ~ (page_image if page_image else "/images/og-default.jpg")) %}
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ cfg.domain }}{{ url }}">
+  {% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
+  <meta name="author" content="{{ cfg.author }}">
+  <meta property="og:site_name" content="Abigail Hannah">
+  <meta property="og:type" content="{{ og_type | default('website') }}">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ cfg.domain }}{{ url }}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:locale" content="en_NZ">
+  {% if published %}<meta property="article:published_time" content="{{ published.isoformat() }}">{% endif %}
+  {% if modified %}<meta property="article:modified_time" content="{{ modified.isoformat() }}">{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ full_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="Abigail Hannah blog" href="/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Aotearoa Adventures podcast" href="{{ cfg.feed_url }}">
+  <link rel="sitemap" href="/sitemap.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+  {% for ld in (jsonld or []) %}
+  <script type="application/ld+json">{{ ld | tojson }}</script>
+  {% endfor %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap row">
+    <a class="brand" href="/">Abigail Hannah</a>
+    <nav aria-label="Main">
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav-list">Menu</button>
+      <ul id="nav-list">
+        {% for n in cfg.nav %}
+        <li><a href="{{ n.href }}"{% if url.startswith(n.href) %} aria-current="page"{% endif %}>{{ n.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-foot">
+  <div class="wrap cols">
+    <div>
+      <a class="brand" href="/">Abigail Hannah</a>
+      <p>Explore New Zealand like a local.</p>
+      <p class="social">
+        <a href="{{ cfg.instagram }}">Instagram</a>
+        <a href="{{ cfg.tiktok }}">TikTok</a>
+        <a href="{{ cfg.facebook }}">Facebook</a>
+        <a href="{{ cfg.linkedin }}">LinkedIn</a>
+      </p>
+    </div>
+    <div>
+      <p class="kicker">Listen</p>
+      <p class="links">
+        <a href="{{ cfg.spotify_show }}">Spotify</a>
+        <a href="{{ cfg.apple_podcasts }}">Apple Podcasts</a>
+        <a href="{{ cfg.pod_link }}">Everywhere else</a>
+        <a href="{{ cfg.feed_url }}">RSS</a>
+      </p>
+    </div>
+    <div>
+      <p class="kicker">Explore</p>
+      <p class="links">
+        {% for n in cfg.nav %}<a href="{{ n.href }}">{{ n.label }}</a>{% endfor %}
+        <a href="{{ cfg.rexby_map }}">Buy the NZ map</a>
+      </p>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© {{ year }} Abigail Hannah. All rights reserved. <a href="/privacy/">Privacy</a> <a href="/terms/">Terms</a></p>
+    <p>Social media for travel and outdoor brands: <a href="{{ cfg.feijoa_social }}">Feijoa Social</a></p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var b = document.querySelector('.menu-btn'), l = document.getElementById('nav-list');
+    if (b && l) b.addEventListener('click', function () { var o = l.classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); });
+  })();
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

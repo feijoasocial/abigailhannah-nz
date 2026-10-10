@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = "Aotearoa Adventures podcast" %}
+{% set page_desc = "Every episode of Aotearoa Adventures, New Zealand's travel podcast. " ~ numbered ~ " episodes of real stories from real Kiwi adventures: tramping, vanlife, kayaking, road trips and more." %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/", "webFeed": cfg.feed_url, "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
+{% block main %}
+<section class="band band-olive">
+  <div class="wrap">
+    <p class="kicker">Aotearoa Adventures</p>
+    <h1 class="display">The New Zealand travel podcast</h1>
+    <p class="lede">A collection of real stories from people just like you. Fresh episodes drop every Friday.</p>
+    <p class="pill-row">
+      <a class="pill" href="{{ cfg.spotify_show }}">Spotify</a>
+      <a class="pill" href="{{ cfg.apple_podcasts }}">Apple Podcasts</a>
+      <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
+      <a class="pill" href="{{ cfg.apple_review }}">Leave a review</a>
+    </p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Latest episode</p>
+      <h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
+      <p>{{ latest.summary }}…</p>
+      <p><a class="btn btn-outline" href="{{ latest.url }}">Show notes</a></p>
+    </div>
+    {{ parts.player(latest) }}
+  </div>
+</section>
+
+<section class="band band-sage" id="episodes">
+  <div class="wrap">
+    <div class="toolbar">
+      <h2 class="display">All {{ numbered }} episodes</h2>
+      <label class="search"><span class="sr-only">Search episodes</span>
+        <input type="search" id="ep-search" placeholder="Search by place, activity or guest" autocomplete="off"></label>
+    </div>
+    {% for y in years %}
+    <div class="year">
+      <h3 class="year-h">{{ y }}</h3>
+      {{ parts.ledger(by_year[y]) }}
+    </div>
+    {% endfor %}
+    <p class="empty" hidden>No episodes match that yet. Try a region, a track or an activity.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="measure center">
+    <h2 class="display">Have an epic travel story?</h2>
+    <p>I'd love to hear it. Guests on the show are everyday adventurers with a story worth telling.</p>
+    <p><a class="btn" href="{{ cfg.guest_form_link }}">Apply to be a guest</a></p>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+  (function () {
+    var input = document.getElementById('ep-search'); if (!input) return;
+    var rows = Array.prototype.slice.call(document.querySelectorAll('.ledger li'));
+    var years = Array.prototype.slice.call(document.querySelectorAll('.year'));
+    var empty = document.querySelector('.empty');
+    input.addEventListener('input', function () {
+      var q = input.value.trim().toLowerCase(), shown = 0;
+      rows.forEach(function (r) { var hit = !q || (r.textContent || '').toLowerCase().indexOf(q) !== -1; r.hidden = !hit; if (hit) shown++; });
+      years.forEach(function (y) { y.hidden = !Array.prototype.some.call(y.querySelectorAll('li'), function (li) { return !li.hidden; }); });
+      if (empty) empty.hidden = shown > 0;
+    });
+  })();
+</script>
+{% endblock %}

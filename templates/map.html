@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = "NZ Road Trip Adventure Guide and map" %}
+{% set page_desc = "The ultimate New Zealand road trip adventure guide and map. Top attractions, hidden gems, detailed descriptions and insider tips from over 7 years of firsthand adventures." %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "Product", "name": "NZ Road Trip Adventure Guide and Map", "description": page_desc, "brand": {"@type": "Person", "name": "Abigail Hannah"}, "url": cfg.rexby_map}] %}
+{% block main %}
+<section class="band band-tan">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">The ultimate</p>
+      <h1 class="display">NZ road trip adventure guide</h1>
+      <p class="lede">Packed with insider tips and stunning photography, this is the only resource you need to plan your journey.</p>
+      <p>Crafted from over 7 years of firsthand adventures, this map and guide includes the top attractions, hidden gems, detailed descriptions and insider tips to help you have the trip of a lifetime.</p>
+      <p><a class="btn btn-cream" href="{{ cfg.rexby_map }}">Buy now on Rexby</a></p>
+    </div>
+    <div class="phone-wrap">
+      <div class="phone">
+        <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
+          <source src="/images/map-mockup.mp4" type="video/mp4">
+        </video>
+        <img class="phone-still" src="/images/map-mockup.jpg" alt="The NZ Road Trip Adventure Guide map open on a phone" width="1080" height="1920">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="band">
+  <div class="measure prose">
+    <!-- MAP SALES COPY: what's inside, how Rexby works, who it's for. To be written with Abigail. -->
+    <h2>What's inside</h2>
+    <p><em>Sales copy to come.</em></p>
+    <p><a class="btn" href="{{ cfg.rexby_map }}">Get the map</a></p>
+  </div>
+</section>
+{% if favourites %}{% endif %}
+<section class="band band-sage">
+  <div class="wrap">
+    <p class="kicker">Plan with the podcast</p>
+    {{ parts.ledger(episodes[:5]) }}
+    <p class="more"><a class="btn btn-outline" href="/podcast/">All episodes</a></p>
+  </div>
+</section>
+{% endblock %}

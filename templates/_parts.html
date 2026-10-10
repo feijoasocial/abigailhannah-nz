@@ -1,0 +1,73 @@
+{% macro ledger(eps) %}
+<ol class="ledger">
+  {% for e in eps %}
+  <li>
+    <a href="{{ e.url }}">
+      <span class="ledger-num{% if e.bonus %} bonus{% endif %}" aria-label="{{ 'Bonus episode' if e.bonus else 'Episode ' ~ e.number }}">{{ e.label }}</span>
+      <span>
+        <span class="ledger-title">{{ e.clean_title }}</span>
+      </span>
+      <time class="ledger-date" datetime="{{ e.date.isoformat() }}">{{ e.date | date }}</time>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+{% endmacro %}
+
+{% macro grid(items) %}
+<div class="grid">
+  {% for p in items %}
+  <a class="card" href="{{ p.url }}">
+    {% if p.image %}<img class="thumb" src="{{ p.image }}" alt="{{ p.imageAlt }}" loading="lazy" width="800" height="600">{% else %}<div class="thumb"></div>{% endif %}
+    <h3>{{ p.title }}</h3>
+    <p class="meta">{% if p.categories %}<span>{{ p.categories[0] }}, </span>{% endif %}<time datetime="{{ p.date.isoformat() }}">{{ p.date | date }}</time></p>
+  </a>
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro player(e) %}
+<div class="player">
+  {% if e.spotify %}
+  <iframe src="https://open.spotify.com/embed/episode/{{ e.spotify }}?utm_source=generator&amp;theme=0" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Listen on Spotify: {{ e.title }}"></iframe>
+  {% elif e.guid %}
+  <iframe src="https://player.captivate.fm/episode/{{ e.guid }}" height="170" loading="lazy" allow="autoplay" title="Listen: {{ e.title }}"></iframe>
+  {% endif %}
+</div>
+{% endmacro %}
+
+{% macro map_band(compact=False) %}
+<section class="band band-tan">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">The ultimate</p>
+      <h2 class="display">NZ road trip adventure guide</h2>
+      <p>Packed with insider tips and stunning photography, this is the only resource you need to plan your journey.</p>
+      {% if not compact %}<p>Crafted from over 7 years of firsthand adventures, this map and guide includes the top attractions, hidden gems, detailed descriptions and insider tips to help you have the trip of a lifetime.</p>{% endif %}
+      <p><a class="btn btn-cream" href="{{ cfg.rexby_map }}">Buy now on Rexby</a></p>
+    </div>
+    <div class="phone-wrap">
+      <div class="phone">
+        <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
+          <source src="/images/map-mockup.mp4" type="video/mp4">
+        </video>
+        <img class="phone-still" src="/images/map-mockup.jpg" alt="The NZ Road Trip Adventure Guide map open on a phone" loading="lazy" width="1080" height="1920">
+      </div>
+    </div>
+  </div>
+</section>
+{% endmacro %}
+
+{% macro newsletter() %}
+<section class="band band-sage">
+  <div class="measure center">
+    <h2 class="display">Join the VIP list</h2>
+    <p>Inspiration for your adventures and exclusive offers, delivered straight to your inbox once a month.</p>
+    {% if cfg.newsletter_embed %}
+    <iframe class="form" src="{{ cfg.newsletter_embed }}" loading="lazy" title="Join the VIP list"></iframe>
+    {% else %}
+    <p><a class="btn" href="mailto:{{ cfg.email }}?subject=VIP%20list">Join the list</a></p>
+    {% endif %}
+  </div>
+</section>
+{% endmacro %}

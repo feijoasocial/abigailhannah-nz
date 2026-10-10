@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = cfg.title %}
+{% set jsonld = [
+  {"@context": "https://schema.org", "@type": "WebSite", "name": "Abigail Hannah", "url": cfg.domain, "description": cfg.description},
+  {"@context": "https://schema.org", "@type": "Person", "name": "Abigail Hannah", "url": cfg.domain, "jobTitle": "Travel creator and podcast host", "sameAs": [cfg.instagram, cfg.tiktok, cfg.facebook, cfg.linkedin]},
+  {"@context": "https://schema.org", "@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/", "webFeed": cfg.feed_url, "author": {"@type": "Person", "name": "Abigail Hannah"}}
+] %}
+{% block main %}
+<section class="hero">
+  <div class="hero-slides" aria-hidden="true">
+    <img class="hero-img" src="/images/hero-1.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+    <img class="hero-img" src="/images/hero-2.jpg" alt="" width="1920" height="1080" loading="lazy">
+    <img class="hero-img" src="/images/hero-3.jpg" alt="" width="1920" height="1080" loading="lazy">
+    <img class="hero-img" src="/images/hero-4.jpg" alt="" width="1920" height="1080" loading="lazy">
+  </div>
+  <div class="hero-text">
+    <h1 class="display">Your next adventure starts here</h1>
+    <p class="sub">Explore New Zealand like a local</p>
+    <p class="hero-cta">
+      <a class="btn btn-cream" href="/podcast/">Listen to the podcast</a>
+      <a class="btn btn-outline" href="{{ cfg.rexby_map }}">Get the NZ map</a>
+    </p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="kicker">Tune in to the podcast now</p>
+        <h2 class="display">It's road trip binge-worthy</h2>
+        <p>A collection of real stories from people just like you. I talk to photographers, vanlifers, mums, students, and everyday Kiwis, to hear their inspiring stories from past adventures and to share helpful tips and tricks for your travels.</p>
+        <p>So grab your hiking boots, hop in the car, and turn up the volume.</p>
+        <p class="pill-row">
+          <a class="pill" href="{{ cfg.spotify_show }}">Spotify</a>
+          <a class="pill" href="{{ cfg.apple_podcasts }}">Apple Podcasts</a>
+          <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
+        </p>
+      </div>
+      <div class="stack">
+        <p class="kicker">Latest episode</p>
+        <h3><a href="{{ latest.url }}">{{ latest.title }}</a></h3>
+        {{ parts.player(latest) }}
+      </div>
+    </div>
+    <div class="more">
+      {{ parts.ledger(recent) }}
+      <p class="more"><a class="btn btn-outline" href="/podcast/">All {{ numbered }} episodes</a></p>
+    </div>
+  </div>
+</section>
+
+{{ parts.map_band() }}
+
+<section class="band">
+  <div class="wrap split">
+    <div><img class="portrait" src="/images/abigail.jpg" alt="Abigail Hannah" loading="lazy" width="900" height="1100"></div>
+    <div>
+      <p class="kicker">Kia ora e hoa! Hello friend!</p>
+      <h2>I'm Abigail, and I want you to experience Aotearoa to the fullest, with memories to last a lifetime.</h2>
+      <p>I live and breathe travel. My Google Maps is a to-do list of places I've been and places I want to go. I've been to more places in New Zealand than I can count and am on a mission to go everywhere else. I've built out three different vans and love the freedom that life on the road offers.</p>
+      <p><a class="btn btn-outline" href="/about/">Love stories? Here's mine</a></p>
+    </div>
+  </div>
+</section>
+
+{% if picks %}
+<section class="band band-sage">
+  <div class="wrap">
+    <p class="kicker">Hand-picked from the blog</p>
+    {{ parts.grid(picks) }}
+    <p class="more"><a class="btn" href="/blog/">Read the blog</a></p>
+  </div>
+</section>
+{% endif %}
+
+{% if favourites %}
+<section class="band">
+  <div class="wrap">
+    <p class="kicker">Your favourite stories</p>
+    {{ parts.ledger(favourites) }}
+  </div>
+</section>
+{% endif %}
+
+{{ parts.newsletter() }}
+
+<section class="band">
+  <div class="measure center">
+    <p class="kicker">Creative services for travel and tourism businesses</p>
+    <h2 class="display">Let's elevate your online presence</h2>
+    <p><a class="btn btn-outline" href="{{ cfg.feijoa_social }}">Enquire now</a></p>
+  </div>
+</section>
+{% endblock %}

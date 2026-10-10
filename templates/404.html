@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = "Page not found" %}
+{% set noindex = True %}
+{% block main %}
+<section class="band band-olive"><div class="wrap"><p class="ep-num">404</p><h1 class="display">That track doesn't go anywhere</h1><p class="lede">The page you're after has moved or never existed. Try the podcast, the blog, or the map.</p>
+<p class="pill-row"><a class="pill" href="/podcast/">Podcast</a><a class="pill" href="/blog/">Blog</a><a class="pill" href="/map/">NZ map</a></p></div></section>
+<section class="band"><div class="wrap"><p class="kicker">Latest episodes</p>{{ parts.ledger(episodes[:5]) }}</div></section>
+{% endblock %}

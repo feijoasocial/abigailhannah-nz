@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = cat.name %}
+{% set page_desc = cat.name ~ " posts from the Abigail Hannah blog: New Zealand travel guides, road trips and real stories." %}
+{% block main %}
+<section class="band band-sage">
+  <div class="wrap">
+    <p class="kicker"><a href="/blog/">The blog</a></p>
+    <h1 class="display">{{ cat.name }}</h1>
+  </div>
+</section>
+<section class="band"><div class="wrap">{{ parts.grid(cat.posts) }}</div></section>
+{% endblock %}
