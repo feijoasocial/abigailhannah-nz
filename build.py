@@ -209,6 +209,7 @@ def main():
         write(p["url"], "post.html", p["updated"], "0.6", p=p, related=rel)
     if cfg.get("itinerary_form_embed"):
         write("/south-island-itinerary/", "itinerary.html", priority="0.7")
+    write("/quiz/", "quiz.html", priority="0.7")
     for name in ("about", "map", "contact", "privacy", "terms"):
         write(f"/{name}/", f"{name}.html", priority="0.6")
     write("/404/", "404.html")

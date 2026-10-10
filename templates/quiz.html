@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = "What's your unique travel style?" %}
+{% set page_desc = "Uncover your ultimate New Zealand adventure. Nine quick questions to pinpoint your travel style and get you one step closer to your next New Zealand adventure." %}
+{% set page_image = "/images/hero-4.jpg" %}
+{% block main %}
+<section class="band band-olive quiz-head">
+  <div class="measure">
+    <p class="kicker">Uncover your ultimate New Zealand adventure</p>
+    <h1 class="display">What's your unique travel style?</h1>
+    <p class="lede">You deserve the trip of a lifetime, one that is as unique as you! Take the quiz to pinpoint your travel style and let's get you one step closer to your next New Zealand adventure.</p>
+  </div>
+</section>
+
+<section class="band" id="quiz">
+  <div class="measure">
+    <div id="quiz-intro">
+      <p>Nine questions. No wrong answers. About two minutes.</p>
+      <p><button class="btn" type="button" id="quiz-start">Take the quiz</button></p>
+    </div>
+
+    <form id="quiz-form" hidden aria-live="polite">
+      <p class="quiz-progress"><span id="quiz-step">1</span> of <span id="quiz-total"></span></p>
+      <fieldset id="quiz-q">
+        <legend id="quiz-question"></legend>
+        <div id="quiz-options" class="quiz-options"></div>
+      </fieldset>
+      <p class="quiz-nav"><button class="btn btn-outline" type="button" id="quiz-back" hidden>Back</button></p>
+    </form>
+
+    <div id="quiz-result" hidden>
+      <p class="kicker">Your travel style</p>
+      <h2 id="result-title" class="display"></h2>
+      <img id="result-img" class="hero-art" alt="" width="1200" height="800">
+      <div id="result-body" class="prose"></div>
+      <h3>Your ideal New Zealand trip</h3>
+      <div id="result-trip" class="prose"></div>
+      <p class="quiz-cta">
+        <a class="btn" href="{{ cfg.rexby_map }}">Plan it with the NZ map</a>
+        <button class="btn btn-outline" type="button" id="quiz-retake">Retake the quiz</button>
+      </p>
+      {% if cfg.quiz_form_embed %}
+      <div class="quiz-optin">
+        <p class="kicker">Want your result and trip ideas in your inbox?</p>
+        <iframe id="quiz-form-embed" class="form" data-src="{{ cfg.quiz_form_embed }}" loading="lazy" title="Get your travel style by email"></iframe>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{{ parts.map_band(compact=True) }}
+<section class="band">
+  <div class="wrap">
+    <p class="kicker">Plan with the podcast</p>
+    {{ parts.ledger(episodes[:5]) }}
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  // Scoring: each option maps to one of four styles. E = Adventurous Explorer, P = Intrepid Planner, W = Relaxed Wanderer, L = Luxury Seeker.
+  var Q = [
+    { q: "What values are most important to you in your personal life?", o: [
+      ["Taking risks, being spontaneous, and embracing the unknown", "E"],
+      ["Strategy, efficiency, and getting the most out of every situation", "P"],
+      ["Enjoying the moment, practising gratitude, appreciating beauty in simplicity, and relaxation", "W"],
+      ["Quality, comfort, exclusive experiences and stunning aesthetics", "L"]]},
+    { q: "What is your favourite way to relax and unwind after a long day?", o: [
+      ["Hitting the bouldering gym or watching an adventure documentary", "E"],
+      ["Planning your next trip or working on a personal project", "P"],
+      ["Cooking a homemade meal or spending time in nature", "W"],
+      ["Having a glass of wine or window shopping", "L"]]},
+    { q: "How do you prefer to spend your weekends?", o: [
+      ["Going on a last-minute camping trip", "E"],
+      ["A day trip to attend a cultural festival in a nearby city", "P"],
+      ["Visiting a local farmers market and unwinding with a book", "W"],
+      ["Sipping cocktails at a horse racing event", "L"]]},
+    { q: "What best describes your approach to spending?", o: [
+      ["Carefully considering each expenditure to maximise value", "P"],
+      ["Spending on comfortable but not extravagant things, supporting local", "W"],
+      ["I saved up for this, I'm ready to splurge on everything", "L"],
+      ["Flexible budget, willing to spend more on certain experiences", "E"]]},
+    { q: "What type of holiday destination would you choose if budget was not a concern?", o: [
+      ["Outdoor destinations with adrenaline-pumping activities, like Patagonia or Iceland", "E"],
+      ["Small villages in serene environments, like the Scottish Highlands or the Swiss Alps", "W"],
+      ["Vibrant cities with rich culture, history and lots to do, like Tokyo or Paris", "P"],
+      ["All-inclusive resorts in exotic locations, like the Maldives or Bora Bora", "L"]]},
+    { q: "How do you typically plan your trips?", o: [
+      ["Hiring a travel agent or using bespoke tour operators for personalised experiences", "L"],
+      ["Preparing a well-organised itinerary and making bookings well in advance", "P"],
+      ["Going with the flow and not planning more than a day or two ahead", "E"],
+      ["Seeking recommendations from friends and family, having a general plan but being open to change", "W"]]},
+    { q: "How important is it for you to experience off-the-beaten-path destinations?", o: [
+      ["Very important, always seeking out hidden gems and unique experiences", "E"],
+      ["Somewhat important, I enjoy exploring both popular and lesser-known spots", "W"],
+      ["Not a priority, I prefer sticking to well-known attractions and landmarks", "L"],
+      ["Open to it, but I also enjoy visiting iconic landmarks and attractions", "P"]]},
+    { q: "What type of accommodation do you prefer when travelling?", o: [
+      ["Sleeping under the stars in a tent, or travelling in a van to wake up somewhere new each morning", "E"],
+      ["Centrally located accommodation that allows for easy exploration of the area", "P"],
+      ["A boutique Airbnb or cosy wilderness cabin that offers a unique, local experience", "W"],
+      ["A five-star hotel or glamping retreat with personalised comfort and beautiful design", "L"]]},
+    { q: "Which of the following best describes your travel philosophy?", o: [
+      ["“Life is an adventure, and I want to experience it to the fullest.”", "E"],
+      ["“Travel is about learning and experiencing new cultures.”", "P"],
+      ["“I believe in taking time to slow down and appreciate the beauty around me.”", "W"],
+      ["“I believe in treating myself to the finer things in life when I travel.”", "L"]]}
+  ];
+  var R = {
+    E: { title: "Adventurous Explorer", img: "/images/hero-4.jpg",
+      body: "<p>You are the Adventurous Explorer, always seeking the next adrenaline rush and thrill in your travels.</p><p>For you, the journey is all about embracing the unknown and immersing yourself in exhilarating experiences. You thrive on spontaneity and are ever-ready to embark on a new adventure at a moment's notice.</p><p>Whether it's hiking through rugged mountains, kayaking down untamed rivers, or camping under the stars in remote wilderness, you feel most alive when you're pushing your limits and exploring the great outdoors.</p><p>Budget-conscious yet willing to splurge on once-in-a-lifetime experiences like skydiving or bungee jumping, you prioritise spending your resources on creating unforgettable memories and discovering hidden gems off the beaten path.</p>",
+      trip: "<p>Embark on an extended road trip, exploring both the North and South Islands at your own pace. Live the vanlife, waking up in a new place each day and embracing spontaneous adventures with newfound friends.</p>" },
+    P: { title: "Intrepid Planner", img: "/images/hero-3.jpg",
+      body: "<p>You embody the Intrepid Planner, meticulously crafting detailed itineraries and maximising every moment of your travels.</p><p>Your approach to exploration is strategic and efficient, as you thrive on the thrill of discovering new destinations while ensuring nothing is left to chance. From researching the best local eateries to booking must-do activities and cultural experiences, you leave no stone unturned in your quest for adventure.</p><p>Resourceful and practical, you find comfort in having a well-organised plan that allows you to make the most of your time, and pride yourself on your ability to navigate unfamiliar territories with ease.</p>",
+      trip: "<p>Locate yourself in Rotorua, where you can experience a perfect blend of adrenaline activities, cultural immersion and unique must-do experiences.</p><p>Explore the geothermal wonders, indulge in natural hot springs, learn about local culture and history, and get the best bang for your buck with food and accommodation options for all budgets. You can also explore Hobbiton, Taupō and Coromandel, all within close proximity to Rotorua.</p>" },
+    W: { title: "Relaxed Wanderer", img: "/images/hero-2.jpg",
+      body: "<p>You are the Relaxed Wanderer, epitomising the art of slow travel and savouring life's simple pleasures.</p><p>For you, travel is not just about ticking off bucket-list destinations but about immersing yourself in the essence of each place you visit. You prefer to take the scenic route, and you're drawn to the serene beauty and laid-back atmosphere that define New Zealand's boutique art galleries, quaint cafes and off-the-beaten-path destinations.</p><p>You find joy in the tranquillity of nature, the beauty of cultural immersion, and quiet moments of reflection amidst serene surroundings.</p>",
+      trip: "<p>Explore the off-the-beaten-path on the South Island's West Coast, where untouched beauty and rugged landscapes await.</p><p>Discover hidden treasures, where prehistoric beauty meets rugged coastline and ancient rainforests. Take your time to explore the pristine beauty of New Zealand's wilderness, from towering mountains to majestic glaciers to rugged coastline, as you embrace the slower pace of travel and savour every moment of your journey.</p>" },
+    L: { title: "Luxury Seeker", img: "/images/hero-1.jpg",
+      body: "<p>You embody the epitome of luxury and sophistication as the Luxury Seeker, valuing exclusivity, refinement, and indulgence in your travels.</p><p>For you, travel is synonymous with opulence and extravagance, as you seek out the finest accommodation, gourmet dining experiences, and personalised services at every turn.</p><p>With a taste for the finer things in life, you revel in the opportunity to pamper yourself with bespoke tours, helicopter flights, and five-star accommodation that offer unparalleled luxury and comfort.</p><p>Your travel style exudes elegance and sophistication, as you seek out unique experiences that leave a lasting impression.</p>",
+      trip: "<p>Stay in Queenstown, the epitome of luxury in New Zealand, at a luxurious five-star hotel or mountain chalet. Here, you can indulge in spa treatments, gourmet dining experiences, and high-end shopping.</p><p>Take scenic helicopter flights over iconic landmarks like Milford Sound and the glaciers, for a truly unforgettable experience of New Zealand's natural beauty.</p>" }
+  };
+  var ORDER = ["E", "P", "W", "L"];
+  var $ = function (id) { return document.getElementById(id); };
+  var intro = $("quiz-intro"), form = $("quiz-form"), result = $("quiz-result");
+  var answers = [], i = 0;
+  var base = (document.querySelector('link[rel="stylesheet"][href$="/css/site.css"]') || {}).getAttribute ? (document.querySelector('link[rel="stylesheet"][href$="/css/site.css"]').getAttribute("href").replace(/\/css\/site\.css$/, "")) : "";
+  function render() {
+    var q = Q[i]; $("quiz-step").textContent = i + 1; $("quiz-total").textContent = Q.length;
+    $("quiz-question").textContent = q.q;
+    var box = $("quiz-options"); box.innerHTML = "";
+    q.o.forEach(function (opt, k) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "quiz-opt"; b.textContent = opt[0];
+      if (answers[i] === k) b.setAttribute("aria-pressed", "true");
+      b.addEventListener("click", function () { answers[i] = k; if (i < Q.length - 1) { i++; render(); } else { finish(); } });
+      box.appendChild(b);
+    });
+    $("quiz-back").hidden = i === 0;
+    form.scrollIntoView({ block: "start", behavior: "smooth" });
+  }
+  function finish() {
+    var score = { E: 0, P: 0, W: 0, L: 0 };
+    answers.forEach(function (k, n) { score[Q[n].o[k][1]]++; });
+    var best = ORDER.reduce(function (a, b) { return score[b] > score[a] ? b : a; });
+    var r = R[best];
+    form.hidden = true; result.hidden = false;
+    $("result-title").textContent = r.title;
+    $("result-img").src = base + r.img;
+    $("result-body").innerHTML = r.body; $("result-trip").innerHTML = r.trip;
+    var f = $("quiz-form-embed");
+    if (f && !f.src) f.src = f.getAttribute("data-src") + (f.getAttribute("data-src").indexOf("?") > -1 ? "&" : "?") + "travel_style=" + encodeURIComponent(r.title);
+    try { history.replaceState(null, "", "#" + r.title.toLowerCase().replace(/\s+/g, "-")); } catch (e) {}
+    result.scrollIntoView({ block: "start", behavior: "smooth" });
+  }
+  $("quiz-start").addEventListener("click", function () { intro.hidden = true; form.hidden = false; i = 0; answers = []; render(); });
+  $("quiz-back").addEventListener("click", function () { if (i > 0) { i--; render(); } });
+  $("quiz-retake").addEventListener("click", function () { result.hidden = true; form.hidden = false; i = 0; answers = []; render(); });
+})();
+</script>
+{% endblock %}

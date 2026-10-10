@@ -18,7 +18,7 @@ rexby_map: https://www.rexby.com/abigailhannnah/newzealand
 
 # Lead magnets and Ivorey embeds. Sections only render when set.
 itinerary_form_embed: ""   # Ivorey opt-in form embed src for the 14-day South Island itinerary (page + home band render only when set)
-travel_quiz: ""            # "What's your unique travel style?" quiz
+quiz_form_embed: ""        # Ivorey opt-in form embed src shown under the quiz result (result passed as ?travel_style=)
 newsletter_embed: "https://links.ivorey.io/widget/form/ynrsZ9h9ls2xAAzhZlQB"       # Ivorey form embed src for the VIP list
 guest_form_link: "https://forms.clickup.com/36641775/f/12y6zf-12396/24REL6JPBYJ8ZA75K7"       # Ivorey form embed src for "Apply to be a guest"
 contact_form_embed: "https://links.ivorey.io/widget/form/fTZ94MdSrnHNzurHQaq2"     # Ivorey form embed src for the contact page
