@@ -2,9 +2,11 @@
 {% import "_parts.html" as parts with context %}
 {% set page_title = "Aotearoa Adventures podcast" %}
 {% set page_desc = "Every episode of Aotearoa Adventures, New Zealand's travel podcast. " ~ numbered ~ " episodes of real stories from real Kiwi adventures: tramping, vanlife, kayaking, road trips and more." %}
+{% set page_image = "/images/hero-4.jpg" %}
 {% set jsonld = [{"@context": "https://schema.org", "@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/", "webFeed": cfg.feed_url, "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
 {% block main %}
-<section class="band band-olive">
+<section class="band band-photo parallax">
+  <div class="bg"><img src="/images/hero-4.jpg" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="wrap">
     <p class="kicker">Aotearoa Adventures</p>
     <h1 class="display">The New Zealand travel podcast</h1>
@@ -20,13 +22,13 @@
 
 <section class="band">
   <div class="wrap split">
-    <div>
+    <div data-reveal="left">
       <p class="kicker">Latest episode</p>
       <h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
       <p>{{ latest.summary }}…</p>
       <p><a class="btn btn-outline" href="{{ latest.url }}">Show notes</a></p>
     </div>
-    {{ parts.player(latest) }}
+    <div data-reveal="right">{{ parts.player(latest) }}</div>
   </div>
 </section>
 
@@ -34,40 +36,104 @@
   <div class="wrap">
     <div class="toolbar">
       <h2 class="display">All {{ numbered }} episodes</h2>
-      <label class="search"><span class="sr-only">Search episodes</span>
-        <input type="search" id="ep-search" placeholder="Search by place, activity or guest" autocomplete="off"></label>
+      <label class="search"><span class="sr-only">Search episodes by place, activity, track or guest</span>
+        <input type="search" id="ep-search" placeholder="Search for a topic you want to listen to" autocomplete="off"></label>
     </div>
-    {% for y in years %}
-    <div class="year">
-      <h3 class="year-h">{{ y }}</h3>
-      {{ parts.ledger(by_year[y]) }}
+    <div id="ep-results" hidden>
+      <p class="kicker"><span id="ep-count"></span></p>
+      <ol class="results" id="ep-results-list"></ol>
+      <p class="empty" hidden>No episodes match that yet. Try a region, a track, an activity or a guest's name.</p>
     </div>
-    {% endfor %}
-    <p class="empty" hidden>No episodes match that yet. Try a region, a track or an activity.</p>
+    <div id="ep-all">
+      {{ parts.ledger(episodes) }}
+      <p class="more"><button class="btn" type="button" id="ep-more">See more episodes</button></p>
+    </div>
   </div>
 </section>
 
-<section class="band">
-  <div class="measure center">
-    <h2 class="display">Have an epic travel story?</h2>
-    <p>I'd love to hear it. Guests on the show are everyday adventurers with a story worth telling.</p>
-    <p><a class="btn" href="{{ cfg.guest_form_link }}">Apply to be a guest</a></p>
+{% if cfg.listener_reviews %}
+<section class="band band-photo tint-sage quote-band parallax">
+  <div class="bg"><img src="/images/hero-2.jpg" alt="" loading="lazy" width="1920" height="1080"></div>
+  <div class="wrap center" data-reveal="fade">
+    <span class="stars" aria-label="Five stars" style="color:var(--olive)">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    <h2 class="display italic">Here's what listeners say</h2>
+    {% for t in cfg.listener_reviews %}
+    <blockquote class="q-item{% if loop.first %} on{% endif %}"><p>{{ t.quote }}</p><cite>{{ t.name }}</cite></blockquote>
+    {% endfor %}
+    {% if cfg.listener_reviews | length > 1 %}<div class="q-nav"><button class="q-prev" type="button" aria-label="Previous">&#8592;</button><button class="q-next" type="button" aria-label="Next">&#8594;</button></div>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section class="band band-moss">
+  <div class="wrap offset" data-reveal-group>
+    <a href="{{ cfg.apple_review }}">
+      <img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125">
+      <span class="cap"><span class="kicker" style="color:var(--espresso)">Hooked on the show?</span><span class="display">Leave a review</span></span>
+    </a>
+    <a href="{{ cfg.guest_form_link }}">
+      <img src="/images/abigail.jpg" alt="" loading="lazy" width="683" height="1024">
+      <span class="cap"><span class="kicker" style="color:var(--espresso)">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
+    </a>
   </div>
 </section>
 {% endblock %}
 {% block scripts %}
 <script>
-  (function () {
-    var input = document.getElementById('ep-search'); if (!input) return;
-    var rows = Array.prototype.slice.call(document.querySelectorAll('.ledger li'));
-    var years = Array.prototype.slice.call(document.querySelectorAll('.year'));
-    var empty = document.querySelector('.empty');
-    input.addEventListener('input', function () {
-      var q = input.value.trim().toLowerCase(), shown = 0;
-      rows.forEach(function (r) { var hit = !q || (r.textContent || '').toLowerCase().indexOf(q) !== -1; r.hidden = !hit; if (hit) shown++; });
-      years.forEach(function (y) { y.hidden = !Array.prototype.some.call(y.querySelectorAll('li'), function (li) { return !li.hidden; }); });
-      if (empty) empty.hidden = shown > 0;
+(function () {
+  var PAGE = 15, shown = PAGE;
+  var rows = Array.prototype.slice.call(document.querySelectorAll('#ep-all .ledger li'));
+  var more = document.getElementById('ep-more');
+  function page() { rows.forEach(function (r, i) { r.hidden = i >= shown; }); more.hidden = shown >= rows.length; }
+  more.addEventListener('click', function () { shown += PAGE; page(); });
+  page();
+
+  var input = document.getElementById('ep-search'), wrap = document.getElementById('ep-results'), list = document.getElementById('ep-results-list');
+  var count = document.getElementById('ep-count'), all = document.getElementById('ep-all'), empty = wrap.querySelector('.empty');
+  var motion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+
+  // typing placeholder
+  var hints = ['Great Walks', 'kayak expedition', 'vanlife', 'Alexander Hillary', 'Routeburn Track', 'Northland road trip', 'tramping with kids', 'Fiordland', 'bikepacking', 'Aoraki Mount Cook'];
+  var hi = 0, ci = 0, del = false, typing = true;
+  function tick() {
+    if (!typing || document.activeElement === input) { input.placeholder = 'Search for a topic you want to listen to'; return setTimeout(tick, 1500); }
+    var w = hints[hi];
+    if (!del) { ci++; if (ci > w.length) { del = true; return setTimeout(tick, 1400); } }
+    else { ci--; if (ci < 0) { del = false; ci = 0; hi = (hi + 1) % hints.length; return setTimeout(tick, 300); } }
+    input.placeholder = 'Search: ' + w.slice(0, ci);
+    setTimeout(tick, del ? 45 : 95);
+  }
+  if (motion) setTimeout(tick, 1200); else input.placeholder = 'Search for a topic you want to listen to';
+
+  // search
+  var index = null, base = (document.querySelector('link[rel="stylesheet"][href$="/css/site.css"]').getAttribute('href').replace(/\/css\/site\.css$/, ''));
+  function load(cb) { if (index) return cb(); fetch(base + '/search-index.json').then(function (r) { return r.json(); }).then(function (j) { index = j; cb(); }); }
+  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function mark(s, terms) { var out = esc(s); terms.forEach(function (t) { out = out.replace(new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>'); }); return out; }
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (q.length < 2) { wrap.hidden = true; all.hidden = false; return; }
+    load(function () {
+      var terms = q.split(/\s+/).filter(Boolean);
+      var hits = index.map(function (e) {
+        var t = e.t.toLowerCase(), g = e.g.toLowerCase(), k = e.k.toLowerCase(), x = e.x.toLowerCase(), score = 0;
+        terms.forEach(function (w) { if (t.indexOf(w) > -1) score += 6; if (g.indexOf(w) > -1) score += 5; if (k.indexOf(w) > -1) score += 4; if (x.indexOf(w) > -1) score += 1; });
+        return { e: e, s: score };
+      }).filter(function (h) { return h.s > 0 && terms.every(function (w) { return (h.e.t + ' ' + h.e.g + ' ' + h.e.k + ' ' + h.e.x).toLowerCase().indexOf(w) > -1; }); })
+        .sort(function (a, b) { return b.s - a.s; }).slice(0, 40);
+      list.innerHTML = hits.map(function (h) {
+        var e = h.e, hay = e.x, pos = -1; terms.forEach(function (w) { var p = hay.toLowerCase().indexOf(w); if (p > -1 && (pos < 0 || p < pos)) pos = p; });
+        var snip = pos > -1 ? hay.slice(Math.max(0, pos - 70), pos + 110) : hay.slice(0, 160);
+        var tags = e.k ? '<span class="ledger-meta">' + esc(e.k.replace(/;/g, ',')) + '</span>' : '';
+        return '<li><a class="result" href="' + base + e.u + '"><span class="ledger-num">' + esc(e.n) + '</span><span class="ledger-title">' + mark(e.t, terms) + '</span>' + tags + '<p class="snip">…' + mark(snip, terms) + '…</p></a></li>';
+      }).join('');
+      count.textContent = hits.length ? hits.length + ' episode' + (hits.length === 1 ? '' : 's') + ' for "' + input.value.trim() + '"' : '';
+      empty.hidden = hits.length > 0; wrap.hidden = false; all.hidden = true;
     });
-  })();
+  }
+  var t; input.addEventListener('input', function () { clearTimeout(t); t = setTimeout(run, 120); });
+  input.addEventListener('focus', function () { typing = false; input.placeholder = 'Search for a topic you want to listen to'; });
+  input.addEventListener('blur', function () { if (!input.value) typing = true; });
+})();
 </script>
 {% endblock %}

@@ -39,6 +39,7 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+{% block prehead %}{% endblock %}
 <header class="site-head">
   <div class="wrap row">
     <a class="brand" href="/">Abigail Hannah</a>
@@ -92,6 +93,28 @@
   (function () {
     var b = document.querySelector('.menu-btn'), l = document.getElementById('nav-list');
     if (b && l) b.addEventListener('click', function () { var o = l.classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); });
+    var motion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+    // reveal on scroll
+    var els = document.querySelectorAll('[data-reveal],[data-reveal-group]');
+    if (motion && 'IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+      els.forEach(function (el) { io.observe(el); });
+    } else { els.forEach(function (el) { el.classList.add('in'); }); }
+    // gentle parallax on photo bands
+    var par = document.querySelectorAll('.band-photo.parallax > .bg img');
+    if (motion && par.length) {
+      var tick = false;
+      var move = function () { tick = false; var h = window.innerHeight; par.forEach(function (img) { var r = img.parentNode.getBoundingClientRect(); if (r.bottom < 0 || r.top > h) return; var p = (r.top + r.height / 2 - h / 2) / h; img.style.transform = 'translateY(' + (Math.max(-1, Math.min(1, p)) * 10).toFixed(2) + '%)'; }); };
+      window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(move); } }, { passive: true }); move();
+    }
+    // rotating quote bands
+    document.querySelectorAll('.quote-band').forEach(function (band) {
+      var items = band.querySelectorAll('.q-item'); if (items.length < 2) return; var i = 0;
+      var show = function (n) { items[i].classList.remove('on'); i = (n + items.length) % items.length; items[i].classList.add('on'); };
+      band.querySelector('.q-prev') && band.querySelector('.q-prev').addEventListener('click', function () { show(i - 1); });
+      band.querySelector('.q-next') && band.querySelector('.q-next').addEventListener('click', function () { show(i + 1); });
+      if (motion) setInterval(function () { show(i + 1); }, 8000);
+    });
   })();
 </script>
 {% block scripts %}{% endblock %}

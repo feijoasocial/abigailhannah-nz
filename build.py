@@ -162,6 +162,33 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         e["url"] = f"/{e['slug']}/"; e["label"] = ep_label(e)
     return merged
 
+# ---------- episode index (tags for search) ----------
+def load_index_tags() -> dict[int, dict]:
+    """Parse data/episode-index.md (the AA Episode Index table) into {episode_number: {regions, locations, activity, audience, guest}}."""
+    path = DATA / "episode-index.md"
+    out: dict[int, dict] = {}
+    if not path.exists(): return out
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.startswith("| ") or line.startswith("| Ep #") or line.startswith("|---"): continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < 12 or not cells[0].isdigit(): continue
+        out[int(cells[0])] = {"guest": cells[4], "island": cells[6], "regions": cells[7], "locations": cells[8],
+                              "activity": cells[9], "trip": cells[10], "audience": cells[11]}
+    return out
+
+def write_search_index(episodes: list[dict]):
+    tags = load_index_tags()
+    rows = []
+    for e in episodes:
+        t = tags.get(e["number"]) if e["number"] is not None else None
+        text = strip_html((e["content"] or {}).get("html", "") or e["description_html"])[:700]
+        rows.append({"u": e["url"], "n": e["label"], "t": e["clean_title"], "g": e["guest"] or (t or {}).get("guest", ""),
+                     "d": e["date"].astimezone(NZ).strftime("%-d %B %Y"),
+                     "k": " ".join(filter(None, [(t or {}).get(k, "") for k in ("island", "regions", "locations", "activity", "trip", "audience")])),
+                     "x": text})
+    (DIST / "search-index.json").write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    return len([r for r in rows if r["k"]])
+
 # ---------- render ----------
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--offline", action="store_true"); args = ap.parse_args()
@@ -215,6 +242,9 @@ def main():
     write("/404/", "404.html")
     (DIST / "404.html").write_text((DIST / "404/index.html").read_text(encoding="utf-8"), encoding="utf-8")
     shutil.rmtree(DIST / "404")
+
+    tagged = write_search_index(episodes)
+    print(f"[search] index written, {tagged} episodes carry Episode Index tags")
 
     # sitemap
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

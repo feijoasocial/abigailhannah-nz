@@ -6,7 +6,7 @@
   {"@context": "https://schema.org", "@type": "Person", "name": "Abigail Hannah", "url": cfg.domain, "jobTitle": "Travel creator and podcast host", "sameAs": [cfg.instagram, cfg.tiktok, cfg.facebook, cfg.linkedin]},
   {"@context": "https://schema.org", "@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/", "webFeed": cfg.feed_url, "author": {"@type": "Person", "name": "Abigail Hannah"}}
 ] %}
-{% block main %}
+{% block prehead %}
 <section class="hero">
   <div class="hero-slides" aria-hidden="true">
     <img class="hero-img" src="/images/hero-1.jpg" alt="" width="1920" height="1080" fetchpriority="high">
@@ -19,96 +19,167 @@
     <p class="sub">Explore New Zealand like a local</p>
     <p class="hero-cta">
       <a class="btn btn-cream" href="/podcast/">Listen to the podcast</a>
-      <a class="btn btn-outline" href="{{ cfg.rexby_map }}">Get the NZ map</a>
+      <a class="btn btn-light" href="{{ cfg.rexby_map }}">Get the NZ map</a>
     </p>
+  </div>
+  <span class="scroll-hint" aria-hidden="true">Keep scrolling</span>
+</section>
+{% endblock %}
+{% block main %}
+<section class="band band-photo parallax">
+  <div class="bg"><img src="/images/hero-3.jpg" alt="" loading="lazy" width="1920" height="1080"></div>
+  <div class="wrap split">
+    <div class="phone-wrap" data-reveal="left">
+      <div class="phone phone-player" aria-hidden="true">
+        <img class="cover" src="{{ cfg.podcast_cover }}" alt="" loading="lazy" width="600" height="600">
+        <div class="bars">{% for i in range(26) %}<i></i>{% endfor %}</div>
+        <div class="ctl"><span>&#9664;&#9664;</span><span class="play">&#9654;</span><span>&#9654;&#9654;</span></div>
+      </div>
+    </div>
+    <div data-reveal="right">
+      <p class="kicker">Tune in to the podcast now!</p>
+      <h2 class="display">It's road trip binge-worthy</h2>
+      <p class="italic display" style="font-size:1rem;letter-spacing:0.08em">A collection of real stories from people just like you</p>
+      <p>I talk to photographers, vanlifers, mums, students, and everyday Kiwis, to hear their inspiring stories from past adventures and to share helpful tips and tricks for your travels.</p>
+      <p class="italic">So grab your hiking boots, hop in the car, and turn up the volume.</p>
+      <p class="pill-row">
+        <a class="btn" href="{{ cfg.spotify_show }}">Spotify</a>
+        <a class="btn" href="{{ cfg.apple_podcasts }}">Apple</a>
+        <a class="btn" href="{{ cfg.pod_link }}">Other</a>
+      </p>
+    </div>
   </div>
 </section>
 
 <section class="band">
   <div class="wrap">
     <div class="split">
-      <div>
-        <p class="kicker">Tune in to the podcast now</p>
-        <h2 class="display">It's road trip binge-worthy</h2>
-        <p>A collection of real stories from people just like you. I talk to photographers, vanlifers, mums, students, and everyday Kiwis, to hear their inspiring stories from past adventures and to share helpful tips and tricks for your travels.</p>
-        <p>So grab your hiking boots, hop in the car, and turn up the volume.</p>
-        <p class="pill-row">
-          <a class="pill" href="{{ cfg.spotify_show }}">Spotify</a>
-          <a class="pill" href="{{ cfg.apple_podcasts }}">Apple Podcasts</a>
-          <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
-        </p>
-      </div>
-      <div class="stack">
+      <div data-reveal>
         <p class="kicker">Latest episode</p>
         <h3><a href="{{ latest.url }}">{{ latest.title }}</a></h3>
         {{ parts.player(latest) }}
       </div>
+      <div data-reveal>
+        <p class="kicker">Fresh episodes drop every Friday</p>
+        {{ parts.ledger(recent) }}
+        <p class="more"><a class="btn btn-outline" href="/podcast/">All {{ numbered }} episodes</a></p>
+      </div>
     </div>
-    <div class="more">
-      {{ parts.ledger(recent) }}
-      <p class="more"><a class="btn btn-outline" href="/podcast/">All {{ numbered }} episodes</a></p>
+  </div>
+</section>
+
+<section class="band band-photo tint-tan quote-band parallax">
+  <div class="bg"><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+  <div class="wrap center" data-reveal="fade">
+    {% for t in cfg.testimonials %}
+    <blockquote class="q-item{% if loop.first %} on{% endif %}"><p>{{ t.quote }}</p><cite>{{ t.name }}</cite></blockquote>
+    {% endfor %}
+    {% if cfg.testimonials | length > 1 %}<div class="q-nav"><button class="q-prev" type="button" aria-label="Previous">&#8592;</button><button class="q-next" type="button" aria-label="Next">&#8594;</button></div>{% endif %}
+  </div>
+</section>
+
+<section class="band band-tan" style="padding-block:2.5rem">
+  <div class="wrap center" data-reveal="fade">
+    <p class="kicker" style="color:var(--cream)">As seen in...</p>
+    <div class="press">
+      {% for p in cfg.press %}{% if p.logo %}<img src="{{ p.logo }}" alt="{{ p.name }}" loading="lazy">{% else %}<span class="press-text">{{ p.name }}</span>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap split wide-left">
+    <div class="offset" data-reveal-group>
+      <img src="/images/abigail-about.jpg" alt="Abigail Hannah in Milford Sound" loading="lazy" width="683" height="1024">
+      <img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125">
+    </div>
+    <div data-reveal="right">
+      <h2 class="display italic" style="color:var(--olive)">Kia ora e hoa!</h2>
+      <p class="kicker">Hello friend!</p>
+      <h3 class="display" style="color:var(--tan);font-weight:600">I'm Abigail, and I want you to experience Aotearoa to the fullest, with memories to last a lifetime.</h3>
+      <p>I live and breathe travel. My Google Maps is a to-do list of places I've been and places I want to go. I've been to more places in New Zealand than I can count and am on a mission to go everywhere else. I've built out three different vans and love the freedom that life on the road offers.</p>
+      <p><a class="btn" href="/about/">Love stories? Here's mine</a></p>
     </div>
   </div>
 </section>
 
 <section class="band band-sage">
   <div class="wrap split">
-    <div>
-      <p class="kicker">Let's unlock your perfect New Zealand adventure</p>
-      <h2 class="display">What's your unique travel style?</h2>
-      <p>You deserve the trip of a lifetime, one that is as unique as you! Take the quiz to pinpoint your travel style and let's get you one step closer to your next New Zealand adventure.</p>
-      <p><a class="btn" href="/quiz/">Take the quiz</a></p>
+    <div class="squares" data-reveal-group>
+      <div><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+      <div><video autoplay muted loop playsinline preload="metadata" poster="/images/hero-4.jpg" aria-hidden="true"><source src="/images/quiz-loop.mp4" type="video/mp4"></video></div>
+      <div><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+      <div><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"></div>
     </div>
-    <div><img class="art" src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+    <div class="center" data-reveal>
+      <p class="kicker">Take the quiz to find out!</p>
+      <h2 class="display">What's <em>your unique</em> travel style?</h2>
+      <p class="display" style="color:var(--tan);font-size:0.95rem;font-weight:600">Let's unlock your perfect New Zealand adventure</p>
+      <p>You deserve the trip of a lifetime, one that is as unique as you! Take the quiz to pinpoint your travel style and let's get you one step closer to your next New Zealand adventure.</p>
+      <p><a class="btn" href="/quiz/">Take the quiz!</a></p>
+    </div>
   </div>
 </section>
 
 {{ parts.map_band() }}
 
 <section class="band">
-  <div class="wrap split">
-    <div><img class="portrait" src="/images/abigail.jpg" alt="Abigail Hannah" loading="lazy" width="900" height="1100"></div>
-    <div>
-      <p class="kicker">Kia ora e hoa! Hello friend!</p>
-      <h2>I'm Abigail, and I want you to experience Aotearoa to the fullest, with memories to last a lifetime.</h2>
-      <p>I live and breathe travel. My Google Maps is a to-do list of places I've been and places I want to go. I've been to more places in New Zealand than I can count and am on a mission to go everywhere else. I've built out three different vans and love the freedom that life on the road offers.</p>
-      <p><a class="btn btn-outline" href="/about/">Love stories? Here's mine</a></p>
-    </div>
+  <div class="wrap">
+    <h2 class="display italic" style="color:var(--tan)" data-reveal>A few of my favourite things</h2>
+    <ol class="favs" data-reveal-group>
+      <li><img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">01</span>West Coast sunsets</li>
+      <li><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">02</span>South Island road trips</li>
+      <li><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">03</span>Adventures with my husband, Isaac</li>
+      <li><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">04</span>Beaches warm enough to swim at</li>
+    </ol>
   </div>
 </section>
 
 {% if picks %}
-<section class="band band-sage">
+<section class="band band-photo tint-espresso parallax">
+  <div class="bg"><img src="/images/blog-hero.jpg" alt="" loading="lazy" width="1920" height="823"></div>
   <div class="wrap">
-    <p class="kicker">Hand-picked from the blog</p>
-    {{ parts.grid(picks) }}
-    <p class="more"><a class="btn" href="/blog/">Read the blog</a></p>
+    <p class="kicker" data-reveal>Hand-picked from the blog</p>
+    <div data-reveal-group>{{ parts.grid(picks) }}</div>
+    <p class="more" data-reveal><a class="btn" href="/blog/">Read the blog</a></p>
   </div>
 </section>
 {% endif %}
 
 {% if favourites %}
 <section class="band">
-  <div class="wrap">
+  <div class="wrap" data-reveal>
     <p class="kicker">Your favourite stories</p>
     {{ parts.ledger(favourites) }}
   </div>
 </section>
 {% endif %}
 
+<section class="band band-moss">
+  <div class="wrap offset" data-reveal-group>
+    <a href="{{ cfg.apple_review }}">
+      <img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125">
+      <span class="cap"><span class="kicker" style="color:var(--espresso)">Hooked on the show?</span><span class="display">Leave a review</span></span>
+    </a>
+    <a href="{{ cfg.guest_form_link }}">
+      <img src="/images/abigail.jpg" alt="" loading="lazy" width="683" height="1024">
+      <span class="cap"><span class="kicker" style="color:var(--espresso)">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
+    </a>
+  </div>
+</section>
+
 {% if cfg.itinerary_form_embed %}
 <section class="band band-olive">
   <div class="wrap split">
-    <div>
+    <div data-reveal>
       <p class="kicker">Download this for free</p>
       <h2 class="display">Your South Island itinerary</h2>
       <p>A 14-day road trip plan, including driving times, best activities, roadside stops, hidden gems, places to stay, where to eat and more.</p>
       <p><a class="btn" href="/south-island-itinerary/">Download now</a></p>
     </div>
-    <div><img class="art" src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+    <div data-reveal><img class="art" src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
   </div>
 </section>
 {% endif %}
 {{ parts.newsletter() }}
-
 {% endblock %}

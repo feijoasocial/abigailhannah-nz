@@ -1,4 +1,25 @@
 {% extends "base.html" %}
-{% set page_title = "Terms and conditions" %}
-{% set noindex = True %}
-{% block main %}<section class="band"><div class="measure prose"><h1>Terms and conditions</h1><p><em>To be supplied.</em></p></div></section>{% endblock %}
+{% set page_title = "Terms of use" %}
+{% set page_desc = "Terms of use for abigailhannah.nz." %}
+{% block main %}
+<section class="band"><div class="measure prose">
+<h1>Terms of use</h1>
+<p><em>Last updated: October 2026. Draft for review.</em></p>
+<p>Welcome to abigailhannah.nz, run by Abigail Hannah (Feijoa Social Limited), Auckland, New Zealand. By using this site you agree to these terms.</p>
+<h2>Travel information</h2>
+<p>Everything here, including the podcast, the blog, the quiz and the free itinerary, is shared from personal experience and for general information. Conditions in the outdoors change: tracks close, weather turns, huts fill up, roads wash out. Always check current information with the Department of Conservation, MetService, the relevant regional council and local operators before you go, and make your own judgement about your fitness, experience and gear. You are responsible for your own safety. Neither Abigail Hannah nor Feijoa Social Limited accepts liability for loss, injury or damage arising from reliance on anything published here.</p>
+<h2>The NZ Road Trip Adventure Guide (map)</h2>
+<p>The map is sold through Rexby. Your purchase is made with Rexby under Rexby's terms, refund policy and privacy policy. Questions about access, payment or refunds go to Rexby's support in the first instance.</p>
+<h2>Podcast guests</h2>
+<p>Applying to be a guest does not guarantee an episode. Guests agree that recordings and the edited episode may be published and promoted across the podcast's platforms and social channels.</p>
+<h2>Content and copyright</h2>
+<p>All text, photographs, audio and video on this site are the work of Abigail Hannah unless credited otherwise, and are protected by copyright. You are welcome to share links to pages and episodes. Please do not copy, republish or sell the content, or use the photographs, without written permission. Guests retain the rights to their own stories and images they supply.</p>
+<h2>Third-party links</h2>
+<p>The site links to other websites and services (Spotify, Apple Podcasts, Rexby, Instagram and others). Those sites are not under my control and their own terms apply. Some links may be affiliate links, meaning a small commission on a purchase at no cost to you; these are only ever for things I use and recommend.</p>
+<h2>Privacy</h2>
+<p>Personal information is handled as described in the <a href="/privacy/">privacy policy</a>.</p>
+<h2>Changes and governing law</h2>
+<p>These terms may be updated from time to time; the current version is always the one published here. They are governed by the laws of New Zealand.</p>
+<p>Questions: <a href="mailto:{{ cfg.email }}">{{ cfg.email }}</a></p>
+</div></section>
+{% endblock %}

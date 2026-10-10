@@ -1,4 +1,29 @@
 {% extends "base.html" %}
 {% set page_title = "Privacy policy" %}
-{% set noindex = True %}
-{% block main %}<section class="band"><div class="measure prose"><h1>Privacy policy</h1><p><em>To be supplied.</em></p></div></section>{% endblock %}
+{% set page_desc = "How abigailhannah.nz collects, uses and protects your personal information." %}
+{% block main %}
+<section class="band"><div class="measure prose">
+<h1>Privacy policy</h1>
+<p><em>Last updated: October 2026. Draft for review.</em></p>
+<p>This website, abigailhannah.nz, is run by Abigail Hannah (Feijoa Social Limited), Auckland, New Zealand. This policy explains what information is collected when you use the site and how it is handled. It is written to meet the New Zealand Privacy Act 2020.</p>
+<h2>What is collected</h2>
+<p><strong>Information you give me.</strong> If you join the VIP list, request the free itinerary, take the travel style quiz, apply to be a podcast guest or use the contact form, you provide details such as your name, email address, Instagram handle and anything you write in a message. Quiz results are stored alongside your email if you choose to leave it.</p>
+<p><strong>Information collected automatically.</strong> Standard web analytics (Google Analytics) record pages visited, approximate location, device and browser type, and how you arrived at the site. This is aggregated and does not identify you personally. The site itself sets no tracking cookies of its own; embedded players and forms from third parties (listed below) may set theirs.</p>
+<h2>How it is used</h2>
+<ul>
+<li>To send you what you asked for: the newsletter, the itinerary, your quiz result, or a reply to your message.</li>
+<li>To consider and schedule podcast guests.</li>
+<li>To understand which pages and episodes people find useful, so the site improves.</li>
+<li>Occasionally, to tell you about new episodes, guides or offers. Every email has an unsubscribe link.</li>
+</ul>
+<p>Your details are never sold or rented to anyone.</p>
+<h2>Who else handles your data</h2>
+<p>These services process information on my behalf: Ivorey (email marketing and forms), ClickUp (podcast guest applications), Google Analytics (site analytics), Captivate (podcast hosting and the audio player), Spotify and Apple Podcasts (if you listen there), Rexby (if you buy the map; Rexby's own policy applies to that purchase), and GitHub (website hosting). Each has its own privacy policy, and some are based outside New Zealand.</p>
+<h2>How long it is kept</h2>
+<p>Mailing list details are kept until you unsubscribe. Contact messages and guest applications are kept for as long as needed to respond and run the podcast, then deleted. Analytics data is retained for the period set in Google Analytics (currently 14 months).</p>
+<h2>Your rights</h2>
+<p>Under the Privacy Act 2020 you can ask to see the personal information held about you, and ask for it to be corrected or deleted. Email <a href="mailto:{{ cfg.email }}">{{ cfg.email }}</a> and I will respond within 20 working days. If you are not satisfied with the response, you can contact the Office of the Privacy Commissioner at privacy.org.nz.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with the date updated.</p>
+</div></section>
+{% endblock %}

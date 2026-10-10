@@ -39,3 +39,19 @@ nav:
 # Home page picks
 favourite_episodes: [36, 1, 43, 17]
 blog_picks: [2019-tama-lakes, 2020-south-island-roadie, 2021-northland-roadie]
+
+# Podcast cover art (from the Captivate feed) for the phone mockup
+podcast_cover: https://artwork.captivate.fm/3f6c1250-24b9-4e3e-9a20-f4d46c8d49a5/23805753-1651389743784-c3183a0ad1098.jpg
+
+# "As seen in" press. Logo files go in static/images/press/; until then the name renders as text.
+press:
+  - { name: Wilderness Magazine, logo: "" }
+  - { name: NZ Herald, logo: "" }
+  - { name: Slow Journal, logo: "" }
+  - { name: Adventure Magazine, logo: "" }
+
+# Testimonials. Travellers for the home page, listeners for the podcast page.
+testimonials:
+  - { quote: "I've just finished three months travelling around NZ in a camper and your Instagram helped us so much! It gave us so many inspirations/ideas of where to go... If I had a dollar for every time I said, \"this is on Abigail's Insta\"...", name: "Chloe, UK" }
+listener_reviews:
+  - { quote: "Finally had the time to listen to them on the plane home and enjoyed the first few, will listen to a few more on the long trip back down to Dunedin! It's fun to be listening to a travel podcast while travelling!", name: "Hannah, Dunedin" }
