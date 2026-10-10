@@ -1,29 +1,59 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = "About Abigail" %}
-{% set page_desc = "Abigail Hannah is a New Zealand travel creator, photographer and host of the Aotearoa Adventures podcast. Three vans, more places than she can count, and a mission to go everywhere else." %}
+{% set page_desc = "Abigail Hannah lived in 6 cities and visited 14 countries before the age of ten. Now a travel-obsessed photographer, blogger and podcaster sharing stories, tips and itineraries for adventure-loving travellers in Aotearoa." %}
+{% set page_image = "/images/about-hero.jpg" %}
 {% block main %}
+<section class="page-hero">
+  <img src="/images/about-hero.jpg" alt="Abigail Hannah laughing beside a blue lake" width="1600" height="1067" fetchpriority="high">
+</section>
 <section class="band">
-  <div class="wrap split">
-    <div><img class="portrait" src="/images/abigail-about.jpg" alt="Abigail Hannah" width="900" height="1100"></div>
-    <div>
-      <p class="kicker">Kia ora e hoa! Hello friend!</p>
-      <h1>I'm Abigail, and I want you to experience Aotearoa to the fullest, with memories to last a lifetime.</h1>
-      <p>I live and breathe travel. My Google Maps is a to-do list of places I've been and places I want to go. I've been to more places in New Zealand than I can count and am on a mission to go everywhere else. I've built out three different vans and love the freedom that life on the road offers.</p>
-    </div>
+  <div class="measure prose">
+    <p class="kicker">Ko Abigail ahau</p>
+    <h1>Hey there, I'm Abigail</h1>
+    <p>I lived in 6 cities and visited 14 countries before the age of ten.</p>
+    <p>I should have known that the little girl who kept a travel journal (yes the type with ticket stubs, boarding passes and notes from each day...) would end up a travel-obsessed photographer, blogger and podcaster.</p>
+    <p>Now I share stories, travel tips and create itineraries for other adventure-loving travellers just like you.</p>
+    <p><a href="/000-pilot-host-aotearoa-adventures/">Long story long...</a></p>
   </div>
 </section>
 <section class="band band-sage">
   <div class="wrap split reverse">
     <div><img class="portrait" src="/images/abigail-lupins.jpg" alt="Abigail Hannah among lupins" loading="lazy" width="1000" height="1500"></div>
     <div class="prose">
-      <!-- ABOUT COPY: the three Showit sections ("Hey there, I'm Abigail / Ko Abigail ahau", "I'm one for slower travel", "I want you to experience Aotearoa the way I do") go here verbatim once pulled. -->
-      <p class="kicker">Ko Abigail ahau</p>
-      <h2>Hey there, I'm Abigail</h2>
-      <p><em>Story copy coming across from the old site.</em></p>
+      <p class="kicker">If you love adventure, road trips and the outdoors, you're in the right place</p>
+      <h2>I'm one for slower travel, and I'll bet you are too</h2>
+      <p>I love pretty things, I love the outdoors, I love experiencing things which make me feel alive. I am happiest when we're on a road trip, with nowhere to be and nothing to do. I love to sit with the van door open watching the waves crash on the sand. I love to have dinner beside the mountains, as the moon lights up the sky.</p>
+      <p>I love falling asleep to the sound of rain as it falls on the van roof. I love waking up to the golden sunlight on my face.</p>
+      <p>I walk, I swim, I sit, I see, I smell, I listen, I breathe.<br>Because it makes me feel alive.</p>
+      <p>Because life is worth living.</p>
     </div>
   </div>
 </section>
-{{ parts.map_band() }}
+<section class="band band-olive">
+  <div class="wrap split">
+    <div class="prose">
+      <p class="kicker">Let me be part of your journey</p>
+      <h2 class="display">I want you to experience Aotearoa the way I do</h2>
+      <p>I don't care about ticking off countries like a to-do list, I believe that adventure can be had wherever you live.</p>
+      <p>We find ourselves returning to the same places in Aotearoa over and over again, and this means I have only the best advice for your trip.</p>
+      <p>Want to know all the places I've been?</p>
+      <p><a class="btn" href="{{ cfg.rexby_map }}">Get the NZ map</a></p>
+    </div>
+    <div><img class="portrait" src="/images/abigail-about.jpg" alt="Abigail Hannah in Milford Sound" loading="lazy" width="683" height="1024"></div>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap">
+    <h2 class="display">A few of my favourite things</h2>
+    <ol class="favs">
+      <li><img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">01</span><span>West Coast sunsets</span></li>
+      <li><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">02</span><span>South Island road trips</span></li>
+      <li><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">03</span><span>Adventures with my husband, Isaac</span></li>
+      <li><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">04</span><span>Beaches warm enough to swim at</span></li>
+    </ol>
+  </div>
+</section>
+{{ parts.map_band(compact=True) }}
 {{ parts.newsletter() }}
 {% endblock %}

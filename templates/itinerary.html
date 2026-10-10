@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{% set page_title = "Free 14-day South Island itinerary" %}
+{% set page_desc = "A free 14-day South Island road trip plan, including driving times, best activities, roadside stops, hidden gems, places to stay, where to eat and more." %}
+{% set page_image = "/images/hero-1.jpg" %}
+{% block main %}
+<section class="band band-olive">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Download this for free</p>
+      <h1 class="display">Your South Island itinerary</h1>
+      <p class="lede">A 14-day road trip plan, including driving times, best activities, roadside stops, hidden gems, places to stay, where to eat and more.</p>
+    </div>
+    <div>
+      {% if cfg.itinerary_form_embed %}
+      <iframe class="form form-cream" src="{{ cfg.itinerary_form_embed }}" loading="lazy" title="Get the free 14-day South Island itinerary" style="min-height:420px"></iframe>
+      {% endif %}
+    </div>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap">
+    <p class="kicker">Plan with the podcast</p>
+    {{ parts.ledger(episodes[:5]) }}
+  </div>
+</section>
+{{ parts.map_band(compact=True) }}
+{% endblock %}

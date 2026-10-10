@@ -84,13 +84,19 @@
 </section>
 {% endif %}
 
-{{ parts.newsletter() }}
-
-<section class="band">
-  <div class="measure center">
-    <p class="kicker">Creative services for travel and tourism businesses</p>
-    <h2 class="display">Let's elevate your online presence</h2>
-    <p><a class="btn btn-outline" href="{{ cfg.feijoa_social }}">Enquire now</a></p>
+{% if cfg.itinerary_form_embed %}
+<section class="band band-olive">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Download this for free</p>
+      <h2 class="display">Your South Island itinerary</h2>
+      <p>A 14-day road trip plan, including driving times, best activities, roadside stops, hidden gems, places to stay, where to eat and more.</p>
+      <p><a class="btn" href="/south-island-itinerary/">Download now</a></p>
+    </div>
+    <div><img class="art" src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
   </div>
 </section>
+{% endif %}
+{{ parts.newsletter() }}
+
 {% endblock %}

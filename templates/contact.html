@@ -1,20 +1,25 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = "Contact" %}
-{% set page_desc = "Get in touch with Abigail Hannah: say hello, pitch a podcast guest story, or ask about working together." %}
+{% set page_desc = "Say kia ora to Abigail Hannah: questions, New Zealand travel itineraries, podcast stories, collaborations, or a coffee by the beach." %}
 {% block main %}
 <section class="band">
   <div class="wrap contact-grid">
-    <div>
+    <div class="prose">
       <h1 class="display">Say kia ora</h1>
-      <p>Questions about travelling New Zealand, a podcast story idea, a brand collaboration, social media help, or a coffee at the beach: I'd love to hear from you.</p>
-      <p>Prefer email? <a href="mailto:{{ cfg.email }}">{{ cfg.email }}</a></p>
-      {% if cfg.contact_form_embed %}<iframe class="form" src="{{ cfg.contact_form_embed }}" loading="lazy" title="Contact form" style="min-height:520px"></iframe>{% endif %}
+      <p>Have a question?<br>Interested in New Zealand travel itineraries?<br>Got an epic story for the podcast?</p>
+      <p>Are you a biz looking to collab?<br>Want gorgeous imagery for your brand?<br>Need a social media marketer?</p>
+      <p>Want to grab a coffee and sit by the beach?</p>
+      <p>I'd love to hear from you.</p>
+      <p>If you'd prefer, <a href="mailto:{{ cfg.email }}">email me directly</a>.</p>
+      <div id="guest" class="guest">
+        <h2>Got an epic travel story?</h2>
+        <p>Apply to be a guest on Aotearoa Adventures.</p>
+        <p><a class="btn btn-outline" href="{{ cfg.guest_form_link }}">Apply to be a guest</a></p>
+      </div>
     </div>
-    <div id="guest">
-      <h2>Have an epic travel story?</h2>
-      <p>Apply to be a guest on Aotearoa Adventures. Tell me who you are, where you've been and the story you'd share.</p>
-      <p><a class="btn" href="{{ cfg.guest_form_link }}">Apply to be a guest</a></p>
+    <div>
+      {% if cfg.contact_form_embed %}<iframe class="form" src="{{ cfg.contact_form_embed }}" loading="lazy" title="Contact form" style="min-height:720px"></iframe>{% endif %}
     </div>
   </div>
 </section>

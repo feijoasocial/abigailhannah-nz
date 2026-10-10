@@ -171,3 +171,5 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .phone video, .phone img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .phone-still { display: none; }
 @media (prefers-reduced-motion: reduce) { .phone-video { display: none; } .phone-still { display: block; } }
+.band-tan .btn-cream, .band-olive .btn-cream, .band-olive .btn { color: var(--espresso); }
+.band-tan .btn-cream:hover, .band-olive .btn-cream:hover, .band-olive .btn:hover { color: var(--espresso); }
