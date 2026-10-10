@@ -19,6 +19,11 @@ import markdown, yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).parent
+import os
+BASE = os.environ.get("SITE_BASE", "").rstrip("/")  # e.g. "/abigailhannah-nz" on the github.io preview; empty on the real domain
+_ATTR_RE = re.compile(r'((?:href|src|poster|action)=")/(?!/)')
+def rebase(html_text: str) -> str:
+    return _ATTR_RE.sub(lambda m: m.group(1) + BASE + "/", html_text) if BASE else html_text
 CONTENT, TEMPLATES, STATIC, DATA, DIST = ROOT / "content", ROOT / "templates", ROOT / "static", ROOT / "data", ROOT / "dist"
 NZ = ZoneInfo("Pacific/Auckland")
 cfg = yaml.safe_load((ROOT / "config.yml").read_text(encoding="utf-8"))
@@ -182,7 +187,7 @@ def main():
     def write(url: str, template: str, lastmod: dt.datetime | None = None, priority="0.5", **ctx):
         out = DIST / url.strip("/") / "index.html" if url != "/" else DIST / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(env.get_template(template).render(**base, url=url, **ctx), encoding="utf-8")
+        out.write_text(rebase(env.get_template(template).render(**base, url=url, **ctx)), encoding="utf-8")
         if template != "404.html": pages.append((url, lastmod or now, priority))
 
     latest = episodes[0]
@@ -226,6 +231,7 @@ def main():
     rss.append("</channel></rss>")
     (DIST / "rss.xml").write_text("\n".join(rss), encoding="utf-8")
 
+    if BASE: print(f"[base] links rebased under {BASE} (preview build)")
     print(f"built {len(pages)} pages: {len(episodes)} episodes ({numbered} numbered), {len(posts)} articles, {len(cats)} categories -> {DIST}")
 
 if __name__ == "__main__":

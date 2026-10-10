@@ -25,12 +25,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        id: pages
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - name: Build site (fetches the live podcast feed)
         run: python3 build.py
+        env:
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
       - name: Commit refreshed feed snapshot
         run: |
           git config user.name "site-bot"
