@@ -25,6 +25,7 @@
   <meta name="twitter:title" content="{{ full_title }}">
   <meta name="twitter:description" content="{{ page_desc }}">
   <meta name="twitter:image" content="{{ og_image }}">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="40x40">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="Abigail Hannah blog" href="/rss.xml">
   <link rel="alternate" type="application/rss+xml" title="Aotearoa Adventures podcast" href="{{ cfg.feed_url }}">
@@ -37,7 +38,7 @@
   <script type="application/ld+json">{{ ld | tojson }}</script>
   {% endfor %}
 </head>
-<body>
+<body id="top">
 <a class="skip" href="#main">Skip to content</a>
 {% block prehead %}{% endblock %}
 <header class="site-head">
@@ -57,15 +58,20 @@
 {% block main %}{% endblock %}
 </main>
 <footer class="site-foot">
+  <div class="wrap foot-top">
+    <p class="tagline">Explore New Zealand like a local</p>
+    <a class="brand" href="/">Abigail Hannah</a>
+    <p><a class="btn btn-cream" href="/#vip">Join the VIP list</a></p>
+  </div>
   <div class="wrap cols">
     <div>
-      <a class="brand" href="/">Abigail Hannah</a>
-      <p>Explore New Zealand like a local.</p>
+      <p class="kicker">Say hi</p>
       <p class="social">
-        <a href="{{ cfg.instagram }}">Instagram</a>
-        <a href="{{ cfg.tiktok }}">TikTok</a>
-        <a href="{{ cfg.facebook }}">Facebook</a>
-        <a href="{{ cfg.linkedin }}">LinkedIn</a>
+        <a href="{{ cfg.instagram }}"><small>Instagram</small>{{ cfg.handle }}</a>
+        <a href="{{ cfg.tiktok }}"><small>TikTok</small>{{ cfg.handle }}</a>
+        <a href="{{ cfg.facebook }}"><small>Facebook</small>{{ cfg.handle }}</a>
+        <a href="{{ cfg.linkedin }}"><small>LinkedIn</small>Abigail Hannah</a>
+        <a href="mailto:{{ cfg.email }}"><small>Email</small>{{ cfg.email }}</a>
       </p>
     </div>
     <div>
@@ -87,6 +93,7 @@
   </div>
   <div class="wrap legal">
     <p>© {{ year }} Abigail Hannah. All rights reserved. <a href="/privacy/">Privacy</a> <a href="/terms/">Terms</a></p>
+    <a class="top" href="#top">Back to top <span aria-hidden="true">&#8593;</span></a>
   </div>
 </footer>
 <script>
@@ -102,7 +109,7 @@
     } else { els.forEach(function (el) { el.classList.add('in'); }); }
     // gentle parallax on photo bands
     var par = document.querySelectorAll('.band-photo.parallax > .bg img');
-    if (motion && par.length) {
+    if (motion && par.length && window.innerWidth > 760) {
       var tick = false;
       var move = function () { tick = false; var h = window.innerHeight; par.forEach(function (img) { var r = img.parentNode.getBoundingClientRect(); if (r.bottom < 0 || r.top > h) return; var p = (r.top + r.height / 2 - h / 2) / h; img.style.transform = 'translateY(' + (Math.max(-1, Math.min(1, p)) * 10).toFixed(2) + '%)'; }); };
       window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(move); } }, { passive: true }); move();
