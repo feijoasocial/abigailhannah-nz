@@ -46,7 +46,7 @@
       {% if not compact %}<p>Crafted from over 7 years of firsthand adventures, this map and guide includes the top attractions, hidden gems, detailed descriptions and insider tips to help you have the trip of a lifetime.</p>{% endif %}
       <p><a class="btn btn-cream" href="{{ cfg.rexby_map }}">Buy now on Rexby</a></p>
     </div>
-    <div class="phone-wrap">
+    <div class="phone-wrap{% if not compact %} creep-down{% endif %}">
       <div class="phone">
         <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
           <source src="/images/map-mockup.mp4" type="video/mp4">
@@ -59,7 +59,7 @@
 {% endmacro %}
 
 {% macro newsletter() %}
-<section class="band band-sage">
+<section class="band band-sage" id="vip">
   <div class="measure center">
     <h2 class="display">Join the VIP list</h2>
     <p>Inspiration for your adventures and exclusive offers, delivered straight to your inbox once a month.</p>

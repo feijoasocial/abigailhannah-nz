@@ -12,7 +12,9 @@
   </div>
 </section>
 <section class="band">
-  <div class="wrap">{{ parts.grid(posts) }}</div>
+  <div class="wrap" data-pager="12" data-pager-items=".card" data-pager-button="#blog-more">{{ parts.grid(posts) }}
+    <p class="more center"><button class="btn" type="button" id="blog-more">See older posts</button></p>
+  </div>
 </section>
 {{ parts.map_band(compact=True) }}
 {% endblock %}

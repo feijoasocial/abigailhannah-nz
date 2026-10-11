@@ -41,7 +41,7 @@ favourite_episodes: [36, 1, 43, 17]
 blog_picks: [2019-tama-lakes, 2020-south-island-roadie, 2021-northland-roadie]
 
 # Podcast cover art (from the Captivate feed) for the phone mockup
-podcast_cover: https://artwork.captivate.fm/3f6c1250-24b9-4e3e-9a20-f4d46c8d49a5/23805753-1651389743784-c3183a0ad1098.jpg
+podcast_cover: /images/podcast-cover.jpg
 
 # "As seen in" press. Logo files go in static/images/press/; until then the name renders as text.
 press:
@@ -49,9 +49,33 @@ press:
   - { name: NZ Herald, logo: "" }
   - { name: Slow Journal, logo: "" }
   - { name: Adventure Magazine, logo: "" }
+  - { name: Stuff, logo: "" }
+  - { name: Kiwi Yarns, logo: "" }
 
-# Testimonials. Travellers for the home page, listeners for the podcast page.
+# Testimonials (Abigail's words, 11 Oct 2026). Travellers rotate on the home page, listeners on the podcast page.
 testimonials:
   - { quote: "I've just finished three months travelling around NZ in a camper and your Instagram helped us so much! It gave us so many inspirations/ideas of where to go... If I had a dollar for every time I said, \"this is on Abigail's Insta\"...", name: "Chloe, UK" }
+  - { quote: "Had to message you because you inspired me to go to Rotorua! Was looking for a location up central north for a short trip next month and I wouldn't have even thought to go there if it hadn't been for your content making it look epic!!", name: "Jasmine, Wellington" }
 listener_reviews:
   - { quote: "Finally had the time to listen to them on the plane home and enjoyed the first few, will listen to a few more on the long trip back down to Dunedin! It's fun to be listening to a travel podcast while travelling!", name: "Hannah, Dunedin" }
+  - { quote: "Heck I love listening to all these podcast stories! Got me through my long boring drive yesterday!", name: "Shoshannah, Nelson" }
+  - { quote: "So excited to listen to this! I'm in awe of how awesome your podcast is, I love hearing in more detail about trips around NZ and all the stories people have to tell. I can't wait to hear it each week!", name: "Laura, Christchurch" }
+  - { quote: "Abigail is such a relatable person, you can't stop listening to her. Her podcast literally made me book my flight to Aotearoa and with her amazing map, we had a really stunning trip.", name: "Germany" }
+  - { quote: "This is THE podcast to listen to if you're planning to visit New Zealand. I've learnt so much from Abigail's conversations with guests and my must-visit list is getting longer thanks to all the amazing destinations she introduces her listeners to. Can't wait for the next episode.", name: "Australia" }
+  - { quote: "I absolutely love this podcast, it's my go-to when hiking or driving, so inspiring listening to all the great adventurers and their stories. An awesome space creating an adventurous community!", name: "Renee, West Coast" }
+
+# Podcast stats band (Abigail's numbers, 11 Oct 2026)
+podcast_stats:
+  - { n: "200", l: "unique guests" }
+  - { n: "140k", l: "listens" }
+  - { n: "2022", l: "the year it all started" }
+
+# "This is for you if you're looking for" (Abigail's copy, 11 Oct 2026)
+podcast_for:
+  - { title: "Real stories, real people", text: "We talk about it all. The epic, challenging and hilarious moments that make the best travel stories." }
+  - { title: "Inspiration for your next trip", text: "Our backyard is a giant playground and I talk to people out there experiencing it, whether they play in the ocean, mountains or bush." }
+  - { title: "Top-notch travel advice", text: "Packed with helpful tips and tricks to help inspire and support your adventures around the country." }
+podcast_pssst: "pssst... You'll want to write it all down, but I've got you covered with detailed show notes."
+
+# Social handle shown in the footer
+handle: "@abigailhannnah"

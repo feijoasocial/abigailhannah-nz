@@ -9,10 +9,10 @@
 {% block prehead %}
 <section class="hero">
   <div class="hero-slides" aria-hidden="true">
-    <img class="hero-img" src="/images/hero-1.jpg" alt="" width="1920" height="1080" fetchpriority="high">
-    <img class="hero-img" src="/images/hero-2.jpg" alt="" width="1920" height="1080" loading="lazy">
-    <img class="hero-img" src="/images/hero-3.jpg" alt="" width="1920" height="1080" loading="lazy">
-    <img class="hero-img" src="/images/hero-4.jpg" alt="" width="1920" height="1080" loading="lazy">
+    <img class="hero-img" src="/images/hero-1.jpg" alt="" width="1920" height="1280" fetchpriority="high">
+    <img class="hero-img" src="/images/hero-2.jpg" alt="" width="1920" height="1280" loading="lazy">
+    <img class="hero-img" src="/images/hero-3.jpg" alt="" width="1920" height="1280" loading="lazy">
+    <img class="hero-img" src="/images/hero-4.jpg" alt="" width="1920" height="1280" loading="lazy">
   </div>
   <div class="hero-text">
     <h1 class="display">Your next adventure starts here</h1>
@@ -26,8 +26,10 @@
 </section>
 {% endblock %}
 {% block main %}
-<section class="band band-photo parallax">
-  <div class="bg"><img src="/images/hero-3.jpg" alt="" loading="lazy" width="1920" height="1080"></div>
+<section class="band band-photo">
+  <div class="bg">
+    <video autoplay muted loop playsinline preload="metadata" poster="/images/waterfall-loop-poster.jpg" aria-hidden="true"><source src="/images/waterfall-loop.mp4" type="video/mp4"></video>
+  </div>
   <div class="wrap split">
     <div class="phone-wrap" data-reveal="left">
       <div class="phone phone-player" aria-hidden="true">
@@ -38,14 +40,14 @@
     </div>
     <div data-reveal="right">
       <p class="kicker">Tune in to the podcast now!</p>
-      <h2 class="display">It's road trip binge-worthy</h2>
+      <h2 class="display">It's road trip <em>binge-worthy</em></h2>
       <p class="italic display" style="font-size:1rem;letter-spacing:0.08em">A collection of real stories from people just like you</p>
       <p>I talk to photographers, vanlifers, mums, students, and everyday Kiwis, to hear their inspiring stories from past adventures and to share helpful tips and tricks for your travels.</p>
       <p class="italic">So grab your hiking boots, hop in the car, and turn up the volume.</p>
       <p class="pill-row">
         <a class="btn" href="{{ cfg.spotify_show }}">Spotify</a>
         <a class="btn" href="{{ cfg.apple_podcasts }}">Apple</a>
-        <a class="btn" href="{{ cfg.pod_link }}">Other</a>
+        <a class="btn btn-light" href="{{ cfg.pod_link }}">Other</a>
       </p>
     </div>
   </div>
@@ -68,8 +70,8 @@
   </div>
 </section>
 
-<section class="band band-photo tint-tan quote-band parallax">
-  <div class="bg"><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+<section class="band band-photo quote-band parallax">
+  <div class="bg"><img src="/images/bg-quote-home.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
   <div class="wrap center" data-reveal="fade">
     {% for t in cfg.testimonials %}
     <blockquote class="q-item{% if loop.first %} on{% endif %}"><p>{{ t.quote }}</p><cite>{{ t.name }}</cite></blockquote>
@@ -80,7 +82,7 @@
 
 <section class="band band-tan" style="padding-block:2.5rem">
   <div class="wrap center" data-reveal="fade">
-    <p class="kicker" style="color:var(--cream)">As seen in...</p>
+    <p class="kicker">As seen in...</p>
     <div class="press">
       {% for p in cfg.press %}{% if p.logo %}<img src="{{ p.logo }}" alt="{{ p.name }}" loading="lazy">{% else %}<span class="press-text">{{ p.name }}</span>{% endif %}{% endfor %}
     </div>
@@ -90,8 +92,8 @@
 <section class="band">
   <div class="wrap split wide-left">
     <div class="offset" data-reveal-group>
-      <img src="/images/abigail-about.jpg" alt="Abigail Hannah in Milford Sound" loading="lazy" width="683" height="1024">
-      <img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125">
+      <img src="/images/ab-camera.jpg" alt="Abigail Hannah with her camera on the water in Milford Sound" loading="lazy" width="1024" height="683">
+      <img src="/images/ab-beanie.jpg" alt="Abigail Hannah laughing in a beanie below Aoraki Mount Cook" loading="lazy" width="900" height="1350">
     </div>
     <div data-reveal="right">
       <h2 class="display italic" style="color:var(--olive)">Kia ora e hoa!</h2>
@@ -106,15 +108,15 @@
 <section class="band band-sage">
   <div class="wrap split">
     <div class="squares" data-reveal-group>
-      <div><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"></div>
-      <div><video autoplay muted loop playsinline preload="metadata" poster="/images/hero-4.jpg" aria-hidden="true"><source src="/images/quiz-loop.mp4" type="video/mp4"></video></div>
-      <div><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"></div>
-      <div><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+      <div><img src="/images/quiz-1.jpg" alt="" loading="lazy" width="819" height="819"></div>
+      <div><video autoplay muted loop playsinline preload="metadata" poster="/images/quiz-loop-poster.jpg" aria-hidden="true"><source src="/images/quiz-loop.mp4" type="video/mp4"></video></div>
+      <div><img src="/images/quiz-3.jpg" alt="" loading="lazy" width="900" height="900"></div>
+      <div><img src="/images/quiz-4.jpg" alt="" loading="lazy" width="900" height="900"></div>
     </div>
     <div class="center" data-reveal>
       <p class="kicker">Take the quiz to find out!</p>
       <h2 class="display">What's <em>your unique</em> travel style?</h2>
-      <p class="display" style="color:var(--tan);font-size:0.95rem;font-weight:600">Let's unlock your perfect New Zealand adventure</p>
+      <p class="display" style="color:var(--espresso);font-size:0.95rem;font-weight:600">Let's unlock your perfect New Zealand adventure</p>
       <p>You deserve the trip of a lifetime, one that is as unique as you! Take the quiz to pinpoint your travel style and let's get you one step closer to your next New Zealand adventure.</p>
       <p><a class="btn" href="/quiz/">Take the quiz!</a></p>
     </div>
@@ -123,13 +125,33 @@
 
 {{ parts.map_band() }}
 
+<section class="band band-olive-deep after-creep">
+  <div class="wrap" data-pager="12" data-pager-items=".ep-card" data-pager-button="#home-ep-more">
+    <p class="kicker" data-reveal>Start from the beginning</p>
+    <h2 class="display" data-reveal>Every episode, <em>oldest</em> to newest</h2>
+    <div class="ep-grid" data-reveal-group>
+      {% for e in episodes_asc %}
+      <a class="ep-card" href="{{ e.url }}">
+        {% if e.cover %}<img src="{{ e.cover }}" alt="" loading="lazy" width="600" height="600">{% else %}<span class="ep-card-blank"></span>{% endif %}
+        <span class="ep-card-num">{{ e.label }}</span>
+        <span class="ep-card-title">{{ e.clean_title }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="more pill-row" style="justify-content:center">
+      <button class="btn btn-light" type="button" id="home-ep-more">See more episodes</button>
+      <a class="btn" href="/podcast/">Explore the podcast</a>
+    </p>
+  </div>
+</section>
+
 <section class="band">
   <div class="wrap">
     <h2 class="display italic" style="color:var(--tan)" data-reveal>A few of my favourite things</h2>
     <ol class="favs" data-reveal-group>
       <li><img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">01</span>West Coast sunsets</li>
       <li><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">02</span>South Island road trips</li>
-      <li><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">03</span>Adventures with my husband, Isaac</li>
+      <li><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="546" height="683"><span class="favs-num">03</span>Adventures with my husband, Isaac</li>
       <li><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">04</span>Beaches warm enough to swim at</li>
     </ol>
   </div>
@@ -137,9 +159,9 @@
 
 {% if picks %}
 <section class="band band-photo tint-espresso parallax">
-  <div class="bg"><img src="/images/blog-hero.jpg" alt="" loading="lazy" width="1920" height="823"></div>
+  <div class="bg"><img src="/images/blog-hero.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
   <div class="wrap">
-    <p class="kicker" data-reveal>Hand-picked from the blog</p>
+    <p class="kicker" data-reveal>Hand-picked from <em>the blog</em></p>
     <div data-reveal-group>{{ parts.grid(picks) }}</div>
     <p class="more" data-reveal><a class="btn" href="/blog/">Read the blog</a></p>
   </div>
@@ -158,12 +180,12 @@
 <section class="band band-moss">
   <div class="wrap offset" data-reveal-group>
     <a href="{{ cfg.apple_review }}">
-      <img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125">
-      <span class="cap"><span class="kicker" style="color:var(--espresso)">Hooked on the show?</span><span class="display">Leave a review</span></span>
+      <img src="/images/ab-lavender-2.jpg" alt="" loading="lazy" width="900" height="1125">
+      <span class="cap"><span class="kicker">Hooked on the show?</span><span class="display">Leave a review</span></span>
     </a>
     <a href="{{ cfg.guest_form_link }}">
-      <img src="/images/abigail.jpg" alt="" loading="lazy" width="683" height="1024">
-      <span class="cap"><span class="kicker" style="color:var(--espresso)">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
+      <img src="/images/ab-greendress.jpg" alt="" loading="lazy" width="819" height="1024">
+      <span class="cap"><span class="kicker">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
     </a>
   </div>
 </section>
