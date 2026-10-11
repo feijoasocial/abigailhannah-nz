@@ -60,19 +60,26 @@
 </section>
 {% endif %}
 
+<section class="band band-photo search-band parallax" id="search">
+  <div class="bg"><img src="/images/bg-podcast-still.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
+  <div class="wrap center" data-reveal="fade">
+    <p class="kicker">{{ numbered }} episodes and counting</p>
+    <h2 class="display">What do you want to <em>listen</em> to?</h2>
+    <label class="search search-big"><span class="sr-only">Search episodes by place, activity, track or guest</span>
+      <input type="search" id="ep-search" placeholder="Search for a topic you want to listen to" autocomplete="off"></label>
+    <p class="search-hint">Try a region, a track, an activity or a guest's name</p>
+  </div>
+</section>
+
 <section class="band" id="episodes">
   <div class="wrap">
-    <div class="toolbar">
-      <h2 class="display">All {{ numbered }} episodes</h2>
-      <label class="search"><span class="sr-only">Search episodes by place, activity, track or guest</span>
-        <input type="search" id="ep-search" placeholder="Search for a topic you want to listen to" autocomplete="off"></label>
-    </div>
     <div id="ep-results" hidden>
       <p class="kicker"><span id="ep-count"></span></p>
       <ol class="results" id="ep-results-list"></ol>
       <p class="empty" hidden>No episodes match that yet. Try a region, a track, an activity or a guest's name.</p>
     </div>
     <div id="ep-all">
+      <h2 class="display">All {{ numbered }} episodes</h2>
       {{ parts.ledger(episodes) }}
       <p class="more"><button class="btn" type="button" id="ep-more">See more episodes</button></p>
     </div>
@@ -157,6 +164,7 @@
       }).join('');
       count.textContent = hits.length ? hits.length + ' episode' + (hits.length === 1 ? '' : 's') + ' for "' + input.value.trim() + '"' : '';
       empty.hidden = hits.length > 0; wrap.hidden = false; all.hidden = true;
+      var top = document.getElementById('episodes').getBoundingClientRect().top + window.pageYOffset - 70; if (window.pageYOffset < top - 200) window.scrollTo({ top: top, behavior: 'smooth' });
     });
   }
   var t; input.addEventListener('input', function () { clearTimeout(t); t = setTimeout(run, 120); });

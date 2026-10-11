@@ -147,6 +147,7 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         e["spotify"] = (c or {}).get("spotify", "")
         e["content"] = c
         e["image"] = (c or {}).get("image") or f["image"]
+        e["cover"] = f["image"] or (c or {}).get("image", "")
         e["description"] = (c or {}).get("description") or f["summary"]
         merged.append(e)
     for c in posts:  # content with no feed match keeps its URL alive
@@ -155,7 +156,7 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         merged.append({**{"guid": "", "number": c.get("episode"), "bonus": c.get("bonus", False), "title": c["title"],
                           "clean_title": m.group(2) if m else c["title"], "guest": c.get("guest", ""), "date": c["date"],
                           "description_html": "", "summary": c["description"], "link": "", "feed_slug": c["slug"],
-                          "audio_url": "", "audio_bytes": 0, "duration": "", "image": c["image"]},
+                          "audio_url": "", "audio_bytes": 0, "duration": "", "image": c["image"], "cover": c["image"]},
                        "slug": c["slug"], "spotify": c.get("spotify", ""), "content": c, "description": c["description"]})
     merged.sort(key=lambda e: e["date"], reverse=True)
     for e in merged:
@@ -220,7 +221,8 @@ def main():
     latest = episodes[0]
     favs = [e for n in cfg["favourite_episodes"] for e in episodes if e["number"] == n]
     picks = [p for s in cfg["blog_picks"] for p in posts if p["slug"] == s]
-    write("/", "index.html", priority="1.0", latest=latest, recent=episodes[1:6], favourites=favs, picks=picks)
+    episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
+    write("/", "index.html", priority="1.0", latest=latest, recent=episodes[1:6], favourites=favs, picks=picks, episodes_asc=episodes_asc)
     by_year: dict[int, list] = {}
     for e in episodes: by_year.setdefault(e["date"].astimezone(NZ).year, []).append(e)
     write("/podcast/", "podcast.html", latest["date"], "0.9", latest=latest, years=sorted(by_year, reverse=True), by_year=by_year)

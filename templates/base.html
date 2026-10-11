@@ -114,6 +114,15 @@
       var move = function () { tick = false; var h = window.innerHeight; par.forEach(function (img) { var r = img.parentNode.getBoundingClientRect(); if (r.bottom < 0 || r.top > h) return; var p = (r.top + r.height / 2 - h / 2) / h; img.style.transform = 'translateY(' + (Math.max(-1, Math.min(1, p)) * 10).toFixed(2) + '%)'; }); };
       window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(move); } }, { passive: true }); move();
     }
+    // generic pager: [data-pager=N] shows N items at a time, button reveals N more
+    document.querySelectorAll('[data-pager]').forEach(function (box) {
+      var n = parseInt(box.getAttribute('data-pager'), 10) || 12, shown = n;
+      var items = Array.prototype.slice.call(box.querySelectorAll(box.getAttribute('data-pager-items')));
+      var btn = document.querySelector(box.getAttribute('data-pager-button')); if (!btn) return;
+      var page = function () { items.forEach(function (it, i) { it.hidden = i >= shown; }); btn.hidden = shown >= items.length; };
+      btn.addEventListener('click', function () { shown += n; page(); });
+      page();
+    });
     // rotating quote bands
     document.querySelectorAll('.quote-band').forEach(function (band) {
       var items = band.querySelectorAll('.q-item'); if (items.length < 2) return; var i = 0;
