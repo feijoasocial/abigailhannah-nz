@@ -27,4 +27,4 @@ Download the app on [the App Store here](https://apps.apple.com/nz/app/roady/id1
 Download the app on [Google Play here](https://play.google.com/store/apps/details?id=production.roady.customer&hl=en_NZ&gl=US)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

@@ -28,4 +28,4 @@ Subscribe to Shoshannah's YouTube channel: <https://www.youtube.com/channel/UCsF
 Support Shoshannah on Patreon: <https://www.patreon.com/user?u=34219813&fan_landing=true>
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

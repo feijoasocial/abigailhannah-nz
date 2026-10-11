@@ -26,4 +26,4 @@ Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagr
 
 Follow Abigail on TikTok: [tiktok.com/@abigailhannnah](http://tiktok.com/@abigailhannnah)
 
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

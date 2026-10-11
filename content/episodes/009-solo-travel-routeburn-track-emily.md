@@ -26,4 +26,4 @@ Read Emily's Blog: [emilyintransit.com/](https://emilyintransit.com/)
 [Packing list for the Routeburn | Solo Hiking New Zealand](https://emilyintransit.com/2022/03/18/packing-list-for-the-routeburn-solo-hiking-new-zealand/)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

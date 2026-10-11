@@ -3,6 +3,7 @@
 {% set page_title = "What's your unique travel style?" %}
 {% set page_desc = "Uncover your ultimate New Zealand adventure. Nine quick questions to pinpoint your travel style and get you one step closer to your next New Zealand adventure." %}
 {% set page_image = "/images/hero-4.jpg" %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "WebPage", "name": "New Zealand travel style quiz", "url": cfg.domain ~ "/quiz/", "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
 {% block main %}
 <section class="band band-olive quiz-head">
   <div class="measure">

@@ -28,4 +28,4 @@ Read Tegan's Blog: [www.heelstoheeledge.com](//www.heelstoheeledge.com)
   
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannnah](https://www.tiktok.com/@abigailhannnah)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

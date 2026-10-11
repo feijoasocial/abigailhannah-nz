@@ -1,12 +1,23 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
-{% set page_title = "Contact" %}
+{% set page_title = "Contact Abigail Hannah" %}
 {% set page_desc = "Say kia ora to Abigail Hannah: questions, New Zealand travel itineraries, podcast stories, collaborations, or a coffee by the beach." %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact Abigail Hannah", "url": cfg.domain ~ "/contact/", "mainEntity": {"@type": "Person", "name": "Abigail Hannah", "email": cfg.email, "url": cfg.domain}}] %}
 {% block main %}
+<section class="band band-photo contact-hero">
+  <div class="bg">
+    <video autoplay muted loop playsinline preload="metadata" poster="/images/contact-loop-poster.jpg" aria-hidden="true"><source src="/images/contact-loop.mp4" type="video/mp4"></video>
+  </div>
+  <div class="wrap">
+    <p class="kicker">Get in touch</p>
+    <h1 class="display">Say <em>kia ora</em></h1>
+    <p class="lede">Questions, itineraries, podcast stories, collabs. I'd love to hear from you.</p>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Keep scrolling</span>
+</section>
 <section class="band">
   <div class="wrap contact-grid">
     <div class="prose">
-      <h1 class="display">Say kia ora</h1>
       <p>Have a question?<br>Interested in New Zealand travel itineraries?<br>Got an epic story for the podcast?</p>
       <p>Are you a biz looking to collab?<br>Want gorgeous imagery for your brand?<br>Need a social media marketer?</p>
       <p>Want to grab a coffee and sit by the beach?</p>

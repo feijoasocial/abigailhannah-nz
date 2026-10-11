@@ -26,4 +26,4 @@ Read Alice's Blog: [aliceadventuring.com/](https://aliceadventuring.com/)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannna](https://www.tiktok.com/@abigailhannnah)h  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

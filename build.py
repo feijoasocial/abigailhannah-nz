@@ -71,7 +71,7 @@ def load_md(path: Path) -> dict:
     meta = yaml.safe_load(m.group(1)) if m else {}
     body = m.group(2) if m else text
     MD.reset()
-    meta["html"] = MD.convert(body)
+    meta["html"] = demote_h1(MD.convert(body))
     meta["words"] = len(re.findall(r"\w+", body))
     meta["date"] = to_dt(meta["date"])
     meta["updated"] = to_dt(meta.get("updated") or meta["date"])
@@ -81,6 +81,9 @@ def load_md(path: Path) -> dict:
     meta.setdefault("seoTitle", ""); meta.setdefault("archive", False)
     meta["url"] = f"/{meta['slug']}/"
     return meta
+
+def demote_h1(html: str) -> str:
+    return re.sub(r"<(/?)h1\b", r"<\1h2", html)
 
 def load_collection(name: str) -> list[dict]:
     return sorted((load_md(p) for p in (CONTENT / name).glob("*.md")), key=lambda m: m["date"], reverse=True)
@@ -206,7 +209,8 @@ def main():
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
     env.filters.update(date=fmt_date, duration=fmt_duration, slugify=slugify, tojson=json.dumps)
     now = dt.datetime.now(dt.timezone.utc)
-    base = {"cfg": cfg, "year": now.year, "episodes": episodes, "numbered": numbered, "posts": posts, "cats": cats}
+    episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
+    base = {"cfg": cfg, "year": now.year, "episodes": episodes, "numbered": numbered, "posts": posts, "cats": cats, "episodes_asc": episodes_asc}
 
     if DIST.exists(): shutil.rmtree(DIST)
     shutil.copytree(STATIC, DIST)
@@ -221,8 +225,7 @@ def main():
     latest = episodes[0]
     favs = [e for n in cfg["favourite_episodes"] for e in episodes if e["number"] == n]
     picks = [p for s in cfg["blog_picks"] for p in posts if p["slug"] == s]
-    episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
-    write("/", "index.html", priority="1.0", latest=latest, recent=episodes[1:6], favourites=favs, picks=picks, episodes_asc=episodes_asc)
+    write("/", "index.html", priority="1.0", latest=latest, recent=episodes[1:6], favourites=favs, picks=picks)
     by_year: dict[int, list] = {}
     for e in episodes: by_year.setdefault(e["date"].astimezone(NZ).year, []).append(e)
     write("/podcast/", "podcast.html", latest["date"], "0.9", latest=latest, years=sorted(by_year, reverse=True), by_year=by_year)

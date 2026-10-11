@@ -29,4 +29,4 @@ Read: [Guide to planning your Working Holiday in New Zealand in 8 steps](https:/
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](http://instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannnah](http://tiktok.com/@abigailhannnah)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com)
+Read the Blog: [www.abigailhannnah.com](/)

@@ -2,6 +2,7 @@
 {% import "_parts.html" as parts with context %}
 {% set page_title = cat.name %}
 {% set page_desc = cat.name ~ " posts from the Abigail Hannah blog: New Zealand travel guides, road trips and real stories." %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": cat.name, "url": cfg.domain ~ url, "description": page_desc, "isPartOf": {"@type": "Blog", "name": "Abigail Hannah travel blog", "url": cfg.domain ~ "/blog/"}}] %}
 {% block main %}
 <section class="band band-sage">
   <div class="wrap">

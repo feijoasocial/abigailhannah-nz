@@ -29,4 +29,4 @@ Nelson Tasman 100 Ways: [instagram.com/nelsontasmannz/](https://www.instagram.co
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannnah](http://tiktok.com/@abigailhannnah)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

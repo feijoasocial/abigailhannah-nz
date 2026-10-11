@@ -25,5 +25,5 @@ Follow Tilleigh on Tiktok: [tiktok.com/@tilleigh](http://tiktok.com/@tilleigh)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannna](https://www.tiktok.com/@abigailhannnah)h  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)  
-[Read about Local Travel here](https://www.abigailhannnah.com/blog/2020/local-travel-3)
+Read the Blog: [www.abigailhannnah.com](/)  
+[Read about Local Travel here](/blog/2020/local-travel-3)

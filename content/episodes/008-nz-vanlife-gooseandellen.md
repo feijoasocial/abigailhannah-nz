@@ -26,4 +26,4 @@ Read Goose and Ellen's Blog: [www.gooseandellen.com/](https://www.gooseandellen.
 [Rent Larry the Hiace on Camplify](https://www.camplify.co.nz/rv/campervan-rental-christchurch-larry---nzs-ultimate-off-grid-hiace!/19586)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

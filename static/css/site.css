@@ -70,10 +70,11 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .btn-cream { background: var(--cream); color: var(--olive-deep); border-color: var(--cream); }
 .btn-espresso { background: var(--espresso); color: var(--cream); border-color: var(--espresso); }
 .btn-light { background: transparent; color: var(--cream); border-color: var(--cream); }
-.band-olive .btn, .band-olive-deep .btn, .band-tan .btn, .band-photo .btn, .band-espresso .btn { background: var(--cream); color: var(--olive-deep); border-color: var(--cream); }
-.band-sage .btn, .band-moss .btn { background: var(--espresso); color: var(--cream); border-color: var(--espresso); }
-.band-olive .btn-light, .band-tan .btn-light, .band-photo .btn-light { background: transparent; color: var(--cream); border-color: var(--cream); }
-.band-sage .btn-outline, .band-moss .btn-outline { background: transparent; color: var(--espresso); }
+.band-olive .btn, .band-olive-deep .btn, .band-tan .btn, .band-photo .btn, .band-espresso .btn, .band-olive .btn:hover, .band-olive-deep .btn:hover, .band-tan .btn:hover, .band-photo .btn:hover, .band-espresso .btn:hover { background: var(--cream); color: var(--olive-deep); border-color: var(--cream); }
+.band-sage .btn, .band-moss .btn, .band-sage .btn:hover, .band-moss .btn:hover { background: var(--espresso); color: var(--cream); border-color: var(--espresso); }
+.band-olive .btn-light, .band-tan .btn-light, .band-photo .btn-light, .band-olive-deep .btn-light, .band-olive .btn-light:hover, .band-tan .btn-light:hover, .band-photo .btn-light:hover, .band-olive-deep .btn-light:hover { background: transparent; color: var(--cream); border-color: var(--cream); }
+.band-sage .btn-outline, .band-moss .btn-outline, .band-sage .btn-outline:hover, .band-moss .btn-outline:hover { background: transparent; color: var(--espresso); }
+.btn-outline:hover { color: var(--espresso); } .btn-cream:hover { color: var(--olive-deep); } .btn-light:hover { color: var(--cream); }
 @media (prefers-reduced-motion: reduce) { .btn { transition: none; } .btn:hover { transform: none; } }
 
 /* reveal on scroll */
@@ -335,6 +336,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .quiz-cta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
 .quiz-optin { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
 
+.contact-hero { min-height: min(62svh, 560px); display: grid; align-items: center; }
+.contact-hero > .bg::after { opacity: 0.6; }
 .pod-hero { min-height: min(78svh, 760px); display: grid; align-items: center; }
 .pod-hero > .bg::after { opacity: 0.62; }
 .pod-hero .lede { max-width: 36rem; }

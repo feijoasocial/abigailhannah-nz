@@ -25,4 +25,4 @@ Follow Lucy on TikTok: [tiktok.com/@lucyscompass](https://www.tiktok.com/@lucysc
 Read Lucy's blog: [nzlucyscompass.wordpress.com/](https://nzlucyscompass.wordpress.com/)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](https://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

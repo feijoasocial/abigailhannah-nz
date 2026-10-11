@@ -125,27 +125,7 @@
 
 {{ parts.map_band() }}
 
-<section class="band band-olive-deep after-creep">
-  <div class="wrap" data-pager="12" data-pager-items=".ep-card" data-pager-button="#home-ep-more">
-    <p class="kicker" data-reveal>Start from the beginning</p>
-    <h2 class="display" data-reveal>Every episode, <em>oldest</em> to newest</h2>
-    <div class="ep-grid" data-reveal-group>
-      {% for e in episodes_asc %}
-      <a class="ep-card" href="{{ e.url }}">
-        {% if e.cover %}<img src="{{ e.cover }}" alt="" loading="lazy" width="600" height="600">{% else %}<span class="ep-card-blank"></span>{% endif %}
-        <span class="ep-card-num">{{ e.label }}</span>
-        <span class="ep-card-title">{{ e.clean_title }}</span>
-      </a>
-      {% endfor %}
-    </div>
-    <p class="more pill-row" style="justify-content:center">
-      <button class="btn btn-light" type="button" id="home-ep-more">See more episodes</button>
-      <a class="btn" href="/podcast/">Explore the podcast</a>
-    </p>
-  </div>
-</section>
-
-<section class="band">
+<section class="band after-creep">
   <div class="wrap">
     <h2 class="display italic" style="color:var(--tan)" data-reveal>A few of my favourite things</h2>
     <ol class="favs" data-reveal-group>
@@ -177,18 +157,7 @@
 </section>
 {% endif %}
 
-<section class="band band-moss">
-  <div class="wrap offset" data-reveal-group>
-    <a href="{{ cfg.apple_review }}">
-      <img src="/images/ab-lavender-2.jpg" alt="" loading="lazy" width="900" height="1125">
-      <span class="cap"><span class="kicker">Hooked on the show?</span><span class="display">Leave a review</span></span>
-    </a>
-    <a href="{{ cfg.guest_form_link }}">
-      <img src="/images/ab-greendress.jpg" alt="" loading="lazy" width="819" height="1024">
-      <span class="cap"><span class="kicker">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
-    </a>
-  </div>
-</section>
+{{ parts.hooked() }}
 
 {% if cfg.itinerary_form_embed %}
 <section class="band band-olive">

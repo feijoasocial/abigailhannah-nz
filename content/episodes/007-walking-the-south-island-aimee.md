@@ -23,4 +23,4 @@ Thank you so much for tuning in and coming along for the ride. If you love the s
 Follow Aimee on Instagram: [instagram.com/aimeeerobertss/](https://www.instagram.com/aimeeerobertss/)  
   
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

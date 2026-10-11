@@ -24,4 +24,4 @@ Follow Harry & Lydia on Instagram: [instagram.com/thenomadsyouknow/](https://www
 Follow Harry & Lydia on TikTok: [tiktok.com/@thenomadsyouknow](https://www.tiktok.com/@thenomadsyouknow?lang=en)
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
-Read the Blog: [www.abigailhannnah.com](//www.abigailhannnah.com)
+Read the Blog: [www.abigailhannnah.com](/)

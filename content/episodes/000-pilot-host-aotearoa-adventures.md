@@ -35,11 +35,11 @@ Thank you so much for tuning in and coming along for the ride. If you love the s
 
 Follow my adventures and daily life on Instagram here: <https://www.instagram.com/abigailhannnah/>
 
-Blog Post: [Top 30 Places To See On Your Northland Roadie](https://www.abigailhannnah.com/blog/2021/northland-roadie) [https://www.abigailhannnah.com/blog/2021/northland-roadie  
-n](https://www.abigailhannnah.com/blog/2021/northland-roadie)<https://www.instagram.com/p/CVL5HjdBLfa/>  
+Blog Post: [Top 30 Places To See On Your Northland Roadie](/blog/2021/northland-roadie) [/blog/2021/northland-roadie  
+n](/blog/2021/northland-roadie)<https://www.instagram.com/p/CVL5HjdBLfa/>  
 <https://www.instagram.com/p/CVUjq1dJmoX/>
 
-Blog Post: [The Best Moments Of Our First South Island Roadie https://www.abigailhannnah.com/blog/2020/south-island-roadie](https://www.abigailhannnah.com/blog/2020/south-island-roadie)  
+Blog Post: [The Best Moments Of Our First South Island Roadie /blog/2020/south-island-roadie](/blog/2020/south-island-roadie)  
 <https://www.instagram.com/p/CQfpbFIgQu1/>
 
 Pouakai Circuit in Taranaki: <https://www.instagram.com/p/CNbvmonAfVY/>  

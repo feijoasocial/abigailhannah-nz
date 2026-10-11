@@ -20,7 +20,8 @@
   <a class="card" href="{{ p.url }}">
     {% if p.image %}<img class="thumb" src="{{ p.image }}" alt="{{ p.imageAlt }}" loading="lazy" width="800" height="600">{% else %}<div class="thumb"></div>{% endif %}
     <h3>{{ p.title }}</h3>
-    <p class="meta">{% if p.categories %}<span>{{ p.categories[0] }}, </span>{% endif %}<time datetime="{{ p.date.isoformat() }}">{{ p.date | date }}</time></p>
+    {% set shown = p.categories | reject("equalto", "Uncategorized") | list %}
+    <p class="meta">{% if shown %}<span>{{ shown[0] }}, </span>{% endif %}<time datetime="{{ p.date.isoformat() }}">{{ p.date | date }}</time></p>
   </a>
   {% endfor %}
 </div>
@@ -68,6 +69,43 @@
     {% else %}
     <p><a class="btn" href="mailto:{{ cfg.email }}?subject=VIP%20list">Join the list</a></p>
     {% endif %}
+  </div>
+</section>
+{% endmacro %}
+
+{% macro hooked() %}
+<section class="band band-moss">
+  <div class="wrap offset" data-reveal-group>
+    <a href="{{ cfg.apple_review }}">
+      <img src="/images/ab-lavender-2.jpg" alt="" loading="lazy" width="900" height="1125">
+      <span class="cap"><span class="kicker">Hooked on the show?</span><span class="display">Leave a review</span></span>
+    </a>
+    <a href="{{ cfg.guest_form_link }}">
+      <img src="/images/ab-greendress.jpg" alt="" loading="lazy" width="819" height="1024">
+      <span class="cap"><span class="kicker">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
+    </a>
+  </div>
+</section>
+{% endmacro %}
+
+{% macro episode_grid(eps) %}
+<section class="band band-olive-deep">
+  <div class="wrap" data-pager="12" data-pager-items=".ep-card" data-pager-button="#ep-grid-more">
+    <p class="kicker" data-reveal>Start from the beginning</p>
+    <h2 class="display" data-reveal>Every episode, <em>oldest</em> to newest</h2>
+    <div class="ep-grid" data-reveal-group>
+      {% for e in eps %}
+      <a class="ep-card" href="{{ e.url }}">
+        {% if e.cover %}<img src="{{ e.cover }}" alt="" loading="lazy" width="600" height="600">{% else %}<span class="ep-card-blank"></span>{% endif %}
+        <span class="ep-card-num">{{ e.label }}</span>
+        <span class="ep-card-title">{{ e.clean_title }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="more pill-row" style="justify-content:center">
+      <button class="btn btn-light" type="button" id="ep-grid-more">See older episodes</button>
+      <a class="btn" href="/podcast/">Explore the podcast</a>
+    </p>
   </div>
 </section>
 {% endmacro %}

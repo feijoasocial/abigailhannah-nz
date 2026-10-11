@@ -25,4 +25,4 @@ Follow Anja on Tiktok: [tiktok.com/@anjabarugh](https://www.tiktok.com/@anjabaru
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)   
 Follow Abigail on TikTok: [tiktok.com/@abigailhannna](https://www.tiktok.com/@abigailhannnah)h  
-Read the Blog: [www.abigailhannnah.co](http://www.abigailhannnah.com/)m
+Read the Blog: [www.abigailhannnah.co](/)m

@@ -31,4 +31,4 @@ Watch the Milford Sound Swim: <https://www.youtube.com/watch?v=2ToVTEwwmbQ>
   
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannna](https://www.tiktok.com/@abigailhannnah)h  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

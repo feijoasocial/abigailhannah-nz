@@ -1,8 +1,8 @@
 # abigailhannah.nz site configuration. Every outbound link lives here, nothing is hard-coded in templates.
 name: Abigail Hannah
 domain: https://abigailhannah.nz
-title: "New Zealand Travel Blogger | Travel Photographer - Abigail Hannah"
-description: "Explore New Zealand like a local. Home of the Aotearoa Adventures podcast, the NZ Road Trip Adventure Guide and map, and real stories from real Kiwi adventures."
+title: "Abigail Hannah | New Zealand Travel Creator, Photographer and Podcast Host"
+description: "Explore New Zealand like a local with travel creator and photographer Abigail Hannah. Home of the Aotearoa Adventures podcast, the NZ road trip map and real Kiwi travel stories."
 author: Abigail Hannah
 email: hello@abigailhannah.nz
 
@@ -66,8 +66,8 @@ listener_reviews:
 
 # Podcast stats band (Abigail's numbers, 11 Oct 2026)
 podcast_stats:
-  - { n: "200", l: "unique guests" }
-  - { n: "140k", l: "listens" }
+  - { n: "199+", l: "unique guests" }
+  - { n: "140k+", l: "listens" }
   - { n: "2022", l: "the year it all started" }
 
 # "This is for you if you're looking for" (Abigail's copy, 11 Oct 2026)
@@ -79,3 +79,7 @@ podcast_pssst: "pssst... You'll want to write it all down, but I've got you cove
 
 # Social handle shown in the footer
 handle: "@abigailhannnah"
+
+# SEO plumbing: paste the GA4 measurement ID (G-XXXXXXX) and the Search Console HTML-tag verification code here
+ga4_id: ""
+gsc_verification: ""

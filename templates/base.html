@@ -1,5 +1,5 @@
 {% set page_title = page_title | default(cfg.title) %}
-{% set full_title = page_title if page_title == cfg.title else page_title ~ " | Abigail Hannah" %}
+{% set full_title = page_title if (page_title == cfg.title or page_title | length > 44) else page_title ~ " | Abigail Hannah" %}
 {% set page_desc = page_desc | default(cfg.description) %}
 {% set og_image = (cfg.domain ~ (page_image if page_image else "/images/og-default.jpg")) %}
 <!doctype html>
@@ -25,6 +25,8 @@
   <meta name="twitter:title" content="{{ full_title }}">
   <meta name="twitter:description" content="{{ page_desc }}">
   <meta name="twitter:image" content="{{ og_image }}">
+  {% if cfg.gsc_verification %}<meta name="google-site-verification" content="{{ cfg.gsc_verification }}">{% endif %}
+  {% if cfg.ga4_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.ga4_id }}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ cfg.ga4_id }}',{anonymize_ip:true});</script>{% endif %}
   <link rel="icon" href="/favicon.png" type="image/png" sizes="40x40">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="Abigail Hannah blog" href="/rss.xml">

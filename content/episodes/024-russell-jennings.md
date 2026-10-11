@@ -22,4 +22,4 @@ Thank you so much for tuning in and coming along for the ride. If you love the s
 
 Follow Abigail on Instagram: [instagram.com/abigailhannnah/](https://www.instagram.com/abigailhannnah/)  
 Follow Abigail on TikTok: [tiktok.com/@abigailhannna](https://www.tiktok.com/@abigailhannnah)h  
-Read the Blog: [www.abigailhannnah.com](http://www.abigailhannnah.com/)
+Read the Blog: [www.abigailhannnah.com](/)

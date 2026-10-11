@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
-{% set page_title = "Aotearoa Adventures podcast" %}
-{% set page_desc = "Every episode of Aotearoa Adventures, New Zealand's travel podcast. " ~ numbered ~ " episodes of real stories from real Kiwi adventures: tramping, vanlife, kayaking, road trips and more." %}
+{% set page_title = "Aotearoa Adventures, the New Zealand Travel Podcast" %}
+{% set page_desc = "Aotearoa Adventures is New Zealand's travel podcast, hosted by Abigail Hannah. " ~ numbered ~ " episodes of real stories from real Kiwi adventures: tramping, vanlife, kayaking, road trips and more." %}
 {% set page_image = "/images/bg-podcast-still.jpg" %}
 {% set jsonld = [{"@context": "https://schema.org", "@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/", "webFeed": cfg.feed_url, "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
 {% block main %}
@@ -100,18 +100,7 @@
 </section>
 {% endif %}
 
-<section class="band band-moss">
-  <div class="wrap offset" data-reveal-group>
-    <a href="{{ cfg.apple_review }}">
-      <img src="/images/ab-golden-grass.jpg" alt="" loading="lazy" width="683" height="1024">
-      <span class="cap"><span class="kicker">Hooked on the show?</span><span class="display">Leave a review</span></span>
-    </a>
-    <a href="{{ cfg.guest_form_link }}">
-      <img src="/images/ab-pools.jpg" alt="" loading="lazy" width="900" height="1125">
-      <span class="cap"><span class="kicker">Have an epic travel story?</span><span class="display">Apply to be a guest</span></span>
-    </a>
-  </div>
-</section>
+{{ parts.hooked() }}
 {% endblock %}
 {% block scripts %}
 <script>
