@@ -87,15 +87,16 @@
 </section>
 
 {% if cfg.listener_reviews %}
-<section class="band band-photo tint-sage quote-band parallax">
+<section class="band band-photo tint-sage parallax">
   <div class="bg"><img src="/images/bg-podcast-quotes.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
-  <div class="wrap center" data-reveal="fade">
-    <span class="stars" aria-label="Five stars" style="color:var(--olive)">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-    <h2 class="display italic">Here's what listeners say</h2>
-    {% for t in cfg.listener_reviews %}
-    <blockquote class="q-item{% if loop.first %} on{% endif %}"><p>{{ t.quote }}</p><cite>{{ t.name }}</cite></blockquote>
-    {% endfor %}
-    {% if cfg.listener_reviews | length > 1 %}<div class="q-nav"><button class="q-prev" type="button" aria-label="Previous">&#8592;</button><button class="q-next" type="button" aria-label="Next">&#8594;</button></div>{% endif %}
+  <div class="wrap">
+    <p class="center" data-reveal="fade"><span class="stars" aria-label="Five stars" style="color:var(--olive)">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
+    <h2 class="display italic center" data-reveal="fade">Here's what listeners say</h2>
+    <div class="reviews" data-reveal-group>
+      {% for t in cfg.listener_reviews %}
+      <blockquote class="review"><p>{{ t.quote }}</p><cite>{{ t.name }}</cite></blockquote>
+      {% endfor %}
+    </div>
   </div>
 </section>
 {% endif %}

@@ -9,8 +9,8 @@ email: hello@abigailhannah.nz
 podcast_name: "Aotearoa Adventures: The New Zealand Travel Podcast"
 feed_url: https://feeds.captivate.fm/aotearoa-adventures/
 spotify_show: https://open.spotify.com/show/3Y20EhFHvw8KPEVgXximUx
-apple_podcasts: https://podcasts.apple.com/us/podcast/aotearoa-adventures/id1626687552
-apple_review: https://podcasts.apple.com/us/podcast/aotearoa-adventures-the-new-zealand-travel-podcast/id1626687552
+apple_podcasts: https://podcasts.apple.com/nz/podcast/aotearoa-adventures-the-new-zealand-travel-podcast/id1626687552
+apple_review: https://podcasts.apple.com/nz/podcast/aotearoa-adventures-the-new-zealand-travel-podcast/id1626687552?see-all=reviews
 pod_link: https://pod.link/1626687552
 
 # The product
@@ -83,3 +83,6 @@ handle: "@abigailhannnah"
 # SEO plumbing: paste the GA4 measurement ID (G-XXXXXXX) and the Search Console HTML-tag verification code here
 ga4_id: ""
 gsc_verification: ""
+
+# Spots named in the Rexby guide ticker (from the guide's own location cards). Edit freely.
+map_spots: [Aoraki Mount Cook, Hokitika Gorge, Bell Rock, Huka Falls, Otira Viaduct Lookout, Bob's Cove Track, Anchorage Bay, Cable Bay, Rawhiti Cave, Angelus Hut, Te Henga (Bethells Beach), Cathedral Cove, Whenuakura (Donut Island), Hooker Valley Track, Hunua Falls, Te Paki Sand Dunes, Waitangi Treaty Grounds, Whale Watch Kaikōura, Tongariro Alpine Crossing, Hanmer Springs, Waitomo Glowworm Caves, Doubtful Sound, Milford Sound, Homer Tunnel]

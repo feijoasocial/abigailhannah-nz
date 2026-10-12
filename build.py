@@ -42,6 +42,16 @@ def fmt_date(d: dt.datetime | dt.date) -> str:
         d = d.astimezone(NZ)
     return f"{d.day} {d.strftime('%B %Y')}"
 
+def fmt_clock(d: str) -> str:
+    """Feed duration -> m:ss or h:mm:ss for the player."""
+    if not d or d.strip("0:") == "": return "0:00"
+    if d.isdigit(): s = int(d)
+    else:
+        parts = [int(x) for x in d.split(":")]
+        s = sum(v * 60 ** i for i, v in enumerate(reversed(parts)))
+    h, r = divmod(s, 3600); m, sec = divmod(r, 60)
+    return f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
+
 def fmt_duration(d: str) -> str:
     if not d or d.strip("0:") == "": return ""
     if d.isdigit():
@@ -199,7 +209,7 @@ def main():
     episode_posts = load_collection("episodes")
     posts = load_collection("posts")
     episodes = merge_episodes(parse_feed(fetch_feed(args.offline)), episode_posts)
-    numbered = sum(1 for e in episodes if e["number"] is not None)
+    numbered = max((e["number"] for e in episodes if e["number"] is not None), default=0)
 
     cats: dict[str, dict] = {}
     for p in posts:
@@ -207,7 +217,7 @@ def main():
             cats.setdefault(slugify(c), {"name": c, "slug": slugify(c), "posts": []})["posts"].append(p)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-    env.filters.update(date=fmt_date, duration=fmt_duration, slugify=slugify, tojson=json.dumps)
+    env.filters.update(date=fmt_date, duration=fmt_duration, clock=fmt_clock, slugify=slugify, tojson=json.dumps)
     now = dt.datetime.now(dt.timezone.utc)
     episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
     base = {"cfg": cfg, "year": now.year, "episodes": episodes, "numbered": numbered, "posts": posts, "cats": cats, "episodes_asc": episodes_asc}

@@ -32,6 +32,29 @@
     </div>
   </div>
 </section>
+{% if cfg.map_spots %}
+<div class="ticker band-olive-deep" aria-hidden="true">
+  <div class="ticker-track">
+    {% for n in range(2) %}{% for spot in cfg.map_spots %}<span>{{ spot }}</span>{% endfor %}{% endfor %}
+  </div>
+</div>
+{% endif %}
+<section class="band band-sage inside-band">
+  <div class="wrap split wide-left reverse">
+    <div data-reveal="right">
+      <p class="kicker">Look inside</p>
+      <h2 class="display">Every spot comes with <em>the good stuff</em></h2>
+      <p>Directions, how long to allow, who it suits, the best time to go, how to pronounce the place name, and the tips I'd give a mate: where to park, which lookout to skip, and when the crowds turn up.</p>
+      <p>Open it in the Rexby app, save it offline, and the map comes with you where the signal doesn't.</p>
+    </div>
+    <div class="laptop" data-reveal="left">
+      <div class="laptop-screen">
+        <video autoplay muted loop playsinline preload="metadata" poster="/images/rexby-inside-poster.jpg" aria-hidden="true"><source src="/images/rexby-inside.mp4" type="video/mp4"></video>
+      </div>
+      <div class="laptop-base"></div>
+    </div>
+  </div>
+</section>
 <section class="band">
   <div class="wrap split">
     <div class="prose" data-reveal="left">
@@ -45,7 +68,7 @@
     </div>
     <div class="offset" data-reveal-group>
       <img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125">
-      <img src="/images/hero-2.jpg" alt="" loading="lazy" width="1920" height="1080">
+      <img src="/images/about-lake-wide.jpg" alt="" loading="lazy" width="1280" height="853">
     </div>
   </div>
 </section>
