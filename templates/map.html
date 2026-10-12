@@ -14,11 +14,12 @@
       <p><a class="btn btn-cream" href="{{ cfg.rexby_map }}">Buy now on Rexby</a></p>
     </div>
     <div class="phone-wrap" data-reveal="right">
-      <div class="phone">
+      <div class="iphone">
         <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
           <source src="/images/map-mockup.mp4" type="video/mp4">
         </video>
         <img class="phone-still" src="/images/map-mockup.jpg" alt="The NZ Road Trip Adventure Guide map open on a phone" width="1080" height="1920">
+        <img class="iphone-frame" src="/images/iphone-frame.png" alt="" width="432" height="853">
       </div>
     </div>
   </div>
@@ -32,10 +33,10 @@
     </div>
   </div>
 </section>
-{% if cfg.map_spots %}
-<div class="ticker band-olive-deep" aria-hidden="true">
-  <div class="ticker-track">
-    {% for n in range(2) %}{% for spot in cfg.map_spots %}<span>{{ spot }}</span>{% endfor %}{% endfor %}
+{% if cfg.map_cards %}
+<div class="cards-ticker band-olive-deep">
+  <div class="cards-track">
+    {% for n in range(2) %}{% for c in cfg.map_cards %}<a href="{{ cfg.rexby_map }}" tabindex="{{ '-1' if n else '0' }}"{% if n %} aria-hidden="true"{% endif %}><img src="/images/rexby/{{ c }}.webp" alt="{{ 'A location card from the NZ road trip guide' if not n else '' }}" loading="lazy" width="320" height="427"></a>{% endfor %}{% endfor %}
   </div>
 </div>
 {% endif %}
@@ -44,7 +45,7 @@
     <div data-reveal="right">
       <p class="kicker">Look inside</p>
       <h2 class="display">Every spot comes with <em>the good stuff</em></h2>
-      <p>Directions, how long to allow, who it suits, the best time to go, how to pronounce the place name, and the tips I'd give a mate: where to park, which lookout to skip, and when the crowds turn up.</p>
+      <p>Every spot comes with personal tips from someone who has been there in every season, plus directions, how long to allow, who it suits and the best time to go. Most have a video so you know what you're walking into, and there are pronunciation tips so you sound like a local.</p>
       <p>Open it in the Rexby app, save it offline, and the map comes with you where the signal doesn't.</p>
     </div>
     <div class="laptop" data-reveal="left">

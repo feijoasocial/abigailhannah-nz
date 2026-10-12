@@ -86,3 +86,8 @@ gsc_verification: ""
 
 # Spots named in the Rexby guide ticker (from the guide's own location cards). Edit freely.
 map_spots: [Aoraki Mount Cook, Hokitika Gorge, Bell Rock, Huka Falls, Otira Viaduct Lookout, Bob's Cove Track, Anchorage Bay, Cable Bay, Rawhiti Cave, Angelus Hut, Te Henga (Bethells Beach), Cathedral Cove, Whenuakura (Donut Island), Hooker Valley Track, Hunua Falls, Te Paki Sand Dunes, Waitangi Treaty Grounds, Whale Watch Kaikōura, Tongariro Alpine Crossing, Hanmer Springs, Waitomo Glowworm Caves, Doubtful Sound, Milford Sound, Homer Tunnel]
+
+# Instagram broadcast channel for listener questions
+broadcast_link: "https://ig.me/j/AbYd1Flco4Sb02UP/"
+# Rexby location cards for the ticker (static/images/rexby/). Order is display order.
+map_cards: [card-01, card-02, card-03, card-04, card-05, card-06, card-07, card-08, card-09, card-10, card-11, card-12, card-13, card-14, card-15, card-16, card-17, card-18, card-19, card-20, card-21]

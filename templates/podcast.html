@@ -43,6 +43,17 @@
   </div>
 </section>
 
+<section class="band band-photo search-band parallax" id="search">
+  <div class="bg"><img src="/images/bg-podcast-still.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
+  <div class="wrap center" data-reveal="fade">
+    <p class="kicker">{{ numbered }} episodes and counting</p>
+    <h2 class="display">What do you want to <em>listen</em> to?</h2>
+    <label class="search search-big"><span class="sr-only">Search episodes by place, activity, track or guest</span>
+      <input type="search" id="ep-search" placeholder="Search for a topic you want to listen to" autocomplete="off"></label>
+    <p class="search-hint">Try a region, a track, an activity or a guest's name</p>
+  </div>
+</section>
+
 {% if cfg.podcast_for %}
 <section class="band band-sage">
   <div class="wrap split wide-left">
@@ -59,17 +70,6 @@
   </div>
 </section>
 {% endif %}
-
-<section class="band band-photo search-band parallax" id="search">
-  <div class="bg"><img src="/images/bg-podcast-still.jpg" alt="" loading="lazy" width="1920" height="1280"></div>
-  <div class="wrap center" data-reveal="fade">
-    <p class="kicker">{{ numbered }} episodes and counting</p>
-    <h2 class="display">What do you want to <em>listen</em> to?</h2>
-    <label class="search search-big"><span class="sr-only">Search episodes by place, activity, track or guest</span>
-      <input type="search" id="ep-search" placeholder="Search for a topic you want to listen to" autocomplete="off"></label>
-    <p class="search-hint">Try a region, a track, an activity or a guest's name</p>
-  </div>
-</section>
 
 <section class="band" id="episodes">
   <div class="wrap">
@@ -101,6 +101,17 @@
 </section>
 {% endif %}
 
+<section class="band band-olive">
+  <div class="wrap split">
+    <div data-reveal="left">
+      <p class="kicker">Listener questions</p>
+      <h2 class="display">Want to ask questions to <em>upcoming</em> guests?</h2>
+      <p>I share who's coming up on the show in my Instagram broadcast channel, and listeners send in the questions I ask them on air. Join in and have your question answered on the podcast.</p>
+      <p><a class="btn" href="{{ cfg.broadcast_link }}">Join the broadcast channel</a></p>
+    </div>
+    <div data-reveal="right"><img class="portrait" src="/images/ab-lavender.jpg" alt="" loading="lazy" width="900" height="1125"></div>
+  </div>
+</section>
 {{ parts.hooked() }}
 {% endblock %}
 {% block scripts %}
