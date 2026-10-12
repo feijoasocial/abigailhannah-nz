@@ -1,28 +1,60 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = "About Abigail Hannah, New Zealand Travel Creator and Photographer" %}
-{% set page_desc = "Abigail Hannah lived in 6 cities and visited 14 countries before the age of ten. Now a travel-obsessed photographer, blogger and podcaster sharing stories, tips and itineraries for adventure-loving travellers in Aotearoa." %}
+{% set page_desc = "Abigail Hannah is a New Zealand travel creator and host of Aotearoa Adventures, the NZ travel podcast. Road trips, vanlife, kayaking and the real story behind them." %}
 {% set page_image = "/images/about-hero.jpg" %}
+{% set jsonld = [{"@context": "https://schema.org", "@type": "AboutPage", "name": "About Abigail Hannah", "url": cfg.domain ~ "/about/", "mainEntity": {"@type": "Person", "name": "Abigail Hannah", "jobTitle": "Travel creator and podcast host", "url": cfg.domain, "sameAs": [cfg.instagram, cfg.tiktok, cfg.facebook, cfg.linkedin]}}] %}
 {% block main %}
-<section class="page-hero">
-  <img src="/images/about-hero.jpg" alt="Abigail Hannah laughing beside a blue lake" width="1600" height="1067" fetchpriority="high">
-</section>
-<section class="band">
-  <div class="measure prose">
+<section class="band band-photo about-hero">
+  <div class="bg"><img src="/images/about-hero.jpg" alt="Abigail Hannah kayaking in Milford Sound" width="1920" height="1280" fetchpriority="high"></div>
+  <div class="wrap">
     <p class="kicker">Ko Abigail ahau</p>
-    <h1>Hey there, I'm Abigail</h1>
-    <p>I lived in 6 cities and visited 14 countries before the age of ten.</p>
-    <p>I should have known that the little girl who kept a travel journal (yes the type with ticket stubs, boarding passes and notes from each day...) would end up a travel-obsessed photographer, blogger and podcaster.</p>
-    <p>Now I share stories, travel tips and create itineraries for other adventure-loving travellers just like you.</p>
-    <p><a href="/000-pilot-host-aotearoa-adventures/">Long story long...</a></p>
+    <h1 class="display">New Zealand travel creator and host of <em>Aotearoa Adventures</em></h1>
+    <p class="lede">Hey there, I'm Abigail. I lived in 6 cities and visited 14 countries before the age of ten. I should have known that the little girl who kept a travel journal (yes, the type with ticket stubs, boarding passes and notes from each day) would end up here.</p>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Keep scrolling</span>
+</section>
+
+<section class="band">
+  <div class="wrap split wide-left">
+    <div class="offset" data-reveal-group>
+      <img src="/images/about-camera.jpg" alt="Abigail Hannah with her camera" loading="lazy" width="900" height="1349">
+      <img src="/images/about-now.jpg" alt="Abigail Hannah working on a laptop beside a lake" loading="lazy" width="900" height="1349">
+    </div>
+    <div data-reveal="right">
+      <p class="kicker">In short</p>
+      <h2 class="display">I make things that help you <em>explore</em> Aotearoa</h2>
+      <p>I'm a travel creator based in Auckland, when I'm there. Most weeks that means some mix of these:</p>
+      <ol class="for-list">
+        <li><span class="num" aria-hidden="true">01</span><h3 class="display"><a href="/podcast/">Aotearoa Adventures</a></h3><p>The New Zealand travel podcast. {{ numbered }} episodes, 199+ guests and 140k+ listens since 2022, with a new one every Friday. Real people, real trips, and the tips they wish they'd known.</p></li>
+        <li><span class="num" aria-hidden="true">02</span><h3 class="display"><a href="/map/">The NZ road trip map</a></h3><p>110 of my favourite spots on an offline map, built from seven years of going back to the same places on purpose.</p></li>
+        <li><span class="num" aria-hidden="true">03</span><h3 class="display">Brand partnerships</h3><p>Content and campaigns with travel and outdoor brands I'd use anyway, including Tourism New Zealand, Kathmandu, Cotopaxi, Allbirds, Dometic, RealNZ and Fujifilm.</p></li>
+      </ol>
+    </div>
   </div>
 </section>
+
 <section class="band band-sage">
+  <div class="wrap split wide-left">
+    <div class="bleed-left" data-reveal="left"><img src="/images/about-paddle.jpg" alt="Abigail Hannah sea kayaking below the peaks of Milford Sound" loading="lazy" width="900" height="1349"></div>
+    <div class="prose-light" data-reveal="right">
+      <p class="kicker">Long story long</p>
+      <h2 class="display">From spreadsheets to a <em>green van</em></h2>
+      <p>I moved back to Auckland at 18 after growing up in India, and it was a rough landing. A couple of years at uni were a real struggle with my mental health, and the way back was not a straight line. Alongside a lot of therapy, what helped most was <a href="/nature-helped-heal-depression/">time outside</a>. A camera gave me a reason to go and find the light. A podcast, a few years later, gave me a reason to keep going back out and asking people about their adventures. Both still do.</p>
+      <p>Three years ago I was a full-time urban planner. Two-hundred-page reports, council meetings, the rush-hour commute. I sent my first brand pitch at 1,200 followers, phoned a friend the whole time because I had no idea what to say, and slammed the laptop shut the second I hit send. They said yes. That one yes opened my eyes to the possibilities of the creator world.</p>
+      <p>Then came a Thursday sunrise on a snowy South Island mountain, kea circling, and one thought: I need to be on more mountains on more Thursday mornings. I quit the following Tuesday with nothing close to a safety net, just enough delulu confidence to back myself.</p>
+      <p>Since then we've built our dream van, paddled <a href="/162-we-are-kayaking-from-cape-reinga-to-tauranga-to-raise-20-000-/">500km down the East Coast from Cape Rēinga</a> on the Slow Paddle with my husband Isaac, walked <a href="/077-five-days-85km-on-abigail-hannahs-first-solo-hike-on-the-old-ghost-road/">85km solo on the Old Ghost Road</a>, and put out a new episode every Friday for four years.</p>
+      <p class="display italic" style="color:var(--olive);font-size:1.05rem;letter-spacing:0.08em">You don't have to stay stuck on the path you're on. That's the whole point of this website.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band">
   <div class="wrap split reverse">
-    <div><img class="portrait" src="/images/abigail-lupins.jpg" alt="Abigail Hannah among lupins" loading="lazy" width="1000" height="1500"></div>
-    <div class="prose">
+    <div data-reveal="right"><img class="portrait" src="/images/about-jetty.jpg" alt="Abigail Hannah sitting at the end of a jetty on a lake" loading="lazy" width="900" height="1350"></div>
+    <div class="prose" data-reveal="left">
       <p class="kicker">If you love adventure, road trips and the outdoors, you're in the right place</p>
-      <h2>I'm one for slower travel, and I'll bet you are too</h2>
+      <h2 class="display">I'm one for <em>slower</em> travel, and I'll bet you are too</h2>
       <p>I love pretty things, I love the outdoors, I love experiencing things which make me feel alive. I am happiest when we're on a road trip, with nowhere to be and nothing to do. I love to sit with the van door open watching the waves crash on the sand. I love to have dinner beside the mountains, as the moon lights up the sky.</p>
       <p>I love falling asleep to the sound of rain as it falls on the van roof. I love waking up to the golden sunlight on my face.</p>
       <p>I walk, I swim, I sit, I see, I smell, I listen, I breathe.<br>Because it makes me feel alive.</p>
@@ -30,9 +62,10 @@
     </div>
   </div>
 </section>
+
 <section class="band band-olive">
   <div class="wrap split">
-    <div class="prose">
+    <div class="prose-light" data-reveal="left">
       <p class="kicker">Let me be part of your journey</p>
       <h2 class="display">I want you to experience Aotearoa the way I do</h2>
       <p>I don't care about ticking off countries like a to-do list, I believe that adventure can be had wherever you live.</p>
@@ -40,18 +73,51 @@
       <p>Want to know all the places I've been?</p>
       <p><a class="btn" href="{{ cfg.rexby_map }}">Get the NZ map</a></p>
     </div>
-    <div><img class="portrait" src="/images/abigail-about.jpg" alt="Abigail Hannah in Milford Sound" loading="lazy" width="683" height="1024"></div>
+    <div data-reveal="right"><img class="portrait" src="/images/about-snow.jpg" alt="Abigail Hannah in the snow at Aoraki Mount Cook" loading="lazy" width="900" height="1350"></div>
   </div>
 </section>
+
+<section class="band band-photo tint-espresso parallax">
+  <div class="bg"><img src="/images/about-lake-wide.jpg" alt="" loading="lazy" width="1280" height="853"></div>
+  <div class="wrap">
+    <div class="measure" style="margin-inline:0" data-reveal="fade">
+      <p class="kicker">Where you'll find me now</p>
+      <h2 class="display">Somewhere between small-town New Zealand, a house sit, a van trip, or the other side of the world</h2>
+      <p>Everywhere and anywhere, to be honest. Isaac and I haven't had a fixed address for two and a half years, and most of this website gets built from a lifestyle block in South Auckland, a campsite picnic table, or an airport lounge.</p>
+      <p><a class="btn" href="/183-four-years-of-aotearoa-adventures-and-no-home-address-with-host-abigail-hannah/">Here's a recap of our lives recently</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="band band-tan" style="padding-block:2.5rem">
+  <div class="wrap center" data-reveal="fade">
+    <p class="kicker">As seen in...</p>
+    <div class="press">
+      {% for p in cfg.press %}{% if p.logo %}<img src="{{ p.logo }}" alt="{{ p.name }}" loading="lazy">{% else %}<span class="press-text">{{ p.name }}</span>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="band">
   <div class="wrap">
-    <h2 class="display">A few of my favourite things</h2>
-    <ol class="favs">
-      <li><img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">01</span><span>West Coast sunsets</span></li>
-      <li><img src="/images/fav-road-trips.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">02</span><span>South Island road trips</span></li>
-      <li><img src="/images/fav-isaac.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">03</span><span>Adventures with my husband, Isaac</span></li>
-      <li><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">04</span><span>Beaches warm enough to swim at</span></li>
+    <h2 class="display italic" style="color:var(--tan)" data-reveal>A few of my favourite things</h2>
+    <ol class="favs" data-reveal-group>
+      <li><img src="/images/fav-sunsets.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">01</span>West Coast sunsets</li>
+      <li><img src="/images/about-van.jpg" alt="" loading="lazy" width="900" height="1350"><span class="favs-num">02</span>South Island road trips</li>
+      <li><img src="/images/about-paddle-two.jpg" alt="" loading="lazy" width="606" height="1078"><span class="favs-num">03</span>Adventures with my husband, Isaac</li>
+      <li><img src="/images/fav-beaches.jpg" alt="" loading="lazy" width="900" height="1125"><span class="favs-num">04</span>Beaches warm enough to swim at</li>
     </ol>
+  </div>
+</section>
+
+<section class="band band-olive-deep">
+  <div class="wrap">
+    <p class="kicker" data-reveal>Work with me</p>
+    <div class="work-grid" data-reveal-group>
+      <div><h3 class="display">Brands</h3><p>Partnerships and content for travel and outdoor brands that put people and planet first. No fast fashion, fossil fuels, alcohol or gambling.</p><p><a class="btn" href="/contact/">Get in touch</a></p></div>
+      <div><h3 class="display">Podcast</h3><p>Sponsor the show, or apply to be a guest if you've got a trip worth telling.</p><p><a class="btn" href="{{ cfg.guest_form_link }}">Apply to be a guest</a></p></div>
+      <div><h3 class="display">Social media for your brand</h3><p>That's my agency, Feijoa Social. Strategy and social media management for travel and outdoor brands.</p><p><a class="btn btn-light" href="{{ cfg.feijoa_social }}">feijoasocial.com</a></p></div>
+    </div>
   </div>
 </section>
 {{ parts.map_band(compact=True) }}

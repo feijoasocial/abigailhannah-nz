@@ -2,25 +2,29 @@
 {% import "_parts.html" as parts with context %}
 {% set page_title = "What's your unique travel style?" %}
 {% set page_desc = "Uncover your ultimate New Zealand adventure. Nine quick questions to pinpoint your travel style and get you one step closer to your next New Zealand adventure." %}
-{% set page_image = "/images/hero-4.jpg" %}
+{% set page_image = "/images/quiz-hero.jpg" %}
 {% set jsonld = [{"@context": "https://schema.org", "@type": "WebPage", "name": "New Zealand travel style quiz", "url": cfg.domain ~ "/quiz/", "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
 {% block main %}
-<section class="band band-olive quiz-head">
-  <div class="measure">
-    <p class="kicker">Uncover your ultimate New Zealand adventure</p>
-    <h1 class="display">What's your unique travel style?</h1>
-    <p class="lede">You deserve the trip of a lifetime, one that is as unique as you! Take the quiz to pinpoint your travel style and let's get you one step closer to your next New Zealand adventure.</p>
+<section class="band band-photo quiz-hero">
+  <div class="bg"><img src="/images/quiz-hero.jpg" alt="" width="1920" height="1280" fetchpriority="high"></div>
+  <div class="wrap center">
+    <p class="kicker">Take the quiz</p>
+    <h1 class="display">What type of <em>traveller</em> are you?</h1>
+    <p class="lede" style="margin-inline:auto">Discover your travel persona and get tailored New Zealand travel recommendations based on what you love doing.</p>
+    <p class="quiz-time">It takes about 2 minutes</p>
+    <p><button class="btn btn-cream" type="button" id="quiz-start">Take the quiz</button></p>
   </div>
+  <span class="scroll-cue" aria-hidden="true">Keep scrolling</span>
 </section>
 
 <section class="band" id="quiz">
   <div class="measure">
     <div id="quiz-intro">
-      <p>Nine questions. No wrong answers. About two minutes.</p>
-      <p><button class="btn" type="button" id="quiz-start">Take the quiz</button></p>
+      <p class="kicker">Nine questions, no wrong answers</p>
+      <p><button class="btn" type="button" id="quiz-start-2">Start the quiz</button></p>
     </div>
 
-    <form id="quiz-form" hidden aria-live="polite">
+<form id="quiz-form" hidden aria-live="polite">
       <p class="quiz-progress"><span id="quiz-step">1</span> of <span id="quiz-total"></span></p>
       <fieldset id="quiz-q">
         <legend id="quiz-question"></legend>
@@ -28,6 +32,16 @@
       </fieldset>
       <p class="quiz-nav"><button class="btn btn-outline" type="button" id="quiz-back" hidden>Back</button></p>
     </form>
+
+    <div id="quiz-gate" hidden>
+      <p class="kicker">Almost there</p>
+      <h2 class="display">Where should I send your <em>travel persona</em>?</h2>
+      <p>Pop your email in and your result is on the next screen, along with trip ideas built around it.</p>
+      {% if cfg.quiz_form_embed %}
+      <iframe id="quiz-form-embed" class="form" data-src="{{ cfg.quiz_form_embed }}" title="Get your travel persona"></iframe>
+      {% endif %}
+      <p class="quiz-skip"><button class="linkish" type="button" id="quiz-skip">No thanks, just show me my result</button></p>
+    </div>
 
     <div id="quiz-result" hidden>
       <p class="kicker">Your travel style</p>
@@ -40,12 +54,7 @@
         <a class="btn" href="{{ cfg.rexby_map }}">Plan it with the NZ map</a>
         <button class="btn btn-outline" type="button" id="quiz-retake">Retake the quiz</button>
       </p>
-      {% if cfg.quiz_form_embed %}
-      <div class="quiz-optin">
-        <p class="kicker">Want your result and trip ideas in your inbox?</p>
-        <iframe id="quiz-form-embed" class="form" data-src="{{ cfg.quiz_form_embed }}" loading="lazy" title="Get your travel style by email"></iframe>
-      </div>
-      {% endif %}
+
     </div>
   </div>
 </section>
@@ -125,7 +134,9 @@
   };
   var ORDER = ["E", "P", "W", "L"];
   var $ = function (id) { return document.getElementById(id); };
-  var intro = $("quiz-intro"), form = $("quiz-form"), result = $("quiz-result");
+  var intro = $("quiz-intro"), form = $("quiz-form"), result = $("quiz-result"), gate = $("quiz-gate");
+  var GATED = {{ "true" if cfg.quiz_form_embed else "false" }};
+  function goTo(el) { var head = document.querySelector(".site-head"); var off = (head ? head.offsetHeight : 0) + 28; var top = el.getBoundingClientRect().top + window.pageYOffset - off; window.scrollTo({ top: top, behavior: "smooth" }); }
   var answers = [], i = 0;
   var base = (document.querySelector('link[rel="stylesheet"][href$="/css/site.css"]') || {}).getAttribute ? (document.querySelector('link[rel="stylesheet"][href$="/css/site.css"]').getAttribute("href").replace(/\/css\/site\.css$/, "")) : "";
   function render() {
@@ -139,25 +150,38 @@
       box.appendChild(b);
     });
     $("quiz-back").hidden = i === 0;
-    form.scrollIntoView({ block: "start", behavior: "smooth" });
+    goTo(form);
   }
   function finish() {
     var score = { E: 0, P: 0, W: 0, L: 0 };
     answers.forEach(function (k, n) { score[Q[n].o[k][1]]++; });
     var best = ORDER.reduce(function (a, b) { return score[b] > score[a] ? b : a; });
+    try { localStorage.setItem("ah-quiz-result", best); } catch (e) {}
+    form.hidden = true;
+    if (GATED) { showGate(best); } else { showResult(best); }
+  }
+  function showGate(best) {
+    var r = R[best]; gate.hidden = false;
+    var f = $("quiz-form-embed");
+    if (f && !f.src) { var src = f.getAttribute("data-src"); f.src = src + (src.indexOf("?") > -1 ? "&" : "?") + "travel_style=" + encodeURIComponent(r.title); }
+    goTo(gate);
+  }
+  function showResult(best) {
     var r = R[best];
-    form.hidden = true; result.hidden = false;
+    gate.hidden = true; intro.hidden = true; form.hidden = true; result.hidden = false;
     $("result-title").textContent = r.title;
     $("result-img").src = base + r.img;
     $("result-body").innerHTML = r.body; $("result-trip").innerHTML = r.trip;
-    var f = $("quiz-form-embed");
-    if (f && !f.src) f.src = f.getAttribute("data-src") + (f.getAttribute("data-src").indexOf("?") > -1 ? "&" : "?") + "travel_style=" + encodeURIComponent(r.title);
-    try { history.replaceState(null, "", "#" + r.title.toLowerCase().replace(/\s+/g, "-")); } catch (e) {}
-    result.scrollIntoView({ block: "start", behavior: "smooth" });
+    try { history.replaceState(null, "", location.pathname + "#" + r.title.toLowerCase().replace(/\s+/g, "-")); } catch (e) {}
+    goTo(result);
   }
-  $("quiz-start").addEventListener("click", function () { intro.hidden = true; form.hidden = false; i = 0; answers = []; render(); });
+  // back from the Ivorey form: /quiz/?done=1 shows the stored result
+  try { var saved = localStorage.getItem("ah-quiz-result"); if (/[?&]done=1/.test(location.search) && saved && R[saved]) { showResult(saved); } } catch (e) {}
+  function start() { intro.hidden = true; result.hidden = true; gate.hidden = true; form.hidden = false; i = 0; answers = []; render(); }
+  $("quiz-start").addEventListener("click", start); $("quiz-start-2").addEventListener("click", start);
+  var skip = $("quiz-skip"); if (skip) skip.addEventListener("click", function () { try { showResult(localStorage.getItem("ah-quiz-result")); } catch (e) {} });
   $("quiz-back").addEventListener("click", function () { if (i > 0) { i--; render(); } });
-  $("quiz-retake").addEventListener("click", function () { result.hidden = true; form.hidden = false; i = 0; answers = []; render(); });
+  $("quiz-retake").addEventListener("click", start);
 })();
 </script>
 {% endblock %}

@@ -28,35 +28,81 @@
 {% endmacro %}
 
 {% macro player(e) %}
-<div class="player">
-  {% if e.guid and not e.guid.startswith("snapshot-") %}
-  <iframe src="https://player.captivate.fm/episode/{{ e.guid }}" height="170" loading="lazy" allow="autoplay" title="Listen: {{ e.title }}"></iframe>
-  {% elif e.spotify %}
-  <iframe src="https://open.spotify.com/embed/episode/{{ e.spotify }}?utm_source=generator&amp;theme=0" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Listen on Spotify: {{ e.title }}"></iframe>
-  {% endif %}
+{% if e.audio_url %}
+<div class="ap" data-src="{{ e.audio_url }}">
+  <img class="ap-art" src="{{ e.cover or cfg.podcast_cover }}" alt="" width="120" height="120" loading="lazy">
+  <div class="ap-main">
+    <p class="ap-label">{{ "Bonus episode" if e.bonus else "Episode " ~ e.label }}</p>
+    <p class="ap-title">{{ e.clean_title }}</p>
+    <div class="ap-row">
+      <button class="ap-play" type="button" aria-label="Play"><span class="ap-ico" aria-hidden="true"></span></button>
+      <div class="ap-bar" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><div class="ap-fill"></div></div>
+      <span class="ap-time"><span class="ap-cur">0:00</span><span class="ap-sep"> / </span><span class="ap-dur">{{ e.duration | clock }}</span></span>
+    </div>
+    <div class="ap-sub">
+      <button class="ap-skip" type="button" data-skip="-15" aria-label="Back 15 seconds">&#8630; 15</button>
+      <button class="ap-skip" type="button" data-skip="30" aria-label="Forward 30 seconds">30 &#8631;</button>
+      <button class="ap-speed" type="button" aria-label="Playback speed">1&times;</button>
+      <a class="ap-dl" href="{{ e.audio_url }}" download>Download</a>
+    </div>
+  </div>
+  <audio preload="none"></audio>
 </div>
+{% elif e.guid and not e.guid.startswith("snapshot-") %}
+<div class="player"><iframe src="https://player.captivate.fm/episode/{{ e.guid }}" height="170" loading="lazy" allow="autoplay" title="Listen: {{ e.title }}"></iframe></div>
+{% elif e.spotify %}
+<div class="player"><iframe src="https://open.spotify.com/embed/episode/{{ e.spotify }}?utm_source=generator&amp;theme=0" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Listen on Spotify: {{ e.title }}"></iframe></div>
+{% endif %}
 {% endmacro %}
 
 {% macro map_band(compact=False) %}
-<section class="band band-tan">
+<section class="band band-tan map-band">
   <div class="wrap split">
     <div>
       <p class="kicker">The ultimate</p>
       <h2 class="display">NZ road trip adventure guide</h2>
       <p>Packed with insider tips and stunning photography, this is the only resource you need to plan your journey.</p>
       {% if not compact %}<p>Crafted from over 7 years of firsthand adventures, this map and guide includes the top attractions, hidden gems, detailed descriptions and insider tips to help you have the trip of a lifetime.</p>{% endif %}
+      <div class="facts facts-tan"><div><strong>110</strong>spots</div><div><strong>3</strong>travel tips each</div><div><strong>Offline</strong>works anywhere</div></div>
       <p><a class="btn btn-cream" href="{{ cfg.rexby_map }}">Buy now on Rexby</a></p>
     </div>
     <div class="phone-wrap{% if not compact %} creep-down{% endif %}">
-      <div class="phone">
+      <div class="iphone">
         <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
           <source src="/images/map-mockup.mp4" type="video/mp4">
         </video>
         <img class="phone-still" src="/images/map-mockup.jpg" alt="The NZ Road Trip Adventure Guide map open on a phone" loading="lazy" width="1080" height="1920">
+        <img class="iphone-frame" src="/images/iphone-frame.png" alt="" width="432" height="853" loading="lazy">
       </div>
     </div>
   </div>
 </section>
+{% if cfg.map_cards %}
+<div class="cards-ticker band-olive-deep">
+  <div class="cards-track">
+    {% for n in range(2) %}{% for c in cfg.map_cards %}<a href="{{ cfg.rexby_map }}" tabindex="{{ '-1' if n else '0' }}"{% if n %} aria-hidden="true"{% endif %}><img src="/images/rexby/{{ c }}.webp" alt="{{ 'A location card from the NZ road trip guide' if not n else '' }}" loading="lazy" width="320" height="427"></a>{% endfor %}{% endfor %}
+  </div>
+</div>
+{% endif %}
+{% if not compact %}
+<section class="band band-sage inside-band">
+  <div class="wrap split wide-left reverse">
+    <div data-reveal="right">
+      <p class="kicker">Look inside</p>
+      <h2 class="display">Every spot comes with <em>the good stuff</em></h2>
+      <p>Every spot comes with personal tips from someone who has been there in every season, plus directions, how long to allow, who it suits and the best time to go. Most have a video so you know what you're walking into, and there are pronunciation tips so you sound like a local.</p>
+      <p>Open it in the Rexby app, save it offline, and the map comes with you where the signal doesn't.</p>
+      <p><a class="btn" href="{{ cfg.rexby_map }}">See the full guide on Rexby</a></p>
+    </div>
+    <div class="laptop" data-reveal="left">
+      <div class="laptop-screen">
+        <video autoplay muted loop playsinline preload="metadata" poster="/images/rexby-inside-poster.jpg" aria-hidden="true"><source src="/images/rexby-inside.mp4" type="video/mp4"></video>
+      </div>
+      <div class="laptop-base"></div>
+    </div>
+  </div>
+</section>
+{% endif %}
 {% endmacro %}
 
 {% macro newsletter() %}
