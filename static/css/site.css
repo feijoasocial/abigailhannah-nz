@@ -152,6 +152,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 @media (prefers-reduced-motion: no-preference) { .hero-text { animation: heroIn 1.1s var(--ease) both; } @keyframes heroIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } } }
 
 /* phone mockups */
+.player-mock { width: min(100%, 250px); height: auto; filter: drop-shadow(0 26px 36px rgb(var(--shadow-rgb) / 0.35)); }
 .phone-wrap { display: flex; justify-content: center; }
 .phone { position: relative; width: min(100%, 280px); aspect-ratio: 1080 / 1920; border: 10px solid var(--espresso); background: var(--espresso); overflow: hidden; border-radius: 2rem !important; box-shadow: 0 30px 50px -28px rgb(var(--shadow-rgb) / 0.5); }
 .phone video, .phone img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
