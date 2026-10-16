@@ -81,7 +81,7 @@ podcast_pssst: "pssst... You'll want to write it all down, but I've got you cove
 handle: "@abigailhannnah"
 
 # SEO plumbing: paste the GA4 measurement ID (G-XXXXXXX) and the Search Console HTML-tag verification code here
-ga4_id: ""
+ga4_id: "G-VBYKPMPCF1"
 gsc_verification: ""
 
 # Spots named in the Rexby guide ticker (from the guide's own location cards). Edit freely.
