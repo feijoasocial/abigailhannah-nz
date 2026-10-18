@@ -23,6 +23,8 @@ def main(pages):
         html = page.read_text(encoding="utf-8")
         ids = set(re.findall(r'\sid="([^"]+)"', html))
         for href in re.findall(r'<a\s[^>]*href="([^"]+)"', html):
+            if "'" in href or "{" in href:  # built by page script, not a real link
+                continue
             u = urlparse(href)
             if u.scheme in ("mailto", "tel"):
                 continue

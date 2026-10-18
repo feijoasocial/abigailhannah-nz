@@ -91,3 +91,16 @@ map_spots: [Aoraki Mount Cook, Hokitika Gorge, Bell Rock, Huka Falls, Otira Viad
 broadcast_link: "https://ig.me/j/AbYd1Flco4Sb02UP/"
 # Rexby location cards for the ticker (static/images/rexby/). Order is display order.
 map_cards: [card-01, card-02, card-03, card-04, card-05, card-06, card-07, card-08, card-09, card-10, card-11, card-12, card-13, card-14, card-15, card-16, card-17, card-18, card-19, card-20, card-21]
+
+# Dead links on the old site, fixed at build time in posts, articles and Captivate show notes.
+# Old /blog/YYYY/(MM/)slug addresses are rewritten to /YYYY-(MM-)slug/ automatically.
+# Value: a new path or URL; "unlink" keeps the words and drops the link; "drop" removes the whole line.
+link_fixes:
+  /travel: /blog/
+  /auckland: /category/north-island/
+  /mental-health: /category/lifestyle-and-wellbeing/
+  /services: https://feijoasocial.com
+  /blog/2018/06/experience-climbing-the-pinnacles: unlink
+  /blog/2019/pokhara-things-to-do: unlink
+  /freebie-si: drop          # 14-day South Island itinerary freebie, not live
+  /product/2024-calendar: drop

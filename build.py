@@ -74,6 +74,43 @@ def to_dt(v) -> dt.datetime:
 EP_RE = re.compile(r"^\s*(\d{3}|BONUS)\s*[:\-]\s*(.*)$", re.I)
 GUEST_RE = re.compile(r"\bwith\s+(.+?)\s*[.!]?$", re.I)
 
+# ---------- link hygiene ----------
+OWN_HOSTS = {"abigailhannah.nz", "www.abigailhannah.nz"}
+OLD_BLOG_RE = re.compile(r"^/blog/(\d{4})/(?:(\d{1,2})/)?([^/?#]+)/?$")
+A_RE = re.compile(r'<a\b([^>]*?)href="([^"]*)"([^>]*)>(.*?)</a>', re.S)
+
+def _fix_href(href: str):
+    """Return (new_href, action) where action is '', 'unlink' or 'drop'."""
+    h = href.strip()
+    if re.match(r"^https?:/[^/]", h): h = re.sub(r"^(https?):/", r"\1://", h)
+    elif re.match(r"^(www\.|[a-z0-9-]+\.(com|nz|co\.nz|org|net|fm)\b)", h, re.I): h = "https://" + h
+    m = re.match(r"^https?://([^/]+)(/[^?#]*)?(.*)$", h) or re.match(r"^()(/[^/?#][^?#]*)(.*)$", h)
+    if m and (m.group(1).lower() in OWN_HOSTS or m.group(1) == ""):
+        path = (m.group(2) or "/")
+        key = path.rstrip("/") or "/"
+        fix = (cfg.get("link_fixes") or {}).get(key)
+        if fix in ("unlink", "drop"): return h, fix
+        if fix: return fix, ""
+        b = OLD_BLOG_RE.match(path)
+        if b:
+            y, mo, slug = b.groups()
+            return f"/{y}-{mo + '-' if mo else ''}{slug}/", ""
+    return h, ""
+
+def fix_links(htm: str) -> str:
+    if not htm: return htm
+    drops = []
+    def rep(m):
+        new, act = _fix_href(m.group(2))
+        if act == "unlink": return m.group(4)
+        if act == "drop": drops.append(m.group(0)); return m.group(0)
+        return f'<a{m.group(1)}href="{new}"{m.group(3)}>{m.group(4)}</a>'
+    htm = A_RE.sub(rep, htm)
+    for d in drops:  # remove the whole paragraph or list item that carries a retired offer
+        htm = re.sub(r"<(p|li)\b[^>]*>(?:(?!</\1>).)*?" + re.escape(d) + r".*?</\1>", "", htm, count=1, flags=re.S)
+        htm = htm.replace(d, "")
+    return htm
+
 # ---------- content ----------
 def load_md(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
@@ -81,7 +118,7 @@ def load_md(path: Path) -> dict:
     meta = yaml.safe_load(m.group(1)) if m else {}
     body = m.group(2) if m else text
     MD.reset()
-    meta["html"] = demote_h1(MD.convert(body))
+    meta["html"] = fix_links(demote_h1(MD.convert(body)))
     meta["words"] = len(re.findall(r"\w+", body))
     meta["date"] = to_dt(meta["date"])
     meta["updated"] = to_dt(meta.get("updated") or meta["date"])
@@ -130,7 +167,7 @@ def parse_feed(xml: str) -> list[dict]:
         bonus = bool(m) and m.group(1).upper() == "BONUS"
         clean = m.group(2) if m else title
         g = GUEST_RE.search(clean)
-        desc = it.findtext("content:encoded", namespaces=NSF) or it.findtext("description") or ""
+        desc = fix_links(it.findtext("content:encoded", namespaces=NSF) or it.findtext("description") or "")
         link = (it.findtext("link") or "").strip()
         enc = it.find("enclosure")
         img = it.find("itunes:image", namespaces=NSF)
