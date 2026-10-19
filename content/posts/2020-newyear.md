@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2020-newyear/"
 ---
 ### A reflection on being 21 and looking ahead into the new year. 21 saw marriage, moving, launches, struggles, adventures and so much more. 22 is going to look like living with more intention as I experience a whole lot of “new” from studying to blogging and having family move to Aotearoa.
 
-![22](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455009558-IC9HO8OI8HJCG8OIKFWK/22)
+![22](/images/legacy/2020-newyear/22.jpg)
 
 ## Recap: What 21 Looked Like
 
@@ -32,7 +32,7 @@ We travelled to Nepal at Easter, to celebrate the wedding of Isaac’s sister. A
 
 ![c7450ed3b53e23b11202f23b4ec1873e.jpg](/images/uploads/2020/01/c7450ed3b53e23b11202f23b4ec1873e.jpg)
 
-![tama lakes](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455165418-7KQGCJBE5J91Y3C7D6RR/tama+lakes)
+![tama lakes](/images/legacy/2020-newyear/tama-lakes.jpg)
 
 Arriving back to Aotearoa, we moved into our first home together. We felt the chaos of moving in, unpacking and jumping back into work almost immediately. The next few months saw us getting new jobs, new routines and plodding along with life.
 
@@ -52,9 +52,9 @@ Mid-year, I jumped headfirst into launching this blog, a dream come true. Announ
 
 21 saw a year of extreme highs and lows for my [mental health](https://www.abigailhannah.nz/mental-health). Towards the end of the year, I realised that I needed more help and needed to take more control of my situation. I understood that sitting around and waiting for things to get better was not going to work. I realised that if nothing changes, then nothing changes. As I found a new counsellor and have started to be more intentional about building healthy habits, [my mental health still has its ups and downs](https://www.abigailhannah.nz/blog/2019/depression-journey), but with an upward trend.
 
-![22](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455137191-64WATU4SNE40LZDJRV2X/22)
+![22](/images/legacy/2020-newyear/22-2.jpg)
 
-![22](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455145111-HRMA3R6KUPHIC2FX1X1Q/22)
+![22](/images/legacy/2020-newyear/22-3.jpg)
 
 Our last international trip for the year was to Thailand and Laos, where we were reunited with family and spent the first half of the holiday relaxing by the beach in Thailand and the second half on a road trip through Southern Laos.
 
@@ -68,7 +68,7 @@ I found that in the past year I got caught up in the mundane schedule and routin
 
 It will be a year of focusing on connection. Connecting with community and whanau, connecting with nature and whenua and connecting with myself more deeply. 21 taught me that isolation and solitude don’t help mental wellbeing.
 
-![22 bethells](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455362311-HFI629PHUI3FPCXTPW56/22+bethells)
+![22 bethells](/images/legacy/2020-newyear/22-bethells.jpg)
 
 It will be a year of more adventure. I want to fuel the deep desire in my heart to see more of our country, Aotearoa and to see more of our city, Tamaki Makaurau. It is important to me to explore locally and to have lots of micro-adventures, rather than one big, long, international trip (although I love those too..)!
 
@@ -88,6 +88,6 @@ Another big change will be having my **whanau** move back to Aotearoa permanentl
 
 **21 has taught me so much and I look forward to taking those lessons into 22 and to grow more into who I want to be.**
 
-![bethells22](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455427903-0CJ38C5Z8GMJFJEIYU92/bethells22)
+![bethells22](/images/legacy/2020-newyear/bethells22.jpg)
 
-![22bethells](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580455410111-1F62PPKG0ZJPTC363U5I/22bethells)
+![22bethells](/images/legacy/2020-newyear/22bethells.jpg)

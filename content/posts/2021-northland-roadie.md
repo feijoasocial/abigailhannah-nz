@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2021-northland-roadie/"
 ---
 ### Northland might be one of New Zealand’s most underrated destinations, but it is packed with incredible things to do. Learn about its history, swim in its inviting waters, chase its waterfalls and do it all with a classic kiwi roadie. Here are Northland’s top 30 places to see.
 
-![northland-roadie-rainbow-falls-waianiwaniwa](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669673373-YE8H3XT9MVR9E8DDVWI2/northland-roadie-rainbow-falls-waianiwaniwa)
+![northland-roadie-rainbow-falls-waianiwaniwa](/images/legacy/2021-northland-roadie/northland-roadie-rainbow-falls-waianiwaniwa.jpg)
 
 This blog post details the top 30 destinations in Te Tai Tokerau (Northland), including beaches, historic sites, hikes and activities. The list is numbered for an Auckland - Northland - Auckland road trip itinerary. Starting in Auckland, you will follow the west coast to the north cape and then head south along the east coast.
 
@@ -28,7 +28,7 @@ From Auckland, follow State Highway 1 (SH1) north towards Whangarei before turni
 
 The first stop is a 15 minute detour off  SH12 along Waipu gorge road. The walk to the falls itself is only a few minutes long. You are greeted with a small waterfall when you arrive, with two great swimming holes at the bottom; a perfect spot to stop and cool off on a hot summer's day!
 
-![northland-roadie-kauri-museum-kauri-gum](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614671955629-GCUPYG2CMSLWFFSQXOJQ/northland-roadie-kauri-museum-kauri-gum)
+![northland-roadie-kauri-museum-kauri-gum](/images/legacy/2021-northland-roadie/northland-roadie-kauri-museum-kauri-gum.jpg)
 
 ### 2. The Kauri Museum
 
@@ -36,7 +36,7 @@ The first stop is a 15 minute detour off  SH12 along Waipu gorge road. The walk
 
 [The Kauri Museum](https://www.kaurimuseum.com/) allows you to step back in time, an incredible way to discover the history of the Kauri Coast and learn about the livelihoods of European settlers that lived here. You can wander through a historical boarding house, school and church. It’s an amazing place to learn about Kauri gum, swamp Kauri and the huge industry that was centred around these natural resources. The museum has on display the world’s largest Kauri slab, measuring 22m in length as well as prehistoric fossilised trees that were buried for up to 43,900 years! It is humbling to think of historic events that occurred during the 1000-year lifespan of a single tree - trees that were alive when mammoths wandered the earth, before being buried and fossilised. Northland is the only place in the world with such well-preserved trees that span such a vast period of time–and the [Kauri Museum](https://www.kaurimuseum.com/) is the place to see them.
 
-![northland-roadie-kai-iwi-lakes-dargaville](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669821915-R0PA96N4YGCQ0DWBDS5Q/northland-roadie-kai-iwi-lakes-dargaville)
+![northland-roadie-kai-iwi-lakes-dargaville](/images/legacy/2021-northland-roadie/northland-roadie-kai-iwi-lakes-dargaville.jpg)
 
 ### 3. Kai Iwi Lakes
 
@@ -46,7 +46,7 @@ Kai Iwi Lakes are that stunning spot with crystal clear blue water that you’ve
 
 Continue up the west coast from Dargaville, through ancient kauri forests, until you see the Hokianga Harbour stretching out before you.
 
-![northland-roadie-tane-mahuta-waipoua-forest](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669874521-AGILLJPHQCL4O4ZHAUXM/northland-roadie-tane-mahuta-waipoua-forest)
+![northland-roadie-tane-mahuta-waipoua-forest](/images/legacy/2021-northland-roadie/northland-roadie-tane-mahuta-waipoua-forest.jpg)
 
 ### 4. Waipoua Forest and Tāne Mahuta
 
@@ -56,7 +56,7 @@ Since SH1 goes directly through the Waipoua Forest, you have no excuse to miss t
 
 The Hokianga Harbour is a wonder of its own and there’s no better place for panoramic views than from the Hokianga heads. There is a short walk from the carpark that takes you to an old signal station and up to a viewpoint offering gorgeous views of the Hokianga Harbour and Tasman sea. Walk through the Arai te Uru Nature Reserve to see the Harbour stretching out before you and 300m high sand dunes across the mouth of the harbour.  If you have time, it is worth walking the 10km coastal track that takes you south to Kaikai Beach.
 
-![northland-roadie-manea-footprints-of-kupe](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668401609-AU445VO31D5RYSTJCC24/northland-roadie-manea-footprints-of-kupe)
+![northland-roadie-manea-footprints-of-kupe](/images/legacy/2021-northland-roadie/northland-roadie-manea-footprints-of-kupe.jpg)
 
 ### 6. Manea - Footprints of Kupe
 
@@ -66,15 +66,15 @@ You have probably heard the names Captain Cook and Abel Tasman, two European sai
 
 [Manea - Footprints of Kupe](https://maneafootprints.co.nz/) is a step into the world of Te Ao Māori, the Māori worldview. Here, you are taken on a 75 minute, multisensory journey, with the people of Te Hokianga-nui-a-Kupe, Kupe’s descendants, bringing his story to life. You begin with a guided walk along a pathway of giant atua (deity) carvings. Just as stories have been shared orally for generations, storytelling brings the carvings alive, as mythology explains Māori origins and connections to the world we live in. Next, you are invited to view an incredible live performance, with Kupe’s descendants sharing the stories of his ocean exploration, voyages and the challenges he faced. The sensory experience is like no other and this is an opportunity that you cannot miss in Northland.
 
-![northland-roadie-far-north-cape-reinga-te-rerenga-wairua](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614670046944-NC6EOY7XSDSJTSQBR2BP/northland-roadie-far-north-cape-reinga-te-rerenga-wairua)
+![northland-roadie-far-north-cape-reinga-te-rerenga-wairua](/images/legacy/2021-northland-roadie/northland-roadie-far-north-cape-reinga-te-rerenga-wairua.jpg)
 
 ## **Far North**
 
 Before heading to one of the more rural parts of Aotearoa, ensure that you fill up your vehicle and get groceries at Kaitaia, the last big town for a while.
 
-![northland-roadie-rarawa-beach](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668616915-26G4JPFQZA36LGE39UMH/northland-roadie-rarawa-beach)
+![northland-roadie-rarawa-beach](/images/legacy/2021-northland-roadie/northland-roadie-rarawa-beach.jpg)
 
-![northland-roadie-rarawa-beach](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668547502-13HBQJUEZJ41ZLTO69J0/northland-roadie-rarawa-beach)
+![northland-roadie-rarawa-beach](/images/legacy/2021-northland-roadie/northland-roadie-rarawa-beach-2.jpg)
 
 ### 7. Rarawa Beach
 
@@ -84,15 +84,15 @@ Rarawa Beach, located on the east coast, is a Northland gem that not many people
 
 Spirits Bay is a wonderful campsite and beach south-east of Cape Reinga. It is located down a long gravel road, making you feel like you have ventured off the beaten path! It is a large campsite, with good facilities, and plenty of big pōhutukawa for shade! The campsite is just next to the beach with  wonderful views along the bay towards the Cape. It’s definitely worth spending a night or two here while you are on your way to or from Cape Reinga. If you are feeling adventurous, there is a coastal walking track starting here and ending at the cape. [Find out more about the walking tracks here](https://www.doc.govt.nz/parks-and-recreation/places-to-go/northland/places/te-paki-recreation-reserve/things-to-do/tracks/te-paki-coastal-track/).
 
-![northland-roadie-cape-reinga-te-rerenga-wairua](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668738346-LELGDP8D5HP40TTIV462/northland-roadie-cape-reinga-te-rerenga-wairua)
+![northland-roadie-cape-reinga-te-rerenga-wairua](/images/legacy/2021-northland-roadie/northland-roadie-cape-reinga-te-rerenga-wairua.jpg)
 
-![northland-roadie-cape-reinga-te-rerenga-wairua](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668776501-T0GLVGLD0DMBWMMWW68C/northland-roadie-cape-reinga-te-rerenga-wairua)
+![northland-roadie-cape-reinga-te-rerenga-wairua](/images/legacy/2021-northland-roadie/northland-roadie-cape-reinga-te-rerenga-wairua-2.jpg)
 
 ### 9. Te Rerenga Wairua (Cape Reinga)
 
 The northernmost point of Aotearoa New Zealand is a deeply spiritual place for Māori. According to mythology, spirits of the dead travel to the Cape as part of their journey to the underworld and ancestral home of Hawaiki. Depending on when you visit, you might be the only person there, or you might be sharing the views with throngs of people that have made the long drive up to the tip of New Zealand. From here you can see where the Tasman Sea and Pacific Ocean meet, colliding with their different colours.
 
-![northland-roadie-te-paki-sand-dunes](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668812685-DTR815ZVFC389C2T5SEJ/northland-roadie-te-paki-sand-dunes)
+![northland-roadie-te-paki-sand-dunes](/images/legacy/2021-northland-roadie/northland-roadie-te-paki-sand-dunes.jpg)
 
 ### 10. Te Paki Sand Dunes
 
@@ -118,7 +118,7 @@ Tokerau Bay is a great place to start when you’re exploring the Karikari Penin
 
 Close to the campground lies Rotopokaka Lake (Coca-Cola Lake). It is a freshwater lake with dark brown (but not murky) water. It is a popular swimming spot, and it is believed that the waters have healing powers.
 
-![northland-roadie-karikari-peninsula-pukepuke-hill](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668870493-OS7ZHPX5ETALDM0JMWGC/northland-roadie-karikari-peninsula-pukepuke-hill)
+![northland-roadie-karikari-peninsula-pukepuke-hill](/images/legacy/2021-northland-roadie/northland-roadie-karikari-peninsula-pukepuke-hill.jpg)
 
 ### 15. Pukepuke Hill
 
@@ -132,15 +132,15 @@ A slice of tropical paradise nestled in Northland. We stopped at this cute littl
 
 Continue south from Karikari Peninsula towards the Bay of Islands. Whangaroa is a small, but beautiful district with its hilly terrain and large harbours.
 
-![northland-roadie-kairara-rock-dukes-nose](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668948935-87BNUSFI24D9MUZ65HA0/northland-roadie-kairara-rock-dukes-nose)
+![northland-roadie-kairara-rock-dukes-nose](/images/legacy/2021-northland-roadie/northland-roadie-kairara-rock-dukes-nose.jpg)
 
-![northland-roadie-kairara-rock-dukes-nose](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614668989087-TACKN6F0VUKP1KWJBUV0/northland-roadie-kairara-rock-dukes-nose)
+![northland-roadie-kairara-rock-dukes-nose](/images/legacy/2021-northland-roadie/northland-roadie-kairara-rock-dukes-nose-2.jpg)
 
 ### 17. Kairara Rocks
 
 The views from the top of Kairara Rocks (Duke’s Nose) are something else. You feel transported to Vietnam’s Ha Long Bay with the dramatic cliffs falling into the Whangaroa Harbour. The lookout point is accessed by boat from Lane Cove, followed by a 45 minute steep climb to the summit. Alternatively, you access the summit via the Wairakau Stream Track, starting at Totara North. The return hike from Totara North is 5-6 hours. Access to the summit is granted by the local Māori iwi, so please respect their request of no eating, drinking or camping at the top. This spot also lands in my top 3 places to see because of the incredible panoramic views and moderate walk.
 
-![northland-roadie-st-pauls-rock-whangaroa](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669038900-NSQNKJJG2YO7VX40TUTE/northland-roadie-st-pauls-rock-whangaroa)
+![northland-roadie-st-pauls-rock-whangaroa](/images/legacy/2021-northland-roadie/northland-roadie-st-pauls-rock-whangaroa.jpg)
 
 ### 18. St Paul's Rock
 
@@ -150,13 +150,13 @@ On the other side of the Whangaroa Harbour is St Pauls Rock, a quick 20 minute c
 
 Continue south along the east coast to the Bay of Islands, with the towns of Kerikeri, Waitangi, Paihia and Russell. After your time in the unpopulated North, you’ll be surprised to see people again!
 
-![northland-roadie-waianiwaniwa-rainbow-falls-kerikeri](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672686344-148LHLEQ8S9VGDPGJA3L/northland-roadie-waianiwaniwa-rainbow-falls-kerikeri)
+![northland-roadie-waianiwaniwa-rainbow-falls-kerikeri](/images/legacy/2021-northland-roadie/northland-roadie-waianiwaniwa-rainbow-falls-kerikeri.jpg)
 
 ### 19. Waianiwaniwa (Rainbow Falls)
 
 Perhaps the most iconic waterfall in Northland, Waianiwaniwa is a favourite as you can access the cave behind the falls. In summer, it’s the perfect swimming hole as well. It’s magical to stand behind the falls with the mist making you ever so slightly damp and the sound of the falls drowning out any attempt at talking to one another. It’s a spot you can’t possibly miss.
 
-![northland-roadie-old-stone-store-kerikeri](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669203965-S4SDHQFWEBX5JNEJGBZQ/northland-roadie-old-stone-store-kerikeri)
+![northland-roadie-old-stone-store-kerikeri](/images/legacy/2021-northland-roadie/northland-roadie-old-stone-store-kerikeri.jpg)
 
 ### 20. Old Stone Store
 
@@ -166,9 +166,9 @@ The Old Stone Store in Kerikeri is the longest surviving stone building in New Z
 
 The lookout track was a great way to get out in nature and spend some time in the bush. The walk is mostly a gentle uphill, following a stream for the most part. It brings you to a viewpoint overlooking Paihia and the Bay of Islands. The track is easy going and well formed, so perfect for families or those looking for an easy walk to do!
 
-![northland-roadie-paihia-kayaking-beach-bay-hire](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672086435-EO7XM9BGUE7VT1NLIU9I/northland-roadie-paihia-kayaking-beach-bay-hire)
+![northland-roadie-paihia-kayaking-beach-bay-hire](/images/legacy/2021-northland-roadie/northland-roadie-paihia-kayaking-beach-bay-hire.jpg)
 
-![northland-roadie-paihia-kayak-bay-beach-hire](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672039622-AE4VGUZSO0VC5O76A5I8/northland-roadie-paihia-kayak-bay-beach-hire)
+![northland-roadie-paihia-kayak-bay-beach-hire](/images/legacy/2021-northland-roadie/northland-roadie-paihia-kayak-bay-beach-hire.jpg)
 
 ### 22. Bay Beach Hire Kayaking
 
@@ -176,9 +176,9 @@ The lookout track was a great way to get out in nature and spend some time in th
 
 It would be a crime to visit the Bay of Islands without getting out on the water. [Bay Beach Hire](http://www.baybeachhire.co.nz/) is a convenient place to hire kayaks in Paihia, with a choice of guided or independent kayak and paddle board rentals. Dan and Nick will advise you on the best spots to paddle to, the direction of the wind and everything else you need to know for a perfect adventure. With two single kayaks, we paddled around Motumaire Island and discovered a sandy, secluded beach on the far side. After taking a rest and basking in the sun we headed back, passing Taylor Island. The whole trip took us around 3 hours.
 
-![northland-roadie-waitangi-treaty-grounds-cultural-performance](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672112771-5TDGP6LB7HZLQDL2D7YO/northland-roadie-waitangi-treaty-grounds-cultural-performance)
+![northland-roadie-waitangi-treaty-grounds-cultural-performance](/images/legacy/2021-northland-roadie/northland-roadie-waitangi-treaty-grounds-cultural-performance.jpg)
 
-![northland-roadie-waitangi-treaty-grounds-cultural-performance](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672153356-9CC9347TIBXCV5AU6SYX/northland-roadie-waitangi-treaty-grounds-cultural-performance)
+![northland-roadie-waitangi-treaty-grounds-cultural-performance](/images/legacy/2021-northland-roadie/northland-roadie-waitangi-treaty-grounds-cultural-performance-2.jpg)
 
 ### 23. Waitangi Treaty Grounds
 
@@ -198,9 +198,9 @@ From the Bay of Islands, you can take the car-ferry to Russell and follow the wi
 
 Whale Bay is definitely a must do in Matapouri. Following a 10-minute walk from the carpark, you’ll find the pristine white sand beach, rock pools, pohutukawa trees and crystal clear blue water. It truly is a slice of paradise. The beach gets quite narrow at high tide, so keep that in mind when planning and opt to visit at low-tide if possible. There are toilets and changing rooms at the beach. The car park also provides access to the Matapouri Mermaid Pools, but these are currently closed due to a rāhui, so please respect this and do not visit.
 
-![northland-roadie-tutukaka-lighthouse](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669335891-TCG9F4VHPY07IZBVYRBH/northland-roadie-tutukaka-lighthouse)
+![northland-roadie-tutukaka-lighthouse](/images/legacy/2021-northland-roadie/northland-roadie-tutukaka-lighthouse.jpg)
 
-![northland-roadie-tutukaka-lighthouse](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669368767-3AF14Z254MORL2D6GWSN/northland-roadie-tutukaka-lighthouse)
+![northland-roadie-tutukaka-lighthouse](/images/legacy/2021-northland-roadie/northland-roadie-tutukaka-lighthouse-2.jpg)
 
 ### 26. Tutukaka Lighthouse Track
 
@@ -214,13 +214,13 @@ Follow the Twin Coast Discovery Highway from Tutukaka to Whangarei, Northland’
 
 The iconic Whangarei Falls are a perfect pit stop on your roadie. Whether you visit them in the dry season or after a big rainfall, they don't disappoint. The loop track takes you from the carpack, to the base of the falls and back again.
 
-![northland-roadie-whangarei-mt-manaia](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614672226944-G1TU6VZDZH3TOA2KHRG6/northland-roadie-whangarei-mt-manaia)
+![northland-roadie-whangarei-mt-manaia](/images/legacy/2021-northland-roadie/northland-roadie-whangarei-mt-manaia.jpg)
 
 ### 28. Mt Manaia
 
 The views from Mt Manaia have me coming back again and again - I’ve hiked the track 3 or 4 times! On our last sunrise visit, we even saw a wild kiwi along the path! The walk is a steep one, taking about 45 minutes to reach the summit, but in the end you are rewarded with spectacular 360 degree views from the top, looking across the Whangarei Harbour on one side and out towards the sea on the other. Take plenty of water, and something warm to wear at the top as it can get quite windy.
 
-![northland-roadie-ocean-beach-whangarei](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614669460353-PARWR6VM3H9HA5RKR1CL/northland-roadie-ocean-beach-whangarei)
+![northland-roadie-ocean-beach-whangarei](/images/legacy/2021-northland-roadie/northland-roadie-ocean-beach-whangarei.jpg)
 
 ### 29. Ocean Beach
 
@@ -230,7 +230,7 @@ The drive to Ocean Beach through the Mangawhai heads is almost as beautiful as t
 
 The Waipu Caves are located just off SH1, with clear signage informing you when to turn off. The caves are free to visit and if you’re not claustrophobic, you can wander through the caves and underwater stream to see glowworms. It is advisable to take head torches and wear sturdy shoes. Stay safe and don’t do anything that you are uncomfortable with.
 
-![northland-roadie-waianiwaniwa-rainbow-falls-kerikeri](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1614673094760-OCZUBJXGE8SUMFCM4T7I/northland-roadie-waianiwaniwa-rainbow-falls-kerikeri)
+![northland-roadie-waianiwaniwa-rainbow-falls-kerikeri](/images/legacy/2021-northland-roadie/northland-roadie-waianiwaniwa-rainbow-falls-kerikeri-2.jpg)
 
 And there you have it! These are the Top 30 must-see places in Te Tai Tokerau, a perfect itinerary for a roadie. We visited this region in the Summer of 2020-2021 and absolutely loved the flexibility of travelling in a van, finding plenty of designated freedom camping areas and affordable campsites in the region.
 

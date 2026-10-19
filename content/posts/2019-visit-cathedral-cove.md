@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-visit-cathedral-cove/"
 ---
 ### It’s no secret that Cathedral Cove is a MUST-DO when in New Zealand, but how can you make the most of your visit, so that it’s truly memorable?
 
-![visit-cathedral-cove](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563333935409-0VZS4R81CC4DP6I8KF5F/visit-cathedral-cove)
+![visit-cathedral-cove](/images/legacy/2019-visit-cathedral-cove/visit-cathedral-cove.jpg)
 
 Everyone remembers the first time they visit Cathedral Cove. That moment when you finally descend the last flight of stairs onto the pristine white sand beach and immediately gravitate towards the arch - the “cathedral”. The awe as you walk through the archway and set eyes on Te Hoho rock, which you’ve seen countless times on your Instagram feed, the rock rising from the bluest waters you’ve ever seen.
 
@@ -28,7 +28,7 @@ Here’s my 3-step checklist to ensure that your visit is all you dream of.
 
 Sunrise at Cathedral Cove on a winter morning
 
-![Te Hono rock at sunrise in the cove](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563335781992-C99S69MXUJ6CXGWV2TLJ/te-hoho-rock)
+![Te Hono rock at sunrise in the cove](/images/legacy/2019-visit-cathedral-cove/te-hoho-rock.jpg)
 
 Te Hono rock at sunrise in the cove
 
@@ -40,11 +40,11 @@ So here’s the deal, EVERYONE wants to visit Cathedral Cove. If you’re headin
 
 Whether it’s summer or winter, I recommend you visit for sunrise or sunset. Shuttle buses and tour boats operate between 8 am and 6 pm, so there’s bound to be a whole lot more people during those hours. If you’re taking a tour or shuttle, then choose the first group or the last, to avoid the midday peak. Since the beach faces east, sunrise is the best option - it’s pretty magical watching the sky change colours as the golden light first touches the cove. It’s the best lighting for photos too - a win-win! If you choose to visit at sunrise or sunset, read to the end, as it can be a little more difficult to get there, but I’ve explained it all.
 
-![On a summer’s day, the cove is packed with visitors](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563336788291-1UVS9GZD8583LQE0LBXG/cathedral-cove-summer)
+![On a summer’s day, the cove is packed with visitors](/images/legacy/2019-visit-cathedral-cove/cathedral-cove-summer.jpg)
 
 On a summer’s day, the cove is packed with visitors
 
-![The track to the cove is tarmac and an easy walk, wear comfortable footwear](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563336730076-S6DZ2480TPEJYQIYJ0DM/cathedral-cove-walk)
+![The track to the cove is tarmac and an easy walk, wear comfortable footwear](/images/legacy/2019-visit-cathedral-cove/cathedral-cove-walk.jpg)
 
 The track to the cove is tarmac and an easy walk, wear comfortable footwear
 
@@ -56,7 +56,7 @@ It goes without saying that there will be move people at the cove on a weekend. 
 
 The cove is magic, whatever the season. If you live in NZ, then I definitely recommend doing a trip both in winter and in summer. Make sure you’re prepared for the temperatures. During summer, it can be very hot and the track is not shaded the whole way. In winter, the mornings and evenings can be cold, especially when you’ve stopped walking.
 
-![Having the cove to ourselves on a weekday winter morning.](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563337336660-TSEDTEEUJH37HWZCRPRZ/cathedral-cove-winter-visit)
+![Having the cove to ourselves on a weekday winter morning.](/images/legacy/2019-visit-cathedral-cove/cathedral-cove-winter-visit.jpg)
 
 Having the cove to ourselves on a weekday winter morning.
 
@@ -66,11 +66,11 @@ It’s important that you have the right clothes as the walk to the cove is appr
 
 Make sure you have comfortable footwear as well. From the Grange Road carpark, the track is tarmac, but there is a fair amount of uphill & downhill so be prepared for that.
 
-![Sunrise is best at the cove because it is on the east coast](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563337958101-5ZNC3P3VU77XBYJR7IA5/sunrise-visit-cathedral-cove)
+![Sunrise is best at the cove because it is on the east coast](/images/legacy/2019-visit-cathedral-cove/sunrise-visit-cathedral-cove.jpg)
 
 Sunrise is best at the cove because it is on the east coast
 
-![visit-cathedral-cove](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563337917504-141X6P5WAZOQBQ3LEMR2/visit-cathedral-cove)
+![visit-cathedral-cove](/images/legacy/2019-visit-cathedral-cove/visit-cathedral-cove-2.jpg)
 
 ## 3. Stop At Stingray Bay and Gemstone Bay
 
@@ -80,11 +80,11 @@ Gemstone Bay doesn’t have the white sand that Cathedral Cove and Stingray Bay 
 
 It’s possible to get from Stingray Bay to Gemstone Bay by scrambling over the rocks and boulders, if you’re feeling adventurous, check the tides and give it a try! It will save you walking up to the top of the cliff and back down again.
 
-![Stingray Bay from lookout point, beautiful, even in winter](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563337056627-FEYN6QCN43UST05HZ16V/stingray-bay-lookout)
+![Stingray Bay from lookout point, beautiful, even in winter](/images/legacy/2019-visit-cathedral-cove/stingray-bay-lookout.jpg)
 
 Stingray Bay from lookout point, beautiful, even in winter
 
-![A summer’s day at stingray bay - back when my hair was long!](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563337718312-1R88VENTMQL413VK552V/stingray-bay-summer)
+![A summer’s day at stingray bay - back when my hair was long!](/images/legacy/2019-visit-cathedral-cove/stingray-bay-summer.jpg)
 
 A summer’s day at stingray bay - back when my hair was long!
 

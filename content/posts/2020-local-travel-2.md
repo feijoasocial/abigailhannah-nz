@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2020-local-travel-2/"
 ---
 ### With these 9 benefits of travelling locally, you will be determined to see more of your city, region and country, swapping those complex and expensive international trips for low stress, cheaper, more enjoyable local trips.
 
-![view over mount maunganui tauranga bay of plenty](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1592978828287-RC37MRYS2TDXQV8HZYC6/view+over+mount+maunganui+tauranga+bay+of+plenty)
+![view over mount maunganui tauranga bay of plenty](/images/legacy/2020-local-travel-2/view-over-mount-maunganui-tauranga-bay-of-plenty.jpg)
 
 *When I wrote the series back in Nov 2019, I had absolutely no idea what the world had in store. I didn’t publish the series immediately, because the idea of local travel was very overshadowed by the thousands of globetrotting travel bloggers, hopping from exotic location to exotic location. Travelling your own city and country didn’t seem like it would be a very attractive idea.*
 
@@ -32,7 +32,7 @@ This is always a winner for me! It costs so much less than travelling internatio
 
 Since you’re travelling shorter distances, you’re saving so much time on these trips. Whether you spend an afternoon exploring your city or a weekend in the next town, you are cutting out those miserable hours sleeping on an airport bench in transit. Less time spent travelling means more time enjoying your experiences.
 
-![Maungawhau - Mt Eden, Auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1592978902630-QYM63BMMETYSI0MLS5WB/mt+eden+maungawhau+view+auckland+new+zealand+skyline)
+![Maungawhau - Mt Eden, Auckland](/images/legacy/2020-local-travel-2/mt-eden-maungawhau-view-auckland-new-zealand-skyline.jpg)
 
 Maungawhau - Mt Eden, Auckland
 
@@ -48,7 +48,7 @@ Staying closer to home means that you can do a whole bunch of small trips and ex
 
 Local travel doesn’t allow for culture shock. You’re in a familiar space. You can speak the language (goodbye, Duolingo), you understand the currency (and won’t pay exorbitant prices because you can’t figure out the exchange rate..) and overall, it takes the stress of unfamiliarity out of the trip. Travelling locally allows you to travel in a familiar place, while still having an adventure, relaxing, growing and learning.
 
-![Manukau Harbour, Whatipu Beach, Auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1592978932613-4NFCNL3KG1AZ9L5I7CU1/manukau+harbour+whatipu+beach+hiking+in+new+zealand+west+coast)
+![Manukau Harbour, Whatipu Beach, Auckland](/images/legacy/2020-local-travel-2/manukau-harbour-whatipu-beach-hiking-in-new-zealand-west-coast.jpg)
 
 Manukau Harbour, Whatipu Beach, Auckland
 
@@ -64,7 +64,7 @@ Another favourite of mine is the fact that you can take your friends along with 
 
 As I have grown up in multiple cities, I’ve found it so, so valuable to explore and really get to know each one well. I love the feeling when you can finally navigate with ease, I love when you’re chatting to a tourist and you can offer them a whole bunch of tips, I love when you discover those hidden gems, I love when you have special trips to places that are so close and so beautiful. I’ve had all of these experiences both in India and New Zealand. It is so important for me to know the ins and outs of where I live.
 
-![Te Ara I Whiti - Pink Cycleway, Auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1592978962761-QYKHEPT51DQE8TRSJWGW/pink+cycleway+auckland+te+ara+i+whiti+lightpath+auckland+city)
+![Te Ara I Whiti - Pink Cycleway, Auckland](/images/legacy/2020-local-travel-2/pink-cycleway-auckland-te-ara-i-whiti-lightpath-auckland-city.jpg)
 
 Te Ara I Whiti - Pink Cycleway, Auckland
 

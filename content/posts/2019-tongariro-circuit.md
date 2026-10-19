@@ -14,13 +14,13 @@ oldUrl: "https://abigailhannah.nz/2019-tongariro-circuit/"
 ---
 ### The Tongariro Northern Circuit is the first of NZ’s Great Walks that we have done. the three day trek takes you through spectacular and truly unique volcanic landscapes. This guide is filled with pictures and information from each day of the journey.
 
-![tongariro-northern-circuit](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101020480-DIGPL6IKJFI4CTEK6CGI/tongariro-northern-circuit)
+![tongariro-northern-circuit](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit.jpg)
 
 Last summer, Isaac and I did the Tongariro Northern Circuit tramp with his parents. The Tongariro Northern Circuit is one of New Zealand’s nine Great Walks and the first Great Walk we have done. It is located in Tongariro National Park, a UNESCO World Heritage Site. The National Park is one of only 29 sites in the world with a dual World Heritage status, for it’s natural and cultural significance.
 
 As the Tongariro Northern Circuit is a Great Walk, the DOC website has great resources, including route maps, track conditions and weather updates. Please do read the details on the DOC website before you book the trek, so that you are well informed before you go. It is essential that you are fully prepared for the walk, understand the risks and take precautions to stay safe. [Click here to read the information provided by DOC.](https://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/things-to-do/tracks/tongariro-northern-circuit/)
 
-![Day 1: The Emerald Lakes and Tongariro Crossing](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101149143-B0HS2WF9NS25C6MRAYS2/tongariro-northern-circuit)
+![Day 1: The Emerald Lakes and Tongariro Crossing](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-2.jpg)
 
 Day 1: The Emerald Lakes and Tongariro Crossing
 
@@ -28,11 +28,11 @@ The tramp is a 2-4 day circuit, depending on how fast you walk, how far you want
 
 If you find this guide interesting or helpful, we would love if you can leave a comment down below.
 
-![Day 2: Side-trip to Ohinopango Springs with Mount Ngauruhoe in view](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101192468-Z29Z7VXQ0F63JPI14FI7/tongariro-northern-circuit)
+![Day 2: Side-trip to Ohinopango Springs with Mount Ngauruhoe in view](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-3.jpg)
 
 Day 2: Side-trip to Ohinopango Springs with Mount Ngauruhoe in view
 
-![Day 1: The South Crater](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101251145-B6X9QVRN6FAHRBIUCHMQ/tongariro-northern-circuit)
+![Day 1: The South Crater](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-4.jpg)
 
 Day 1: The South Crater
 
@@ -44,7 +44,7 @@ Day 1: The South Crater
 
 There are a few options for starting the Northern Circuit if you are doing it clockwise. You will have to leave your vehicle at the allocated overnight car park at Whakapapa Village, but you will spend your first night at Mangatepopo Hut. The walk to the Hut from Whakapapa Village is 3-5 hours, depending on the weather conditions. However, the Mangatepopo car park is only 30 minutes from the hut. Isaac’s Mum and I opted to be dropped off at the carpark and walked our packs to the Hut, while Isaac and his Dad drove the car around to Whakapapa and walked the 3-5 hours to meet us back at the Mangatepopo Hut. The third choice is to get a shuttle bus from either National Park Village or Whakapapa Village to the Mangatepopo car park and walk to the hut from there.
 
-![Day 1: Looking out towards Mangatepopo Hut from South Crater](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101277961-FH5IU5UQ2CJMLO2BETDT/tongariro-northern-circuit)
+![Day 1: Looking out towards Mangatepopo Hut from South Crater](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-5.jpg)
 
 Day 1: Looking out towards Mangatepopo Hut from South Crater
 
@@ -58,11 +58,11 @@ Starting Day 1 from the Mangatepopo Hut, you will encounter many others walking 
 
 Once you get past the detour to your left, it's up up and more up to the top of the crossing, up the Devil’s Staircase. You get a bit of a break as you cross the south crater, a nice flat section before the final uphill for the day. At the red crater summit, you reach the highest point of the whole circuit, at 1,886m above sea level. This is the perfect place to stop for some epic panoramic photos, to have some snacks or your lunch, before heading down the other side.
 
-![Day 1: Board walk from Mangatepopo Hut to Soda Springs](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101305784-R3EG0T6JWUVONFQK9STM/tongariro-northern-circuit)
+![Day 1: Board walk from Mangatepopo Hut to Soda Springs](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-6.jpg)
 
 Day 1: Board walk from Mangatepopo Hut to Soda Springs
 
-![Day 1: Ascending the Devils’ Staircase towards Red Crater](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101342077-HHK0F7N8YH1JMWWKF0OE/tongariro-northern-circuit)
+![Day 1: Ascending the Devils’ Staircase towards Red Crater](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-7.jpg)
 
 Day 1: Ascending the Devils’ Staircase towards Red Crater
 
@@ -72,7 +72,7 @@ After the Emerald Lakes, the path forks and you will have to turn right, followi
 
 Rest up well at the Oturere Hut, you deserve it after climbing the steepest and most challenging part of the three-day circuit!
 
-![Day 1: One DOES simply walk into Mordor](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101391893-JUC6H5ASJJRW7HULNV3N/tongariro-northern-circuit)
+![Day 1: One DOES simply walk into Mordor](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-8.jpg)
 
 Day 1: One DOES simply walk into Mordor
 
@@ -86,7 +86,7 @@ The majority of Day 2 involves a downhill descent, with a few gentle uphills thr
 
 If the weather is clear, you’ll again be greeted with views of Mount Ngauruhoe, as the circuit track essentially loops around the mountain. We were also able to see Mount Ruapehu across the valley, still snow topped in early December.
 
-![Day 2: Mount Ngauruhoe hidden in the clouds](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101462736-0ESARTTVLJ93QDD5ETRY/tongariro-northern-circuit)
+![Day 2: Mount Ngauruhoe hidden in the clouds](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-9.jpg)
 
 Day 2: Mount Ngauruhoe hidden in the clouds
 
@@ -96,11 +96,11 @@ From Waihohonu Hut, there is another side-trip to a Ohinepango Springs. The 2km 
 
 Rest up well again - Waihohonu Hut is the newest in the circuit, with good facilities. You will need good rest before Day 3, the last day of the trek, where you will cover the longest distance.
 
-![Day 2: Oturere Hut to Waihohonu Hut](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101562378-44UVEI7WM3WX29ABTP3F/tongariro-northern-circuit)
+![Day 2: Oturere Hut to Waihohonu Hut](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-10.jpg)
 
 Day 2: Oturere Hut to Waihohonu Hut
 
-![Day 2: Oturere Hut to Waihohonu Hut](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101595714-J6EBR18XUCNZF6FLYFZ3/tongariro-northern-circuit)
+![Day 2: Oturere Hut to Waihohonu Hut](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-11.jpg)
 
 Day 2: Oturere Hut to Waihohonu Hut
 
@@ -114,17 +114,17 @@ Start off the day with high spirits as you will need those to tackle this big da
 
 Early on in the day, you will see signs towards the Old Waihohonu Hut, the first hut built in Tongariro National Park in 1904. If you’re interested in the history of the area, it’s a good side-trip, as the hut was the first base for recreational skiing in New Zealand. I was amazed that it was still standing after 60 years of active use and being older than 110 years.
 
-![Day 3: Lower Tama Lake](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101821623-CKKVJN4AH93CP4XELRXS/tongariro-northern-circuit)
+![Day 3: Lower Tama Lake](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-12.jpg)
 
 Day 3: Lower Tama Lake
 
 The walk continues on a steady uphill towards the Tama Saddle. Again, you are only sharing the path with others doing the circuit up until this point. The next side-trip option to [Tama Lakes is a very popular day trip](https://www.abigailhannah.nz/blog/2019/tama-lakes) for many in the area. From the track, it is 20 minutes return to Lower Tama Lake and 1 hour, 30 minutes return to Upper Tama Lake. The track to Upper Tama follows a steep ridge, attempt this if you have the energy and time to do so, it is well worth the effort. We were too tired at this point to make the side trip to either of the lakes, but returned in winter to see the lakes. [Read all about our hike to Tama Lakes here.](https://www.abigailhannah.nz/blog/2019/tama-lakes) They are both absolutely stunning, no matter what the season.
 
-![Day 3: Waihohonu Hut to Whakapapa Village](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101880435-U6GR16WP9XM2X7VS8U5F/tongariro-northern-circuit)
+![Day 3: Waihohonu Hut to Whakapapa Village](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-13.jpg)
 
 Day 3: Waihohonu Hut to Whakapapa Village
 
-![Day 3: The Taranaki Falls](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573101914459-BMIBXZ9XT7VJ8VOJPN3K/tongariro-northern-circuit)
+![Day 3: The Taranaki Falls](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-14.jpg)
 
 Day 3: The Taranaki Falls
 
@@ -134,7 +134,7 @@ AND that’s the end of the clockwise Tongariro Northern Circuit. Congratulation
 
 Of course, if you are doing it anti clockwise, Day 3 will be Day 1 and so on, as you will do the trek in reverse to the way that we did it.
 
-![Day 1: The Emerald Lakes](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573107955458-2A0RFZXLTTUE4V94N3S6/tongariro-northern-circuit)
+![Day 1: The Emerald Lakes](/images/legacy/2019-tongariro-circuit/tongariro-northern-circuit-15.jpg)
 
 Day 1: The Emerald Lakes
 

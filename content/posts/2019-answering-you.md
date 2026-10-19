@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-answering-you/"
 ---
 ### In an effort to open up about my journey with mental illness, I asked you what you would like to know. Here are my honest, unfiltered answers. I hope it provides some insight into what it’s like living with depression and ways that you can help someone in that situation.
 
-![mentalhealthq&a](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573629101479-PTNPPW7IEF9QFF26BKHA/mentalhealthq%26a)
+![mentalhealthq&a](/images/legacy/2019-answering-you/mentalhealthq-26a.jpg)
 
 ## How Do You Cope?
 
@@ -54,7 +54,7 @@ oldUrl: "https://abigailhannah.nz/2019-answering-you/"
 
 - This is really important for me because negative thoughts can escalate quickly and so I like to have someone else around to help support me if I need it.
 
-![mentalhealthq&a](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573629148539-VBBM0R6G9QD25YZSA8YT/mentalhealthq%26a)
+![mentalhealthq&a](/images/legacy/2019-answering-you/mentalhealthq-26a-2.jpg)
 
 *How do you manage the health of your body while your mental health is really bad?*
 
@@ -110,7 +110,7 @@ oldUrl: "https://abigailhannah.nz/2019-answering-you/"
 
 - Similarly, I have anxiety about the future and fear of other people’s judgements on my decisions. I want to take risks and I want to chase my (crazy) dreams, but I am terrified that it will fall apart and that others will judge me harshly for it.
 
-![mentalhealthq&a](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573629280554-6JFVKFU4FL3C39SP3KUU/mentalhealthq%26a)
+![mentalhealthq&a](/images/legacy/2019-answering-you/mentalhealthq-26a-3.jpg)
 
 ## What Is Most Helpful?
 
@@ -146,7 +146,7 @@ oldUrl: "https://abigailhannah.nz/2019-answering-you/"
 
 - It’s really special to be living with family. With boarding school and flatting in university, it’s been a while since I’ve lived with family. It’s made a world of difference having support available right there at home, instead of the absence of a support network. I love that Isaac is right there and we don’t have to travel across the city for a hug.
 
-![mentalhealthq&a](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573629338885-I4FRMXTLOBSDN39VPU8P/mentalhealthq%26a)
+![mentalhealthq&a](/images/legacy/2019-answering-you/mentalhealthq-26a-4.jpg)
 
 *How does your husband support you in the hard times and the lows?*
 
@@ -184,7 +184,7 @@ oldUrl: "https://abigailhannah.nz/2019-answering-you/"
 
 - Believe that this will pass
 
-![mentalhealthq%26a](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1573629735168-2MPD3ALQDGTFBCIB52L3/mentalhealthq%2526a)
+![mentalhealthq%26a](/images/legacy/2019-answering-you/mentalhealthq-2526a.jpg)
 
 I hope that this has given you some insight into what it’s like to be struggling with depression. Chances are that you know someone who is struggling too and I hope that you will be encouraged to reach out to them. It goes such a long way. Please don’t hesitate to contact me if you would like a listening ear, or reach out on one of the hotlines below.
 

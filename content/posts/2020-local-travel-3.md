@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2020-local-travel-3/"
 ---
 ### Now that you understand what local travel is and all of its benefits, here are 11 practical tips to help you start travelling locally, exploring your country, region and city!
 
-![whatipu-beach-manukau-harbour-auckland-tamaki](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1593896787393-VISX84R6IX693HXW8IO0/whatipu-beach-manukau-harbour-auckland-tamaki)
+![whatipu-beach-manukau-harbour-auckland-tamaki](/images/legacy/2020-local-travel-3/whatipu-beach-manukau-harbour-auckland-tamaki.jpg)
 
 *When I wrote the series back in Nov 2019, I had absolutely no idea what the world had in store. I didn’t publish the series immediately, because the idea of local travel was very overshadowed by the thousands of globetrotting travel bloggers, hopping from exotic location to exotic location. Travelling your own city and country didn’t seem like it would be a very attractive idea.*
 
@@ -28,7 +28,7 @@ Local travel is the idea of taking recreational travels within your neighbourhoo
 
 We are so accustomed to driving in NZ culture, that many of us haven’t been for a good walk in our own neighbourhood. Put down the car keys and walk the streets, get to know the area around your home, slow down and appreciate the neighbourhood you live in. Maybe there’s a hidden walkway you didn’t know about, maybe you’ll discover a chic cafe, maybe you’ll finally step inside that boutique store that you always drive past!
 
-![Maungakiekie - One Tree Hill, Auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1593896286399-NDGXAEZ1SZZJH61JON1V/maungakiekie-one-tree-hill-sheep-new-zealand-aukland)
+![Maungakiekie - One Tree Hill, Auckland](/images/legacy/2020-local-travel-3/maungakiekie-one-tree-hill-sheep-new-zealand-aukland.jpg)
 
 Maungakiekie - One Tree Hill, Auckland
 
@@ -44,7 +44,7 @@ Head to a destination in your country that you haven’t been to before. If you�
 
 Parks are hugely underrated. The local parks in your city are a place of quiet, an oasis in the bustling city, visit them regularly to get your dose of fresh air! Regional and national parks are great travel destinations, many offering camping sites or huts, allowing you to fully immerse yourself in nature for as long as you please.
 
-![Emerald Lakes, Tongariro National Park](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1593896398426-S1MH1PXD5LXVRZKJQYY7/tongariro-crossing-national-park-emerald-lakes-new-zealand)
+![Emerald Lakes, Tongariro National Park](/images/legacy/2020-local-travel-3/tongariro-crossing-national-park-emerald-lakes-new-zealand.jpg)
 
 Emerald Lakes, Tongariro National Park
 
@@ -60,7 +60,7 @@ Often, you don’t have to travel far to try new food. Step out of your comfort 
 
 If you’re tied down at a job, you can still discover new parts of your city and temporarily house sit in another suburb, or airbnb a home, while going to work during the week and exploring your “new backyard” over the weekend.
 
-![Cherry Blossoms at Auckland Botanical Gardens](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1593896500338-EDDC26F30I1BOJJSBD98/cherry-blossom-auckland-botanical-gardens-spring-events)
+![Cherry Blossoms at Auckland Botanical Gardens](/images/legacy/2020-local-travel-3/cherry-blossom-auckland-botanical-gardens-spring-events.jpg)
 
 Cherry Blossoms at Auckland Botanical Gardens
 
@@ -76,7 +76,7 @@ Almost every big city has a hop on/hop off tourist bus service. These buses go t
 
 Just because you’re in a familiar space doesn’t mean that you have to stay connected the whole time. Tell your friends & family you’re on holiday, set up that email responder, turn off the work phone, leave your laptop behind and disconnect. If you want, get off the grid and go somewhere remote, where there’s no phone signal!
 
-![Hunua Falls, Auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1593896596315-1K6JJDUD8JV3XY9V67UY/hunua-falls-auckland-waterfall)
+![Hunua Falls, Auckland](/images/legacy/2020-local-travel-3/hunua-falls-auckland-waterfall.jpg)
 
 Hunua Falls, Auckland
 

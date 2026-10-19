@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-auckland-rainy-day/"
 ---
 ### A rainy day doesn’t have to be boring. With this list of 24 things to do, make every rainy day in Auckland a great one.
 
-![rainy-day-auckland](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563944445830-GLHR1FGB6BA7NHP37HP7/rainy-day-auckland)
+![rainy-day-auckland](/images/legacy/2019-auckland-rainy-day/rainy-day-auckland.jpg)
 
 ## 1. Auckland Museum
 
@@ -44,7 +44,7 @@ Pet snuggles are always a good idea. Head to [Barista Cats](https://www.baristac
 
 Find out what’s on at [Stardome](https://www.stardome.org.nz/), Auckland’s very own planetarium. Learn a little more about our universe with the exhibits, space gallery and planetarium shows. The shows are projected onto a giant, domed movie screen above you.
 
-![Pah Homestead, Hillsborough. Wallace Arts Centre and Gallery.](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563859357394-6HDDTC4CFW2H2NSG5XY5/pah-homestead)
+![Pah Homestead, Hillsborough. Wallace Arts Centre and Gallery.](/images/legacy/2019-auckland-rainy-day/pah-homestead.jpg)
 
 Pah Homestead, Hillsborough. Wallace Arts Centre and Gallery.
 
@@ -96,7 +96,7 @@ Head along to the [Museum Of Transport And Technology, MOTAT.](https://www.motat
 
 Remember those primary school trips to [Kelly Tarltons](https://www.kellytarltons.co.nz/)? Relive those memories and stay dry while you watch seahorses, colourful fish, turtles, jellyfish, sharks and even penguins!
 
-![Auckland Domain Wintergardens](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1563859118374-DBH36VUFSL1610Y66Z72/wintergardens-auckland)
+![Auckland Domain Wintergardens](/images/legacy/2019-auckland-rainy-day/wintergardens-auckland.jpg)
 
 Auckland Domain Wintergardens
 

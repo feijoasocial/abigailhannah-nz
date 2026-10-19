@@ -40,7 +40,7 @@ Head to one of Auckland’s many markets and purchase locally grown, fresh, seas
 
 The cherry tree grove at Auckland Botanic Gardens is absolutely spectacular when the trees are in bloom! It is so peaceful and almost fairytale-like to sit among the cotton-candy-pink trees. Late September is the optimum time for your instagram pictures here, but expect some crowds as everyone else also wants their classic “cherry blossom” picture too!
 
-![auckland-botanic-garden-spring-1](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1566816960624-UNFUR0CE6RU939NNLW5G/auckland-botanic-garden-spring-1)
+![auckland-botanic-garden-spring-1](/images/legacy/2019-spring-auckland/auckland-botanic-garden-spring-1.jpg)
 
 ## 6. PICNIC AMONG THE WILDFLOWERS ON MT EDEN
 

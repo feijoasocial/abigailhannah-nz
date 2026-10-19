@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-muriwai-photo-diary/"
 ---
 ### A collection of photos from a windy day watching the Muriwai Gannet colony.
 
-![muriwai-gannets](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1568190388275-YHNTW51O45EACZPUMHO7/muriwai-gannets)
+![muriwai-gannets](/images/legacy/2019-muriwai-photo-diary/muriwai-gannets.jpg)
 
 I absolutely adore getting to watch the gannets at Muriwai. The cliff residents spend the warmer months, from September through to April on the cliffs. As one of three mainland gannet colonies in New Zealand, how lucky are we to have the colony so close?
 

@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-auckland-diwali-festival/"
 ---
 ### The Auckland Diwali Festival is a major event in the city’s calendar and is a must-do for everyone. this is your ultimate guide to the festival.
 
-![auckland-diwali-festival-2019](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133038447-OTANYWE8BEJBNG0820YY/auckland-diwali-festival-2019)
+![auckland-diwali-festival-2019](/images/legacy/2019-auckland-diwali-festival/auckland-diwali-festival-2019.jpg)
 
 Since moving back to Auckland, I missed three festivals before finally making it to the Diwali Festival in 2019. And I absolutely loved it! Isaac and I went all out on the Saturday night and glammed up in our Desi outfits. We had such a good time that we popped in three times over the weekend. We watched a variety of performances, loved the food & enjoyed the fireworks finale.
 
@@ -24,7 +24,7 @@ Diwali is the Hindu Festival of Lights, celebrating the triumph of good over evi
 
 Auckland has its very own Diwali Festival, which takes place annually in October. The free event has over 55,000 people attend during the 2-day festival. It is a key event in Auckland’s calendar and is something that every Aucklander should attend at least once!
 
-![all-you-need-to-know-auckland-diwali-festival-2019](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133095177-PTXBCLLZZOG49U9G23B9/all-you-need-to-know-auckland-diwali-festival-2019)
+![all-you-need-to-know-auckland-diwali-festival-2019](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-2019.jpg)
 
 ## Where is the Auckland Diwali Festival?
 
@@ -40,9 +40,9 @@ There are also musical performances again with a mix of styles. If you don’t k
 
 Perhaps the most fun stage of all was the Street Zone where performances took place throughout the day, with onlookers forming a circle around the area.
 
-![all-you-need-to-know-auckland-diwali-festival](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133128258-RLGTGZJ9OE8JFNRN13AJ/all-you-need-to-know-auckland-diwali-festival)
+![all-you-need-to-know-auckland-diwali-festival](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival.jpg)
 
-![all-you-need-to-know-auckland-diwali-festival-dance-performance](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133165350-OS0V09ZHQEL5IFBXLA4N/all-you-need-to-know-auckland-diwali-festival-dance-performance)
+![all-you-need-to-know-auckland-diwali-festival-dance-performance](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-dance-performance.jpg)
 
 ## What Should I Eat?
 
@@ -56,9 +56,9 @@ Here are my favourites
 
 There are so many food choices, so be brave, step out of your comfort zone and try something new! Although I forgot my reusables for the festival, I was so impressed that everything was served with biodegradable plates, bowls and cutlery.
 
-![all-you-need-to-know-auckland-diwali-festival-performance](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133387981-ZEHV8PHFEOOHV08GFVCX/all-you-need-to-know-auckland-diwali-festival-performance)
+![all-you-need-to-know-auckland-diwali-festival-performance](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-performance.jpg)
 
-![all-you-need-to-know-auckland-diwali-festival-of-light-displays](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133336841-F61L2JKHUXVAVCXKO6KV/all-you-need-to-know-auckland-diwali-festival-of-light-displays)
+![all-you-need-to-know-auckland-diwali-festival-of-light-displays](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-of-light-displays.jpg)
 
 ## what is the best time to go?
 
@@ -68,9 +68,9 @@ In the early afternoons, the festival isn’t very busy. There are no lines for 
 
 Sunday night with fireworks finale was the busiest time in the square, with the crowd occupying the entirety of Aotea square from Queen Street to the Aotea Centre as well as filling Queen Street from Wellesley Street to Mayoral Drive. It was absolutely packed, although the fireworks display at 8:50 pm on Sunday was worth it!
 
-![all-you-need-to-know-auckland-diwali-festival-aotea-square](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133485988-M7P03VB9MD659SOFEUJ5/all-you-need-to-know-auckland-diwali-festival-aotea-square)
+![all-you-need-to-know-auckland-diwali-festival-aotea-square](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-aotea-square.jpg)
 
-![all-you-need-to-know-auckland-diwali-festival-bharatnatyam](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571133526116-IGK8YD4PKBMCWBHSIZ35/all-you-need-to-know-auckland-diwali-festival-bharatnatyam)
+![all-you-need-to-know-auckland-diwali-festival-bharatnatyam](/images/legacy/2019-auckland-diwali-festival/all-you-need-to-know-auckland-diwali-festival-bharatnatyam.jpg)
 
 Overall, the 2019 Diwali Festival was a terrific event. With a whole bunch of sponsors, including ASB, Harcourts, Resene and Ford, there were multiple competitions to enter. Resene hosted a rangoli workshop which was busy every time I passed by & Harcourts hosted a fun painting workshop! The 2019 festival also had a “Canopy of Colour” art installation which looked great!
 

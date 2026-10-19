@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-depression-journey/"
 ---
 ### It’s no secret that I have been battling depression, so here is what the last 26 months have looked like for me, every up and every down…
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575452287665-95AMH440CZ7JQB0AJFWL/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney.jpg)
 
 Disclaimer: This article is about my journey and experience with a mental illness and living with depression. I share what depression looks like for me, my symptoms, triggers and coping mechanisms. I take it right back to the first stages, where I noticed that I wasn’t mentally healthy. I share about the different things that were going on throughout those stages - big changes, small changes, different commitments, different expectations.
 
@@ -26,7 +26,7 @@ I hope that for those of you that have never experienced a mental illness, that 
 
 [Everyone has mental health and falls somewhere on the scale.](https://www.abigailhannah.nz/blog/2019/06/mental-health-sliding-scale) I have gone from healthy to crisis and back to thriving in the last 26 months. Whether you are mentally thriving in life or you are in crisis, I hope that my story will be helpful in your journey.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575452937038-ZQ2H8I7QGA66XTIYYG62/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-2.jpg)
 
 ## 2017 October: UNSETTLED
 
@@ -36,7 +36,7 @@ The first symptoms I noticed was having low energy and feeling tired all the tim
 
 The light at the end of the tunnel had arrived and our time in India and Nepal was phenomenal. It was so special to be back “home,” as I very much still felt like India was home. It was an intense time as we travelled to eleven different cities across seven states and two countries over six weeks. Most days, I was thriving off the travel, I was so happy to be in a familiar and loved space. But despite this, I had three days over that period when I was “sick,” absolutely exhausted and I didn’t eat or leave bed the whole time. This was devastating to me, as we were with family and “I should be making the most of this,” and “I have no reason to be so tired,” and “I know I’m not physically sick,” and “I must just be lazy.” But this was the start of the depression and this shows that depression doesn’t go on holiday when you’re taking a vacation. Despite optimal circumstances, there were days when the depression won the battle inside me.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453003580-IUZJ4OE5WMNV1YEO3MVL/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-3.jpg)
 
 ## 2018 January: UNSETTLED
 
@@ -50,7 +50,7 @@ March: STRUGGLING
 
 With Isaac and myself both enrolled in university, things got busy very quickly and I had a lot of commitments on my plate. Already fatigued by depression, I struggled more and more as I tried to juggle university, part-time work, church, hobbies, a social life and general “adulting.” I was physically and mentally exhausted and it felt like I was treading water for so long. I finally decided to reach out for help and met with my GP. He was able to suggest strategies to cope better with university - time management strategies and ways to decrease stress levels. He also prescribed some supplements to help increase my energy levels. While this was all extremely helpful, I felt like my struggle and illness wasn’t taken as seriously as I had hoped. I had reached out to a few people in my life and some provided helpful advice while others ignored my calls for help. I don’t know if I was unable to accurately express the severity of my symptoms or if people were being optimistic, but it was all in vain, as I was too far down in my depression to be able to pull myself back out of it. I had been treading water for so long and when I finally reached out for help, instead of being thrown a lifesaver, I was told I needed to swim better.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453072177-MYYLLAR5J5BEVKEOIKFX/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-4.jpg)
 
 ## April: IN CRISIS
 
@@ -62,7 +62,7 @@ Soon after, I met with a psychiatrist and psychologist through crisis care and w
 
 My parents were told about how unwell I was and my Dad flew out from India to help me out. Despite some challenges, my Dad was a huge help in getting me back on track after the depression had “derailed” my life over the last month. I was able to get university assignment deadlines extended, I moved back into my own flat and I started a new job which gave me reason to get out of bed in the mornings.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453150655-A7EJ3DNKXEWEPY4J4N1T/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-5.jpg)
 
 ## May - STRUGGLING
 
@@ -74,7 +74,7 @@ Over the next few months, I learnt how to cope with my depression much better. I
 
 My family came back from India and lived in New Zealand for a few months, which was a huge help for me. It meant that I didn’t need to stress about the little things - like laundry, dishes, cooking, etc. I was given the space to focus on my university papers and on my emotions. I was able to focus on recovery. I was also surrounded in love by my younger siblings and loved being able to see them and spend time with them.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453212851-W5BQULCD0VAHGVTEP3UB/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-6.jpg)
 
 ## November: HEALTHY
 
@@ -82,7 +82,7 @@ Through November, my mental health state continued to improve. I finished the se
 
 I got stuck in to wedding planning and thoroughly enjoyed the process. When healthy, I am highly productive and love getting things done, especially when it is rewarding! It felt so good to be able to do things for me again, to watch things fall into place for our wedding and to have more time to do the things I wanted to. I started to spend more time with friends, I was eating and sleeping healthily and while I continued to stay on medication, I felt like I was finally seeing progress and it was such a good feeling. This is not to say that I never felt angry, sad or frustrated, but when I did, I was able to express and cope with my emotions, instead of having them control me.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453274952-SML62DTT87IXZMO218EJ/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-7.jpg)
 
 ## December: HEALTHY & THRIVING
 
@@ -100,7 +100,7 @@ We kicked off the summer with a buddymoon trip, spending time with our overseas 
 
 It was difficult to start to say goodbyes, as friends and family started to head back, but I continued to ride the high and was thankful for the moments that we had, rather than being upset that it was over.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453345843-EEOB214TN1DY52CZ7R67/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-8.jpg)
 
 ## February, March: UNSETTLED
 
@@ -112,7 +112,7 @@ Through April and May, Isaac and I made a visit to Nepal to celebrate his sister
 
 When returning to New Zealand, Isaac and I moved into our own place. It was great being able to set up our own home, knowing that we’d be here for the next couple of years or so. We were eating healthily, getting into good routines and enjoying marriage. In May, I came off my medication completely, what felt to me like a huge milestone in my recovery.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453393560-D021I3F7CK7UP3IV6BTV/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-9.jpg)
 
 ## June, July, August: HEALTHY & THRIVING
 
@@ -120,7 +120,7 @@ On the whole, I was doing really well, I was mentally healthy, despite the ups a
 
 I recognised that I no longer had any symptoms of depression. I felt so much better, I was not tired, I ate and slept well, I didn’t have huge social anxiety, I was healthy! I felt so okay at this point, that I even started to write a blog post titled, “I no longer have clinical depression.” I had been off my meds for a few months, I was feeling better than I had in a long time and I remember meeting people and speaking to them about my depression in the past tense, “When I had depression...” I honestly thought that it was over and that I had recovered.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453462042-T0TT52BGLQUXV7MH8BRP/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-10.jpg)
 
 ## September, October, November: UNSETTLED & STRUGGLING
 
@@ -128,7 +128,7 @@ Long story short, I was wrong. I don’t know what it was that changed, but over
 
 The hardest part about this was seeing all the symptoms returning. I felt frustrated that I had relapsed, confused as to why it’s happening again and angry that I wasn’t able to keep depression at bay.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575453534580-S394V3VOGZ6W0HOZN2EE/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-11.jpg)
 
 ## Now:
 
@@ -136,7 +136,7 @@ I am really positive that I have been able to recognise my symptoms of depressio
 
 I don’t know what the next year is going to look like, but I know that this journey is a bumpy one and I try to hold onto hope in every way I can. I’m hugely grateful for the supporting community around me, so thank you if you’re one of the people that has encouraged me, supported me and cared for me through the whole journey over the last 26 months.
 
-![depressionjourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1575455242127-35KWFOX3FORN7IU7R4SB/depressionjourney)
+![depressionjourney](/images/legacy/2019-depression-journey/depressionjourney-12.jpg)
 
 ---
 

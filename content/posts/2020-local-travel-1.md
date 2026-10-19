@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2020-local-travel-1/"
 ---
 ### The idea of local travel is about taking trips closer to home - within your neighbourhood, city, region and country. Travelling locally is easier, cheaper and better for the planet, while still getting all the benefits of an overseas holiday.
 
-![about-local-travel-looking-across-auckland-city-from-mt-eden-maungawhau](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1591935717507-842F94I6IS6A4RHUFWD2/about-local-travel-looking-across-auckland-city-from-mt-eden-maungawhau)
+![about-local-travel-looking-across-auckland-city-from-mt-eden-maungawhau](/images/legacy/2020-local-travel-1/about-local-travel-looking-across-auckland-city-from-mt-eden-maungawhau.jpg)
 
 *This is part 1 of a 3 part series*
 
@@ -32,7 +32,7 @@ The term “travel” in this context relates to recreational travel. It doesn�
 
 In considering these two terms, it is clear that local travel is the idea of travelling in the place that you live. It reduces the distance you have to travel on a recreational trip. It is choosing to have a “staycation” whether that’s in your own home, in the next town or the furthest corner of the country.
 
-![Overlooking Auckland City from Maungawhau, Mt Eden](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1591936324550-40VKAMJNV6LYRXPZ6CE4/local-travel-mt-eden-maungawhau-auckland-city-view)
+![Overlooking Auckland City from Maungawhau, Mt Eden](/images/legacy/2020-local-travel-1/local-travel-mt-eden-maungawhau-auckland-city-view.jpg)
 
 Overlooking Auckland City from Maungawhau, Mt Eden
 
@@ -44,7 +44,7 @@ In travelling locally, it is important that we do this intentionally, rather tha
 
 When we travel locally, this contributes to our sense of home, our sense of belonging and identity. It allows us to fall in love with where we live and to find joy in exploring our neighbourhood, cities, regions and country. It enables us to better understand our environment, our local. When a tourist asks for advice on what to see and do, we can tell them which spots are overrated and where to find the hidden gems.
 
-![The Auckland Wintergardens are an oasis in the city centre.](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1591936605518-SMJRVR6WB60453361QWI/auckland-wintergardens-local-travel-parks-domain)
+![The Auckland Wintergardens are an oasis in the city centre.](/images/legacy/2020-local-travel-1/auckland-wintergardens-local-travel-parks-domain.jpg)
 
 The Auckland Wintergardens are an oasis in the city centre.
 
@@ -54,7 +54,7 @@ Travelling has a number of benefits, including meeting new people, trying new th
 
 Personally, I absolutely love travelling locally. I love it so much that I have a blog dedicated to travel in [Auckland](https://www.abigailhannah.nz/auckland) and [New Zealand](https://www.abigailhannah.nz/travel) (you’re on it right now!). If you’re new here, welcome! I have also written a [personal bucketlist for everything I want to do in Auckland](https://www.abigailhannah.nz/blog/2019/auckland-bucketlist) and it brings me so much joy as tick those off.
 
-![The Waitakere ranges have a number of beautiful walks, like this one to the Kitekite Falls.](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1591936721147-BWA4LDLO5WOK3UMFCDCC/auckland-local-travel-kitekite-falls-walk-waitakere)
+![The Waitakere ranges have a number of beautiful walks, like this one to the Kitekite Falls.](/images/legacy/2020-local-travel-1/auckland-local-travel-kitekite-falls-walk-waitakere.jpg)
 
 The Waitakere ranges have a number of beautiful walks, like this one to the Kitekite Falls.
 

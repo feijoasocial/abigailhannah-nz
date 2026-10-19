@@ -12,11 +12,11 @@ categories: ["North Island"]
 tags: ["christchurch", "getaway", "guestpost", "piha", "raglan", "southisland", "wairapa", "waitakere", "wellbeing"]
 oldUrl: "https://abigailhannah.nz/2019-weekend-getaways/"
 ---
-![aucklands-best-weekend-getaways-oppo-reno-wairapa-pure-pod-glass-house-couple-in-bed](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1574746821731-5EZEEN6ECRDYZFM9XVKR/aucklands-best-weekend-getaways-oppo-reno-wairapa-pure-pod-glass-house-couple-in-bed)
+![aucklands-best-weekend-getaways-oppo-reno-wairapa-pure-pod-glass-house-couple-in-bed](/images/legacy/2019-weekend-getaways/aucklands-best-weekend-getaways-oppo-reno-wairapa-pure-pod-glass-house-couple-in.jpg)
 
 With summer just around the corner, these Auckland based girls share their favourite weekend getaways. Whether you’re spontaneous or a planner, prefer adventure or luxury, these girls share their top tips and best recommendations to make sure your summer is filled with Auckland’s best weekend getaway experiences. Keep reading to see what Roxanne, Callie and Kim recommend and make sure you book these into your summer calendar!
 
-![aucklands-best-weekend-getaways-west-cost-waitakere-walking-tracks](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1574744846150-73AOJ4P5URPEJL6N5I8U/aucklands-best-weekend-getaways-west-cost-waitakere-walking-tracks)
+![aucklands-best-weekend-getaways-west-cost-waitakere-walking-tracks](/images/legacy/2019-weekend-getaways/aucklands-best-weekend-getaways-west-cost-waitakere-walking-tracks.jpg)
 
 Roxanne
 
@@ -46,7 +46,7 @@ I love Auckland’s West Coast for the diversity of its landscape. You’re spoi
 
 ---
 
-![aucklands-best-weekend-getaways-raglan-skatepark-girl-skating](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1574744880334-OKPMH0UDQAYEQHKVIXXE/aucklands-best-weekend-getaways-raglan-skatepark-girl-skating)
+![aucklands-best-weekend-getaways-raglan-skatepark-girl-skating](/images/legacy/2019-weekend-getaways/aucklands-best-weekend-getaways-raglan-skatepark-girl-skating.jpg)
 
 Callie
 
@@ -88,7 +88,7 @@ Raglan is the type of small New Zealand town that always has something new and f
 
 ---
 
-![aucklands-best-weekend-getaways-cherry-blossom-botanic-gardens](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1574744920106-5GSE8JMS2JVDPTPQMOJV/aucklands-best-weekend-getaways-cherry-blossom-botanic-gardens)
+![aucklands-best-weekend-getaways-cherry-blossom-botanic-gardens](/images/legacy/2019-weekend-getaways/aucklands-best-weekend-getaways-cherry-blossom-botanic-gardens.jpg)
 
 Kim
 

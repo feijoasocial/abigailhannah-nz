@@ -16,7 +16,7 @@ oldUrl: "https://abigailhannah.nz/2019-overcoming-crux/"
 
 *Guest Post by hubby Isaac*
 
-![climbingcrux](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1568183821955-QFTQG1GLN9ISEWEMGW7D/climbingcrux)
+![climbingcrux](/images/legacy/2019-overcoming-crux/climbingcrux.jpg)
 
 Its 11 days into mental health month, and I wanted to share some of my thoughts from the past 2 weeks.
 

@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-eco-journey/"
 ---
 ### Moving into our new home, we made a conscious choice to adopt an eco lifestyle. This is where the journey has taken us so far and where we hope to go in living more consciously with a reduced footprint on the environment.
 
-![ecojourney](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1571816614576-7NHD9C7J7EUWHUJO41SX/ecojourney)
+![ecojourney](/images/legacy/2019-eco-journey/ecojourney.jpg)
 
 *Disclaimer: When writing this post, I had so much to say that I almost wrote a book! Instead, I’ve cut it down, so keep in mind that this article doesn’t cover everything. I will continue to write about our eco-journey in the months to come, as I go into more depth on the topics mentioned today. Watch this space and let me know via the contact form or comments if you have questions or tell me what you would like to hear about first!*
 

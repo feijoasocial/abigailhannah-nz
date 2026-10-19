@@ -14,15 +14,15 @@ oldUrl: "https://abigailhannah.nz/2020-te-henga-review/"
 ---
 ### “Spectacular” would be a big understatement for this Waitakere track. It immediately became a favourite of mine and the scenery is incomparable. Te Henga is truly one of Auckland’s finest gems.
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580886813915-G7CNZO2OMX54K9PP6QHN/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review.jpg)
 
 After tackling Auckland’s Te Henga Walkway, it’s fair to say it’s now one of my favourite walks in the region. The track stretches from Bethells Beach to Muriwai and meanders along the coastal cliffs. Looking out across the Tasman Sea, the walkway has stunning lookout points as you see the wild waves crashing on black sand beaches, at the bottom of the cliffs and along the Western coastline.
 
 Spectacular would be an understatement and this is a must-do walk in the Waitakere ranges. Particularly with the current Waitakere ranui closures due to kauri die-back, this is track has remained open, so you have no excuse to keep putting it off!
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580886890320-J9QH8BG27B8SO68M454J/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-2.jpg)
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580887139540-8FZZ7XHC818LMAPIDMXB/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-3.jpg)
 
 Let’s jump in to all you need to know.
 
@@ -30,9 +30,9 @@ The Te Henga Track goes from Bethells to Muriwai and you can start at either end
 
 The track goes from Constable Road at the Muriwai end to the Lake Wainamu carpark at the Bethells end. The start of the track at Constable Road is at an elevation of 207m and the Lake Wainamu carpark is much lower in elevation, so keep this in mind when choosing which end to start at. By chance, we started at Constable Road and I am so grateful that we were not doing the track uphill!
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580886949172-KC3WHSF7W0RYXZ1E2KB0/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-4.jpg)
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580886976575-784GFQILU03TCVUIMZFU/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-5.jpg)
 
 The scenery along the track is absolutely breaktaking. Apart from the views across the sea and along the cliffs, the track takes you through so many different landscapes. You walk past red clay cliffs which make you feel like you’ve stepped onto Mars. You walk through native bush and you walk beside meadows. Around every corner it feels like there is another spectacular bay to stop and stare at. The walk definitely took us longer than 3.5 hours because I wanted to stop every 15 minutes and just gape at the views.
 
@@ -42,9 +42,9 @@ As always, please check the weather and be prepared for it to change. The West C
 
 If you are a visual person like me, [click here to download a map of the Te Henga track by DOC NZ](/images/uploads/2020/02/te-henga-goldie-bush-walkway.pdf).
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580887013711-BYRRFNMS8ZPTQAOUZNL2/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-6.jpg)
 
-![te-henga-walkway-auckland-complete-review](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1580887036248-HAA9VRDAHUPNTJJSGK7O/te-henga-walkway-auckland-complete-review)
+![te-henga-walkway-auckland-complete-review](/images/legacy/2020-te-henga-review/te-henga-walkway-auckland-complete-review-7.jpg)
 
 Now that I’ve convinced you that you must do this trek, pack your bags and go! Remember to take with you a windproof jacket as even on the sunniest of days it can be super windy on the West Coast. Also remember your sunscreen, even if you don’t think you’ll need it! Stay prepared with plenty of water and snacks and take along your best mates for a guaranteed great day out!
 

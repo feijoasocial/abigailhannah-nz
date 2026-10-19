@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2018-06-hot-water-beach-coromandel-winter/"
 ---
 ### *No matter what the season is, Hot Water Beach in the Coromandel can’t be missed. No experience is quite as unique as digging your personal hot tub hole.*
 
-![Hot Water Beach in Winter - The Bikinis &amp; Beanies Experience](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1561077124917-QHDF725OHV1R2L4QFHWU/hot+water+beach+winter)
+![Hot Water Beach in Winter - The Bikinis &amp; Beanies Experience](/images/legacy/2018-06-hot-water-beach-coromandel-winter/hot-water-beach-winter.jpg)
 
 Hot Water Beach in Winter - The Bikinis & Beanies Experience
 

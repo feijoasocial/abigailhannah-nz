@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-apps-auckland/"
 ---
 ### These apps making living in Auckland a whole lot easier. To save some extra bucks and to save time, download these apps from the app store or play store today.
 
-![auckland-apps](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1566371348708-MOVYMH06M03CU4H7L31W/auckland-apps)
+![auckland-apps](/images/legacy/2019-apps-auckland/auckland-apps.jpg)
 
 ## 1. AT Mobile
 

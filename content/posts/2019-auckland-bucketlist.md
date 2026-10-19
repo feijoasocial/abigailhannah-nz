@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-auckland-bucketlist/"
 ---
 ### I’ve called Auckland home for 3 years, but there is still so much to see and do. Here are all the things I want to tick off my bucketlist! How many have you done?
 
-![auckland-bucketlist](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1567586159858-M034Y0XEYZQQENB4121Y/auckland-bucketlist)
+![auckland-bucketlist](/images/legacy/2019-auckland-bucketlist/auckland-bucketlist.jpg)
 
 ## GO WHALE WATCHING
 

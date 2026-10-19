@@ -14,7 +14,7 @@ oldUrl: "https://abigailhannah.nz/2019-06-whatipu-photo-diary/"
 ---
 ### On a moody winter’s day at Whatipu, I captured some of my favourite photos ever, and couldn’t resist sharing.
 
-![whatipu-beach](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1561460272720-SJW908J3GICJXO7WV0YW/whatipu-beach)
+![whatipu-beach](/images/legacy/2019-06-whatipu-photo-diary/whatipu-beach.jpg)
 
 We had no idea what the weather would be like. The forecast was showers, so we took our raincoats, expecting to be drenched head to toe by the time we left.
 
