@@ -1,6 +1,6 @@
 ---
 title: "All You Need To Know About Auckland's Best Weekend Getaways"
-slug: "2019-weekend-getaways"
+slug: "auckland-weekend-getaways"
 date: 2019-11-25
 updated: 2023-01-31
 description: "With summer just around the corner, these Auckland based girls share their favourite weekend getaways. Whether you’re spontaneous or a planner, prefer…"

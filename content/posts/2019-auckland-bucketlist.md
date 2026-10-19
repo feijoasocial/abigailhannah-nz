@@ -1,6 +1,6 @@
 ---
 title: "This Is My Complete Auckland Bucketlist"
-slug: "2019-auckland-bucketlist"
+slug: "auckland-bucket-list"
 date: 2019-09-03
 updated: 2023-01-31
 description: "I’ve called Auckland home for 3 years, but there is still so much to see and do. Here are all the things I want to tick off my bucketlist! How many have you…"

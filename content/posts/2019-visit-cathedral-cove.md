@@ -1,6 +1,6 @@
 ---
 title: "How To Make The Most Of Your Visit To Cathedral Cove"
-slug: "2019-visit-cathedral-cove"
+slug: "cathedral-cove"
 date: 2019-07-16
 updated: 2023-01-31
 description: "It’s no secret that Cathedral Cove is a MUST-DO when in New Zealand, but how can you make the most of your visit, so that it’s truly memorable?"

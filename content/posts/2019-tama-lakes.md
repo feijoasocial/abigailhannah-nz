@@ -1,6 +1,6 @@
 ---
 title: "Everything You Need To Know To Hike Tama Lakes In Winter"
-slug: "2019-tama-lakes"
+slug: "tama-lakes-track-winter"
 date: 2019-07-30
 updated: 2023-07-22
 description: "The Tama Lakes hike is one of the lesser known tracks in the Tongariro National Park, but it is a great day hike and can also be done in winter."

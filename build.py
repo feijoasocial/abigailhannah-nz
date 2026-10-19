@@ -76,6 +76,7 @@ GUEST_RE = re.compile(r"\bwith\s+(.+?)\s*[.!]?$", re.I)
 
 # ---------- link hygiene ----------
 OWN_HOSTS = {"abigailhannah.nz", "www.abigailhannah.nz"}
+REDIRECTS = {(k.rstrip("/") or "/"): v for k, v in (cfg.get("redirects") or {}).items()}
 OLD_BLOG_RE = re.compile(r"^/blog/(\d{4})/(?:(\d{1,2})/)?([^/?#]+)/?$")
 A_RE = re.compile(r'<a\b([^>]*?)href="([^"]*)"([^>]*)>(.*?)</a>', re.S)
 
@@ -90,11 +91,18 @@ def _fix_href(href: str):
         key = path.rstrip("/") or "/"
         fix = (cfg.get("link_fixes") or {}).get(key)
         if fix in ("unlink", "drop"): return h, fix
-        if fix: return fix, ""
-        b = OLD_BLOG_RE.match(path)
+        new = path
+        b = OLD_BLOG_RE.match(new)
         if b:
             y, mo, slug = b.groups()
-            return f"/{y}-{mo + '-' if mo else ''}{slug}/", ""
+            new = f"/{y}-{mo + '-' if mo else ''}{slug}/"
+        for _ in range(3):  # follow the redirects map (old address -> new address)
+            nxt = REDIRECTS.get(new.rstrip("/") or "/")
+            if not nxt: break
+            new = nxt
+        if new != path:
+            frag = m.group(3) if m.group(3).startswith("#") else ""
+            return new + frag, ""
     return h, ""
 
 def fix_links(htm: str) -> str:
@@ -297,6 +305,28 @@ def main():
 
     tagged = write_search_index(episodes)
     print(f"[search] index written, {tagged} episodes carry Episode Index tags")
+
+    # redirect pages at old addresses (GitHub Pages has no server-side redirects)
+    made = 0
+    for old, new in REDIRECTS.items():
+        rel = old.strip("/")
+        if not rel or "?" in rel: continue
+        if re.search(r"\.[a-z0-9]{2,4}$", rel):  # a file: serve a copy at the old address
+            src = DIST / new.strip("/")
+            if src.exists():
+                (DIST / rel).parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(src, DIST / rel); made += 1
+            continue
+        out = DIST / rel / "index.html"
+        if out.exists(): continue
+        target = new if new.startswith("http") else cfg["domain"] + new
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(
+            '<!doctype html><html lang="en-NZ"><head><meta charset="utf-8"><title>Page moved</title>'
+            f'<link rel="canonical" href="{target}"><meta http-equiv="refresh" content="0; url={target}">'
+            f'<script>location.replace("{target}"+location.hash)</script></head>'
+            f'<body><p>This page has moved to <a href="{target}">{target}</a>.</p></body></html>', encoding="utf-8")
+        made += 1
+    print(f"[redirects] {made} old addresses redirected")
 
     # sitemap
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

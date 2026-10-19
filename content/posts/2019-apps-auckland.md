@@ -1,6 +1,6 @@
 ---
 title: "The 6 Best Apps Every Aucklander Needs"
-slug: "2019-apps-auckland"
+slug: "best-apps-auckland"
 date: 2019-08-20
 updated: 2023-01-31
 description: "These apps making living in Auckland a whole lot easier. To save some extra bucks and to save time, download these apps from the app store or play store today."

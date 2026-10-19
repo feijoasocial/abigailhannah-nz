@@ -1,6 +1,6 @@
 ---
 title: "The 7 Best Ways To Enjoy Spring in Auckland"
-slug: "2019-spring-auckland"
+slug: "spring-in-auckland"
 date: 2019-08-27
 updated: 2023-01-31
 description: "How quickly the year has flown! Make the most of spring in Auckland with these 7 ways to enjoy all the season has to offer!"

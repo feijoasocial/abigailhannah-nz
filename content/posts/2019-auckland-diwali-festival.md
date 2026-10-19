@@ -1,6 +1,6 @@
 ---
 title: "Auckland's Diwali Festival: All You Need To Know"
-slug: "2019-auckland-diwali-festival"
+slug: "auckland-diwali-festival"
 date: 2019-10-15
 updated: 2023-01-31
 description: "The Auckland Diwali Festival is a major event in the city’s calendar and is a must-do for everyone. This is your ultimate guide to the festival."

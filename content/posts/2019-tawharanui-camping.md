@@ -1,6 +1,6 @@
 ---
 title: "The Best Way To Spend A Night Camping At Tawharanui"
-slug: "2019-tawharanui-camping"
+slug: "tawharanui-camping"
 date: 2019-10-08
 updated: 2023-01-31
 description: "Whether you like roughing it or you prefer DIY glamping, the Tawharanui Peninsula is one of the best spots in Auckland for overnight camping. Here’s all you…"

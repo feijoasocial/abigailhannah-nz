@@ -1,6 +1,6 @@
 ---
 title: "Top 30 Places To See On Your Northland Roadie"
-slug: "2021-northland-roadie"
+slug: "northland-road-trip-guide"
 date: 2021-02-27
 updated: 2023-07-22
 description: "Northland might be one of New Zealand’s most underrated destinations, but it is packed with incredible things to do. Learn about its history, swim in its…"

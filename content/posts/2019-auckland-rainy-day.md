@@ -1,6 +1,6 @@
 ---
 title: "24 Things To Do On A Rainy Day In Auckland"
-slug: "2019-auckland-rainy-day"
+slug: "rainy-day-auckland"
 date: 2019-07-23
 updated: 2023-01-31
 description: "A rainy day doesn’t have to be boring. With this list of 24 things to do, make every rainy day in Auckland a great one."

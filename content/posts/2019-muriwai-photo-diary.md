@@ -1,6 +1,6 @@
 ---
 title: "Scenes From A Day At The Muriwai Gannet Colony"
-slug: "2019-muriwai-photo-diary"
+slug: "muriwai-gannet-colony"
 date: 2019-09-10
 updated: 2023-01-31
 description: "A collection of photos from a windy day watching the Muriwai Gannet colony."

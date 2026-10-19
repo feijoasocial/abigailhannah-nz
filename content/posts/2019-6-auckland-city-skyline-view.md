@@ -1,6 +1,6 @@
 ---
 title: "5 Best Views Of The City Skyline"
-slug: "2019-6-auckland-city-skyline-view"
+slug: "auckland-city-skyline-views"
 date: 2019-06-23
 updated: 2023-01-31
 description: "Nothing beats a gorgeous city skyline, and Auckland is no exception. The iconic Sky Tower appears to be the pivotal point, wherever you view the Auckland…"

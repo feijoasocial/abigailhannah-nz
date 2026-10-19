@@ -1,6 +1,6 @@
 ---
 title: "Tongariro Northern Circuit: A Three Day Guide"
-slug: "2019-tongariro-circuit"
+slug: "tongariro-northern-circuit"
 date: 2019-11-05
 updated: 2023-05-07
 description: "The Tongariro Northern Circuit is one of NZ’s Great Walks. The three day trek takes you through spectacular and truly unique volcanic landscapes. This guide…"

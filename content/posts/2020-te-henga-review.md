@@ -1,6 +1,6 @@
 ---
 title: "A Complete Review Of The Te Henga Walkway"
-slug: "2020-te-henga-review"
+slug: "te-henga-walkway"
 date: 2020-02-04
 updated: 2023-01-31
 description: "“Spectacular” would be a big understatement for this Waitakere track. It immediately became a favourite of mine and the scenery is incomparable. Here is my…"

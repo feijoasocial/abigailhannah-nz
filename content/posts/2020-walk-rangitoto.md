@@ -1,6 +1,6 @@
 ---
 title: "These Are The Best Walking Tracks On Rangitoto Island"
-slug: "2020-walk-rangitoto"
+slug: "rangitoto-island-walks"
 date: 2020-12-18
 updated: 2023-07-22
 description: "Auckland’s iconic Rangitoto Island is worthy of a day-trip, with kilometers of walking trails and landmarks to see, this guide details all the tracks on the…"

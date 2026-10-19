@@ -1,6 +1,6 @@
 ---
 title: "The Best Locations To Discover Spring Blooms"
-slug: "2019-spring-blooms"
+slug: "spring-blooms"
 date: 2019-09-22
 updated: 2023-01-31
 description: "I’ve got spring fever! Here’s all the best spots to admire the beauty of spring as the city blooms this season. Some are a lot closer than you think!"

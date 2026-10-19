@@ -1,6 +1,6 @@
 ---
 title: "A Beautiful Day At Auckland's Moody Whatipu Beach"
-slug: "2019-06-whatipu-photo-diary"
+slug: "whatipu-beach"
 date: 2019-06-24
 updated: 2023-01-31
 description: "On a moody winter’s day at Whatipu, I captured some of my favourite photos ever, and couldn’t resist sharing."

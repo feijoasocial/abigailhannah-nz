@@ -38,7 +38,7 @@ nav:
 
 # Home page picks
 favourite_episodes: [36, 1, 43, 17]
-blog_picks: [2019-tama-lakes, 2020-south-island-roadie, 2021-northland-roadie]
+blog_picks: [tama-lakes-track-winter, 2020-south-island-roadie, northland-road-trip-guide]
 
 # Podcast cover art (from the Captivate feed) for the phone mockup
 podcast_cover: /images/podcast-cover.jpg
@@ -94,13 +94,74 @@ map_cards: [card-01, card-02, card-03, card-04, card-05, card-06, card-07, card-
 
 # Dead links on the old site, fixed at build time in posts, articles and Captivate show notes.
 # Old /blog/YYYY/(MM/)slug addresses are rewritten to /YYYY-(MM-)slug/ automatically.
-# Value: a new path or URL; "unlink" keeps the words and drops the link; "drop" removes the whole line.
+# Value: "unlink" keeps the words and drops the link; "drop" removes the whole line.
+# Address changes live in redirects below.
 link_fixes:
-  /travel: /blog/
-  /auckland: /category/north-island/
-  /mental-health: /category/lifestyle-and-wellbeing/
-  /services: https://feijoasocial.com
   /blog/2018/06/experience-climbing-the-pinnacles: unlink
   /blog/2019/pokhara-things-to-do: unlink
   /freebie-si: drop          # 14-day South Island itinerary freebie, not live
   /product/2024-calendar: drop
+
+# Old addresses that now live somewhere else. Each one gets a redirect page at the old address,
+# and any link to it anywhere on the site is rewritten to the new address.
+redirects:
+  # evergreen posts: dates dropped from the address (19 Oct 2026)
+  /2018-06-hot-water-beach-coromandel-winter: /hot-water-beach-coromandel/
+  /2019-6-auckland-city-skyline-view: /auckland-city-skyline-views/
+  /2019-apps-auckland: /best-apps-auckland/
+  /2019-auckland-bucketlist: /auckland-bucket-list/
+  /2019-auckland-diwali-festival: /auckland-diwali-festival/
+  /2019-auckland-rainy-day: /rainy-day-auckland/
+  /2019-06-whatipu-photo-diary: /whatipu-beach/
+  /2019-muriwai-photo-diary: /muriwai-gannet-colony/
+  /2019-spring-auckland: /spring-in-auckland/
+  /2019-spring-blooms: /spring-blooms/
+  /2019-tama-lakes: /tama-lakes-track-winter/
+  /2019-tawharanui-camping: /tawharanui-camping/
+  /2019-tongariro-circuit: /tongariro-northern-circuit/
+  /2019-visit-cathedral-cove: /cathedral-cove/
+  /2019-weekend-getaways: /auckland-weekend-getaways/
+  /2020-te-henga-review: /te-henga-walkway/
+  /2020-walk-rangitoto: /rangitoto-island-walks/
+  /2021-northland-roadie: /northland-road-trip-guide/
+  # retired pages from Showit, WordPress and Ivorey (Search Console 404 list, 19 Oct 2026)
+  /travel: /blog/
+  /auckland: /category/north-island/
+  /mental-health: /category/lifestyle-and-wellbeing/
+  /services: https://feijoasocial.com
+  /auckland-guide: /category/north-island/
+  /travel-itinerary: /map/
+  /freebie-si: /map/
+  /opt-in: /#vip
+  /coming-soon: /
+  /podcast-1: /podcast/
+  /shop: /map/
+  /product/2024-calendar: /map/
+  /product/media-kit-template: https://feijoasocial.com
+  /product-category/digital-products: /map/
+  /product-category/uncategorized: /map/
+  /travel-content-ideas: https://feijoasocial.com
+  /portfolio-instax: /about/
+  /portfolio-love-taupo: /about/
+  /portfolio-lowa: /about/
+  /author/feijoasocialgmail-com: /about/
+  /author/feijoasocialgmail-com/page/3: /about/
+  /category/lifestyle: /category/lifestyle-and-wellbeing/
+  /category/podcast: /podcast/
+  /category/north-island/page/2: /category/north-island/
+  /podcast/c/lifestyle-amp-wellbeing: /category/lifestyle-and-wellbeing/
+  /podcast/b/nature-helped-heal-depression: /nature-helped-heal-depression/
+  /podcast/b/119-three-teens-900km-cape-to-cape-human-powered-journey-with-olly-will-and-thomas: /119-three-teens-900km-cape-to-cape-human-powered-journey-with-olly-will-and-thomas/
+  /podcast/b/121-avoiding-vanlife-mistakes-and-life-on-the-road-in-nz-with-tiff-and-nathan: /121-avoiding-vanlife-mistakes-and-life-on-the-road-in-nz-with-tiff-and-nathan/
+  /post/nature-helped-heal-depression: /nature-helped-heal-depression/
+  /post/118-hut-bagging-and-visiting-over-500-doc-huts-with-benjamin-pigott: /118-hut-bagging-and-visiting-over-500-doc-huts-with-benjamin-pigott/
+  /tag/rangitoto: /rangitoto-island-walks/
+  /tag/muriwai: /muriwai-gannet-colony/
+  /tag/camping: /tawharanui-camping/
+  /tag/tent: /tawharanui-camping/
+  /tag/mackenzie: /category/south-island/
+  /tag/southisland: /category/south-island/
+  /tag/tauranga: /category/north-island/
+  /tag/family: /blog/
+  /tag/kiwi-outdoor-community: /podcast/
+  /wp-content/uploads/2020/02/te-henga-goldie-bush-walkway.pdf: /images/uploads/2020/02/te-henga-goldie-bush-walkway.pdf

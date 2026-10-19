@@ -1,6 +1,6 @@
 ---
 title: "8 Reasons Why You Will Love Hot Water Beach"
-slug: "2018-06-hot-water-beach-coromandel-winter"
+slug: "hot-water-beach-coromandel"
 date: 2019-06-20
 updated: 2023-01-31
 description: "<p class=\"\">No matter what the season is, Hot Water Beach in the Coromandel can’t be missed. No experience is quite as unique as digging your personal hot…"
