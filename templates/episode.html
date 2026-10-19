@@ -27,7 +27,8 @@
   </div>
 </section>
 <section class="band">
-  <div class="measure stack">
+  <div class="post-layout">
+  <div class="post-main stack">
     {{ parts.player(e) }}
     <p class="pill-row">
       <a class="pill" href="{{ cfg.spotify_show }}">Spotify</a>
@@ -39,6 +40,8 @@
     <div class="prose">
       {% if e.content %}{{ e.content.html | safe }}{% else %}{{ e.description_html | safe }}{% endif %}
     </div>
+  </div>
+  {{ parts.about_side() }}
   </div>
 </section>
 {{ parts.map_band(compact=True) }}

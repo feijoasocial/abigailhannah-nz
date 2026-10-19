@@ -20,9 +20,14 @@
     <h1>{{ p.title }}</h1>
     <p class="meta-row"><time datetime="{{ p.date.isoformat() }}">{{ p.date | date }}</time> <span>by Abigail Hannah</span></p>
   </div>
-  {% if p.image %}<div class="measure"><img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800"></div>{% endif %}
-  <div class="measure prose">{{ p.html | safe }}</div>
-  {% if p.tags %}<div class="measure tags"><p class="pill-row">{% for t in p.tags %}<span class="pill">{{ t }}</span>{% endfor %}</p></div>{% endif %}
+  <div class="post-layout">
+    <div class="post-main">
+      {% if p.image %}<img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800">{% endif %}
+      <div class="prose">{{ p.html | safe }}</div>
+      {% if p.tags %}<div class="tags"><p class="pill-row">{% for t in p.tags %}<span class="pill">{{ t }}</span>{% endfor %}</p></div>{% endif %}
+    </div>
+    {{ parts.about_side() }}
+  </div>
 </section>
 {{ parts.map_band(compact=True) }}
 {% if related %}

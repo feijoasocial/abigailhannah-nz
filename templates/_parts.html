@@ -155,3 +155,17 @@
   </div>
 </section>
 {% endmacro %}
+
+{% macro about_side() %}
+<aside class="side" aria-label="About Abigail">
+  <div class="side-card">
+    <img class="side-photo" src="/images/ab-beanie.jpg" alt="Abigail Hannah laughing in a beanie below Aoraki Mount Cook" loading="lazy" width="900" height="1350">
+    <p class="side-hi">oh hey, I'm Abigail</p>
+    <p>and I'm just a little obsessed with New Zealand. I have explored every corner of the country, first in a very beat-up rusty van, then through lots of hiking, and a 2-month sea kayak expedition. Now you'll find me living in a small town and having as many adventures as possible between podcast recordings and building my <a href="{{ cfg.feijoa_social }}">marketing agency</a>. And there's plenty more adventures to be had.</p>
+    <p class="side-ctas">
+      <a class="btn" href="{{ cfg.rexby_map }}">Get the NZ map</a>
+      <a class="btn btn-outline" href="/podcast/">Listen to the podcast</a>
+    </p>
+  </div>
+</aside>
+{% endmacro %}

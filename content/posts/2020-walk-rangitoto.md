@@ -56,7 +56,6 @@ The most common walk that people will do when landing at the ferry wharf is take
 
 ![rangitoto-island-auckland-walking-summit-track](https://images.squarespace-cdn.com/content/v1/59e57c9c32601e846dab3b2f/1608347847454-RX12UG9MPYA9RVZ1BI0Q/rangitoto-island-auckland-walking-summit-track)
 
-## 
 
 You can also do a side-trip to the lava caves, which are well signposted. And don’t forget to walk the short loop track around the volcanic crater!
 
