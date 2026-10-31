@@ -27,7 +27,7 @@ Three years ago, almost to the day, I handed in my keycard (with basement parkin
 
 It felt a little like betrayal.
 
-I didn't feel worthy of the job when I was offered it, I was perplexed on how I was picked for the single grad urban planning role at Australasia's largest engineering consultancy. What did they see in me?
+I didn't feel worthy of the job when I was offered it, I was perplexed on how I was picked for the single grad urban planning role at Australasias's largest engineering comsultancy. What did they see in me?
 
 And I worked my butt off. I was given an insane number of opportunities, I learnt so much, soaking in everything I could, putting my hand up for a variety of projects. I was soooo supported by the team, and I was also a go-getter. I knew I could sit back and "wait" to be asked, or I could take initiative and ask for the shit that I actually wanted.
 
@@ -95,7 +95,7 @@ I believe in making mistakes as often as possible, learning by doing.
 
 I would rather fail now and fail fast, learn sooner and fix it quicker, than make bigger mistakes later when the consequences are higher.
 
-So why am I putting this on the internet?
+So why I am putting this on the internet?
 
 Two things. That both lead to the same reason.  
 And both involve crying.
@@ -108,7 +108,7 @@ And both involve crying.
 
 So I share this on the internet because sometimes you need the proof. You need someone in your circle that you know and trust showing you what's possible.
 
-You need the butterfly to flap its wings in the Amazon, and create a cyclone in the Philippines.
+You need the butterfly to flap it's wings in the Amazon, and create a cyclone in the Philippines.
 
 So maybe I get to be your butterfly 🦋
 
