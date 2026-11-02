@@ -26,14 +26,14 @@ We chat about how she got hooked on travel, fitting trips around work, and what 
 
 **In this episode**
 
-*   [How Emily fell for travel](#emily-story)
-*   [Planning trips around work and a dog](#trips-and-work)
-*   [Solo travel and what it teaches you](#solo-travel)
-*   [Booking and planning the Routeburn Track](#routeburn-planning)
-*   [The Routeburn Track day by day](#routeburn-days)
-*   [Pack weight, hut food and hiking snacks](#pack-and-food)
-*   [Huts, company and staying safe on your own](#huts-and-safety)
-*   [Emily's advice and her next Great Walk](#advice-and-next)
+* [How Emily fell for travel](#emily-story)
+* [Planning trips around work and a dog](#trips-and-work)
+* [Solo travel and what it teaches you](#solo-travel)
+* [Booking and planning the Routeburn Track](#routeburn-planning)
+* [The Routeburn Track day by day](#routeburn-days)
+* [Pack weight, hut food and hiking snacks](#pack-and-food)
+* [Huts, company and staying safe on your own](#huts-and-safety)
+* [Emily's advice and her next Great Walk](#advice-and-next)
 
 ## How Emily fell for travel {#emily-story}
 
@@ -125,10 +125,10 @@ Because she was solo, she had to carry everything herself. Groups around her sha
 
 Her hut food:
 
-*   **Dehydrated meals**, which taste way more amazing after a long day of walking than anything else.
-*   **Two-minute noodles for breakfast**, because she is not a porridge person. Everyone else had their porridge, and she was sitting there with her noodles having a great old time.
-*   **Nut bars**, which fit into the little pockets on the front of her pack.
-*   **Big Cookie Time cookies**, a treat and a good energy hit, especially at the end of the day when you want hiking dessert.
+* **Dehydrated meals**, which taste way more amazing after a long day of walking than anything else.
+* **Two-minute noodles for breakfast**, because she is not a porridge person. Everyone else had their porridge, and she was sitting there with her noodles having a great old time.
+* **Nut bars**, which fit into the little pockets on the front of her pack.
+* **Big Cookie Time cookies**, a treat and a good energy hit, especially at the end of the day when you want hiking dessert.
 
 On a school tramping trip when I was at high school, my group packed cereal for breakfast and noodles for lunch, then realised we'd only have a fire at breakfast. So we had noodles for breakfast and cereal for lunch. It totally worked. And scroggin gets old a couple of days in, so cookies are going on my next hike.
 
@@ -172,27 +172,27 @@ My only Great Walk so far is the [Tongariro Northern Circuit](https://abigailhan
 
 ## Places from this episode
 
-*   Routeburn Track
-*   Glenorchy
-*   Milford
-*   Queenstown
-*   Key Summit
-*   Wellington
-*   Wānaka
-*   Heaphy Track
-*   Tongariro Northern Circuit
-*   Stewart Island
+* Routeburn Track
+* Glenorchy
+* Milford
+* Queenstown
+* Key Summit
+* Wellington
+* Wānaka
+* Heaphy Track
+* Tongariro Northern Circuit
+* Stewart Island
 
 ## Follow Emily
 
-*   Instagram: @emily.intransit
-*   Blog: Emily in Transit, where there's a post about her Routeburn trek
+* Instagram: @emily.intransit
+* Blog: Emily in Transit, where there's a post about her Routeburn trek
 
 ## More like this
 
-*   [Having an Accident on the Routeburn and a Five Year Recovery Journey with Sarah Heffron](https://abigailhannah.nz/102-having-an-accident-on-the-routeburn-and-a-five-year-recovery-journey-with-sarah-heffron/)
-*   [Five Days, 85km on Abigail Hannah's First Solo Hike on the Old Ghost Road](https://abigailhannah.nz/solo-old-ghost-road/)
-*   [Ruapehu and Solo Tramping in the Backcountry with Hazel Phillips](https://abigailhannah.nz/032-ruapehu-solo-hazel-phillips/)
-*   [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
+* [Having an Accident on the Routeburn and a Five Year Recovery Journey with Sarah Heffron](https://abigailhannah.nz/102-having-an-accident-on-the-routeburn-and-a-five-year-recovery-journey-with-sarah-heffron/)
+* [Five Days, 85km on Abigail Hannah's First Solo Hike on the Old Ghost Road](https://abigailhannah.nz/solo-old-ghost-road/)
+* [Ruapehu and Solo Tramping in the Backcountry with Hazel Phillips](https://abigailhannah.nz/032-ruapehu-solo-hazel-phillips/)
+* [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
 
 Until then, keep adventuring :)

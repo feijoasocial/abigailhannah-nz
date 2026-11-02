@@ -27,14 +27,14 @@ So this post is the route, stop by stop, from the first hot springs to a snow da
 
 **In this episode**
 
-*   [Why Barb and Reg came back for the South Island](#why-the-south-island)
-*   [Kaikōura, Maruia Springs and the West Coast](#kaikoura-west-coast)
-*   [Doubtful Sound and Milford Sound in winter](#doubtful-and-milford)
-*   [Queenstown to Aoraki Mount Cook in the snow](#aoraki-in-snow)
-*   [Hooker Valley Track and the swing bridges](#hooker-valley)
-*   [Lake Pūkaki, Lake Tekapo and the drive back](#pukaki-and-tekapo)
-*   [Campervanning in winter with two vans](#campervans-in-winter)
-*   [Tips for visiting New Zealand for the first time](#first-time-tips)
+* [Why Barb and Reg came back for the South Island](#why-the-south-island)
+* [Kaikōura, Maruia Springs and the West Coast](#kaikoura-west-coast)
+* [Doubtful Sound and Milford Sound in winter](#doubtful-and-milford)
+* [Queenstown to Aoraki Mount Cook in the snow](#aoraki-in-snow)
+* [Hooker Valley Track and the swing bridges](#hooker-valley)
+* [Lake Pūkaki, Lake Tekapo and the drive back](#pukaki-and-tekapo)
+* [Campervanning in winter with two vans](#campervans-in-winter)
+* [Tips for visiting New Zealand for the first time](#first-time-tips)
 
 ## Why Barb and Reg came back for the South Island {#why-the-south-island}
 
@@ -68,7 +68,7 @@ Next came Wānaka and the drive along the lake, with a stop at That Wānaka Tree
 
 ### Doubtful Sound from Lake Manapōuri
 
-To reach Doubtful Sound, you cruise across Lake Manapōuri, then take a coach over the top. Barb had never heard of it before, and she highly recommends it: in her words, Doubtful Sound was absolutely fabulous.
+To reach Doubtful Sound, you cruise across Lake Manapōuri, then take a coach over the top. Barb highly recommends it: in her words, Doubtful Sound was absolutely fabulous.
 
 It had been on Isaac's and my bucket list for ages too. People always ask which is better, and the answer I always hear is do them both, because they're so different. Doubtful feels remote, and there are fewer people. Milford is quite commercialised now, and its landscape is a bit more dramatic.
 
@@ -80,7 +80,7 @@ That night was at Cascade Creek, a beautiful DOC campground, where they woke to 
 
 On the drive in, the traffic light at the Homer Tunnel gives the kea enough time to come and be their cheeky selves.
 
-It poured the next morning, and I was super excited, because we'd never done that drive out of Milford Sound in the rain. Thousands of waterfalls.
+It poured the next morning on the drive out of Milford Sound. Thousands of waterfalls.
 
 ## Queenstown to Aoraki Mount Cook in the snow {#aoraki-in-snow}
 
@@ -110,15 +110,15 @@ The next morning, under clear skies, they walked the Hooker Valley Track, one of
 
 Before we set off, I'd told them it's the best walk in New Zealand.
 
-Reg rates it because in a very short space you see a lot, and the valley draws you into itself. In remote areas, the walking can be so difficult that the scenery goes to the back of the queue. His take on New Zealand tracks:
+They rate it because in a very short space you see a lot, and the valley draws you into itself. In remote areas, the walking can be so difficult that the scenery goes to the back of the queue. Their take on New Zealand tracks:
 
 > "The way they do it in New Zealand is they make a great footpath so you don't have to deal with a lot of technical stuff. You don't need a map, you just go and follow this very nice footpath and it gives you the freedom to look up."
 
-Where he lives, he knows many people who've fallen off rice paddies and footpaths looking up at the view.
+Where they live, they know many people who've fallen off rice paddies and footpaths looking up at the view.
 
 I've hugely enjoyed seeing New Zealand through their eyes on this trip, because most of my adult life has been here.
 
-Reg gave the swing bridges a close look. They had sway bracing, so they didn't wobble, and all the boards were in place. He's been on many bridges where people stole the sway bracing and sold it.
+The swing bridges got a close look. They had sway bracing, so they didn't wobble, and all the boards were in place. Barb and Reg have been on many bridges where people stole the sway bracing and sold it.
 
 The campsites impressed them too. In most places they've trekked, the first job at a campsite is picking up rubbish. Here they never once had to.
 
@@ -156,7 +156,7 @@ Reg describes it like this. The bed stayed down all the time and only one person
 
 In the bigger van, the bed went up into the ceiling electrically, so everyone could sit around together, and with the biggest sink and three burners, it's where most of the cooking happened.
 
-The best thing was the diesel heaters, which Reg had never seen before. Turn a knob and within 10 minutes the van is extremely toasty, even at five degrees outside, with no need to run the engine. He'd like to take one back to Nepal.
+The best thing was the diesel heaters. Turn a knob and within 10 minutes the van is extremely toasty, even at five degrees outside, with no need to run the engine.
 
 Isaac and I slept with ours on low. Changing the setting meant climbing out of bed, down the ladder and across the hallway, and getting it wrong meant really hot or really cold. Still amazing to have.
 
@@ -170,21 +170,21 @@ Two vans worked really well. Four people in one small van would have meant much 
 
 Barb and Reg have travelled widely, at many different levels, and Barb says New Zealand has been unique because everything works. There's no hassle, the infrastructure is great, and the people they met were friendly and helpful. They call it unpretentious: it lets nature speak for itself.
 
-Asked about challenges, they struggled. The bird list is missing a kingfisher, after 39 new species.
+Asked about challenges, they struggled. The bird list is missing a kingfisher.
 
 The petrol stations were a surprise. You go to one town, then the next, with nothing in between, which is okay once you work it out. The single-lane bridges were a surprise too. Otherwise the roads were great and well marked, with little white luminous lights on posts on each side. And having the internet everywhere, even if it was one bar, made the whole trip super easy.
 
 ### Their highlights
 
-Reg's highlight was Doubtful Sound, because it's a far away place, and once you're there you can see how people make a living, using the local resource: crayfish. Most of the trip was a lot of landscape and not many people, so he appreciated seeing people living and working there.
+One highlight was Doubtful Sound, because it's a far away place, and once you're there you can see how people make a living, using the local resource: crayfish. Most of the trip was a lot of landscape and not many people, so they appreciated seeing people living and working there.
 
-Barb's was how much they learnt about Māori culture, how New Zealand works and what comes off the land. In Cromwell's historic district, late one afternoon, the only thing open was a stone carver working in greenstone, so they popped in. They learnt how he studied, the permissions he needed to carve and to access the stone, and what the stones mean, including pounamu.
+Another was how much they learnt about Māori culture, how New Zealand works and what comes off the land. In Cromwell's historic district, late one afternoon, the only thing open was a stone carver working in greenstone, so they popped in. They learnt how he studied, the permissions he needed to carve and to access the stone, and what the stones mean, including pounamu.
 
 I love that both highlights are a bit unexpected. Queenstown and Mount Cook get a lot of hype, and sometimes it's the places you least expect that stick with you.
 
 ### Advice for first-time visitors
 
-Their advice: get a campervan, for the flexibility to stop wherever you want, with everything on board and no time wasted checking into hotels. Expect a significant gear shift down, too. Nature in other parts of the world can be really noisy, and as an outsider, Reg notices a peaceful quietness here, even in urban areas.
+Their advice: get a campervan, for the flexibility to stop wherever you want, with everything on board and no time wasted checking into hotels. Expect a significant gear shift down, too. Nature in other parts of the world can be really noisy, and as outsiders, they notice a peaceful quietness here, even in urban areas.
 
 And come for as long as you can, and take it as slowly as you can. Once you're out of the city, New Zealand is a place to be indulgent with time. A Kindle came along on this trip and was never opened once.
 
@@ -194,46 +194,46 @@ It was so special to do this trip together, and I hope some of you take the jump
 
 ## Places from this episode
 
-*   Christchurch
-*   Kaikōura
-*   Maruia Springs
-*   Hokitika
-*   Hokitika Gorge
-*   West Coast
-*   Fox Glacier
-*   Wānaka
-*   That Wānaka Tree
-*   Lumsden
-*   Lake Manapōuri
-*   Doubtful Sound
-*   Cascade Creek
-*   Milford Sound
-*   Milford Sound Lodge
-*   Homer Tunnel
-*   Kingston
-*   Lake Wakatipu
-*   Queenstown
-*   Routeburn Track
-*   Routeburn Falls Hut
-*   Twizel
-*   Aoraki Mount Cook
-*   White Horse Hill campground
-*   Hooker Valley Track
-*   Tasman Glacier
-*   The Hermitage
-*   Lake Pūkaki
-*   Lake Tekapo
-*   Church of the Good Shepherd
-*   Burkes Pass
-*   Fairlie
-*   Geraldine
-*   Cromwell
+* Christchurch
+* Kaikōura
+* Maruia Springs
+* Hokitika
+* Hokitika Gorge
+* West Coast
+* Fox Glacier
+* Wānaka
+* That Wānaka Tree
+* Lumsden
+* Lake Manapōuri
+* Doubtful Sound
+* Cascade Creek
+* Milford Sound
+* Milford Sound Lodge
+* Homer Tunnel
+* Kingston
+* Lake Wakatipu
+* Queenstown
+* Routeburn Track
+* Routeburn Falls Hut
+* Twizel
+* Aoraki Mount Cook
+* White Horse Hill campground
+* Hooker Valley Track
+* Tasman Glacier
+* The Hermitage
+* Lake Pūkaki
+* Lake Tekapo
+* Church of the Good Shepherd
+* Burkes Pass
+* Fairlie
+* Geraldine
+* Cromwell
 
 ## More like this
 
-*   [Exploring the South Island for the First Time as a Kiwi on a 7 Day Road Trip with Hamish McColl](https://abigailhannah.nz/095-exploring-the-south-island-for-the-first-time-as-a-kiwi-on-a-7-day-road-trip-with-hamish-mccoll/)
-*   [A Bucketlist Birthday Group Trip to New Zealand with Travel Podcaster Jackie Nourse](https://abigailhannah.nz/124-a-bucketlist-birthday-group-trip-to-new-zealand-with-travel-podcaster-jackie-nourse/)
-*   [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
-*   [Three Months of Road Trips and Hut Bagging in the South Island with Sophie Wakelin](https://abigailhannah.nz/134-three-months-of-road-trips-and-hut-bagging-in-the-south-island-with-sophie-wakelin/)
+* [Exploring the South Island for the First Time as a Kiwi on a 7 Day Road Trip with Hamish McColl](https://abigailhannah.nz/095-exploring-the-south-island-for-the-first-time-as-a-kiwi-on-a-7-day-road-trip-with-hamish-mccoll/)
+* [A Bucketlist Birthday Group Trip to New Zealand with Travel Podcaster Jackie Nourse](https://abigailhannah.nz/124-a-bucketlist-birthday-group-trip-to-new-zealand-with-travel-podcaster-jackie-nourse/)
+* [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
+* [Three Months of Road Trips and Hut Bagging in the South Island with Sophie Wakelin](https://abigailhannah.nz/134-three-months-of-road-trips-and-hut-bagging-in-the-south-island-with-sophie-wakelin/)
 
 Until then, keep adventuring :)

@@ -25,15 +25,15 @@ Summer is usually Great Walk season, and when we recorded this, all the walks ha
 
 **In this episode**
 
-*   [How Nicola fell back in love with New Zealand](#nicola-story)
-*   [Nine Great Walks in nine years](#great-walks-goal)
-*   [How to book a Great Walk](#booking-tips)
-*   [Milford Track and Lake Waikaremoana, Nicola's favourites](#favourite-great-walks)
-*   [Paparoa Track, day by day](#paparoa-track)
-*   [Tramping food and treats](#tramping-food)
-*   [Whanganui Journey, the river Great Walk](#whanganui-journey)
-*   [Day walks, biking and camping with little ones](#little-ones)
-*   [Nicola's New Zealand bucket list](#bucket-list)
+* [How Nicola fell back in love with New Zealand](#nicola-story)
+* [Nine Great Walks in nine years](#great-walks-goal)
+* [How to book a Great Walk](#booking-tips)
+* [Milford Track and Lake Waikaremoana, Nicola's favourites](#favourite-great-walks)
+* [Paparoa Track, day by day](#paparoa-track)
+* [Tramping food and treats](#tramping-food)
+* [Whanganui Journey, the river Great Walk](#whanganui-journey)
+* [Day walks, biking and camping with little ones](#little-ones)
+* [Nicola's New Zealand bucket list](#bucket-list)
 
 ## How Nicola fell back in love with New Zealand {#nicola-story}
 
@@ -57,11 +57,11 @@ I've done four: [Waikaremoana](https://abigailhannah.nz/175-starting-tramping-in
 
 Some Great Walks sell out almost instantly. Nicola booked the Milford the year before the COVID lockdown, when demand was slightly lower. It was still pretty high. Her tips for booking day:
 
-*   **Be online the moment bookings open.** She took a break at work to do it.
-*   **Sort your login in advance**, password issues included, so you're logged in on the DOC site with no problems.
-*   **Write it all down.** Days and nights, which hut on which exact night, your dates in and out, and your direction. Then once you're in, it's click, click, click.
-*   **Split up for big groups.** More than one of them tried at the same time, with a plan already made: if only one person got through, the people most desperate to go took the spots, and if both did, the wider group went.
-*   **Have plan B ready.** If you miss out, there's no time to discuss it. Know your second set of dates, or that you'll walk the other direction, or who will give up their spot.
+* **Be online the moment bookings open.** She took a break at work to do it.
+* **Sort your login in advance**, password issues included, so you're logged in on the DOC site with no problems.
+* **Write it all down.** Days and nights, which hut on which exact night, your dates in and out, and your direction. Then once you're in, it's click, click, click.
+* **Split up for big groups.** More than one of them tried at the same time, with a plan already made: if only one person got through, the people most desperate to go took the spots, and if both did, the wider group went.
+* **Have plan B ready.** If you miss out, there's no time to discuss it. Know your second set of dates, or that you'll walk the other direction, or who will give up their spot.
 
 They'd always aim for public holidays, and somehow they always got them. Everyone goes at Easter and Labour Weekend, so Nicola's advice is to be flexible about when in the season you go.
 
@@ -95,13 +95,11 @@ The Paparoa is 55 kilometres, and Nicola walked it over three days and two night
 
 They followed the recommended plan, with nights at Moonlight Tops Hut and Pororari Hut. It skips the first hut, Ces Clark Hut, because otherwise day two all the way to Pororari is a 29-kilometre day.
 
-*   **Smoke-ho car park to Moonlight Tops Hut.** A good uphill day, around 20 kilometres and coming up to eight hours of walking.
-*   **Moonlight Tops Hut to Pororari Hut.** Nearly as big at 19 kilometres, with a gentle downhill.
-*   **Pororari Hut to Punakaiki.** Shorter, at 16 kilometres.
+* **Smoke-ho car park to Moonlight Tops Hut.** A good uphill day, around 20 kilometres and coming up to eight hours of walking.
+* **Moonlight Tops Hut to Pororari Hut.** Nearly as big at 19 kilometres, with a gentle downhill.
+* **Pororari Hut to Punakaiki.** Shorter, at 16 kilometres.
 
 You come out right across the road from Punakaiki Beach Camp, where they stayed: cross the road, hot shower. The village is only a kilometre away.
-
-Nicola points out that the Abel Tasman is 53 kilometres and people do it in four days, so she reckons four days would be sensible on the Paparoa too.
 
 ### Views and weather
 
@@ -127,12 +125,12 @@ Ask Nicola for her number one piece of gear and all that comes to mind is food. 
 
 Her go-tos:
 
-*   **Steamed puddings.** Boil some water and bathe the pudding in it.
-*   **Dehy risottos** with dehydrated vegetables. They still need 20 minutes of cooking, so that's a lot of gas.
-*   **A cup of soup as an entrée.** So light, and you only need boiling water.
-*   **Packet pancakes**, warmed in the pan and topped with bacon and banana.
-*   **Garlic pita breads**, already stuffed with garlic. A quick toast in a pan makes a beautiful appetiser (they once stunk out a hut with them).
-*   **Uncle Tobys oat bars**, literally oats in solid form, for breakfast on the go.
+* **Steamed puddings.** Boil some water and bathe the pudding in it.
+* **Dehy risottos** with dehydrated vegetables. They still need 20 minutes of cooking, so that's a lot of gas.
+* **A cup of soup as an entrée.** So light, and you only need boiling water.
+* **Packet pancakes**, warmed in the pan and topped with bacon and banana.
+* **Garlic pita breads**, already stuffed with garlic. A quick toast in a pan makes a beautiful appetiser (they once stunk out a hut with them).
+* **Uncle Tobys oat bars**, literally oats in solid form, for breakfast on the go.
 
 The oat bars are for mornings when she wants a bit more sleep and struggles to get out of the hut as quickly as the others, and they mean no breakfast dishes.
 
@@ -172,56 +170,56 @@ I think it's so good to normalise that life after kids won't look the same as li
 
 There's still plenty on Nicola's list:
 
-*   **Lake Alta**, at the top of the Remarkables. She'd love to do that climb.
-*   **The** [**Far North**](https://abigailhannah.nz/176-a-locals-guide-to-northland-and-building-hiking-communities-with-hannah-whittaker/)**.** She's only been once, as a kid, and friends' trips up there have her thinking she needs to get back to those beaches.
-*   **Ski fields down south.** She loves [snow sports](https://abigailhannah.nz/014-snowsports-nz-olympian-anja-barugh/) and has only done Ruapehu.
-*   **Abel Tasman**, again. She'd go back in a heartbeat for a slower-paced holiday, with the kayaking as well as the walking.
+* **Lake Alta**, at the top of the Remarkables. She'd love to do that climb.
+* **The** [**Far North**](https://abigailhannah.nz/176-a-locals-guide-to-northland-and-building-hiking-communities-with-hannah-whittaker/)**.** She's only been once, as a kid, and friends' trips up there have her thinking she needs to get back to those beaches.
+* **Ski fields down south.** She loves [snow sports](https://abigailhannah.nz/014-snowsports-nz-olympian-anja-barugh/) and has only done Ruapehu.
+* **Abel Tasman**, again. She'd go back in a heartbeat for a slower-paced holiday, with the kayaking as well as the walking.
 
 I highly, highly recommend the kayaking. It's how I first experienced the Abel Tasman, and it's a beautiful way to see it.
 
 ## Places from this episode
 
-*   Paparoa Track
-*   Smoke-ho car park
-*   Blackball
-*   Greymouth
-*   Moonlight Tops Hut
-*   Ces Clark Hut
-*   Pororari Hut
-*   Punakaiki
-*   Punakaiki Beach Camp
-*   Pike River Mine
-*   Christchurch
-*   West Coast
-*   Milford Track
-*   Fiordland
-*   Lake Waikaremoana
-*   Routeburn Track
-*   Abel Tasman
-*   Tongariro
-*   Whanganui Journey
-*   Hump Ridge Track
-*   Greenstone Caples Track
-*   Old Ghost Road
-*   Northland
-*   East Cape
-*   Central Otago
-*   Lake Alta
-*   The Remarkables
-*   Far North
-*   Ruapehu
+* Paparoa Track
+* Smoke-ho car park
+* Blackball
+* Greymouth
+* Moonlight Tops Hut
+* Ces Clark Hut
+* Pororari Hut
+* Punakaiki
+* Punakaiki Beach Camp
+* Pike River Mine
+* Christchurch
+* West Coast
+* Milford Track
+* Fiordland
+* Lake Waikaremoana
+* Routeburn Track
+* Abel Tasman
+* Tongariro
+* Whanganui Journey
+* Hump Ridge Track
+* Greenstone Caples Track
+* Old Ghost Road
+* Northland
+* East Cape
+* Central Otago
+* Lake Alta
+* The Remarkables
+* Far North
+* Ruapehu
 
 ## Follow Nicola
 
-*   Blog: Following Faultlines
-*   Instagram: @followingfaultlines
-*   Facebook: Following Faultlines
+* Blog: Following Faultlines
+* Instagram: @followingfaultlines
+* Facebook: Following Faultlines
 
 ## More like this
 
-*   [Tramping the Heaphy Track from Karamea to Collingwood with Jacq Nesbit](https://abigailhannah.nz/133-tramping-the-heaphy-track-from-karamea-to-collingwood-with-jacq-nesbit/)
-*   [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
-*   [Summer as a DOC Ranger on Stewart Island and Women in Trades with Brooke Thompson](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/)
-*   [Southland's Five Great Walks in Five Days with Simon Patton](https://abigailhannah.nz/five-great-walks-in-five-days/)
+* [Tramping the Heaphy Track from Karamea to Collingwood with Jacq Nesbit](https://abigailhannah.nz/133-tramping-the-heaphy-track-from-karamea-to-collingwood-with-jacq-nesbit/)
+* [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
+* [Summer as a DOC Ranger on Stewart Island and Women in Trades with Brooke Thompson](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/)
+* [Southland's Five Great Walks in Five Days with Simon Patton](https://abigailhannah.nz/five-great-walks-in-five-days/)
 
 Until then, keep adventuring :)

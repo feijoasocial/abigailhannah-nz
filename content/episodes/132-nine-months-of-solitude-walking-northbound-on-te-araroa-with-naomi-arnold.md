@@ -25,18 +25,18 @@ We talk about the 20-year dream that got her there, what Te Araroa really is, he
 
 **In this episode**
 
-*   [Growing up curious and a 20-year dream](#twenty-year-dream)
-*   [Walking Te Araroa northbound and alone](#northbound-alone)
-*   [What Te Araroa is](#what-is-te-araroa)
-*   [Writing Northbound on the trail](#writing-on-trail)
-*   [Tongariro Alpine Crossing in the snow](#tongariro-snow)
-*   [How hard Te Araroa is, body and mind](#body-and-mind)
-*   [Staying safe alone in winter](#staying-safe)
-*   [Listener questions: food, the Longwoods and loneliness](#listener-questions)
+* [Growing up curious and a 20-year dream](#twenty-year-dream)
+* [Walking Te Araroa northbound and alone](#northbound-alone)
+* [What Te Araroa is](#what-is-te-araroa)
+* [Writing Northbound on the trail](#writing-on-trail)
+* [Tongariro Alpine Crossing in the snow](#tongariro-snow)
+* [How hard Te Araroa is, body and mind](#body-and-mind)
+* [Staying safe alone in winter](#staying-safe)
+* [Listener questions: food, the Longwoods and loneliness](#listener-questions)
 
 ## Growing up curious and a 20-year dream {#twenty-year-dream}
 
-Naomi grew up in Te Puke in the [Bay of Plenty](https://abigailhannah.nz/163-best-spots-and-hidden-gems-in-the-bay-of-plenty-coromandel-with-ciska/), and her childhood gave her a fascination with the natural world. She vividly remembers standing on the beach at Papamoa as a small child, looking at Halley's Comet, and being told, out on a boat in the middle of Lake Taupō, that she was floating on a giant volcano.
+Naomi grew up in Te Puke in the [Bay of Plenty](https://abigailhannah.nz/163-best-spots-and-hidden-gems-in-the-bay-of-plenty-coromandel-with-ciska/), and her childhood gave her a fascination with the natural world. She vividly remembers standing on the beach at Papamoa as a small child, looking at Halley's Comet. Another time, out on a boat in the middle of Lake Taupō, she was told she was floating on a giant volcano.
 
 She started tramping at the University of Otago, and did a lot more of it once she moved to Nelson. So for her, the outdoors is something she discovered as an adult.
 
@@ -52,7 +52,7 @@ The window came when she'd finished a year at RNZ and was wrapping up co-writing
 
 ## Walking Te Araroa northbound and alone {#northbound-alone}
 
-The plan was to start at Cape Reinga and walk south. That didn't compute. She started at Bluff on Boxing Day, late in the season, and almost immediately had to take weeks off for unforeseen work on the Forest & Bird book after the government changed.
+Her original plan was to start at Cape Reinga and walk south. That didn't work out, so she started at Bluff on Boxing Day, late in the season, and almost immediately had to take weeks off for unforeseen work on the Forest & Bird book after the government changed.
 
 That meant no [trail family](https://abigailhannah.nz/164-five-months-sobo-on-te-araroa-and-finding-community-with-deni-estivill/). Naomi really wanted one: those intense friendships you make in the outdoors, where the barriers come down straight away and you see each other's humanity at your worst. She walked with other people for a few short stretches over eight and a half months, and that was it.
 
@@ -114,7 +114,7 @@ Her feet were the exception. Once they got wet, it was agony, and her toes were 
 
 ### The mental side
 
-Naomi was never close to quitting. She was obsessed with the line (capitalised in the book): once someone draws a line on a map, she felt beholden to follow it.
+Naomi was never close to quitting. She was obsessed with "the Line" (capitalised in the book): once someone draws a line on a map, she felt beholden to follow it.
 
 Her lows were situational, a hundred times a day, with a lot of crying and despair, all overlaid by absolute determination. About 2,000 kilometres in, she'd wake up having forgotten everything from the day before, and that turned into a life lesson:
 
@@ -156,7 +156,7 @@ By the end, she stopped caring about food. She bought a can of whipped cream and
 
 ### Birchwood to Bluff
 
-James found the last few southbound days, from Birchwood to Bluff, monotonous and surprisingly hard, and asked if starting there was good prep. For Naomi, the Longwoods did her head in, and the section was a good indication of the rest of the trail: private land, roads, local maunga, beach and a lot of walking alongside State Highway 1. With all the closures, she did a lot of 30-kilometre detours on backcountry roads, especially in Northland. She got fitter, and it still sucked.
+James, a listener who'd walked the South Island southbound that season, found the last few days, from Birchwood to Bluff, monotonous and surprisingly hard, and asked if starting there was good prep. For Naomi, the Longwoods did her head in, and the section was a good indication of the rest of the trail: private land, roads, local maunga, beach and a lot of walking alongside State Highway 1. With all the closures, she did a lot of 30-kilometre detours on backcountry roads, especially in Northland. She got fitter, and it still sucked.
 
 ### Loneliness
 
@@ -172,41 +172,41 @@ I'm a big crier too, and I'm with Naomi: crying is your body telling you there's
 
 ## Places from this episode
 
-*   Te Araroa
-*   Bluff
-*   Longwood Ranges
-*   Birchwood
-*   Wānaka
-*   Motatapu
-*   Boyle River
-*   Hanmer
-*   Arthur's Pass
-*   Tararuas
-*   Whanganui River
-*   Pipiriki
-*   Ohakune
-*   National Park Village
-*   Ruapehu
-*   Tongariro Alpine Crossing
-*   Pirongia
-*   Waitomo
-*   Ninety Mile Beach
-*   Cape Reinga
-*   Te Puke
-*   Papamoa
-*   Lake Taupō
-*   Nelson
+* Te Araroa
+* Bluff
+* Longwood Ranges
+* Birchwood
+* Wānaka
+* Motatapu
+* Boyle River
+* Hanmer
+* Arthur's Pass
+* Tararuas
+* Whanganui River
+* Pipiriki
+* Ohakune
+* National Park Village
+* Ruapehu
+* Tongariro Alpine Crossing
+* Pirongia
+* Waitomo
+* Ninety Mile Beach
+* Cape Reinga
+* Te Puke
+* Papamoa
+* Lake Taupō
+* Nelson
 
 ## Follow Naomi
 
-*   Instagram: @naomijarnold
-*   Website: [naomiarnold.net](http://naomiarnold.net)
+* Instagram: @naomijarnold
+* Website: [naomiarnold.net](http://naomiarnold.net)
 
 ## More like this
 
-*   [Section Walking Te Araroa over Multiple Seasons and Battling Cancer with Te Aroha Hohaia](https://abigailhannah.nz/173-section-walking-te-araroa-over-multiple-seasons-and-battling-cancer-with-te-aroha-hohaia/)
-*   [Setting the Fastest Self-Supported Record on Te Araroa with Billy Meredith](https://abigailhannah.nz/157-setting-the-fastest-self-supported-record-on-te-araroa-with-billy-meredith/)
-*   [A Healing Journey on Te Araroa Trail with Germaine](https://abigailhannah.nz/057-te-araroa-healing/)
-*   [Thru-hiking the Te Araroa Trail with Zoe](https://abigailhannah.nz/043-te-araroa-thru-hike-zoe/)
+* [Section Walking Te Araroa over Multiple Seasons and Battling Cancer with Te Aroha Hohaia](https://abigailhannah.nz/173-section-walking-te-araroa-over-multiple-seasons-and-battling-cancer-with-te-aroha-hohaia/)
+* [Setting the Fastest Self-Supported Record on Te Araroa with Billy Meredith](https://abigailhannah.nz/157-setting-the-fastest-self-supported-record-on-te-araroa-with-billy-meredith/)
+* [A Healing Journey on Te Araroa Trail with Germaine](https://abigailhannah.nz/057-te-araroa-healing/)
+* [Thru-hiking the Te Araroa Trail with Zoe](https://abigailhannah.nz/043-te-araroa-thru-hike-zoe/)
 
 Until then, keep adventuring :)

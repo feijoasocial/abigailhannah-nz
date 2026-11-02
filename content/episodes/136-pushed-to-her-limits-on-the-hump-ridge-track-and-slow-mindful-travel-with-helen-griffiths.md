@@ -25,16 +25,16 @@ She described the Hump Ridge Track to me as some of the most incredible and horr
 
 **In this episode**
 
-*   [How Helen fell for the outdoors](#helen-story)
-*   [Moving to Christchurch on a working holiday](#working-holiday)
-*   [Favourite trips, from the West Coast to Aoraki](#favourite-trips)
-*   [Booking the Hump Ridge Track](#booking-hump-ridge)
-*   [Hump Ridge Track day one](#hump-ridge-day-one)
-*   [Hump Ridge Track day two](#hump-ridge-day-two)
-*   [Hump Ridge Track day three](#hump-ridge-day-three)
-*   [Taking the Hump Ridge Track slower](#taking-it-slower)
-*   [Slow, mindful travel](#slow-travel)
-*   [Hump Ridge huts and getting to the track](#huts-and-access)
+* [How Helen fell for the outdoors](#helen-story)
+* [Moving to Christchurch on a working holiday](#working-holiday)
+* [Favourite trips, from the West Coast to Aoraki](#favourite-trips)
+* [Booking the Hump Ridge Track](#booking-hump-ridge)
+* [Hump Ridge Track day one](#hump-ridge-day-one)
+* [Hump Ridge Track day two](#hump-ridge-day-two)
+* [Hump Ridge Track day three](#hump-ridge-day-three)
+* [Taking the Hump Ridge Track slower](#taking-it-slower)
+* [Slow, mindful travel](#slow-travel)
+* [Hump Ridge huts and getting to the track](#huts-and-access)
 
 ## How Helen fell for the outdoors {#helen-story}
 
@@ -80,7 +80,7 @@ Day one is flat for quite a long time, skirting the edge of a beautiful beach. T
 
 The hut is really beautiful, and once you reach it, it all feels worth it. You get amazing views back down over everywhere you've walked, and behind you is the actual Hump Ridge the track is named after.
 
-Helen had taken a tripod, with really high ambitions of [astrophotography](https://abigailhannah.nz/027-astrophotography-larryn-rae/). A friend carried it the whole way, and she didn't use it once: by the time they got to the lodge, she crashed out. There's a side trip from the lodge called the Okaka loop, up to the Hump Ridge, but they were all done for the day.
+Helen had taken a tripod, with really high ambitions of [astrophotography](https://abigailhannah.nz/027-astrophotography-larryn-rae/). A friend carried it the whole way, and she didn't use it once: by the time they got to the lodge, she crashed out. There's a side trip from the lodge called the Ōkaka loop, up to the Hump Ridge, but they were all done for the day.
 
 I'm always tossing up side trips like that. On [Waikaremoana](https://abigailhannah.nz/175-starting-tramping-in-her-40s-and-lake-waikaremoana-as-a-family-with-lois-baldwin/), a few people told me the waterfall side track was the highlight, and I didn't want to add it on. We've got plans to kayak to that section and do the little walk, which justifies me not going in.
 
@@ -90,7 +90,7 @@ Day two is the one that broke Helen. It's a beautiful, beautiful hike, so she wo
 
 ### Luncheon Rock and the old railway line
 
-You start along a bit of a boardwalk, with views of Southland and Fiordland at times. A few hours in, you reach Luncheon Rock, or Te Tahi, a huge rocky outcrop with more incredible views and a few facilities. They ate lunch on the rock, watching the rain clouds get closer and closer, and could see it was going to rain for the rest of the day.
+You start along a bit of a boardwalk, with views of Southland and Fiordland at times. A few hours in, you reach Luncheon Rock, or Tītahi, a huge rocky outcrop with more incredible views and a few facilities. They ate lunch on the rock, watching the rain clouds get closer and closer, and could see it was going to rain for the rest of the day.
 
 From there you slowly head downhill, but it's very undulating, up and down and down and up, until you eventually get down to a level.
 
@@ -152,9 +152,9 @@ The easiest definition of slow travel is travelling very slowly. Helen thinks yo
 
 That can look like:
 
-*   **Supporting local businesses** when you travel.
-*   **Immersing yourself deeply in the culture**, learning the history, what makes the people who they are and why the landscape is the way it is.
-*   **Taking** [**public transport**](https://abigailhannah.nz/low-carbon-adventures/), which isn't so easy in Aotearoa. Around Europe, Helen likes to take the train when she can: it can be a little more expensive, and it's a really beautiful way of travelling.
+* **Supporting local businesses** when you travel.
+* **Immersing yourself deeply in the culture**, learning the history, what makes the people who they are and why the landscape is the way it is.
+* **Taking** [**public transport**](https://abigailhannah.nz/low-carbon-adventures/), which isn't so easy in Aotearoa. Around Europe, Helen likes to take the train when she can: it can be a little more expensive, and it's a really beautiful way of travelling.
 
 She reckons going slow is when you find the real hidden gems. If you're only ticking off the main tourist destinations, you miss out a bit on some of the juicier places.
 
@@ -180,39 +180,39 @@ Getting there is super simple. Helen's group drove down from Queenstown, and the
 
 ## Places from this episode
 
-*   Hump Ridge Track
-*   Tuatapere
-*   Southland
-*   Fiordland
-*   Okaka loop
-*   Luncheon Rock (Te Tahi)
-*   Queenstown
-*   Christchurch
-*   Hagley Park
-*   Sumner
-*   West Coast
-*   Aoraki Mount Cook National Park
-*   Hooker Valley Track
-*   Milford Track
-*   Waikaremoana
-*   Lake Angelus, Nelson Lakes
-*   Tākaka
-*   Golden Bay
-*   Marlborough
-*   Abel Tasman
-*   Lake District
-*   Brecon Beacons
+* Hump Ridge Track
+* Tuatapere
+* Southland
+* Fiordland
+* Ōkaka loop
+* Luncheon Rock (Tītahi)
+* Queenstown
+* Christchurch
+* Hagley Park
+* Sumner
+* West Coast
+* Aoraki Mount Cook National Park
+* Hooker Valley Track
+* Milford Track
+* Waikaremoana
+* Lake Angelus, Nelson Lakes
+* Tākaka
+* Golden Bay
+* Marlborough
+* Abel Tasman
+* Lake District
+* Brecon Beacons
 
 ## Follow Helen
 
-*   Instagram: @\_helengriffiths
-*   Substack: wildlyandslow, where she shares slow travel diaries, thoughts on creative living and a little about her health journey
+* Instagram: @\_helengriffiths
+* Substack: wildlyandslow, where she shares slow travel diaries, thoughts on creative living and a little about her health journey
 
 ## More like this
 
-*   [Slow Travel in an EV and Catlins, Dunedin and Oamaru with Mature Flâneur Tim Ward](https://abigailhannah.nz/139-slow-travel-in-an-ev-and-catlins-dunedin-and-oamaru-with-mature-flaneur-tim-ward/)
-*   [Finding Freedom in Slow Travel and Bikepacking with Nicole Koch](https://abigailhannah.nz/slow-travel-bikepacking/)
-*   [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
-*   [Summer as a DOC Ranger on Stewart Island and Women in Trades with Brooke Thompson](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/)
+* [Slow Travel in an EV and Catlins, Dunedin and Oamaru with Mature Flâneur Tim Ward](https://abigailhannah.nz/139-slow-travel-in-an-ev-and-catlins-dunedin-and-oamaru-with-mature-flaneur-tim-ward/)
+* [Finding Freedom in Slow Travel and Bikepacking with Nicole Koch](https://abigailhannah.nz/slow-travel-bikepacking/)
+* [Hiking the Kepler Track in Fiordland with Dua](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/)
+* [Summer as a DOC Ranger on Stewart Island and Women in Trades with Brooke Thompson](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/)
 
 Until then, keep adventuring :)

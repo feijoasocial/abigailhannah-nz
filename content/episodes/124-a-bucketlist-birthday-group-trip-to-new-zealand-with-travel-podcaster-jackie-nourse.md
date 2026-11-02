@@ -25,16 +25,16 @@ So we go through it all. Hobbiton and the glowworm caves, then a 10-day South Is
 
 **In this episode**
 
-*   [Traveling Jackie and her adventure trips](#traveling-jackie)
-*   [Why New Zealand for a 40th birthday](#why-new-zealand)
-*   [Flying to New Zealand from the US](#flying-from-the-us)
-*   [Hobbiton and the Waitomo glowworm caves](#hobbiton-waitomo)
-*   [A 10-day South Island itinerary](#south-island-itinerary)
-*   [Bike crashes and Milford Sound in the rain](#milford-in-the-rain)
-*   [Aoraki from Rex Simpson Hut, and the stars](#rex-simpson-hut)
-*   [Hooker Valley Track and Sealy Tarns](#hooker-valley)
-*   [Lake Dunstan Trail, from Cromwell to Clyde](#lake-dunstan-trail)
-*   [Jackie's advice, and New Zealand against Patagonia](#advice-and-patagonia)
+* [Traveling Jackie and her adventure trips](#traveling-jackie)
+* [Why New Zealand for a 40th birthday](#why-new-zealand)
+* [Flying to New Zealand from the US](#flying-from-the-us)
+* [Hobbiton and the Waitomo glowworm caves](#hobbiton-waitomo)
+* [A 10-day South Island itinerary](#south-island-itinerary)
+* [Bike crashes and Milford Sound in the rain](#milford-in-the-rain)
+* [Aoraki from Rex Simpson Hut, and the stars](#rex-simpson-hut)
+* [Hooker Valley Track and Sealy Tarns](#hooker-valley)
+* [Lake Dunstan Trail, from Cromwell to Clyde](#lake-dunstan-trail)
+* [Jackie's advice, and New Zealand against Patagonia](#advice-and-patagonia)
 
 ## Traveling Jackie and her adventure trips {#traveling-jackie}
 
@@ -92,14 +92,14 @@ I'm nodding along to that. We've been back to some places in New Zealand five ti
 
 Their route, which they called the Best of the Southern Alps:
 
-*   **Christchurch**, where the group met.
-*   **Lake Tekapo** and a night at **Rex Simpson Hut**, a backcountry hut.
-*   [**Aoraki Mount Cook**](https://abigailhannah.nz/aoraki-mount-cook-national-park/) for two nights, with a couple of hikes.
-*   **Omarama**, biking part of the **Alps 2 Ocean** trail, with hot springs.
-*   **Clyde**, with wine and more biking on the **Lake Dunstan Trail**.
-*   **Fiordland**, hiking to **Luxmore Hut** on the [Kepler Track](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/) and an overnight cruise on **Doubtful Sound**.
-*   **Milford Sound**, a day cruise straight after Doubtful, which made for an interesting comparison back to back, plus hiking and biking around the region.
-*   The **Around the Mountains Trail**, biking through the mountains to Lake Wakatipu and along the shore to **Walter Peak Station**, then the boat across to **Queenstown** as the grand finale.
+* **Christchurch**, where the group met.
+* **Lake Tekapo** and a night at **Rex Simpson Hut**, a backcountry hut.
+* [**Aoraki Mount Cook**](https://abigailhannah.nz/aoraki-mount-cook-national-park/) for two nights, with a couple of hikes.
+* **Omarama**, biking part of the **Alps 2 Ocean** trail, with hot springs.
+* **Clyde**, with wine and more biking on the **Lake Dunstan Trail**.
+* **Fiordland**, hiking to **Luxmore Hut** on the [Kepler Track](https://abigailhannah.nz/003-hiking-the-kepler-track-in-fiordland-with-dua/) and an overnight cruise on **Doubtful Sound**.
+* **Milford Sound**, a day cruise straight after Doubtful, which made for an interesting comparison back to back, plus hiking and biking around the region.
+* The **Around the Mountains Cycle Trail**, biking through the mountains to Lake Wakatipu and along the shore to **Walter Peak Station**, then the boat across to **Queenstown** as the grand finale.
 
 Jackie still wants to go back and do all of the Alps 2 Ocean, and more of the [multi-day bike trails](https://abigailhannah.nz/beginner-bikepacking/).
 
@@ -129,7 +129,7 @@ Her tip if you go on a wild day: look for the one they call Disappearing Falls. 
 
 Weather changes every visit here. On our first South Island trip, in winter, we drove to Hokitika Gorge for the blue water from Instagram, after five days of rain. It was muddy brown, with waterfalls pouring into the gorge off the hillsides. Back in summer, after a dry spell, it was that beautiful blue.
 
-And at Aoraki one winter, a freak snowstorm covered the whole trail in snow. It might only happen a handful of times a year, and we were there at the right time.
+And at Aoraki one winter, a freak snowstorm covered the whole trail in snow.
 
 ## Aoraki from Rex Simpson Hut, and the stars {#rex-simpson-hut}
 
@@ -179,10 +179,10 @@ Being away from New Zealand has shown me how much we take for granted: the backc
 
 Jackie's advice for visitors:
 
-*   **Just go.** Forget about how long the flight is.
-*   **Get off the beaten path** as much as you can, and use the trails that are there for you.
-*   **Stay out to watch the stars.**
-*   **Get a guide** and let them take you places you didn't know existed, like the Around the Mountains Trail.
+* **Just go.** Forget about how long the flight is.
+* **Get off the beaten path** as much as you can, and use the trails that are there for you.
+* **Stay out to watch the stars.**
+* **Get a guide** and let them take you places you didn't know existed, like the Around the Mountains Cycle Trail.
 
 I'd add: plan your trip around nature. There's no point coming to New Zealand and missing out on the mountains.
 
@@ -194,42 +194,42 @@ I've had so many guests who came to New Zealand, didn't want to leave and [came 
 
 ## Places from this episode
 
-*   Hobbiton
-*   Waitomo
-*   Cambridge
-*   Christchurch
-*   Lake Tekapo
-*   Rex Simpson Hut
-*   Aoraki Mount Cook
-*   Lake Pukaki
-*   Hooker Valley Track
-*   Sealy Tarns
-*   Omarama
-*   Alps 2 Ocean
-*   Clyde
-*   Cromwell
-*   Lake Dunstan Trail
-*   Luxmore Hut
-*   Kepler Track
-*   Doubtful Sound
-*   Milford Sound
-*   Around the Mountains Trail
-*   Walter Peak Station
-*   Lake Wakatipu
-*   Queenstown
-*   Hokitika Gorge
+* Hobbiton
+* Waitomo
+* Cambridge
+* Christchurch
+* Lake Tekapo
+* Rex Simpson Hut
+* Aoraki Mount Cook
+* Lake Pukaki
+* Hooker Valley Track
+* Sealy Tarns
+* Omarama
+* Alps 2 Ocean
+* Clyde
+* Cromwell
+* Lake Dunstan Trail
+* Luxmore Hut
+* Kepler Track
+* Doubtful Sound
+* Milford Sound
+* Around the Mountains Cycle Trail
+* Walter Peak Station
+* Lake Wakatipu
+* Queenstown
+* Hokitika Gorge
 
 ## Follow Jackie
 
-*   Instagram: @travelingjackie
-*   Podcast: Jump with Traveling Jackie
-*   Website: [travelingjackie.com](http://travelingjackie.com)
+* Instagram: @travelingjackie
+* Podcast: Jump with Traveling Jackie
+* Website: [travelingjackie.com](http://travelingjackie.com)
 
 ## More like this
 
-*   [The Ultimate New Zealand South Island Road Trip in Winter with Barb and Reg](https://abigailhannah.nz/103-the-ultimate-new-zealand-south-island-road-trip-in-winter-with-barb-and-reg/)
-*   [Exploring the South Island for the First Time as a Kiwi on a 7 Day Road Trip with Hamish McColl](https://abigailhannah.nz/095-exploring-the-south-island-for-the-first-time-as-a-kiwi-on-a-7-day-road-trip-with-hamish-mccoll/)
-*   [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
-*   [Bikepacking around the South Island with Rachel Davies](https://abigailhannah.nz/051-bikepacking-south-island/)
+* [The Ultimate New Zealand South Island Road Trip in Winter with Barb and Reg](https://abigailhannah.nz/103-the-ultimate-new-zealand-south-island-road-trip-in-winter-with-barb-and-reg/)
+* [Exploring the South Island for the First Time as a Kiwi on a 7 Day Road Trip with Hamish McColl](https://abigailhannah.nz/095-exploring-the-south-island-for-the-first-time-as-a-kiwi-on-a-7-day-road-trip-with-hamish-mccoll/)
+* [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
+* [Bikepacking around the South Island with Rachel Davies](https://abigailhannah.nz/051-bikepacking-south-island/)
 
 Until then, keep adventuring :)

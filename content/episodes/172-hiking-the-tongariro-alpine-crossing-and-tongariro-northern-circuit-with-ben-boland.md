@@ -25,15 +25,15 @@ So we go through both, section by section. The shuttles, the Devil's Staircase, 
 
 **In this episode**
 
-*   [How Ben got into hiking](#ben-story)
-*   [His first Tongariro Alpine Crossing](#first-crossing)
-*   [Tongariro Alpine Crossing, start to finish](#crossing-guide)
-*   [Tongariro Alpine Crossing safety and turning back](#crossing-safety)
-*   [Tongariro Northern Circuit, hut to hut](#northern-circuit)
-*   [Tama Lakes for sunrise](#tama-lakes)
-*   [Beating the crowds on the crossing](#beating-crowds)
-*   [Gear, hiking poles and Ben's luxury item](#gear-and-food)
-*   [Ben's advice for getting started](#getting-started)
+* [How Ben got into hiking](#ben-story)
+* [His first Tongariro Alpine Crossing](#first-crossing)
+* [Tongariro Alpine Crossing, start to finish](#crossing-guide)
+* [Tongariro Alpine Crossing safety and turning back](#crossing-safety)
+* [Tongariro Northern Circuit, hut to hut](#northern-circuit)
+* [Tama Lakes for sunrise](#tama-lakes)
+* [Beating the crowds on the crossing](#beating-crowds)
+* [Gear, hiking poles and Ben's luxury item](#gear-and-food)
+* [Ben's advice for getting started](#getting-started)
 
 ## How Ben got into hiking {#ben-story}
 
@@ -95,15 +95,15 @@ Ben's case for it:
 
 ## Tongariro Alpine Crossing safety and turning back {#crossing-safety}
 
-The weather up there changes in a heartbeat. Ben says the crossing, the most popular day walk in the country, has more helicopter call-outs than any other track in New Zealand. People underestimate it, the weather changes, or they don't realise how hard 20-plus kilometres in a day can be with no shade. From the start until the last couple of kilometres there's no shelter of any sort, and not many places to fill up on water.
+The weather up there changes in a heartbeat. People underestimate it, the weather changes, or they don't realise how hard 20-plus kilometres in a day can be with no shade. From the start until the last couple of kilometres there's no shelter of any sort, and not many places to fill up on water.
 
 Ben's prep for the crossing:
 
-*   **Layers.** The weather can change out of nowhere.
-*   **Sunscreen and cover.** You're exposed all day, so slip, slop, slap and wrap.
-*   **A raincoat**, even on a bluebird day.
-*   **Enough water** for the whole crossing.
-*   **Bright colours.** On a hike, standing out might save your life.
+* **Layers.** The weather can change out of nowhere.
+* **Sunscreen and cover.** You're exposed all day, so slip, slop, slap and wrap.
+* **A raincoat**, even on a bluebird day.
+* **Enough water** for the whole crossing.
+* **Bright colours.** On a hike, standing out might save your life.
 
 The Mountain Safety Council has a video on the crossing, which is also on the DOC website. And if you're walking with a group, Ben's tip is to agree before you start that if anyone wants to turn back, everyone turns back. No questions asked, no prejudice, no grudges. If it's above your skill level, that's okay too: there are lots of smaller day walks in [Tongariro National Park](https://abigailhannah.nz/138-an-obsession-with-the-mountains-of-tongariro-national-park-with-hazel-phillips/).
 
@@ -187,11 +187,11 @@ Ben hasn't nailed the no-blisters thing yet. He loses toenails on every big hike
 
 The rest of his kit:
 
-*   **Hiking poles.** He bought them before [Mueller Hut](https://abigailhannah.nz/028-mueller-hut-backyard-travel-family/), after noticing that people without poles said you didn't need them, and everyone with poles recommended them. They give you a second to take a break, and his set has the cork handles and carbon fibre of much pricier poles.
-*   **A** [**PLB**](https://abigailhannah.nz/plb-safety/)**.** Because you should have one.
-*   **Layers and a rain jacket**, even on a day hike.
-*   **A hiking layer and a hut layer.** A fleece while he's walking, for breathability, and a puffer for the hut, which also helps with not stinking too much.
-*   **Real food.** After too many dehydrated meals, food is now his luxury item, and he's the one at every hut looking at what everyone else is cooking. A favourite: gnocchi with pesto and mozzarella. As soon as you eat it, the weight's gone.
+* **Hiking poles.** He bought them before [Mueller Hut](https://abigailhannah.nz/028-mueller-hut-backyard-travel-family/), after noticing that people without poles said you didn't need them, and everyone with poles recommended them. They give you a second to take a break, and his set has the cork handles and carbon fibre of much pricier poles.
+* **A** [**PLB**](https://abigailhannah.nz/plb-safety/)**.** Because you should have one.
+* **Layers and a rain jacket**, even on a day hike.
+* **A hiking layer and a hut layer.** A fleece while he's walking, for breathability, and a puffer for the hut, which also helps with not stinking too much.
+* **Real food.** After too many dehydrated meals, food is now his luxury item, and he's the one at every hut looking at what everyone else is cooking. A favourite: gnocchi with pesto and mozzarella. As soon as you eat it, the weight's gone.
 
 I take my poles on multi-days but not day hikes, and they made all the difference on the long, flat last day of the Milford.
 
@@ -211,37 +211,37 @@ Messages like his are what keep me recording, because sometimes it feels like I'
 
 ## Places from this episode
 
-*   Tongariro National Park
-*   Tongariro Alpine Crossing
-*   Tongariro Northern Circuit
-*   Mangatepopo
-*   Soda Springs
-*   Devil's Staircase
-*   South Crater
-*   Red Crater
-*   Emerald Lakes
-*   North Crater and Central Crater
-*   Blue Lake
-*   Oturere Hut
-*   Waihohonu Hut
-*   Tama Lakes
-*   Taranaki Falls
-*   Whakapapa Village
-*   Round the Mountain
-*   Milford Track
-*   Paparoa Track
-*   Mueller Hut
-*   Old Ghost Road
+* Tongariro National Park
+* Tongariro Alpine Crossing
+* Tongariro Northern Circuit
+* Mangatepopo
+* Soda Springs
+* Devil's Staircase
+* South Crater
+* Red Crater
+* Emerald Lakes
+* North Crater and Central Crater
+* Blue Lake
+* Oturere Hut
+* Waihohonu Hut
+* Tama Lakes
+* Taranaki Falls
+* Whakapapa Village
+* Round the Mountain
+* Milford Track
+* Paparoa Track
+* Mueller Hut
+* Old Ghost Road
 
 ## Follow Ben
 
-*   Instagram: @ben.outthere
+* Instagram: @ben.outthere
 
 ## More like this
 
-*   [Starting Tramping in her 40s and Lake Waikaremoana as a Family with Lois Baldwin](https://abigailhannah.nz/175-starting-tramping-in-her-40s-and-lake-waikaremoana-as-a-family-with-lois-baldwin/)
-*   [Solo Hiking the Routeburn Track with Emily](https://abigailhannah.nz/009-solo-travel-routeburn-track-emily/)
-*   [Tramping the Heaphy Track from Karamea to Collingwood with Jacq Nesbit](https://abigailhannah.nz/133-tramping-the-heaphy-track-from-karamea-to-collingwood-with-jacq-nesbit/)
-*   [Turning New Zealand Work Trips into Solo Great Walk Adventures with Nick Thompson](https://abigailhannah.nz/184-turning-new-zealand-work-trips-into-solo-great-walk-adventures-with-nick-thompson/)
+* [Starting Tramping in her 40s and Lake Waikaremoana as a Family with Lois Baldwin](https://abigailhannah.nz/175-starting-tramping-in-her-40s-and-lake-waikaremoana-as-a-family-with-lois-baldwin/)
+* [Solo Hiking the Routeburn Track with Emily](https://abigailhannah.nz/009-solo-travel-routeburn-track-emily/)
+* [Tramping the Heaphy Track from Karamea to Collingwood with Jacq Nesbit](https://abigailhannah.nz/133-tramping-the-heaphy-track-from-karamea-to-collingwood-with-jacq-nesbit/)
+* [Turning New Zealand Work Trips into Solo Great Walk Adventures with Nick Thompson](https://abigailhannah.nz/184-turning-new-zealand-work-trips-into-solo-great-walk-adventures-with-nick-thompson/)
 
 Until then, keep adventuring :)

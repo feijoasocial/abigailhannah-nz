@@ -26,14 +26,14 @@ We cover the lot, from 15-minute strolls to the overnight trip up to [Mueller Hu
 
 **In this episode**
 
-*   [How Heather caught the travel bug](#travel-bug)
-*   [The winter trip where nothing went to plan](#winter-trip)
-*   [Hooker Valley Track in snow and ice](#hooker-valley-snow)
-*   [Short walks for sunrise and sunset](#short-walks)
-*   [Sealy Tarns, Red Tarns and Mueller Hut](#tarns-and-mueller)
-*   [Walks for a rainy day](#rainy-day-walks)
-*   [Where to stay in Aoraki Mount Cook National Park](#where-to-stay)
-*   [Planning around Mount Cook weather](#planning-weather)
+* [How Heather caught the travel bug](#travel-bug)
+* [The winter trip where nothing went to plan](#winter-trip)
+* [Hooker Valley Track in snow and ice](#hooker-valley-snow)
+* [Short walks for sunrise and sunset](#short-walks)
+* [Sealy Tarns, Red Tarns and Mueller Hut](#tarns-and-mueller)
+* [Walks for a rainy day](#rainy-day-walks)
+* [Where to stay in Aoraki Mount Cook National Park](#where-to-stay)
+* [Planning around Mount Cook weather](#planning-weather)
 
 ## How Heather caught the travel bug {#travel-bug}
 
@@ -41,7 +41,7 @@ Heather's family weren't globetrotters, but she got to experience a variety of t
 
 Her first big international trip was a semester studying in London through her university's study abroad programme. It was huge and scary at the time, and she caught the travel bug pretty much instantly. After graduating, she moved back to London to travel around Europe more, then moved to New Zealand.
 
-Because she works full time, she packs a lot into every trip. One of her most ambitious road trips started in Queenstown with a drive to Wānaka for Roy's Peak, which she finally climbed after being rained out a few times. Then Milford Sound, a cruise on Doubtful Sound (spectacular, and worth it, she says), and an overnight dash to Kaka Point for sunrise at the [Nugget Point lighthouse](https://abigailhannah.nz/139-slow-travel-in-an-ev-and-catlins-dunedin-and-oamaru-with-mature-flaneur-tim-ward/). That last one might have been a little ambitious: it rained.
+Because she works full time, she packs a lot into every trip. One of her most ambitious road trips started in Queenstown with a drive to Wānaka for Roys Peak, which she finally climbed after being rained out a few times. Then Milford Sound, a cruise on Doubtful Sound (spectacular, and worth it, she says), and an overnight dash to Kaka Point for sunrise at the [Nugget Point lighthouse](https://abigailhannah.nz/139-slow-travel-in-an-ev-and-catlins-dunedin-and-oamaru-with-mature-flaneur-tim-ward/). That last one might have been a little ambitious: it rained.
 
 I'm yet to do Doubtful Sound, and that's another person telling me to go.
 
@@ -77,9 +77,9 @@ For me, Hooker Valley is hands down New Zealand's best walk. I'm all about the v
 
 A lot of travellers do a day trip to Mount Cook for the Hooker Valley Track, which is absolutely a must-do. But if you can stay a night or two, there are quite a few other walks that give you different viewpoints. Heather's picks for the light:
 
-*   **Kea Point** for sunset. A really short trail to a lookout.
-*   [**Tasman Lake**](https://abigailhannah.nz/029-tasman-glacier-guy-alisha/) for sunrise. Only 15 minutes to get there from the car park, then a little boulder scramble down to the lake's edge. The reward-for-effort ratio is right up there, and they got a couple of awesome sunrises there.
-*   **Blue Lakes and Tasman Glacier View.** A short, easy walk with a few stairs, up to an elevated viewpoint across the lake to the glacier. On the way you pass the Blue Lakes, nestled in the valley below. Fair warning: they're green.
+* **Kea Point** for sunset. A really short trail to a lookout.
+* [**Tasman Lake**](https://abigailhannah.nz/029-tasman-glacier-guy-alisha/) for sunrise. Only 15 minutes to get there from the car park, then a little boulder scramble down to the lake's edge. The reward-for-effort ratio is right up there, and they got a couple of awesome sunrises there.
+* **Blue Lakes and Tasman Glacier View.** A short, easy walk with a few stairs, up to an elevated viewpoint across the lake to the glacier. On the way you pass the Blue Lakes, nestled in the valley below. Fair warning: they're green.
 
 My first time seeing the Blue Lakes was in winter, with a thin crust of ice across them, and people picking up massive sheets of ice and holding them up. Back in summer, they'd shrunk a bit and weren't blue at all. There are two places to view Tasman Glacier, one up at the top and one down closer to the water, and each gives you a different perspective.
 
@@ -105,10 +105,10 @@ I didn't know about these bush walks, so it's good to have a couple of wet-weath
 
 There aren't a huge number of places to stay in Mount Cook, so here's what came up:
 
-*   **The Hermitage.** The one most people have heard of. Pretty amazing, and it can be expensive. Through the Hermitage there are also self-contained, apartment-style units, which could be good if you're travelling with a group or a family or need a bit of extra space.
-*   **A basic motel right next to the Hermitage**, where Heather stayed. The rooms are pretty basic but comfortable, almost motel-slash-hostel. The highlight is the communal area: a full kitchen that's almost professional, fireplaces, couches and a huge A-frame window looking out over Mount Cook.
-*   **White Horse Hill Campground.** A DOC campsite right at the start of the Hooker Valley Track and some of the other trails. Heather hasn't been to Mount Cook in a campervan yet, but a couple of nights there is on her list.
-*   **Hooker Hut**, for something different. Heather would love to go back and stay.
+* **The Hermitage.** The one most people have heard of. Pretty amazing, and it can be expensive. Through the Hermitage there are also self-contained, apartment-style units, which could be good if you're travelling with a group or a family or need a bit of extra space.
+* **A basic motel right next to the Hermitage**, where Heather stayed. The rooms are pretty basic but comfortable, almost motel-slash-hostel. The highlight is the communal area: a full kitchen that's almost professional, fireplaces, couches and a huge A-frame window looking out over Mount Cook.
+* **White Horse Hill Campground.** A DOC campsite right at the start of the Hooker Valley Track and some of the other trails. Heather hasn't been to Mount Cook in a campervan yet, but a couple of nights there is on her list.
+* **Hooker Hut**, for something different. Heather would love to go back and stay.
 
 We've stayed at White Horse Hill. You don't get views of Aoraki from the campsite itself, but you're so close.
 
@@ -126,24 +126,24 @@ I'm more of a spontaneous traveller. One summer we spent over a month in the Sou
 
 ## Places from this episode
 
-*   Aoraki Mount Cook National Park
-*   Mount Cook Village
-*   Hooker Valley Track
-*   Hooker Hut
-*   Kea Point
-*   Tasman Lake
-*   Blue Lakes and Tasman Glacier View
-*   Sealy Tarns
-*   Mueller Hut
-*   Red Tarns
-*   Governors Bush Walk
-*   Bowen Bush Walk
-*   The Hermitage
-*   White Horse Hill Campground
-*   Roy's Peak
-*   Milford Sound
-*   Doubtful Sound
-*   Nugget Point lighthouse, Kaka Point
+* Aoraki Mount Cook National Park
+* Mount Cook Village
+* Hooker Valley Track
+* Hooker Hut
+* Kea Point
+* Tasman Lake
+* Blue Lakes and Tasman Glacier View
+* Sealy Tarns
+* Mueller Hut
+* Red Tarns
+* Governors Bush Walk
+* Bowen Bush Walk
+* The Hermitage
+* White Horse Hill Campground
+* Roys Peak
+* Milford Sound
+* Doubtful Sound
+* Nugget Point lighthouse, Kaka Point
 
 ## Follow Heather
 
@@ -151,9 +151,9 @@ Heather shares travel tips, itineraries, road trips and hiking guides for New Ze
 
 ## More like this
 
-*   [Pioneering Women of Aoraki Mount Cook with Hazel Phillips](https://abigailhannah.nz/197-pioneering-women-of-aoraki-mount-cook-with-hazel-phillips/)
-*   [A Memorable Week on the Road from Kaikōura to Aoraki](https://abigailhannah.nz/054-kaikoura-to-aoraki/)
-*   [Ski-Touring and Camping on Tasman Glacier in a Storm with Helena Sodergren](https://abigailhannah.nz/ski-touring-tasman-glacier/)
-*   [Five days on the Sladden Glacier climbing Mt Sealy and Mt Jeanette with Kaleb Anderson](https://abigailhannah.nz/155-five-days-on-the-sladden-glacier-climbing-mt-sealy-and-mt-jeanette-with-kaleb-anderson/)
+* [Pioneering Women of Aoraki Mount Cook with Hazel Phillips](https://abigailhannah.nz/197-pioneering-women-of-aoraki-mount-cook-with-hazel-phillips/)
+* [A Memorable Week on the Road from Kaikōura to Aoraki](https://abigailhannah.nz/054-kaikoura-to-aoraki/)
+* [Ski-Touring and Camping on Tasman Glacier in a Storm with Helena Sodergren](https://abigailhannah.nz/ski-touring-tasman-glacier/)
+* [Five days on the Sladden Glacier climbing Mt Sealy and Mt Jeanette with Kaleb Anderson](https://abigailhannah.nz/155-five-days-on-the-sladden-glacier-climbing-mt-sealy-and-mt-jeanette-with-kaleb-anderson/)
 
 Until then, keep adventuring :)

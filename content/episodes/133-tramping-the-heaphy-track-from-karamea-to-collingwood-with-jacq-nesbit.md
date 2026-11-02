@@ -25,14 +25,14 @@ We go through it day by day, from the coast north of Karamea to the Golden Bay e
 
 **In this episode**
 
-*   [How Jacq got into tramping](#jacq-story)
-*   [Getting to and from the Heaphy Track](#heaphy-logistics)
-*   [The Heaphy Track day by day](#day-by-day)
-*   [Heaphy huts, packing and bookings](#huts-and-packing)
-*   [Jacq's South Island Great Walks](#great-walks)
-*   [Karamea and Golden Bay, either end of the track](#track-ends)
-*   [Mountain biking the Heaphy Track](#mountain-biking)
-*   [Jacq's advice for the Heaphy Track](#heaphy-advice)
+* [How Jacq got into tramping](#jacq-story)
+* [Getting to and from the Heaphy Track](#heaphy-logistics)
+* [The Heaphy Track day by day](#day-by-day)
+* [Heaphy huts, packing and bookings](#huts-and-packing)
+* [Jacq's South Island Great Walks](#great-walks)
+* [Karamea and Golden Bay, either end of the track](#track-ends)
+* [Mountain biking the Heaphy Track](#mountain-biking)
+* [Jacq's advice for the Heaphy Track](#heaphy-advice)
 
 ## How Jacq got into tramping {#jacq-story}
 
@@ -46,16 +46,16 @@ The Heaphy Track is a Great Walk at the [top of the South Island](https://abigai
 
 Most people walk from the Tākaka end and finish at the Karamea end. Jacq went the opposite way, mainly to take advantage of the backfill specials on the transport:
 
-*   **Wednesday.** She left Christchurch in the morning, drove to Tākaka, took a small plane to Karamea, then a shuttle.
-*   **Thursday to Sunday.** Four days of walking.
-*   **Sunday.** A shuttle from the Brown Hut end back to Tākaka. She was back at work the next day.
+* **Wednesday.** She left Christchurch in the morning, drove to Tākaka, took a small plane to Karamea, then a shuttle.
+* **Thursday to Sunday.** Four days of walking.
+* **Sunday.** A shuttle from the Brown Hut end back to Tākaka. She was back at work the next day.
 
 She flew with Golden Bay Air, and with the backfill specials, the scenic flight and the shuttles came to under $180.
 
 The other options Jacq talks about:
 
-*   **Car relocation.** A really good option if you've got a group of four or five.
-*   **A key swap.** Pair up with somebody walking in the opposite direction, swap keys on the track and hope you don't miss each other.
+* **Car relocation.** A really good option if you've got a group of four or five.
+* **A key swap.** Pair up with somebody walking in the opposite direction, swap keys on the track and hope you don't miss each other.
 
 There also used to be a man who would drop a car off, then run the 80 kilometres back to the other end, relocating cars that way. Walkers would cross paths with him more than once.
 
@@ -109,9 +109,9 @@ She's a big sweet treat person, so there's chocolate, lollies and dried fruit. A
 
 The rest is a standard overnight hiking bag: not too many clothes, wet weather gear just in case, a headlamp for early starts in the dark, a camera, a phone and a sleeping bag. Her luxuries:
 
-*   **An inflatable pillow.** Jacq likes a pillow, and an inflatable one is key.
-*   **Headphones** when she's solo, for the points on the track where you're grinding away and need something to distract you.
-*   **More food.**
+* **An inflatable pillow.** Jacq likes a pillow, and an inflatable one is key.
+* **Headphones** when she's solo, for the points on the track where you're grinding away and need something to distract you.
+* **More food.**
 
 ### Booking Heaphy huts last minute
 
@@ -125,9 +125,9 @@ When I did the Milford Track, I tagged along with a group after someone pulled o
 
 There are campsites at the huts too:
 
-*   **Heaphy Hut.** A completely separate campsite on a massive grass area, with its own shelter and picnic tables. There are a lot of weka, so be aware of them if you're camping.
-*   **Mackay Hut.** Wooden platforms out the back. It's higher up and rockier, so there's no nice grass space.
-*   **Perry Saddle Hut.** A bit of grass space out the back.
+* **Heaphy Hut.** A completely separate campsite on a massive grass area, with its own shelter and picnic tables. There are a lot of weka, so be aware of them if you're camping.
+* **Mackay Hut.** Wooden platforms out the back. It's higher up and rockier, so there's no nice grass space.
+* **Perry Saddle Hut.** A bit of grass space out the back.
 
 ## Jacq's South Island Great Walks {#great-walks}
 
@@ -135,7 +135,7 @@ Jacq has done all the South Island Great Walks. The second to last was the [Hump
 
 > "They're all so different. They are so, so different. … it's literally an impossible comparison, but they're all great walks for a reason."
 
-In her words, the [Fiordland Great Walks](https://abigailhannah.nz/five-great-walks-in-five-days/) have a true alpine element, the [Abel Tasman](https://abigailhannah.nz/026-abel-tasman-kyle-mulinder/) has beaches and golden sand, and the [Paparoa](https://abigailhannah.nz/168-from-first-tramp-to-paparoa-and-all-the-great-walks-with-nicola-harvie/) takes you up into the mountains again. [Stewart Island](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/) was her second ever overnight hiking trip.
+In her words, the [Abel Tasman](https://abigailhannah.nz/026-abel-tasman-kyle-mulinder/) has beaches and golden sand, and the [Paparoa](https://abigailhannah.nz/168-from-first-tramp-to-paparoa-and-all-the-great-walks-with-nicola-harvie/) takes you up into the mountains again. [Stewart Island](https://abigailhannah.nz/194-summer-as-a-doc-ranger-on-stewart-island-and-women-in-trades-with-brooke-thompson/) was her second ever overnight hiking trip.
 
 On the Great Walks and other huts you book on the DOC website, Jacq is absolutely happy to go solo, because she knows how many people will be in the huts, and she'll walk by herself for as many hours as she needs to. For anything else, she usually goes with one or two friends.
 
@@ -175,43 +175,43 @@ If you're solo, or there are two of you, last minute definitely works. And I kno
 
 ## Places from this episode
 
-*   Heaphy Track
-*   Kahurangi National Park
-*   Karamea
-*   Kohaihai
-*   Heaphy Hut
-*   Mackay Hut
-*   Saxon Hut
-*   Gouland Downs Hut
-*   Perry Saddle Hut
-*   Mount Perry
-*   Flanagan's Corner
-*   Brown Hut
-*   Collingwood
-*   Tākaka
-*   Golden Bay
-*   Oparara Arches
-*   Abel Tasman (Wainui to Mārahau)
-*   Old Ghost Road
-*   Milford Track
-*   Routeburn Track
-*   Kepler Track
-*   Hump Ridge
-*   Paparoa Track
-*   Stewart Island
-*   Tongariro Northern Circuit
-*   Lake Waikaremoana
-*   Gillespie Crucible Lake circuit, Wānaka
-*   Te Araroa
+* Heaphy Track
+* Kahurangi National Park
+* Karamea
+* Kohaihai
+* Heaphy Hut
+* Mackay Hut
+* Saxon Hut
+* Gouland Downs Hut
+* Perry Saddle Hut
+* Mount Perry
+* Flanagan's Corner
+* Brown Hut
+* Collingwood
+* Tākaka
+* Golden Bay
+* Oparara Arches
+* Abel Tasman (Wainui to Mārahau)
+* Old Ghost Road
+* Milford Track
+* Routeburn Track
+* Kepler Track
+* Hump Ridge
+* Paparoa Track
+* Stewart Island
+* Tongariro Northern Circuit
+* Lake Waikaremoana
+* Gillespie Crucible Lake circuit, Wānaka
+* Te Araroa
 
 ## Follow Jacq
 
-*   Instagram: @feet.first.nz
+* Instagram: @feet.first.nz
 
 ## More like this
 
-*   [Turning New Zealand Work Trips into Solo Great Walk Adventures with Nick Thompson](https://abigailhannah.nz/184-turning-new-zealand-work-trips-into-solo-great-walk-adventures-with-nick-thompson/)
-*   [The 10 Great Walks in 10 Days Challenge with Jordan Pratt](https://abigailhannah.nz/10-great-walks-in-10-days/)
-*   [Hitchhiking and New Zealand's Great Walks with Howie McFadyen](https://abigailhannah.nz/hitchhiking-new-zealand/)
+* [Turning New Zealand Work Trips into Solo Great Walk Adventures with Nick Thompson](https://abigailhannah.nz/184-turning-new-zealand-work-trips-into-solo-great-walk-adventures-with-nick-thompson/)
+* [The 10 Great Walks in 10 Days Challenge with Jordan Pratt](https://abigailhannah.nz/10-great-walks-in-10-days/)
+* [Hitchhiking and New Zealand's Great Walks with Howie McFadyen](https://abigailhannah.nz/hitchhiking-new-zealand/)
 
 Until then, keep adventuring :)

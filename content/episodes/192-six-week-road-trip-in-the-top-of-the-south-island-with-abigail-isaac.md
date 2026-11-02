@@ -25,16 +25,16 @@ It starts with Isaac, the white water kayaker of the two of us, heading to Murch
 
 **In this episode**
 
-*   [Road tripping the top of the South Island](#top-of-the-south)
-*   [Murchison and the Old Ghost Road](#murchison-old-ghost-road)
-*   [Karamea, the Oparara Arches and the Heaphy Track](#karamea-heaphy)
-*   [Walking the Abel Tasman in a big group](#abel-tasman)
-*   [Nelson Lakes and Mount Arthur Hut](#mount-arthur-hut)
-*   [Golden Bay climbing, beaches and Whanganui Harbour](#golden-bay)
-*   [Rawhiti Cave, Tākaka Hill and Lake Sylvester](#takaka-cave-hill-lake)
-*   [French Pass and the Pelorus River](#french-pass-pelorus)
-*   [Sea kayaking Queen Charlotte Sound](#queen-charlotte-sound)
-*   [Slow travel, mishaps and what we'd go back for](#going-back)
+* [Road tripping the top of the South Island](#top-of-the-south)
+* [Murchison and the Old Ghost Road](#murchison-old-ghost-road)
+* [Karamea, the Oparara Arches and the Heaphy Track](#karamea-heaphy)
+* [Walking the Abel Tasman in a big group](#abel-tasman)
+* [Nelson Lakes and Mount Arthur Hut](#mount-arthur-hut)
+* [Golden Bay climbing, beaches and Whanganui Harbour](#golden-bay)
+* [Rawhiti Cave, Tākaka Hill and Lake Sylvester](#takaka-cave-hill-lake)
+* [French Pass and the Pelorus River](#french-pass-pelorus)
+* [Sea kayaking Queen Charlotte Sound](#queen-charlotte-sound)
+* [Slow travel, mishaps and what we'd go back for](#going-back)
 
 ## Road tripping the top of the South Island {#top-of-the-south}
 
@@ -92,7 +92,7 @@ Wind is the one thing that will really stop you kayaking, and on a windy day you
 
 Getting to the start of the Mount Arthur Hut track means a long, steep, uphill gravel road, and our old HiAce got a little bit hot. The coolant boiled over a bit. A mechanic in Motueka later flushed it, topped it up and found no permanent damage, so be warned if you have an ancient vehicle.
 
-The walk itself is such an amazing wander through beech forest. From the hut you can go up to the summit of Mount Arthur, and the weather packed it in, so we skipped it and came back down the next day.
+The walk itself is such an amazing wander through beech forest. From the hut you can go up to the summit of Mount Arthur, but the weather packed it in, so we skipped it and came back down the next day.
 
 ## Golden Bay climbing, beaches and Whanganui Harbour {#golden-bay}
 
@@ -162,7 +162,7 @@ Isaac says it's definitely up there. It's a winding farm road that goes on and o
 
 ### Stingrays at French Pass
 
-From a viewpoint on the hill behind our campsite, we saw things in the water, and it took us a while to work out they were massive, super thick stingrays. Down at the beach, we watched them come right up onto the concrete boat ramp into the shallows. I wanted to swim, and then I got scared.
+From a viewpoint on the hill behind our campsite, we saw things in the water, and it took us a while to work out they were massive, super thick stingrays. Down at the beach, we watched them come right up onto the concrete boat ramp into the shallows.
 
 ### Pelorus River and its campgrounds
 
@@ -170,11 +170,9 @@ Pelorus is the kind of place you might drive through between Picton and Nelson w
 
 Spend the day lounging on the sunny rocks along the Pelorus River, and jump off the bridge. Everyone's there with their floaties.
 
-### Captain's Creek Hut on Te Araroa
+### Captains Creek Hut on Te Araroa
 
-Further inland, on a section of [Te Araroa](https://abigailhannah.nz/164-five-months-sobo-on-te-araroa-and-finding-community-with-deni-estivill/), we walked to Captain's Creek Hut, the first hut in from the road. You walk along the river past green and blue pools, through forest with no mid-storey: a solid carpet of ferns under big beech trees.
-
-What I remember is the black moss on the beech trees, and the hum of the wasps getting their little honey treats.
+Further inland, on a section of [Te Araroa](https://abigailhannah.nz/164-five-months-sobo-on-te-araroa-and-finding-community-with-deni-estivill/), we walked to Captains Creek Hut, the first hut in from the road. You walk along the river past green and blue pools, through forest with no mid-storey: a solid carpet of ferns under big beech trees.
 
 It's a small hut, popular because it's on Te Araroa, right next to the river and a gorgeous swimming hole (with quite a few sandflies). A few walkers pitched their tents in the big meadow next to it. From Pelorus it's one of the longer sections without a resupply, so everyone had big packs full of food.
 
@@ -182,13 +180,11 @@ Isaac carried some rubbish out for a few of them, so they didn't have to carry i
 
 ## Sea kayaking Queen Charlotte Sound {#queen-charlotte-sound}
 
-We finished with a wee kayak trip in Queen Charlotte Sound, keen to paddle since we hadn't on the Abel Tasman this time. The only kayaking I'd done was the Abel Tasman, and we were still paddling a double kayak, so I was very much a beginner.
+We finished with a three day kayak trip in Queen Charlotte Sound, keen to paddle since we hadn't on the Abel Tasman this time. The only kayaking I'd done was the Abel Tasman, and we were still paddling a double kayak, so I was very much a beginner.
 
 Isaac had white water experience. [Sea kayaking](https://abigailhannah.nz/182-finishing-a-two-month-slow-paddle-sea-kayak-expedition-with-isaac-and-abigail/) wise, we were both still babies.
 
-Both places are sheltered and protected, so they're amazing beginner trips, a hundred percent doable even if you've never sat in a kayak. If you haven't, I'd start with the Abel Tasman, because Queen Charlotte can get windy.
-
-Two things surprised me about Queen Charlotte: there weren't many campsites, huts or places to stay, and there were so many private baches, each with its own dock.
+Both places are sheltered and protected, so they're amazing beginner trips, a hundred percent doable even if you've never sat in a kayak.
 
 That year there had been a moon jelly bloom, and every bay was filled with them. Isaac says they have no tentacles and don't sting. Paddling through them was weird, and we kept bumping into them when we snorkelled. We saw so many sea cucumbers, plus starfish, plenty of stingrays, and so many shags that I gave up on my wildlife tally. No dolphins. I have the worst luck with dolphins.
 
@@ -204,62 +200,62 @@ Apart from the van overheating, the only other mishap was the end of the Old Gho
 
 ### What we'd go back for
 
-*   **The Heaphy Track.** We've only seen the very end of it.
-*   **The Old Ghost Road**, together this time.
-*   **Nelson Lakes and Kahurangi**, with so much more to see.
-*   **Canyoning**, for Isaac.
-*   **The** [**Richmond Range**](https://abigailhannah.nz/193-solo-tramping-the-richmond-ranges-and-running-an-outdoor-store-with-emily-thompson/), the full ten-day Te Araroa section.
-*   **The** [**St James Walkway**](https://abigailhannah.nz/113-tramping-the-st-james-walkway-and-an-unexpected-encounter-with-olivia-jacinda-and-sarah-blair/), if it counts as the top of the south.
-*   **Farewell Spit**, on a tour that drives out onto the spit.
-*   **A mail delivery boat trip from Picton** to explore the Sounds, which we heard about from [Dunc Wilson](https://abigailhannah.nz/058-circumnavigation-packraft-nz/).
+* **The Heaphy Track.** We've only seen the very end of it.
+* **The Old Ghost Road**, together this time.
+* **Nelson Lakes and Kahurangi**, with so much more to see.
+* **Canyoning**, for Isaac.
+* **The** [**Richmond Range**](https://abigailhannah.nz/193-solo-tramping-the-richmond-ranges-and-running-an-outdoor-store-with-emily-thompson/), the full ten-day Te Araroa section.
+* **The** [**St James Walkway**](https://abigailhannah.nz/113-tramping-the-st-james-walkway-and-an-unexpected-encounter-with-olivia-jacinda-and-sarah-blair/), if it counts as the top of the south.
+* **Farewell Spit**, on a tour that drives out onto the spit.
+* **A mail delivery boat trip from Picton** to explore the Sounds, which we heard about from [Dunc Wilson](https://abigailhannah.nz/058-circumnavigation-packraft-nz/).
 
 ## Places from this episode
 
-*   Murchison
-*   Nelson
-*   Golden Bay
-*   West Coast
-*   Old Ghost Road
-*   Karamea
-*   Oparara Arches
-*   Heaphy Track
-*   Jackson Bay
-*   Abel Tasman
-*   Mārahau
-*   Cleopatra's Pool
-*   Nelson Lakes
-*   Angelus Hut
-*   Robert Ridge
-*   Mount Arthur Hut
-*   Motueka
-*   Tākaka Hill
-*   Tākaka
-*   Paynes Ford
-*   Pōhara
-*   Whanganui Harbour
-*   Paturau Beach
-*   Wharariki Beach
-*   Farewell Spit
-*   Rawhiti Cave
-*   Sylvester Hut
-*   Lake Sylvester
-*   Cobb Valley
-*   Kahurangi
-*   French Pass
-*   D'Urville Island
-*   Pelorus River
-*   Picton
-*   Captain's Creek Hut
-*   Te Araroa
-*   Queen Charlotte Sound
-*   Richmond Range
-*   St James Walkway
+* Murchison
+* Nelson
+* Golden Bay
+* West Coast
+* Old Ghost Road
+* Karamea
+* Oparara Arches
+* Heaphy Track
+* Jackson Bay
+* Abel Tasman
+* Mārahau
+* Cleopatra's Pool
+* Nelson Lakes
+* Angelus Hut
+* Robert Ridge
+* Mount Arthur Hut
+* Motueka
+* Tākaka Hill
+* Tākaka
+* Paynes Ford
+* Pōhara
+* Whanganui Harbour
+* Paturau Beach
+* Wharariki Beach
+* Farewell Spit
+* Rawhiti Cave
+* Sylvester Hut
+* Lake Sylvester
+* Cobb Valley
+* Kahurangi
+* French Pass
+* D'Urville Island
+* Pelorus River
+* Picton
+* Captains Creek Hut
+* Te Araroa
+* Queen Charlotte Sound
+* Richmond Range
+* St James Walkway
 
 ## More like this
 
-*   [An Epic 4WD Summer Road Trip at the Top of the South with Brad Willetts](https://abigailhannah.nz/109-an-epic-4wd-summer-road-trip-at-the-top-of-the-south-with-brad-willetts/)
-*   [Fastpacking the Travers-Sabine Circuit in 2 Days with Zeb Harris](https://abigailhannah.nz/174-fastpacking-the-travers-sabine-circuit-in-2-days-with-zeb-harris/)
-*   [Hiking Old Ghost Road as a Family with Sonia Barrish](https://abigailhannah.nz/015-old-ghost-road-family-backtothewild/)
-*   [One month into a 1000km Sea Kayak Expedition with Isaac and Abigail](https://abigailhannah.nz/178-one-month-into-a-1000km-sea-kayak-expedition-with-isaac-and-abigail/)
+* [An Epic 4WD Summer Road Trip at the Top of the South with Brad Willetts](https://abigailhannah.nz/109-an-epic-4wd-summer-road-trip-at-the-top-of-the-south-with-brad-willetts/)
+* [Fastpacking the Travers-Sabine Circuit in 2 Days with Zeb Harris](https://abigailhannah.nz/174-fastpacking-the-travers-sabine-circuit-in-2-days-with-zeb-harris/)
+* [Hiking Old Ghost Road as a Family with Sonia Barrish](https://abigailhannah.nz/015-old-ghost-road-family-backtothewild/)
+* [One month into a 1000km Sea Kayak Expedition with Isaac and Abigail](https://abigailhannah.nz/178-one-month-into-a-1000km-sea-kayak-expedition-with-isaac-and-abigail/)
 
 Until then, keep adventuring :)

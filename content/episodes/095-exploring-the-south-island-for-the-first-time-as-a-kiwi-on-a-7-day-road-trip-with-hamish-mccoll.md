@@ -25,14 +25,14 @@ So we go through his route stop by stop: waking up beside Lake Wakatipu, Arrowto
 
 **In this episode**
 
-*   [From Whangamatā road trips to caravan life](#hamish-story)
-*   [Planning a first South Island road trip](#trip-planning)
-*   [Queenstown and Lake Wakatipu on a budget](#queenstown)
-*   [Arrowtown, Cromwell and Wānaka](#arrowtown-cromwell-wanaka)
-*   [Mount Cook and a 4WD tour to the glacier](#mount-cook)
-*   [Twizel, Tekapo and the lost waste cap](#twizel-tekapo)
-*   [Christchurch by e-scooter](#christchurch)
-*   [Caravan living and the next road trip](#caravan-life)
+* [From Whangamatā road trips to caravan life](#hamish-story)
+* [Planning a first South Island road trip](#trip-planning)
+* [Queenstown and Lake Wakatipu on a budget](#queenstown)
+* [Arrowtown, Cromwell and Wānaka](#arrowtown-cromwell-wanaka)
+* [Mount Cook and a 4WD tour to the glacier](#mount-cook)
+* [Twizel, Tekapo and the lost waste cap](#twizel-tekapo)
+* [Christchurch by e-scooter](#christchurch)
+* [Caravan living and the next road trip](#caravan-life)
 
 ## From Whangamatā road trips to caravan life {#hamish-story}
 
@@ -158,36 +158,32 @@ Next time, he'd also take longer. One of his biggest regrets is how short the ho
 
 ## Places from this episode
 
-*   Queenstown
-*   Lake Wakatipu
-*   The Remarkables
-*   Arrowtown
-*   Cromwell
-*   Wānaka
-*   Mount Cook
-*   Glentanner
-*   Twizel
-*   Tekapo
-*   Christchurch
-*   Whangamatā
-*   Tauranga
-*   Dargaville
-*   Kai Iwi Lakes
-*   Cape Reinga
-*   Coromandel
-*   Picton
-*   West Coast
-*   Milford Sound
-
-## Follow Hamish
-
-*   Instagram: @unofficial\_gram
+* Queenstown
+* Lake Wakatipu
+* The Remarkables
+* Arrowtown
+* Cromwell
+* Wānaka
+* Mount Cook
+* Glentanner
+* Twizel
+* Tekapo
+* Christchurch
+* Whangamatā
+* Tauranga
+* Dargaville
+* Kai Iwi Lakes
+* Cape Reinga
+* Coromandel
+* Picton
+* West Coast
+* Milford Sound
 
 ## More like this
 
-*   [The Ultimate New Zealand South Island Road Trip in Winter with Barb and Reg](https://abigailhannah.nz/103-the-ultimate-new-zealand-south-island-road-trip-in-winter-with-barb-and-reg/)
-*   [A Bucketlist Birthday Group Trip to New Zealand with Travel Podcaster Jackie Nourse](https://abigailhannah.nz/124-a-bucketlist-birthday-group-trip-to-new-zealand-with-travel-podcaster-jackie-nourse/)
-*   [Avoiding Vanlife Mistakes and Life on the Road in NZ with Tiff and Nathan](https://abigailhannah.nz/121-avoiding-vanlife-mistakes-and-life-on-the-road-in-nz-with-tiff-and-nathan/)
-*   [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
+* [The Ultimate New Zealand South Island Road Trip in Winter with Barb and Reg](https://abigailhannah.nz/103-the-ultimate-new-zealand-south-island-road-trip-in-winter-with-barb-and-reg/)
+* [A Bucketlist Birthday Group Trip to New Zealand with Travel Podcaster Jackie Nourse](https://abigailhannah.nz/124-a-bucketlist-birthday-group-trip-to-new-zealand-with-travel-podcaster-jackie-nourse/)
+* [Avoiding Vanlife Mistakes and Life on the Road in NZ with Tiff and Nathan](https://abigailhannah.nz/121-avoiding-vanlife-mistakes-and-life-on-the-road-in-nz-with-tiff-and-nathan/)
+* [The Ultimate New Zealand Road Trip with Dane and Stacey](https://abigailhannah.nz/036-ultimate-nz-roadtrip-danegerandstacey/)
 
 Until then, keep adventuring :)
