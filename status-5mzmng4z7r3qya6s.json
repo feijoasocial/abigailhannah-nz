@@ -1,0 +1,1194 @@
+[
+ {
+  "id": "12y6zf-11476",
+  "status": "written",
+  "sent_chars": 13054,
+  "stored_chars": 13200,
+  "identical": false,
+  "match_ratio": 0.9944
+ },
+ {
+  "id": "12y6zf-11456",
+  "status": "written",
+  "sent_chars": 22734,
+  "stored_chars": 22906,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-11436",
+  "status": "written",
+  "sent_chars": 20596,
+  "stored_chars": 20758,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-11416",
+  "status": "written",
+  "sent_chars": 22753,
+  "stored_chars": 22889,
+  "identical": false,
+  "match_ratio": 0.997
+ },
+ {
+  "id": "12y6zf-8576",
+  "status": "written",
+  "sent_chars": 20541,
+  "stored_chars": 20677,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-11396",
+  "status": "written",
+  "sent_chars": 20636,
+  "stored_chars": 20796,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-11376",
+  "status": "written",
+  "sent_chars": 18680,
+  "stored_chars": 18816,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11356",
+  "status": "written",
+  "sent_chars": 20680,
+  "stored_chars": 20830,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11336",
+  "status": "written",
+  "sent_chars": 18117,
+  "stored_chars": 18283,
+  "identical": false,
+  "match_ratio": 0.9954
+ },
+ {
+  "id": "12y6zf-11316",
+  "status": "written",
+  "sent_chars": 20855,
+  "stored_chars": 21009,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11296",
+  "status": "written",
+  "sent_chars": 20607,
+  "stored_chars": 20739,
+  "identical": false,
+  "match_ratio": 0.9968
+ },
+ {
+  "id": "12y6zf-11276",
+  "status": "written",
+  "sent_chars": 27503,
+  "stored_chars": 27725,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-11256",
+  "status": "written",
+  "sent_chars": 17334,
+  "stored_chars": 17480,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-11236",
+  "status": "written",
+  "sent_chars": 18807,
+  "stored_chars": 18945,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11216",
+  "status": "written",
+  "sent_chars": 20306,
+  "stored_chars": 20452,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-11196",
+  "status": "written",
+  "sent_chars": 22172,
+  "stored_chars": 22348,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-11176",
+  "status": "written",
+  "sent_chars": 19115,
+  "stored_chars": 19275,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-11156",
+  "status": "written",
+  "sent_chars": 21265,
+  "stored_chars": 21465,
+  "identical": false,
+  "match_ratio": 0.9953
+ },
+ {
+  "id": "12y6zf-11136",
+  "status": "written",
+  "sent_chars": 19006,
+  "stored_chars": 19144,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11116",
+  "status": "written",
+  "sent_chars": 21012,
+  "stored_chars": 21150,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-11096",
+  "status": "written",
+  "sent_chars": 20776,
+  "stored_chars": 20964,
+  "identical": false,
+  "match_ratio": 0.9954
+ },
+ {
+  "id": "12y6zf-11076",
+  "status": "written",
+  "sent_chars": 19581,
+  "stored_chars": 19707,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-11056",
+  "status": "written",
+  "sent_chars": 17667,
+  "stored_chars": 17827,
+  "identical": false,
+  "match_ratio": 0.9954
+ },
+ {
+  "id": "12y6zf-11036",
+  "status": "written",
+  "sent_chars": 19213,
+  "stored_chars": 19353,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-11016",
+  "status": "written",
+  "sent_chars": 18421,
+  "stored_chars": 18579,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-10996",
+  "status": "written",
+  "sent_chars": 18526,
+  "stored_chars": 18686,
+  "identical": false,
+  "match_ratio": 0.9956
+ },
+ {
+  "id": "12y6zf-10976",
+  "status": "written",
+  "sent_chars": 18963,
+  "stored_chars": 19103,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-10956",
+  "status": "written",
+  "sent_chars": 20736,
+  "stored_chars": 20880,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-10936",
+  "status": "written",
+  "sent_chars": 22072,
+  "stored_chars": 22254,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-10916",
+  "status": "written",
+  "sent_chars": 16564,
+  "stored_chars": 16694,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10896",
+  "status": "written",
+  "sent_chars": 19149,
+  "stored_chars": 19319,
+  "identical": false,
+  "match_ratio": 0.9955
+ },
+ {
+  "id": "12y6zf-10876",
+  "status": "written",
+  "sent_chars": 18688,
+  "stored_chars": 18848,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-10856",
+  "status": "written",
+  "sent_chars": 20698,
+  "stored_chars": 20858,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-10836",
+  "status": "written",
+  "sent_chars": 21246,
+  "stored_chars": 21410,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-10816",
+  "status": "written",
+  "sent_chars": 20477,
+  "stored_chars": 20627,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-10796",
+  "status": "written",
+  "sent_chars": 21456,
+  "stored_chars": 21624,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-10776",
+  "status": "written",
+  "sent_chars": 21675,
+  "stored_chars": 21829,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-10756",
+  "status": "written",
+  "sent_chars": 16368,
+  "stored_chars": 16562,
+  "identical": false,
+  "match_ratio": 0.994
+ },
+ {
+  "id": "12y6zf-10736",
+  "status": "written",
+  "sent_chars": 16097,
+  "stored_chars": 16249,
+  "identical": false,
+  "match_ratio": 0.9952
+ },
+ {
+  "id": "12y6zf-10716",
+  "status": "written",
+  "sent_chars": 19634,
+  "stored_chars": 19794,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-10696",
+  "status": "written",
+  "sent_chars": 17669,
+  "stored_chars": 17809,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10676",
+  "status": "written",
+  "sent_chars": 19210,
+  "stored_chars": 19411,
+  "identical": false,
+  "match_ratio": 0.9947
+ },
+ {
+  "id": "12y6zf-10656",
+  "status": "written",
+  "sent_chars": 20609,
+  "stored_chars": 20769,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-10636",
+  "status": "written",
+  "sent_chars": 21733,
+  "stored_chars": 21905,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10616",
+  "status": "written",
+  "sent_chars": 17923,
+  "stored_chars": 18057,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-10596",
+  "status": "written",
+  "sent_chars": 19184,
+  "stored_chars": 19328,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-8296",
+  "status": "written",
+  "sent_chars": 17118,
+  "stored_chars": 17272,
+  "identical": false,
+  "match_ratio": 0.9955
+ },
+ {
+  "id": "12y6zf-10576",
+  "status": "written",
+  "sent_chars": 19848,
+  "stored_chars": 19972,
+  "identical": false,
+  "match_ratio": 0.9968
+ },
+ {
+  "id": "12y6zf-10556",
+  "status": "written",
+  "sent_chars": 17577,
+  "stored_chars": 17727,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-10536",
+  "status": "written",
+  "sent_chars": 22361,
+  "stored_chars": 22511,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-10516",
+  "status": "written",
+  "sent_chars": 18204,
+  "stored_chars": 18348,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10496",
+  "status": "written",
+  "sent_chars": 15411,
+  "stored_chars": 15533,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10476",
+  "status": "written",
+  "sent_chars": 20839,
+  "stored_chars": 20963,
+  "identical": false,
+  "match_ratio": 0.997
+ },
+ {
+  "id": "12y6zf-10456",
+  "status": "written",
+  "sent_chars": 16361,
+  "stored_chars": 16547,
+  "identical": false,
+  "match_ratio": 0.9943
+ },
+ {
+  "id": "12y6zf-10436",
+  "status": "written",
+  "sent_chars": 20528,
+  "stored_chars": 20680,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-10416",
+  "status": "written",
+  "sent_chars": 22016,
+  "stored_chars": 22162,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-10396",
+  "status": "written",
+  "sent_chars": 20181,
+  "stored_chars": 20355,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-10376",
+  "status": "written",
+  "sent_chars": 17184,
+  "stored_chars": 17306,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-10356",
+  "status": "written",
+  "sent_chars": 19997,
+  "stored_chars": 20149,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-8596",
+  "status": "written",
+  "sent_chars": 20822,
+  "stored_chars": 20966,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-10336",
+  "status": "written",
+  "sent_chars": 21950,
+  "stored_chars": 22132,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-10316",
+  "status": "written",
+  "sent_chars": 17827,
+  "stored_chars": 17995,
+  "identical": false,
+  "match_ratio": 0.9953
+ },
+ {
+  "id": "12y6zf-10296",
+  "status": "written",
+  "sent_chars": 16655,
+  "stored_chars": 16781,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-10276",
+  "status": "written",
+  "sent_chars": 21200,
+  "stored_chars": 21350,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-10256",
+  "status": "written",
+  "sent_chars": 23801,
+  "stored_chars": 23947,
+  "identical": false,
+  "match_ratio": 0.9969
+ },
+ {
+  "id": "12y6zf-10236",
+  "status": "written",
+  "sent_chars": 25482,
+  "stored_chars": 25606,
+  "identical": false,
+  "match_ratio": 0.9975
+ },
+ {
+  "id": "12y6zf-8456",
+  "status": "written",
+  "sent_chars": 26294,
+  "stored_chars": 26466,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-10216",
+  "status": "written",
+  "sent_chars": 19282,
+  "stored_chars": 19426,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-10196",
+  "status": "written",
+  "sent_chars": 19683,
+  "stored_chars": 19817,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-10176",
+  "status": "written",
+  "sent_chars": 21440,
+  "stored_chars": 21610,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-10156",
+  "status": "written",
+  "sent_chars": 18520,
+  "stored_chars": 18674,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-10136",
+  "status": "written",
+  "sent_chars": 20478,
+  "stored_chars": 20632,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-10116",
+  "status": "written",
+  "sent_chars": 18942,
+  "stored_chars": 19088,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-10096",
+  "status": "written",
+  "sent_chars": 19709,
+  "stored_chars": 19849,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-10076",
+  "status": "written",
+  "sent_chars": 19372,
+  "stored_chars": 19552,
+  "identical": false,
+  "match_ratio": 0.9953
+ },
+ {
+  "id": "12y6zf-10056",
+  "status": "written",
+  "sent_chars": 18240,
+  "stored_chars": 18364,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-10036",
+  "status": "written",
+  "sent_chars": 17295,
+  "stored_chars": 17455,
+  "identical": false,
+  "match_ratio": 0.9953
+ },
+ {
+  "id": "12y6zf-10016",
+  "status": "written",
+  "sent_chars": 20854,
+  "stored_chars": 21016,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9996",
+  "status": "written",
+  "sent_chars": 24830,
+  "stored_chars": 24982,
+  "identical": false,
+  "match_ratio": 0.9969
+ },
+ {
+  "id": "12y6zf-9976",
+  "status": "written",
+  "sent_chars": 20919,
+  "stored_chars": 21071,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-9956",
+  "status": "written",
+  "sent_chars": 21852,
+  "stored_chars": 22032,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9936",
+  "status": "written",
+  "sent_chars": 18839,
+  "stored_chars": 19007,
+  "identical": false,
+  "match_ratio": 0.9955
+ },
+ {
+  "id": "12y6zf-9916",
+  "status": "written",
+  "sent_chars": 21787,
+  "stored_chars": 21923,
+  "identical": false,
+  "match_ratio": 0.9968
+ },
+ {
+  "id": "12y6zf-8636",
+  "status": "written",
+  "sent_chars": 22867,
+  "stored_chars": 23053,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9896",
+  "status": "written",
+  "sent_chars": 18662,
+  "stored_chars": 18856,
+  "identical": false,
+  "match_ratio": 0.9948
+ },
+ {
+  "id": "12y6zf-9876",
+  "status": "written",
+  "sent_chars": 19841,
+  "stored_chars": 19963,
+  "identical": false,
+  "match_ratio": 0.9969
+ },
+ {
+  "id": "12y6zf-9856",
+  "status": "written",
+  "sent_chars": 18584,
+  "stored_chars": 18734,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9836",
+  "status": "written",
+  "sent_chars": 23830,
+  "stored_chars": 24022,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9076",
+  "status": "written",
+  "sent_chars": 20711,
+  "stored_chars": 20867,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-9816",
+  "status": "written",
+  "sent_chars": 19937,
+  "stored_chars": 20111,
+  "identical": false,
+  "match_ratio": 0.9956
+ },
+ {
+  "id": "12y6zf-9796",
+  "status": "written",
+  "sent_chars": 20429,
+  "stored_chars": 20589,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-8616",
+  "status": "written",
+  "sent_chars": 22404,
+  "stored_chars": 22560,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-8336",
+  "status": "written",
+  "sent_chars": 24740,
+  "stored_chars": 24922,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-9776",
+  "status": "written",
+  "sent_chars": 22739,
+  "stored_chars": 22929,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-9756",
+  "status": "written",
+  "sent_chars": 21098,
+  "stored_chars": 21246,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-8356",
+  "status": "written",
+  "sent_chars": 26244,
+  "stored_chars": 26406,
+  "identical": false,
+  "match_ratio": 0.9969
+ },
+ {
+  "id": "12y6zf-9736",
+  "status": "written",
+  "sent_chars": 21423,
+  "stored_chars": 21609,
+  "identical": false,
+  "match_ratio": 0.9956
+ },
+ {
+  "id": "12y6zf-9716",
+  "status": "written",
+  "sent_chars": 21441,
+  "stored_chars": 21607,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9696",
+  "status": "written",
+  "sent_chars": 21317,
+  "stored_chars": 21489,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9676",
+  "status": "written",
+  "sent_chars": 20048,
+  "stored_chars": 20218,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-9036",
+  "status": "written",
+  "sent_chars": 23083,
+  "stored_chars": 23247,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-9656",
+  "status": "written",
+  "sent_chars": 19807,
+  "stored_chars": 19939,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-9636",
+  "status": "written",
+  "sent_chars": 20749,
+  "stored_chars": 20909,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9616",
+  "status": "written",
+  "sent_chars": 21447,
+  "stored_chars": 21597,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-9596",
+  "status": "written",
+  "sent_chars": 21525,
+  "stored_chars": 21691,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9576",
+  "status": "written",
+  "sent_chars": 24128,
+  "stored_chars": 24256,
+  "identical": false,
+  "match_ratio": 0.9973
+ },
+ {
+  "id": "12y6zf-9556",
+  "status": "written",
+  "sent_chars": 20399,
+  "stored_chars": 20569,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-9536",
+  "status": "written",
+  "sent_chars": 24002,
+  "stored_chars": 24138,
+  "identical": false,
+  "match_ratio": 0.9971
+ },
+ {
+  "id": "12y6zf-9516",
+  "status": "written",
+  "sent_chars": 21068,
+  "stored_chars": 21214,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-9496",
+  "status": "written",
+  "sent_chars": 22654,
+  "stored_chars": 22812,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-9476",
+  "status": "written",
+  "sent_chars": 20367,
+  "stored_chars": 20519,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-9456",
+  "status": "written",
+  "sent_chars": 21592,
+  "stored_chars": 21768,
+  "identical": false,
+  "match_ratio": 0.9959
+ },
+ {
+  "id": "12y6zf-9436",
+  "status": "written",
+  "sent_chars": 23062,
+  "stored_chars": 23202,
+  "identical": false,
+  "match_ratio": 0.9969
+ },
+ {
+  "id": "12y6zf-9416",
+  "status": "written",
+  "sent_chars": 24301,
+  "stored_chars": 24473,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-9396",
+  "status": "written",
+  "sent_chars": 20948,
+  "stored_chars": 21112,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9376",
+  "status": "written",
+  "sent_chars": 27456,
+  "stored_chars": 27646,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-9356",
+  "status": "written",
+  "sent_chars": 26886,
+  "stored_chars": 27080,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-9096",
+  "status": "written",
+  "sent_chars": 21394,
+  "stored_chars": 21554,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-9336",
+  "status": "written",
+  "sent_chars": 19447,
+  "stored_chars": 19621,
+  "identical": false,
+  "match_ratio": 0.9955
+ },
+ {
+  "id": "12y6zf-9316",
+  "status": "written",
+  "sent_chars": 20269,
+  "stored_chars": 20467,
+  "identical": false,
+  "match_ratio": 0.9951
+ },
+ {
+  "id": "12y6zf-9296",
+  "status": "written",
+  "sent_chars": 27620,
+  "stored_chars": 27830,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-9276",
+  "status": "written",
+  "sent_chars": 24542,
+  "stored_chars": 24708,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-9256",
+  "status": "written",
+  "sent_chars": 20084,
+  "stored_chars": 20254,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-8316",
+  "status": "written",
+  "sent_chars": 26108,
+  "stored_chars": 26314,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-9236",
+  "status": "written",
+  "sent_chars": 23363,
+  "stored_chars": 23525,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-9216",
+  "status": "written",
+  "sent_chars": 24140,
+  "stored_chars": 24362,
+  "identical": false,
+  "match_ratio": 0.9954
+ },
+ {
+  "id": "12y6zf-9196",
+  "status": "written",
+  "sent_chars": 26893,
+  "stored_chars": 27049,
+  "identical": false,
+  "match_ratio": 0.9971
+ },
+ {
+  "id": "12y6zf-9176",
+  "status": "written",
+  "sent_chars": 23318,
+  "stored_chars": 23512,
+  "identical": false,
+  "match_ratio": 0.9958
+ },
+ {
+  "id": "12y6zf-9056",
+  "status": "written",
+  "sent_chars": 23752,
+  "stored_chars": 23932,
+  "identical": false,
+  "match_ratio": 0.9962
+ },
+ {
+  "id": "12y6zf-9156",
+  "status": "written",
+  "sent_chars": 23923,
+  "stored_chars": 24101,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-9136",
+  "status": "written",
+  "sent_chars": 25049,
+  "stored_chars": 25245,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-9116",
+  "status": "written",
+  "sent_chars": 25407,
+  "stored_chars": 25559,
+  "identical": false,
+  "match_ratio": 0.997
+ },
+ {
+  "id": "12y6zf-9016",
+  "status": "written",
+  "sent_chars": 25006,
+  "stored_chars": 25206,
+  "identical": false,
+  "match_ratio": 0.996
+ },
+ {
+  "id": "12y6zf-8996",
+  "status": "written",
+  "sent_chars": 23820,
+  "stored_chars": 24025,
+  "identical": false,
+  "match_ratio": 0.9957
+ },
+ {
+  "id": "12y6zf-8976",
+  "status": "written",
+  "sent_chars": 27881,
+  "stored_chars": 28049,
+  "identical": false,
+  "match_ratio": 0.997
+ },
+ {
+  "id": "12y6zf-8956",
+  "status": "written",
+  "sent_chars": 26613,
+  "stored_chars": 26759,
+  "identical": false,
+  "match_ratio": 0.9972
+ },
+ {
+  "id": "12y6zf-8936",
+  "status": "written",
+  "sent_chars": 23194,
+  "stored_chars": 23348,
+  "identical": false,
+  "match_ratio": 0.9966
+ },
+ {
+  "id": "12y6zf-8916",
+  "status": "written",
+  "sent_chars": 21511,
+  "stored_chars": 21633,
+  "identical": false,
+  "match_ratio": 0.9971
+ },
+ {
+  "id": "12y6zf-8896",
+  "status": "written",
+  "sent_chars": 26547,
+  "stored_chars": 26713,
+  "identical": false,
+  "match_ratio": 0.9968
+ },
+ {
+  "id": "12y6zf-8876",
+  "status": "written",
+  "sent_chars": 22745,
+  "stored_chars": 22901,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-8856",
+  "status": "written",
+  "sent_chars": 24053,
+  "stored_chars": 24223,
+  "identical": false,
+  "match_ratio": 0.9964
+ },
+ {
+  "id": "12y6zf-8836",
+  "status": "written",
+  "sent_chars": 28301,
+  "stored_chars": 28519,
+  "identical": false,
+  "match_ratio": 0.9961
+ },
+ {
+  "id": "12y6zf-8816",
+  "status": "written",
+  "sent_chars": 24396,
+  "stored_chars": 24576,
+  "identical": false,
+  "match_ratio": 0.9963
+ },
+ {
+  "id": "12y6zf-8476",
+  "status": "written",
+  "sent_chars": 30832,
+  "stored_chars": 31034,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-8796",
+  "status": "written",
+  "sent_chars": 26270,
+  "stored_chars": 26452,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-8776",
+  "status": "written",
+  "sent_chars": 24857,
+  "stored_chars": 25013,
+  "identical": false,
+  "match_ratio": 0.9968
+ },
+ {
+  "id": "12y6zf-8756",
+  "status": "written",
+  "sent_chars": 25616,
+  "stored_chars": 25786,
+  "identical": false,
+  "match_ratio": 0.9967
+ },
+ {
+  "id": "12y6zf-8736",
+  "status": "written",
+  "sent_chars": 26476,
+  "stored_chars": 26658,
+  "identical": false,
+  "match_ratio": 0.9965
+ },
+ {
+  "id": "12y6zf-8716",
+  "status": "written",
+  "sent_chars": 24655,
+  "stored_chars": 24817,
+  "identical": false,
+  "match_ratio": 0.9967
+ }
+]
