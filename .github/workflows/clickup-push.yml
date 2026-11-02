@@ -1,0 +1,71 @@
+name: Push edited BLOG ARTICLES back to ClickUp (encrypted handshake)
+
+# Claude starts this run, reads the one-off public key it prints, encrypts the edited
+# pages to that key and pushes them to the clickup-push branch. The run decrypts them
+# with its private key (which never leaves the runner), checks each page is unchanged
+# in ClickUp since Claude pulled it, writes it, and reads it back. The repo is public,
+# so page text is never stored or logged unencrypted.
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated page ids to limit the run to (blank = all in the payload)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clickup-push
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get install -y -qq age >/dev/null
+      - name: One-off key for this run
+        run: |
+          age-keygen -o "$RUNNER_TEMP/run.key" 2>/dev/null
+          PUB=$(age-keygen -y "$RUNNER_TEMP/run.key")
+          echo "PUSHKEY $PUB"
+          echo "KEYID=${PUB:4:16}" >> "$GITHUB_ENV"
+      - name: Wait for Claude's encrypted payload
+        run: |
+          for i in $(seq 1 120); do
+            if git fetch -q origin clickup-push 2>/dev/null && git show "FETCH_HEAD:payload-$KEYID.age" > "$RUNNER_TEMP/payload.age" 2>/dev/null; then
+              echo "payload received"; exit 0; fi
+            sleep 15
+          done
+          echo "no payload arrived"; exit 1
+      - name: Decrypt, check and write to ClickUp
+        run: |
+          mkdir -p "$RUNNER_TEMP/p"
+          age -d -i "$RUNNER_TEMP/run.key" "$RUNNER_TEMP/payload.age" | tar -xz -C "$RUNNER_TEMP/p"
+          python3 tools/clickup_push.py "$RUNNER_TEMP/p" "$RUNNER_TEMP/status.json" "${{ github.event.inputs.only }}" "$RUNNER_TEMP/back"
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+      - name: Save status (ids and counts only) and the read-back (encrypted to Claude)
+        if: always()
+        run: |
+          cp tools/clickup-sync.age.pub "$RUNNER_TEMP/claude.pub"
+          git fetch -q origin clickup-push
+          git checkout -q -B clickup-push FETCH_HEAD
+          git config user.name "site-bot"
+          git config user.email "site-bot@users.noreply.github.com"
+          [ -f "$RUNNER_TEMP/status.json" ] && cp "$RUNNER_TEMP/status.json" "status-$KEYID.json" && git add "status-$KEYID.json"
+          if [ -d "$RUNNER_TEMP/back" ]; then
+            tar -C "$RUNNER_TEMP" -czf "$RUNNER_TEMP/back.tgz" back
+            age -R "$RUNNER_TEMP/claude.pub" -o "readback-$KEYID.age" "$RUNNER_TEMP/back.tgz"
+            git add "readback-$KEYID.age"
+          fi
+          git rm -q --ignore-unmatch "payload-$KEYID.age"
+          git commit -qm "ClickUp push $KEYID" || true
+          git push -q origin clickup-push
