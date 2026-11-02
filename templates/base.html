@@ -143,6 +143,14 @@
       ap.querySelectorAll('.ap-skip').forEach(function (b) { b.addEventListener('click', function () { load(); a.currentTime = Math.max(0, a.currentTime + parseInt(b.getAttribute('data-skip'), 10)); }); });
       spd.addEventListener('click', function () { ri = (ri + 1) % rates.length; a.playbackRate = rates[ri]; spd.innerHTML = rates[ri] + '&times;'; });
     });
+    // about sidebar: scrolls with the page, then sticks once its bottom edge reaches the bottom of the screen
+    var sides = document.querySelectorAll('.side');
+    if (sides.length) {
+      var pin = function () { sides.forEach(function (sd) { if (getComputedStyle(sd).position !== 'sticky') { sd.style.top = ''; return; } sd.style.top = Math.min(window.innerHeight - sd.offsetHeight - 24, 120) + 'px'; }); };
+      window.addEventListener('resize', pin); window.addEventListener('load', pin);
+      sides.forEach(function (sd) { sd.querySelectorAll('img').forEach(function (im) { im.addEventListener('load', pin); }); });
+      pin();
+    }
     // rotating quote bands
     document.querySelectorAll('.quote-band').forEach(function (band) {
       var items = band.querySelectorAll('.q-item'); if (items.length < 2) return; var i = 0;
