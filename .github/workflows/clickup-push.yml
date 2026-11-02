@@ -35,8 +35,16 @@ jobs:
         run: |
           age-keygen -o "$RUNNER_TEMP/run.key" 2>/dev/null
           PUB=$(age-keygen -y "$RUNNER_TEMP/run.key")
-          echo "PUSHKEY $PUB"
-          echo "KEYID=${PUB:4:16}" >> "$GITHUB_ENV"
+          KEYID=${PUB:4:16}
+          echo "KEYID=$KEYID" >> "$GITHUB_ENV"
+          # publish the public half where Claude can read it (it can only lock, never unlock)
+          git config user.name "site-bot"; git config user.email "site-bot@users.noreply.github.com"
+          git fetch -q origin clickup-push && git worktree add -q "$RUNNER_TEMP/hb" FETCH_HEAD
+          echo "$PUB" > "$RUNNER_TEMP/hb/pubkey-${{ github.run_id }}.txt"
+          git -C "$RUNNER_TEMP/hb" add "pubkey-${{ github.run_id }}.txt"
+          git -C "$RUNNER_TEMP/hb" commit -qm "run ${{ github.run_id }} public key"
+          git -C "$RUNNER_TEMP/hb" push -q origin HEAD:clickup-push
+          git worktree remove --force "$RUNNER_TEMP/hb"
       - name: Wait for Claude's encrypted payload
         run: |
           for i in $(seq 1 120); do
@@ -66,6 +74,6 @@ jobs:
             age -R "$RUNNER_TEMP/claude.pub" -o "readback-$KEYID.age" "$RUNNER_TEMP/back.tgz"
             git add "readback-$KEYID.age"
           fi
-          git rm -q --ignore-unmatch "payload-$KEYID.age"
+          git rm -q --ignore-unmatch "payload-$KEYID.age" "pubkey-${{ github.run_id }}.txt"
           git commit -qm "ClickUp push $KEYID" || true
           git push -q origin clickup-push
