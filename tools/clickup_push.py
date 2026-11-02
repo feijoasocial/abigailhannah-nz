@@ -11,7 +11,7 @@ PAYLOAD_DIR holds pages/<page-id>.md (the new content) and manifest.json
      the stored version matches what was sent.
 Only page ids, statuses and character counts go to STATUS_JSON and the log. No text.
 """
-import difflib, hashlib, json, os, sys, time, urllib.request, urllib.error
+import hashlib, json, os, sys, time, urllib.request, urllib.error
 from pathlib import Path
 
 WORKSPACE = "36641775"
@@ -55,9 +55,9 @@ def main(payload: Path, status_path: Path, only: set, export_dir: Path):
         back = call("GET", f"{API}/{pid}?content_format=text/md").get("content") or ""
         if export_dir:
             (export_dir / f"{pid}.md").write_text(back, encoding="utf-8")
-        ratio = difflib.SequenceMatcher(None, new, back, autojunk=False).ratio() if len(new) < 60000 else None
+        norm = lambda s: " ".join(s.split())  # ClickUp re-spaces bullets; compare the words
         status.append({"id": pid, "status": "written", "sent_chars": len(new), "stored_chars": len(back),
-                       "identical": back == new, "match_ratio": round(ratio, 4) if ratio is not None else None})
+                       "identical": back == new, "same_words": norm(back).replace("(http://abigailhannah.nz)", "") .replace("[abigailhannah.nz]", "abigailhannah.nz") == norm(new)})
         time.sleep(0.6)
     status_path.write_text(json.dumps(status, indent=1), encoding="utf-8")
     counts = {}
