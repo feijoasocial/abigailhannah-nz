@@ -1,0 +1,44 @@
+name: Pull BLOG ARTICLES from ClickUp (read-only, encrypted)
+
+# Reads every page of the ClickUp BLOG ARTICLES doc with the CLICKUP_TOKEN secret,
+# encrypts the lot to Claude's public key (tools/clickup-sync.age.pub) and saves it
+# to the clickup-pull branch. The repo is public and the pages hold private notes,
+# so nothing is ever saved or logged unencrypted. Nothing is written to ClickUp.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clickup-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get install -y -qq age >/dev/null
+      - name: Read the doc
+        run: python3 tools/clickup_pull.py "$RUNNER_TEMP/pages"
+        env:
+          CLICKUP_TOKEN: ${{ secrets.CLICKUP_TOKEN }}
+      - name: Encrypt and save to the clickup-pull branch
+        run: |
+          tar -C "$RUNNER_TEMP" -czf "$RUNNER_TEMP/pages.tgz" pages
+          age -R tools/clickup-sync.age.pub -o "$RUNNER_TEMP/pages.tgz.age" "$RUNNER_TEMP/pages.tgz"
+          rm -rf "$RUNNER_TEMP/pages" "$RUNNER_TEMP/pages.tgz"
+          git config user.name "site-bot"
+          git config user.email "site-bot@users.noreply.github.com"
+          git checkout --orphan clickup-pull
+          git rm -rfq .
+          cp "$RUNNER_TEMP/pages.tgz.age" pages.tgz.age
+          echo "Encrypted ClickUp BLOG ARTICLES pull. Only Claude's private key can open it." > README.md
+          git add pages.tgz.age README.md
+          git commit -qm "ClickUp pull $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -qf origin clickup-pull
