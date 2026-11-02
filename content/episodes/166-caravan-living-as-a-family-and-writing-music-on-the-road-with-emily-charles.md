@@ -58,7 +58,7 @@ Before they had kids, they did a two-year stint in a Toyota Hiace, and that's wh
 
 ### The moment they decided
 
-For Charles, the turning point came when he finally took a break from work. Since COVID, they'd got busier, and he'd started working more with his iwi. Everything they did musically had to work around his work schedule, and they wanted to tip the scale the other way.
+For Charles, the turning point came when he finally took a break from work. Since COVID, they'd got busier, and he'd started working with his iwi. Everything they did musically had to work around his work schedule, and they wanted to tip the scale the other way.
 
 Emily could see that if Charles kept working that way and the kids started school, they'd settle into the rhythm of school life, and that would be it. There's nothing wrong with that, and they'd love their kids to be in a community one day. But now was the time to go, before they were locked in.
 
