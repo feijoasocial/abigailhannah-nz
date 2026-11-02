@@ -162,6 +162,11 @@ Kerry recently did Operation Overlanding with [Jono](https://abigailhannah.nz/10
 * Nelson Lakes
 * West Coast
 
+## Follow Kerry
+
+* Instagram: @quigs\_outdoorlife
+* His shop on Instagram: @4x4offroadsolutions
+
 ## More like this
 
 * [4WD Land Cruiser Adventures with Bri Woolnough](https://abigailhannah.nz/006-4wd-land-cruiser-bri-woolnough/)

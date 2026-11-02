@@ -191,6 +191,10 @@ When we recorded, they were making a little documentary about the trip with a fi
 * Treble Cone
 * Wānaka
 
+## Follow Tara and Naomi
+
+* Instagram: @pedals2powder
+
 ## More like this
 
 * [Bikepacking around the South Island with Rachel Davies](https://abigailhannah.nz/051-bikepacking-south-island/)

@@ -175,6 +175,11 @@ Telling people makes it real, and I agree. We both put something out there in th
 * Tory Channel
 * Ohau Point
 
+## Follow Britt
+
+* Instagram: @brittjayspencer
+* YouTube: Britt Jay Spencer, where you can watch Paddle X
+
 ## More like this
 
 * [Swimming the Length of the Clutha River with Rob Hutchings](https://abigailhannah.nz/019-swimming-the-clutha-rob-hutchings/)

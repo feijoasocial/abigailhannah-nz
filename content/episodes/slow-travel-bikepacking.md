@@ -121,7 +121,7 @@ The Alps 2 Ocean was incredible, and her top pick of the whole trip. She had the
 From the Alps 2 Ocean she rode down to [Dunedin](https://abigailhannah.nz/139-slow-travel-in-an-ev-and-catlins-dunedin-and-oamaru-with-mature-flaneur-tim-ward/), caught up with a mate there and took her second rest day with a little tour of the city. Then:
 
 * **Clutha Gold Trail**, from Dunedin through to the Roxburgh Gorge. It has been extended, and it has a couple of really cool tunnels that are hectic to ride through.
-* **Roxburgh Gorge**, one of her big highlights. The [jet boat](https://abigailhannah.nz/125-jetboating-27-wild-rivers-on-a-solo-trip-with-ollie-sharpe/) was really informative, taking you through the gorge to the different gold mining sites and talking about the history.
+* **Roxburgh Gorge**, one of her big highlights. A [jet boat](https://abigailhannah.nz/125-jetboating-27-wild-rivers-on-a-solo-trip-with-ollie-sharpe/) runs from Doctors Point, and it was really informative, taking you through the gorge to the different gold mining sites and talking about the history.
 * **Dunstan Trail**, beautiful, and her second time on it. This time she rode it in reverse, from Clyde to Cromwell, and that's where she finished.
 
 If she'd had more time, she had ideas for the Nevis Valley and the Mavora Lakes too.
@@ -181,6 +181,7 @@ Nicole always has something planned. For her next bikepacking trip she's been th
 * Dunedin
 * Clutha Gold Trail
 * Roxburgh Gorge
+* Doctors Point
 * Dunstan Trail
 * Clyde
 * Cromwell

@@ -103,7 +103,7 @@ They passed Rokeby Hut, a pretty basic hut, and pushed on 3 kilometres to Boyle 
 
 ### Day four: food drop and hitchhiking
 
-They'd sent a food parcel. Their tip: it's kept in a container, so on a hot day their chocolate had melted (still tasted like chocolate). Don't send yourself a block of cheese.
+They'd sent a food parcel to the Boyle River Outdoor Education Centre. Their tip: it's kept in a container, so on a hot day their chocolate had melted (still tasted like chocolate). Don't send yourself a block of cheese.
 
 At the Lewis Pass road there are three options: cross the river (too high for them), walk 10 kilometres along the main road, or hitchhike. Te Araroa walkers had made hitching sound easy. It took 40 minutes, which she blames on the Crocs again. They aimed for Hope Halfway Hut, pushed on, and reached Hope Kiwi Lodge, more like an old farmhouse, at 5pm after 30 kilometres.
 

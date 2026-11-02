@@ -163,6 +163,9 @@ Some trips on the list are ones she wants to do again, now the kids are older, i
 
 And there are new ones:
 
+* **Brass Monkey Hut**, which has just been restored. That might be another child-free trip.
+* **The Edwards Valley.**
+* **Kiwi Burn Hut**, down towards Fiordland, which is hard to access.
 * **More tramping around** [**Taranaki**](https://abigailhannah.nz/156-taranaki-three-peaks-traverse-and-supporting-families-in-the-outdoors-with-jenn-julian/), on a trip to the North Island.
 * **The Bibbulmun Track** in Australia, one day. Planning a three-month trip is too overwhelming right now, but she's dreaming for now.
 
@@ -240,6 +243,9 @@ The biggest fear is that kids will refuse to walk. Parents tell her their child 
 * Ces Clark Hut
 * St James Walkway
 * Old Ghost Road
+* Brass Monkey Hut
+* Edwards Valley
+* Kiwi Burn Hut
 * Fiordland
 * Taranaki
 * Wānaka

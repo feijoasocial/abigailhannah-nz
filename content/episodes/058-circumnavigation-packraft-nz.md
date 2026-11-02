@@ -178,6 +178,7 @@ His book about the coastal ride, The Big Loop, is out of print. He still sees co
 ## Follow Dunc
 
 * Website: [duncwilson.co.nz](http://duncwilson.co.nz)
+* Instagram: @duncwilsonnz
 
 ## More like this
 

@@ -139,7 +139,7 @@ I have a lot of international guests who are mind-blown that we have public huts
 
 Niko's ways to help keep them for the next 100 years:
 
-* **Join in.** Get involved with your tramping club or the Federated Mountain Clubs (FMC). Many organisations are asking for volunteers to maintain huts and tracks, even taking a machete on your tramp to clear a track.
+* **Join in.** Get involved with your tramping club, the Federated Mountain Clubs (FMC) or Permolat. Many organisations are asking for volunteers to maintain huts and tracks, even taking a machete on your tramp to clear a track.
 * **Love Our Huts.** FMC runs this campaign over summer: you choose a hut, go out and give it a deep clean, and work through a checklist so any maintenance gets recorded.
 * **Take responsibility.** They're public huts on public land, so we all need to chip in.
 

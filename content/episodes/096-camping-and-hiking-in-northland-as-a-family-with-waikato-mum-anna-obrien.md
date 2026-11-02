@@ -67,7 +67,7 @@ One of her first solo trips was in the Tararuas, up to Maungahuka Hut, which she
 
 She'd hoped to have the hut to herself, but three others turned up, and as you do in huts, they all got on really well. Next morning they dropped their packs and went up the famous Tararua ladder together as a side trip. It was nice having buddies for her first time on it.
 
-### Pinnacles Ridge to Cow Creek
+### Pinnacle Ridge to Cow Creek
 
 She still wants to walk the Tararuas north to south. Recently she set out to do it and realised she wasn't in training: ultra fitness doesn't stay unless you maintain it. So she did a big loop past Dundas Hut and Arete Forks Hut and out via Cow Creek, which had some of the most rooty, slippery track in the range.
 

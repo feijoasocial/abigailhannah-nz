@@ -106,9 +106,9 @@ Lake Crucible was the highlight of the trip for both of them, because it involve
 
 They made it a two-day trip, which she says is the common way to do it, because there's a bit of getting in and out.
 
-### Wilkin River Jet to Kerin Forks
+### Wilkin River Jets to Kerin Forks
 
-They started at Makarora and took the Wilkin River Jet 20 minutes up the river to Kerin Forks, where there's also a hut on the other side of the river. The jet boat is way more fun than walking that first stretch, she says, and the price was pretty reasonable.
+They started at Makarora and took the Wilkin River Jets 20 minutes up the river to Kerin Forks, where there's also a hut on the other side of the river. The jet boat is way more fun than walking that first stretch, she says, and the price was pretty reasonable.
 
 It had a bonus, too. They were packrafting back down the Wilkin on their first ever packrafting trip, and she'll admit she was scared. Seeing the river from the jet boat gave her peace of mind: if a jet boat could get up it, beginner packrafters should be okay.
 

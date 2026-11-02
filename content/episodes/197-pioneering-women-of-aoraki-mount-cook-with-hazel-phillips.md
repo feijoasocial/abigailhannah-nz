@@ -116,7 +116,7 @@ The job never ended: after guiding came the gramophone at dinner and piles of me
 
 Mavis Davidson, who led the 1953 climb of Aoraki Mount Cook, was a Tararua Tramping Club member. She applied for a trip one Christmas and was turned down because she was a woman and there might be some climbing. Incensed, she organised and led her own parties from then on, often with men in them.
 
-In the early days, everything at the Hermitage was guided: the guides cut steps for you and put you on the rope. Even then, two society sisters from Wellington, Maude and Elfie Williams, climbed their own peaks with no guide. They were the baby peaks, like [Mount Wakefield](https://abigailhannah.nz/046-mount-wakefield-jinal-govind/) and Mount Ollivier, up where [Mueller Hut](https://abigailhannah.nz/028-mueller-hut-backyard-travel-family/) is now.
+In the early days, everything at the Hermitage was guided: the guides cut steps for you and put you on the rope. Even then, two society sisters from Wellington, Maude and Elfie Williams, climbed their own peaks with no guide. They were the baby peaks, like [Mount Wakefield](https://abigailhannah.nz/046-mount-wakefield-jinal-govind/), Mount Sebastopol and Mount Ollivier, up where [Mueller Hut](https://abigailhannah.nz/028-mueller-hut-backyard-travel-family/) is now.
 
 ## Micro erasures and alpine rescues {#erasures-and-rescues}
 
@@ -177,6 +177,7 @@ Hazel hopes Great Hearts does for other women what her friend's Milford trip did
 * Earnslaw
 * Arthur's Pass
 * Mount Wakefield
+* Mount Sebastopol
 * Mount Ollivier
 * Mueller Hut
 * La Perouse

@@ -73,7 +73,7 @@ Food is usually Back Country Cuisine, and oats or Weet-Bix for his fussy-eater s
 
 ## Booking a helicopter flight to an alpine hut {#heli-logistics}
 
-Weather comes first. Before leaving Greymouth, Hami made sure it would be good both for the day they flew up and the day they wanted to come down. He checks multiple weather apps, like Yr, and the rain radars.
+Weather comes first. Before leaving Greymouth, Hami made sure it would be good both for the day they flew up and the day they wanted to come down. He checks multiple weather apps, like Yr, and the rain radars on MetVUW.
 
 When we recorded, you could book on the day you wanted to fly. Living in Greymouth, they could drive straight down. The company told them to rock up, and if it wasn't clear they might have to wait around for an hour. If the weather hadn't been any good, they'd have stayed home and saved it for another weekend.
 
@@ -98,7 +98,7 @@ Closer to home, they're spoilt for choice. They've spent a couple of nights on t
 His picks for a good intro to West Coast tramping:
 
 * **Rapid Creek Hut** on the Hokitika
-* **Dillons Hut** on the Taipo River
+* **Dillons Homestead Hut** on the Taipo River
 * **Kiwi Flat Hut** on the Waitaha
 
 All of them have lots of river crossings, so be careful and make sure you've got a dry spell.
@@ -133,7 +133,7 @@ With the family, he'd like to get up to Welcome Flat on the Copland for a couple
 * Paparoa Track
 * Hokitika
 * Rapid Creek Hut
-* Dillons Hut, Taipo River
+* Dillons Homestead Hut, Taipo River
 * Kiwi Flat Hut, Waitaha
 * Hokitika Gorge
 * Old Ghost Road

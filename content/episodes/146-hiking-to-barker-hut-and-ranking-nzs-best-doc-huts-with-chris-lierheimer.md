@@ -132,7 +132,7 @@ My first solo hike was 85 kilometres on the [Old Ghost Road](https://abigailhann
 
 ## Tramping in New Zealand from overseas {#tramping-from-overseas}
 
-For visitors, Chris's top line is that New Zealand's hut system is unparalleled, history and all. Bealey Spur was a sheep herders' hut, and near Glenorchy there's a series of huts around an old scheelite mine.
+For visitors, Chris's top line is that New Zealand's hut system is unparalleled, history and all. Bealey Spur was a sheep herders' hut, and near Glenorchy there's a series of huts around an old scheelite mine, including Heather Jock Hut and Boozer Hut, named for an occupant who liked a drink.
 
 When we recorded, most huts needed only a hut ticket, while the famous [Great Walk](https://abigailhannah.nz/10-great-walks-in-10-days/) huts were typically booked six months ahead. Some locals find the Great Walks too touristy. Either way, in places like Fiordland, the West Coast, Wānaka and Queenstown, Chris says it's almost like stepping into Jurassic Park, and you don't need a bear canister or a tent. Some Great Walk huts even supply cooking gas. His ask of visitors:
 
@@ -154,6 +154,7 @@ As Kiwis, I think we take the hut network for granted. I had [Ben](https://abiga
 * Te Anau Downs
 * Queenstown
 * Glenorchy
+* Heather Jock Hut
 * Kepler Track
 * Abel Tasman
 * Anchorage Hut

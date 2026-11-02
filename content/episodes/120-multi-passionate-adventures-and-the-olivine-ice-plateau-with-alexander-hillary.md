@@ -119,7 +119,7 @@ The Himalayan Trust began with Kiwi climbers and hikers going to Nepal and helpi
 
 You have the month of March, until the 31st, to run, walk or bike the height of [Everest](https://abigailhannah.nz/195-from-everest-to-nz-expeditions-to-local-microadventures-with-tsewang-nuru-sherpa/), 8,848 metres, or a lesser or higher option (the Triple Crown is for the really hungry people). You build up vertical metres bit by bit while raising money for education and healthcare projects in Nepal, a bit like a marathon over a month.
 
-Plenty of people do the height of Everest Base Camp or Aoraki Mount Cook, on Auckland's maunga or the Port Hills. It's a great way to get fit, with an amazing community to do laps with.
+Some people go big: two people battling it out one year were doing Roys Peak, a 1,300-metre slog, before and after work. Plenty of others do the height of Everest Base Camp or Aoraki Mount Cook, on Auckland's maunga or the Port Hills. It's a great way to get fit, with an amazing community to do laps with.
 
 Some students Alex has met go hundreds of metres down into a valley and up the other side every day to get to school. Climbing your own vertical metres to fund their scholarships gives you a bit of kinship with them.
 
@@ -160,6 +160,7 @@ Being in Nepal, with no topo maps on our trail, made me appreciate that too. So 
 * South Cape
 * Ruapehu
 * Aoraki Mount Cook
+* Roys Peak
 * Port Hills
 * Subantarctic islands
 

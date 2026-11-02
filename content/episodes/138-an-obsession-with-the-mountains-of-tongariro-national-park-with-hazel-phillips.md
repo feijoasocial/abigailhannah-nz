@@ -3,7 +3,7 @@ title: '138: An Obsession with the Mountains of Tongariro National Park with Haz
 slug: 138-an-obsession-with-the-mountains-of-tongariro-national-park-with-hazel-phillips
 date: 2025-05-23
 updated: 2026-10-23
-description: Hazel Phillips shares the hidden history of Tongariro National Park, from Hull's Rock and Ruapehu's glaciers to secret huts, swimming holes and Ngāuruhoe.
+description: Hazel Phillips shares the hidden history of Tongariro National Park, from Holl's Rock and Ruapehu's glaciers to secret huts, swimming holes and Ngāuruhoe.
 seoTitle: Tongariro National Park secrets, history and swimming holes
 focusKeyword: Tongariro National Park
 image: ''
@@ -26,7 +26,7 @@ And I learned soooo much. We talk about a 1962 photo of people swimming in Crate
 **In this episode**
 
 * [From bookworm to Ruapehu obsessive](#hazel-story)
-* [Crater Lake swimmers and Hull's Rock](#crater-lake-hulls-rock)
+* [Crater Lake swimmers and Holl's Rock](#crater-lake-hulls-rock)
 * [The Girdlestone Peak plaque](#girdlestone-plaque)
 * [Ruapehu's shrinking glaciers and the Mallowpuff test](#glaciers-mallowpuff)
 * [Swimming holes, Round the Mountain and the secret hut](#swimming-holes)
@@ -41,15 +41,15 @@ What changed it was a friend who walked the [Milford Track](https://abigailhanna
 
 My first hike in New Zealand was Pirongia in the Waikato: four soggy, muddy days, and what we thought would be a three or four hour day took 10. Hazel says that's legit a hard track, so I feel better.
 
-## Crater Lake swimmers and Hull's Rock {#crater-lake-hulls-rock}
+## Crater Lake swimmers and Holl's Rock {#crater-lake-hulls-rock}
 
 The obsession began with a photo. In 1962, Ronald Fox, a photographer for the Tourism Publicity Studio, photographed people bathing in Ruapehu's Crater Lake, with women in bikinis in the snow and the peak of Tahurangi behind. Back then, people rode a snowcat to the top, had a dip and skied down: the ultimate in shiny tourist glamour. Now we recognise it as culturally inappropriate, and it made Hazel think about how differently we engage with Ruapehu today.
 
-Then, in DOC's Tongariro National Park Management Plan, she found an asset she'd never heard of, and Google turned up nothing. A request to DOC eventually came back with a one-liner: it was a memorial to Horace Hull.
+Then, in DOC's Tongariro National Park Management Plan, she found an asset she'd never heard of, and Google turned up nothing. A request to DOC eventually came back with a one-liner: it was a memorial to Horace Holl.
 
 Down the rabbit hole she went, and it turned out to be two things, with some details wrong in the plan:
 
-* **Hull's Rock**, on the northern side of the park at the base of Ngāuruhoe, is a climbing crag, the first in the national park. Horace Hull used to take people there to do his classic ledge and crack climb around a corner, to test their mettle as climbers.
+* **Holl's Rock**, on the northern side of the park at the base of Ngāuruhoe, is a climbing crag, the first in the national park. Horace Holl used to take people there to do his classic ledge and crack climb around a corner, to test their mettle as climbers.
 * **A memorial rock and cairn** on the southern side of the Mangaturuturu River, because Hull, a beloved figure, died crossing that river in 1927.
 
 That's what captured her imagination: things you could stumble across, or read about and go and track down, like memorial cairns or the three plane wrecks on the mountain.
@@ -98,6 +98,7 @@ Hazel's big secret for swimming holes is that you go pretty much anywhere on Rua
 
 She looks at watercourses on satellite view, matches them up on the topo, and goes to look.
 
+* **Wairere Stream.** Beautiful pools that stay cold right through summer, so they're better to look at than get into.
 * **The stream before Blyth Hut.** This is where her swimming hole obsession started. She went to drink from it and it was warm, so she got in: tepid water in the middle of summer, and absolutely beautiful.
 * **The Cascades.** The highest temperature she's had there in summer is 11 degrees. They're worth getting into anyway.
 * **The Mangaturuturu River**, further down, has nice swimming holes too.
@@ -133,7 +134,7 @@ Hazel points out that Ngāuruhoe is taller than Tongariro but is a vent of it: N
 
 Hazel looks at the topo: anywhere above the bush line is great for exploring. Two ideas:
 
-* **An alternative Tama Lakes walk.** Past Upper Tama Lake, around the northern side of point 1562 (Hull's Rock), down a ground trail to the Waihohonu Spring and up the ridge to Waihohonu Hut. The spring's stream usually isn't crossable, so be on the correct side first.
+* **An alternative Tama Lakes walk.** Past Upper Tama Lake, around the northern side of point 1562 (Holl's Rock), down a ground trail to the Waihohonu Spring and up the ridge to Waihohonu Hut. The spring's stream usually isn't crossable, so be on the correct side first.
 * **An alternative crossing.** From Mangatepopo Hut, follow the ridge informally called Hardman's Ridge towards the Tongariro summit or North Crater, drop to Blue Lake and loop back out the Mangatepopo Valley. With alpine skills, it's a really fun trip on a good day (when we recorded, you couldn't park for more than four hours).
 
 Anywhere in the park, the weather can change really quickly and you can be in a really exposed position. At any time of year, Hazel would always carry waterproof pants and jacket, a bothy or bivvy bag, a [PLB](https://abigailhannah.nz/plb-safety/) and another form of communication, lots of water and snacks, and warm clothes. You can leave the car park in shorts and be wearing everything you own by the top. The Mountain Safety Council has great short videos on the popular tracks.
@@ -159,11 +160,12 @@ Hazel recommends some light bedtime reading: the Wai 1130 Waitangi Tribunal repo
 * Crater Lake
 * Ngāuruhoe
 * Tongariro
-* Hull's Rock
+* Holl's Rock
 * Mangaturuturu River
 * Girdlestone Peak
 * Whakapapa Glacier
 * Mangaehuehu Glacier
+* Wairere Stream
 * Blyth Hut
 * The Cascades
 * Round the Mountain Track

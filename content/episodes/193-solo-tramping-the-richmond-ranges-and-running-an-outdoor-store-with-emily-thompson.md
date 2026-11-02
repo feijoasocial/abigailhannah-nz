@@ -90,7 +90,7 @@ Heading up Mount Rintoul, one of the harder sections, she kept seeing a little h
 
 From the bottom of the valley at Mid Wairoa Hut, you walk up beside the river the whole way to Top Wairoa Hut. This is Emily's favourite part of the whole trip, which seems weird with so many high points on the track. She loves rivers, and through there it's like a travel show, with incredible waterfalls and bluey green water. It's still one of the most beautiful trails she's ever walked.
 
-When Emily did it the track wasn't too bad, though people have told her recently that it's a little scrambly. Mid Wairoa Hut itself is so beautiful.
+When Emily did it the track wasn't too bad, though people have told her recently that it's a little scrambly. Mid Wairoa Hut itself is so beautiful, and there's a shortcut that she doesn't think a lot of people know about: a DOC track from the Wairoa Gorge Mountain Bike Park goes straight to it, and it's also a shorter way up Rintoul.
 
 Above Top Wairoa Hut you climb onto the saddle, where the hills turn really, really red. It feels like being on Mars, with amazing rock formations.
 
@@ -223,6 +223,7 @@ My husband wants to do Te Araroa, and I'm not too keen, but I do want to do the 
 * Red Hills Hut
 * St Arnaud
 * Starveall
+* Wairoa Gorge Mountain Bike Park
 * Wakefield
 * Mount Owen
 * Queen Charlotte Track

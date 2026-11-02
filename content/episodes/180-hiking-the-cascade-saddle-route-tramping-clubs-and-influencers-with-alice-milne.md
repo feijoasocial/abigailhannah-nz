@@ -182,6 +182,7 @@ Alice is careful here, because she doesn't want her favourites to become the nex
 
 * **Rees-Dart Track.** Right up there. When we recorded, it had a slip on it as of New Year, and you could still do the Rees Valley section.
 * **Kea Basin**, from the Rees Valley. A day walk, or camp responsibly: there's no toilet, so carry your waste out. There are some bivvy rocks.
+* **Mataketake Hut.** Built after COVID, with one side of the hut lined with shelves of books, and gorgeous sunsets.
 
 She's more likely to share places like these in a DM, where she can check you know how to cross a river safely.
 
@@ -224,6 +225,7 @@ Alice has written a blog post about tramping with babies, and so has Sonia.
 * Fiordland
 * Catlins
 * Rakiura Stewart Island
+* Mataketake Hut
 
 ## Follow Alice
 

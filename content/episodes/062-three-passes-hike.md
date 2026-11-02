@@ -56,9 +56,9 @@ The route starts up the Waimakariri and finishes on the [West Coast](https://abi
 
 Carrington is a huge hut, and over Christmas there were only three others there. It was a beautiful afternoon, so they had a feed and chilled.
 
-### Ariel Tarns
+### Ariels Tarns
 
-The next morning you head up towards Ariel Tarns. There's quite a big river to work your way up, and the word is that if you can't cross that river, don't bother going. It's quite a climb, and at the top it's spectacular, with water running out of the moss and off the hill everywhere. They had lunch at the tarns.
+The next morning you head up towards Ariels Tarns. There's quite a big river to work your way up, and the word is that if you can't cross that river, don't bother going. It's quite a climb, and at the top it's spectacular, with water running out of the moss and off the hill everywhere. They had lunch at the tarns.
 
 ### Whitehorn Pass in cloud
 
@@ -100,7 +100,7 @@ From Harman Hut there are two ways out, and Pat has done both.
 
 ### The Arahura Valley
 
-The first time, with his friends, he went down the Arahura Valley. It took an extra day, but it was beautiful and easy, because the track follows another old road. There were a few washouts and rivers flowing down the middle of the track, and it was a very cool trip. In the Arahura River they found a huge piece of pounamu among the big boulders, and left it there.
+The first time, with his friends, he went down the Arahura Valley and stopped at Lower Arahura Hut at the bottom. It took an extra day, but it was beautiful and easy, because the track follows another old road. There were a few washouts and rivers flowing down the middle of the track, and it was a very cool trip. In the Arahura River they found a huge piece of pounamu among the big boulders, and left it there.
 
 ### The Styx Valley
 
@@ -174,7 +174,7 @@ He reckons it made him a bit more resilient, realising he could do things he did
 
 ## What's next and Pat's advice {#whats-next}
 
-When we recorded, Pat and his daughter had a [Nelson Lakes](https://abigailhannah.nz/016-nelson-lakes-mel-white/) trip planned for Christmas. He's done a circuit there with friends, up to [Lake Angelus](https://abigailhannah.nz/039-angelus-hut-dylan-arthur/) and over Sunset Saddle, and it's weather dependent: Robert Ridge is about as exposed as you're going to get in bad weather.
+When we recorded, Pat and his daughter had a [Nelson Lakes](https://abigailhannah.nz/016-nelson-lakes-mel-white/) trip planned for Christmas. He's done a circuit there with friends, up to [Lake Angelus](https://abigailhannah.nz/039-angelus-hut-dylan-arthur/) and over Sunset Saddle, and it's weather dependent: Robert Ridge is about as exposed as you're going to get in bad weather. He also has a day trip up Blimit in Arthur's Pass in mind, a peak Canterbury trampers will know the full name of.
 
 His advice for new hikers: keep putting one foot in front of the other, because anybody can do it, and enjoy it. It doesn't have to be a huge hike: walk up the road or up the hill. New Zealand is one of the most beautiful countries in the world, there's a lot to appreciate, so get out there.
 
@@ -184,7 +184,7 @@ His advice for new hikers: keep putting one foot in front of the other, because 
 * Waimakariri
 * Klondyke Corner
 * Carrington Hut
-* Ariel Tarns
+* Ariels Tarns
 * Whitehorn Pass
 * Park Morpeth Hut
 * Browning Pass

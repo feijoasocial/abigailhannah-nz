@@ -179,6 +179,7 @@ My own eureka moment came on Tiritiri Matangi too. I didn't realise how loud the
 
 ## Follow Elvisa
 
+* Instagram: @amiable\_elvie
 * LinkedIn, for anyone who wants to talk conservation mahi and getting a foot in the door
 
 ## More like this

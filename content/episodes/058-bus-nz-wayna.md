@@ -91,11 +91,11 @@ Their tips for Milford:
 
 * **Take a cruise.** Whether you're there for the day or a few days, it's the number one way to see right through the sound.
 * **Book the underwater observatory.** It was one of the most unexpected additions to their trip. They didn't know what to expect, and it was really impressive, with talks about the conservation work there and the different layers of water.
-* **Stay longer.** They'd love to walk the [Milford Track](https://abigailhannah.nz/034-milford-track-nz-popular-walk/) one day and stay at Milford Lodge, to walk along the edge of the water and take it all in.
+* **Stay longer.** They'd love to walk the [Milford Track](https://abigailhannah.nz/034-milford-track-nz-popular-walk/) one day and stay at Milford Sound Lodge, to walk along the edge of the water and take it all in.
 
 On the cruise, the guide told them that the height of the mountains above you is the same as the depth of the water below.
 
-I've done the cruise, the Milford Track and Milford Lodge, and I highly recommend all three. Milford Lodge has campsites as well as its beautiful cabins. The observatory was a highlight for me too.
+I've done the cruise, the Milford Track and Milford Sound Lodge, and I highly recommend all three. Milford Sound Lodge has campsites as well as its beautiful cabins. The observatory was a highlight for me too.
 
 ## Safari work and slow travel on the road {#life-on-the-road}
 

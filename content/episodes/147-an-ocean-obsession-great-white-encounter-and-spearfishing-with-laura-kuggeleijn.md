@@ -187,7 +187,7 @@ Earlier this year I was in Korea, and on an island off the southern coast it's t
 
 ## Follow Laura
 
-Laura and her co-host share their adventures, comps and podcast episodes on Instagram, and their podcast is on Spotify.
+Laura and her co-host share their adventures, comps and podcast episodes on Instagram as Spearo Diaries, and the Spearo Diaries podcast is on Spotify.
 
 ## More like this
 

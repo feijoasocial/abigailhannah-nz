@@ -70,9 +70,9 @@ Penzy started at Falls Creek, close to the Divide Shelter where her first traver
 
 ### Worsley Pass to the Edith River
 
-They went over Worsley Pass and through the top of the Wild Natives catchment, which looks improbable on the map, up past a couple of tarns to a saddle. It was very boggy, and the one man on the trip admitted he'd expected nice, open, easy travel. As Penzy told him, there is no such thing in Fiordland.
+They went over Worsley Pass and through the top of the Wild Natives catchment, which looks improbable on the map, up past a couple of tarns to Taheke Saddle, at the top of Taheke Creek. The creek next door is Kakapo Creek. It was very boggy, and the one man on the trip admitted he'd expected nice, open, easy travel. As Penzy told him, there is no such thing in Fiordland.
 
-Next came the Glaisnock, Midnight Creek and Edith Saddle, into the Edith River. On a side creek of the Edith, in a scratched-out campsite, Penzy spent her birthday.
+Next came Taheke Creek, the Glaisnock, Midnight Creek and Edith Saddle, into the Edith River. On a side creek of the Edith, in a scratched-out campsite, Penzy spent her birthday.
 
 ### Lake Alice and the George Sound Route
 
@@ -124,11 +124,11 @@ It's funny how normal things become a treat on an expedition. After our [slow pa
 
 Instead of the Heath Mountains or the Dark Cloud Range, they rerouted to packraft part of Dusky Sound, on a line some packrafters had done a couple of summers earlier. They'd only just got comfortable paddling lakes, and now they were heading onto the fiords. At George Sound Hut, they'd found an FMC bulletin with the write-up, and while she still had the inReach, Penzy messaged one of them for advice.
 
-They paddled past Fanny Bay and down the Cook Channel to camp below Glen Alpine Pass, knowing heavy rain was coming. Penzy's tent site flooded and she woke floating on her sleeping mat. Then it was over the pass, over a saddle and down a steep face to Oho Creek, using the handline a couple of times for comfort.
+They paddled past Fanny Bay and down the Cook Channel to camp below Glen Alpine Pass, knowing heavy rain was coming. Penzy's tent site flooded and she woke floating on her sleeping mat. Then it was over the pass into the Lumaluma Creek, over a saddle and down a steep face to Oho Creek, using the handline a couple of times for comfort.
 
-Oho Creek is amazing for packrafting, with a chain of lakes. Be very careful not to get sucked over the falls at the end, which appear out of nowhere (there's a track around them). With a headwind at Lake Cove and no decent camping, they camped on a small island so they'd be on the sound for an early start.
+Oho Creek is amazing for packrafting, with a chain of lakes including Lake Carrick, then through to Lake Cadman. Be very careful not to get sucked over the falls at the end, which appear out of nowhere (there's a track around them). With a headwind at Lake Cove and no decent camping, they camped on a small island so they'd be on the sound for an early start.
 
-They paddled down Edwardson Sound to their first view of the open ocean and a little swell, then to Cliff Cove, where a short, beautiful bush walk leads to Long Sound. Down Long Sound the rain and wind came and went all day, with constant decisions about whether to stop. The stretch from Revolver Bay to Kisbee Bay is more exposed to swell, so they rewarded themselves with a stop at Kisbee Lodge, a private hunting lodge with very lovely staff.
+They paddled down Edwardson Sound to their first view of the open ocean and a little swell, then up Te Korowhakaunu / Kanáris Sound, the most exposed corner of the route, to Cliff Cove, where a short, beautiful bush walk leads to Long Sound. Down Long Sound the rain and wind came and went all day, with constant decisions about whether to stop. The stretch from Revolver Bay to Kisbee Bay is more exposed to swell, so they rewarded themselves with a stop at Kisbee Lodge, a private hunting lodge with very lovely staff.
 
 That night's hut, with their food drop, is a cute little A-frame, but it's in a swamp with a stream under it, with two beds and a muddy floor, so Penzy camped instead and doesn't recommend it. The next morning was perfect for paddling, and they made it to a landing within a kilometre of the open ocean.
 
@@ -175,6 +175,7 @@ Plenty of people walk [Te Araroa](https://abigailhannah.nz/164-five-months-sobo-
 * U Pass and Glade Pass
 * Glade House
 * Worsley Pass
+* Taheke Saddle
 * Edith Saddle
 * Lake Alice
 * George Sound Hut

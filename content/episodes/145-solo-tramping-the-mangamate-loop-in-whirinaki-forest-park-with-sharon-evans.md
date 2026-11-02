@@ -29,7 +29,7 @@ So we follow her loop through the forest: the stream you cross again and again, 
 * [Going solo and making time for it](#going-solo)
 * [The Mangamate Loop in Whirinaki Forest Park](#mangamate-loop)
 * [A freezing night and two kiwi](#kiwi-night)
-* [Whirinaki Central Hut, caves and whio](#whirinaki-central)
+* [Central Whirinaki Hut, caves and whio](#whirinaki-central)
 * [Navigation, gear and a hot cup of tea](#gear-and-navigation)
 * [Te Araroa and the people along the way](#te-araroa)
 * [Advice for new trampers, at any age](#getting-started)
@@ -84,9 +84,9 @@ It reminded me of [Helen](https://abigailhannah.nz/136-pushed-to-her-limits-on-t
 
 For Sharon, moments like that are the magic of nature: suddenly the rain and the blisters are forgotten, and you're completely present. She strongly believes nature heals us. However tough it gets, you never regret it.
 
-## Whirinaki Central Hut, caves and whio {#whirinaki-central}
+## Central Whirinaki Hut, caves and whio {#whirinaki-central}
 
-From there, Sharon headed to Whirinaki Central Hut, a great big hut, with other tracks criss-crossing the forest.
+From there, Sharon headed to Central Whirinaki Hut, a great big hut, with other tracks criss-crossing the forest.
 
 The forest is beautiful, with enormous podocarp trees dripping in moss and lichen. Sharon describes it as one of New Zealand's first conservation stories. You look up in awe at the huge trees, then down at the little ferns.
 
@@ -102,7 +102,7 @@ For me it's usually more like thank goodness, there's the car. Where's the close
 
 ## Navigation, gear and a hot cup of tea {#gear-and-navigation}
 
-Day one on the Mangamate was the hardest going. In and out of the stream, you had to stop and look for the next orange marker on the trees. The track was muddy and rooty, and once out of the stream there was some scrambling under and over fallen trees. Sharon notes it could be completely different now, depending on maintenance. The track out from Whirinaki Central Hut to the main trailhead, past the canyon, was very well maintained and pretty much level.
+Day one on the Mangamate was the hardest going. In and out of the stream, you had to stop and look for the next orange marker on the trees. The track was muddy and rooty, and once out of the stream there was some scrambling under and over fallen trees. Sharon notes it could be completely different now, depending on maintenance. The track out from Central Whirinaki Hut to the main trailhead, past the canyon, was very well maintained and pretty much level.
 
 Sharon always uses the NZ Topo app, so she knows where she is, and she takes screenshots of each day's route, so if she can't get the maps, she still has her photos. If she's ever unsure, she can stop and wait till the next day.
 
@@ -144,7 +144,7 @@ That's also why Sharon shows the hard bits on social media. If she's scared and 
 
 * Whirinaki Forest Park
 * Mangamate Loop
-* Whirinaki Central Hut
+* Central Whirinaki Hut
 * Rotorua
 * Te Urewera
 * Coromandel

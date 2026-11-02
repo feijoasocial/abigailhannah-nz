@@ -176,7 +176,7 @@ I've done the Poutō track too, as passenger princess in [Bri](https://abigailha
 
 ## Follow Jono
 
-Jono shares his trips as Lost Sheep Adventures on YouTube, Instagram and Facebook. The Operation Overland 2022 snow day is on his YouTube channel.
+Jono shares his trips as Lost Sheep Adventures on [YouTube](https://www.youtube.com/c/LostSheepAdventures), and on Facebook as [4X4 Monthly NZ](https://www.facebook.com/4X4MonthlyNZ/). The Operation Overland 2022 snow day is on his YouTube channel.
 
 ## More like this
 

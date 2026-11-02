@@ -182,7 +182,7 @@ Next for Dom is getting back to Nepal to climb Ama Dablam and a few other mounta
 
 ## Follow Dom
 
-* Instagram, under a handle named after Rum Doodle, a satirical book about a 40,000 foot mountain
+* Instagram: @rum\_doodle (named after Rum Doodle, a satirical book about a 40,000 foot mountain)
 
 ## More like this
 

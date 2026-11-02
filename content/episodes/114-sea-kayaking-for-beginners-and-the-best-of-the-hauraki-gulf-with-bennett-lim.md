@@ -76,7 +76,7 @@ He raves about it to Isaac and me constantly, and we're working on getting there
 
 It's a bird paradise. On the eastern side there's a big, cavernous sea cave you can fit a double kayak through. You need to be there at the right tide, without too much swell coming in from the east. Every time he's been round the back, there have been fur seals. On the far side there's good rock hopping and tide pooling, and a tiny island off the island (an island-ception) with nice channels and caves he hasn't caught at the right tide yet.
 
-The full trip around the island that he rates as his best is more like 20 kilometres, or 25 if you paddle like Bennett and go through every gap.
+Paddling straight from Shakespear Regional Park to Hobbs Beach is about 12 kilometres return. The full trip around the island that he rates as his best is more like 20 kilometres, or 25 if you paddle like Bennett and go through every gap.
 
 That can sound like a lot, but it's doable with a bit of experience. I've done 20-kilometre days twice, with only a handful of paddle days behind me.
 
@@ -174,6 +174,8 @@ And yes, he's often out there on a Tuesday with dolphins and seals while I'm wis
 * Hauraki Gulf
 * Tiritiri Matangi
 * Whangaparāoa Peninsula
+* Shakespear Regional Park
+* Hobbs Beach
 * Mahurangi
 * Moturekareka
 * Motuora Island

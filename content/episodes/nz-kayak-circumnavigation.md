@@ -36,7 +36,7 @@ I got really really into this one. We go back to her childhood fishing trips, th
 
 ## Red's story, from the Waikato to the ocean {#red-story}
 
-Most people in the adventure world know her as Red. She was born and raised in the Waikato, so the only water around was the Waikato River, where they'd jump in for a swim once in a while or go eeling.
+Most people in the adventure world know her as Red, and some know her as Lynn. She was born and raised in the Waikato, so the only water around was the Waikato River, where they'd jump in for a swim once in a while or go eeling.
 
 Her family was sporty, and their holidays were always in the North Island. After haymaking season, they'd go camping in the [Coromandel](https://abigailhannah.nz/163-best-spots-and-hidden-gems-in-the-bay-of-plenty-coromandel-with-ciska/), at Papa Aroha on the Thames side.
 

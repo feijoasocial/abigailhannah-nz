@@ -98,7 +98,7 @@ The Bay of Islands isn't packed with hikes, Hannah says, but Urupukapuka has bea
 
 An hour's drive north, the Duke's Nose track is phenomenal. The view from the lookout looks like you're not even in New Zealand.
 
-If you don't have time for the full trail, there's a lesser-known option: St Paul's Rock, a short walk on the other side of the harbour.
+If you don't have time for the full trail, there's a lesser-known option: St Paul's Rock, a short walk on the other side of the harbour. Then head down to the Whangaroa Sport Fishing Club, which has the cheapest beer she's found.
 
 I've done Duke's Nose more than once, and I'm not usually a hike repeater, so that says something. It's on our kayak itinerary too, with a night at Lane Cove Hut and a cheeky hike.
 

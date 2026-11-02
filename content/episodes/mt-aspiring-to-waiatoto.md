@@ -101,7 +101,7 @@ They had no close calls, though at camp they got woken a couple of times in the 
 
 The next morning they packrafted across a beautiful source lake, then came some horrid bush-bashing with skis and packrafts on their backs, really slow and demoralising, and steep riverbed travel down to Bonar Flat, where the wilderness zone ends and packrafting trips usually start.
 
-Reaching Bonar Flat was a big moment of relief. They could blow up the packrafts, get the weight off their backs and use the river. The top section was awesome paddling, and they worked out the harder rapids as a team. They portaged around the main section of rapids, which with all their weight was the safe way to manage it. With a big rain and snow event coming in, they made their way out the next morning to the Waiatoto estuary and paddled out to the ocean. The river was technical, really fun, with some really cool white water.
+Reaching Bonar Flat was a big moment of relief. They could blow up the packrafts, get the weight off their backs and use the river. The top section was awesome paddling, and they worked out the harder rapids as a team. They portaged around the main section of rapids, which with all their weight was the safe way to manage it. They camped near Caseys Flats, and with a big rain and snow event coming in, made their way out the next morning to the Waiatoto estuary and paddled out to the ocean. The river was technical, really fun, with some really cool white water.
 
 I asked Nick whether a packraft is harder than a [whitewater kayak](https://abigailhannah.nz/white-water-kayaking-nz/) on rapids like that. For a trained whitewater kayaker, a hard-shell kayak is easier. Packrafts are forgiving for intermediates, but harder and more dangerous for pushing technical white water, so it's about the right craft and skills.
 
@@ -140,6 +140,7 @@ Next, Nick has a few ideas around the [Southern Alps](https://abigailhannah.nz/0
 * Bonar Glacier
 * Colin Todd Hut
 * Bonar Flat
+* Caseys Flats
 * Alex Knob
 
 ## Follow Nick
