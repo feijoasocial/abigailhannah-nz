@@ -81,7 +81,12 @@ def convert(src: Path) -> Path:
     if missing:
         raise SystemExit(f"{src}: no H2 matches jump link(s): {missing}")
 
-    number = int(art["episode"])
+    # read the episode number as plain decimal text: YAML reads 056 as octal (46)
+    raw = re.search(r"^episode:\s*['\"]?(\d+)", m.group(1), re.M)
+    number = int(raw.group(1), 10) if raw else int(art["episode"])
+    t = re.match(r"^\s*(\d{1,3})\s*[:\-]", str(art.get("title", "")))
+    if t and int(t.group(1), 10) != number:
+        raise SystemExit(f"{src}: episode {number} does not match title '{art.get('title')}'")
     path, old = existing_for(number)
     feed = feed_lookup(number)
     if not old and not feed:

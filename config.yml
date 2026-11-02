@@ -165,3 +165,8 @@ redirects:
   /tag/family: /blog/
   /tag/kiwi-outdoor-community: /podcast/
   /wp-content/uploads/2020/02/te-henga-goldie-bush-walkway.pdf: /images/uploads/2020/02/te-henga-goldie-bush-walkway.pdf
+  # wrong addresses used inside ClickUp articles (2 Nov 2026)
+  /068-northland-road-trip: /northland-road-trip/
+  /070-learning-to-surf-in-new-zealand-with-amber-holyoake: /learn-to-surf-new-zealand/
+  /087-overlanding-in-new-zealand-up-the-godley-and-havelock-valleys-with-jack-laurent: /overlanding-nz/
+  /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-isaac: /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-and-isaac/
