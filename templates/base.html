@@ -1,7 +1,8 @@
-{% set page_title = page_title | default(cfg.title) %}
-{% set full_title = page_title if (page_title == cfg.title or page_title | length > 44) else page_title ~ " | Abigail Hannah" %}
+{% set page_title = seo_titles.get(url) or (page_title | default(cfg.title)) %}
+{# add the brand only when the whole title still fits in Google's ~60 characters #}
+{% set full_title = page_title if (page_title.startswith("Abigail Hannah") or page_title | length > 43) else page_title ~ " | Abigail Hannah" %}
 {% set page_desc = page_desc | default(cfg.description) %}
-{% set og_image = (cfg.domain ~ (page_image if page_image else "/images/og-default.jpg")) %}
+{% set og_image = page_image if (page_image and page_image.startswith("http")) else (cfg.domain ~ (page_image if page_image else "/images/og-default.jpg")) %}
 <!doctype html>
 <html lang="en-NZ">
 <head>
@@ -35,9 +36,8 @@
   <link rel="alternate" type="application/rss+xml" title="Abigail Hannah blog" href="/rss.xml">
   <link rel="alternate" type="application/rss+xml" title="Aotearoa Adventures podcast" href="{{ cfg.feed_url }}">
   <link rel="sitemap" href="/sitemap.xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/roboto-slab-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/josefin-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/site.css">
   {% for ld in (jsonld or []) %}
   <script type="application/ld+json">{{ ld | tojson }}</script>
@@ -96,6 +96,9 @@
       </p>
     </div>
   </div>
+  <div class="wrap foot-feijoa">
+    <p>I also run <a href="{{ cfg.feijoa_social | utm('footer') }}">Feijoa Social</a>, a social media agency for travel and outdoor brands.</p>
+  </div>
   <div class="wrap legal">
     <p>© {{ year }} Abigail Hannah. All rights reserved. <a href="/privacy/">Privacy</a> <a href="/terms/">Terms</a></p>
     <a class="top" href="#top">Back to top <span aria-hidden="true">&#8593;</span></a>
@@ -106,6 +109,20 @@
     var b = document.querySelector('.menu-btn'), l = document.getElementById('nav-list');
     if (b && l) b.addEventListener('click', function () { var o = l.classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); });
     var motion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+    // videos: nothing downloads until a video is close to the screen; pause when it scrolls away
+    var vids = document.querySelectorAll('video[data-lazy-video]');
+    var startVid = function (v) {
+      if (!v.getAttribute('data-on')) {  // pick the first source whose media query matches (the small file on phones)
+        v.setAttribute('data-on', '1');
+        var pick = Array.prototype.find.call(v.querySelectorAll('source[data-src]'), function (s) { var m = s.getAttribute('media'); return !m || window.matchMedia(m).matches; });
+        if (pick) v.src = pick.getAttribute('data-src');
+      }
+      var p = v.play(); if (p && p.catch) p.catch(function () {});
+    };
+    if ('IntersectionObserver' in window) {
+      var vio = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) startVid(e.target); else if (!e.target.paused) e.target.pause(); }); }, { rootMargin: '200px 0px' });
+      vids.forEach(function (v) { vio.observe(v); });
+    } else { vids.forEach(startVid); }
     // reveal on scroll
     var els = document.querySelectorAll('[data-reveal],[data-reveal-group]');
     if (motion && 'IntersectionObserver' in window) {
@@ -154,6 +171,25 @@
       sides.forEach(function (sd) { sd.querySelectorAll('img').forEach(function (im) { im.addEventListener('load', pin); }); });
       pin();
     }
+    // analytics events (GA4). Key events: listen_click, audio_play, map_click, feijoa_click, email_click, generate_lead
+    var track = function (name, params) { if (window.gtag) window.gtag('event', name, params || {}); };
+    var area = function (el) { return el.closest('.side') ? 'sidebar' : el.closest('.site-foot') ? 'footer' : el.closest('.site-head') ? 'nav' : el.closest('.map-band, .phone-wrap') ? 'map_band' : 'page'; };
+    document.addEventListener('click', function (ev) {
+      var a = ev.target.closest && ev.target.closest('a[href]'); if (!a) return;
+      var h = a.href, p = { placement: area(a), link_url: h };
+      if (/open\.spotify\.com/.test(h)) { p.platform = 'spotify'; track('listen_click', p); }
+      else if (/podcasts\.apple\.com/.test(h)) { p.platform = 'apple'; track('listen_click', p); }
+      else if (/pod\.link/.test(h)) { p.platform = 'pod.link'; track('listen_click', p); }
+      else if (/rexby\.com/.test(h)) track('map_click', p);
+      else if (/feijoasocial\.com/.test(h)) track('feijoa_click', p);
+      else if (/^mailto:/.test(h)) track('email_click', p);
+      else if (/\.mp3(\?|$)/.test(h)) track('episode_download', p);
+      else if (a.host === location.host && /^\/quiz\/?$/.test(a.pathname)) track('quiz_click', p);
+    });
+    document.addEventListener('play', function (ev) {
+      var au = ev.target; if (!au || au.tagName !== 'AUDIO' || au.getAttribute('data-tracked')) return;
+      au.setAttribute('data-tracked', '1'); track('audio_play', { episode: location.pathname, placement: area(au) });
+    }, true);
     // rotating quote bands
     document.querySelectorAll('.quote-band').forEach(function (band) {
       var items = band.querySelectorAll('.q-item'); if (items.length < 2) return; var i = 0;

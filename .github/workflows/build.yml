@@ -30,10 +30,28 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      # WebP copies of every image are kept between builds, so only new or changed photos get encoded
+      - name: Restore image cache
+        uses: actions/cache/restore@v4
+        with:
+          path: imgcache
+          key: imgcache-${{ hashFiles('static/images/**', 'content/**/*.md', 'imgopt.py') }}
+          restore-keys: imgcache-
       - name: Build site (fetches the live podcast feed)
         run: python3 build.py
         env:
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Save image cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: imgcache
+          key: imgcache-${{ hashFiles('static/images/**', 'content/**/*.md', 'imgopt.py') }}-${{ github.run_id }}
+      # nothing goes live unless these pass
+      - name: Check links and anchors
+        run: python3 tools/check_links.py
+      - name: Check structured data and image files
+        run: python3 tools/check_site.py
       - name: Commit refreshed feed snapshot
         run: |
           git config user.name "site-bot"

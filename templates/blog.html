@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = "New Zealand Travel Blog" %}
+{% set page_image = (posts | selectattr("image") | map(attribute="image") | first) or "" %}
 {% set page_desc = "New Zealand travel guides, road trips, tramps and real stories from Abigail Hannah. Where to go, what to pack and how to make the most of Aotearoa." %}
 {% set jsonld = [{"@context": "https://schema.org", "@type": "Blog", "name": "Abigail Hannah travel blog", "url": cfg.domain ~ "/blog/", "description": page_desc, "author": {"@type": "Person", "name": "Abigail Hannah"}}] %}
 {% block main %}

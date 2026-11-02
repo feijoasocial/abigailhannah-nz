@@ -28,7 +28,7 @@
 {% block main %}
 <section class="band band-photo">
   <div class="bg">
-    <video autoplay muted loop playsinline preload="metadata" poster="/images/waterfall-loop-poster.jpg" aria-hidden="true"><source src="/images/waterfall-loop.mp4" type="video/mp4"></video>
+    <video muted loop playsinline preload="none" data-lazy-video poster="/images/waterfall-loop-poster.jpg" aria-hidden="true"><source media="(max-width: 760px)" data-src="/images/waterfall-loop-720.mp4" type="video/mp4"><source data-src="/images/waterfall-loop.mp4" type="video/mp4"></video>
   </div>
   <div class="wrap split">
     <div class="phone-wrap" data-reveal="left">
@@ -105,7 +105,7 @@
   <div class="wrap split">
     <div class="squares" data-reveal-group>
       <div><img src="/images/quiz-1.jpg" alt="" loading="lazy" width="819" height="819"></div>
-      <div><video autoplay muted loop playsinline preload="metadata" poster="/images/quiz-loop-poster.jpg" aria-hidden="true"><source src="/images/quiz-loop.mp4" type="video/mp4"></video></div>
+      <div><video muted loop playsinline preload="none" data-lazy-video poster="/images/quiz-loop-poster.jpg" aria-hidden="true"><source data-src="/images/quiz-loop.mp4" type="video/mp4"></video></div>
       <div><img src="/images/quiz-3.jpg" alt="" loading="lazy" width="900" height="900"></div>
       <div><img src="/images/quiz-4.jpg" alt="" loading="lazy" width="900" height="900"></div>
     </div>

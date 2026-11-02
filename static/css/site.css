@@ -1,4 +1,13 @@
 /* abigailhannah.nz. Values from about-me/brand-visual-abigail-hannah.md (11 Oct 2026). Sharp corners on boxes, images and panels; buttons are pills; device frames exempt. */
+/* Fonts, hosted on the site (no Google Fonts request). Latin plus latin-ext, so macrons render in the brand fonts. */
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url(/fonts/josefin-sans-latin-ext-600-normal.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url(/fonts/josefin-sans-latin-600-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/josefin-sans-latin-ext-700-normal.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Josefin Sans'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/josefin-sans-latin-700-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/roboto-slab-latin-ext-400-normal.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/roboto-slab-latin-400-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/roboto-slab-latin-ext-700-normal.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/roboto-slab-latin-700-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 :root {
   --cream: #fdfef0; --ink: #000;
   --olive: #6a6a2f; --olive-deep: #55551f; --moss: #a0a069; --sage: #d6d6a2;
@@ -127,6 +136,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .site-foot .legal { border-top: 1px solid rgba(253,254,240,0.25); margin-top: 3rem; padding-top: 1.5rem; font-size: 0.8rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
 .site-foot .legal p { margin: 0; } .site-foot .legal p a { margin-left: 0.75rem; }
 .site-foot .top { font-family: var(--font-head); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; }
+.foot-feijoa p { margin: 0; padding: 1.4rem 0 0.2rem; font-size: 0.92rem; color: var(--sage); }
+.foot-feijoa a { color: var(--cream); }
 .site-foot .top span { display: inline-block; font-size: 1.3rem; transition: transform 0.3s var(--ease); } .site-foot .top:hover span { transform: translateY(-4px); }
 
 /* hero */
@@ -466,6 +477,10 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .side-ctas { display: grid; gap: 0.7rem; margin: 1.3rem 0 0; }
 .side-ctas .btn { width: 100%; padding-inline: 1em; min-height: 50px; font-size: 0.8rem; }
 .side-ctas .btn-outline:hover { background: transparent; color: var(--espresso); border-color: var(--espresso); }
+.side-quiz { margin-top: 1.2rem; background: var(--olive-deep); color: var(--cream); padding: 1.5rem 1.5rem 1.4rem; font-size: 0.94rem; line-height: 1.65; }
+.side-quiz .kicker { color: var(--sage); margin-bottom: 0.5rem; }
+.side-quiz-title { font-family: var(--font-head); font-weight: 700; font-size: 1.3rem; line-height: 1.15; margin: 0 0 0.6rem; color: var(--cream); }
+.side-quiz .btn { width: 100%; padding-inline: 1em; min-height: 50px; font-size: 0.8rem; margin-top: 0.4rem; }
 @media (max-width: 1040px) {
   .post-layout { grid-template-columns: minmax(0, 1fr); width: min(100% - 2 * var(--gutter), var(--measure)); gap: 3rem; }
   .side { position: static; }

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "_parts.html" as parts with context %}
+{# Thank-you pages. Each Ivorey or ClickUp form redirects here after a submission, which records the lead in GA4. #}
+{% set page_title = t.title %}
+{% set noindex = True %}
+{% block main %}
+<section class="band band-olive"><div class="wrap">
+  <p class="ep-num">{{ t.kicker }}</p>
+  <h1 class="display">{{ t.title }}</h1>
+  <p class="lede">{{ t.line }}</p>
+  <p class="pill-row"><a class="pill" href="/podcast/">Listen to the podcast</a><a class="pill" href="{{ cfg.rexby_map }}">Get the NZ map</a><a class="pill" href="/blog/">Read the blog</a></p>
+</div></section>
+<section class="band"><div class="wrap"><p class="kicker">Latest episodes</p>{{ parts.ledger(episodes[:5]) }}</div></section>
+{% endblock %}
+{% block scripts %}<script>if (window.gtag) gtag('event', 'generate_lead', { form_name: '{{ t.form }}' });</script>{% endblock %}

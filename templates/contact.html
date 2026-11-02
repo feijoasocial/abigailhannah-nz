@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = "Contact Abigail Hannah" %}
+{% set page_image = "/images/contact-loop-poster.jpg" %}
 {% set page_desc = "Say kia ora to Abigail Hannah: questions, New Zealand travel itineraries, podcast stories, collaborations, or a coffee by the beach." %}
 {% set jsonld = [{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact Abigail Hannah", "url": cfg.domain ~ "/contact/", "mainEntity": {"@type": "Person", "name": "Abigail Hannah", "email": cfg.email, "url": cfg.domain}}] %}
 {% block main %}
 <section class="band band-photo contact-hero">
   <div class="bg">
-    <video autoplay muted loop playsinline preload="metadata" poster="/images/contact-loop-poster.jpg" aria-hidden="true"><source src="/images/contact-loop.mp4" type="video/mp4"></video>
+    <video muted loop playsinline preload="none" data-lazy-video poster="/images/contact-loop-poster.jpg" aria-hidden="true"><source media="(max-width: 760px)" data-src="/images/contact-loop-720.mp4" type="video/mp4"><source data-src="/images/contact-loop.mp4" type="video/mp4"></video>
   </div>
   <div class="wrap">
     <p class="kicker">Get in touch</p>

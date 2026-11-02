@@ -249,6 +249,35 @@ def write_search_index(episodes: list[dict]):
     return len([r for r in rows if r["k"]])
 
 # ---------- render ----------
+
+THANKS = {
+    "vip": {"kicker": "VIP list", "title": "You're on the list", "line": "Keep an eye on your inbox. While you wait, here's where to start."},
+    "contact": {"kicker": "Message sent", "title": "Thanks for getting in touch", "line": "Your message has landed and I'll be in touch soon."},
+    "guest": {"kicker": "Guest application", "title": "Application received", "line": "Thanks for applying to come on Aotearoa Adventures. I'll be in touch."},
+}
+
+
+def utm(link: str, placement: str) -> str:
+    """Tag a link to one of Abigail's other sites so its analytics credits abigailhannah.nz."""
+    sep = "&" if "?" in link else "?"
+    return f"{link}{sep}utm_source=abigailhannah.nz&utm_medium=referral&utm_campaign={placement}"
+
+def _drop_empty(v):
+    """Remove None and empty values so structured data has no nulls."""
+    if isinstance(v, dict):
+        return {k: _drop_empty(x) for k, x in v.items() if x not in (None, "", [], {})}
+    if isinstance(v, list):
+        return [_drop_empty(x) for x in v if x not in (None, "", [], {})]
+    return v
+
+
+def to_jsonld(value):
+    """JSON for <script type="application/ld+json">: valid JSON, marked safe so autoescape leaves the
+    quotes alone, with <, > and & escaped so page text can never close the script tag."""
+    from markupsafe import Markup
+    s = json.dumps(_drop_empty(value), ensure_ascii=False, default=str)
+    return Markup(s.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026"))
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--offline", action="store_true"); args = ap.parse_args()
     episode_posts = load_collection("episodes")
@@ -262,10 +291,11 @@ def main():
             cats.setdefault(slugify(c), {"name": c, "slug": slugify(c), "posts": []})["posts"].append(p)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-    env.filters.update(date=fmt_date, duration=fmt_duration, clock=fmt_clock, slugify=slugify, tojson=json.dumps)
+    env.filters.update(date=fmt_date, duration=fmt_duration, clock=fmt_clock, slugify=slugify, tojson=to_jsonld, utm=utm)
     now = dt.datetime.now(dt.timezone.utc)
     episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
-    base = {"cfg": cfg, "year": now.year, "episodes": episodes, "numbered": numbered, "posts": posts, "cats": cats, "episodes_asc": episodes_asc}
+    seo_titles = yaml.safe_load((ROOT / "data" / "seo_titles.yml").read_text(encoding="utf-8")) or {}
+    base = {"seo_titles": seo_titles, "cfg": cfg, "year": now.year, "episodes": episodes, "numbered": numbered, "posts": posts, "cats": cats, "episodes_asc": episodes_asc}
 
     if DIST.exists(): shutil.rmtree(DIST)
     shutil.copytree(STATIC, DIST)
@@ -299,6 +329,9 @@ def main():
     write("/quiz/", "quiz.html", priority="0.7")
     for name in ("about", "map", "contact", "privacy", "terms"):
         write(f"/{name}/", f"{name}.html", priority="0.6")
+    for slug, t in THANKS.items():  # thank-you pages the forms redirect to (noindex, kept out of the sitemap)
+        write(f"/thanks/{slug}/", "thanks.html", t=dict(t, form=slug))
+        pages.pop()
     write("/404/", "404.html")
     (DIST / "404.html").write_text((DIST / "404/index.html").read_text(encoding="utf-8"), encoding="utf-8")
     shutil.rmtree(DIST / "404")
@@ -327,6 +360,10 @@ def main():
             f'<body><p>This page has moved to <a href="{target}">{target}</a>.</p></body></html>', encoding="utf-8")
         made += 1
     print(f"[redirects] {made} old addresses redirected")
+
+    # responsive WebP images, sizes and loading hints on every page
+    from imgopt import Optimiser
+    Optimiser(DIST, BASE).run()
 
     # sitemap
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

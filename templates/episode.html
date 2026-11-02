@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
-{% set page_title = (e.content.seoTitle if e.content and e.content.seoTitle else e.title) %}
+{% set page_title = (e.content.seoTitle if e.content and e.content.seoTitle else e.clean_title) %}
 {% set page_desc = e.description[:152] ~ ("…" if e.description | length > 152 else "") %}
-{% set page_image = e.image if e.image.startswith("/") else "" %}
+{% set page_image = e.image or "" %}
 {% set og_type = "article" %}
 {% set published = e.date %}
 {% set modified = e.content.updated if e.content else e.date %}

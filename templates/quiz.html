@@ -176,7 +176,7 @@
     goTo(result);
   }
   // back from the Ivorey form: /quiz/?done=1 shows the stored result
-  try { var saved = localStorage.getItem("ah-quiz-result"); if (/[?&]done=1/.test(location.search) && saved && R[saved]) { showResult(saved); } } catch (e) {}
+  try { var saved = localStorage.getItem("ah-quiz-result"); if (/[?&]done=1/.test(location.search) && saved && R[saved]) { showResult(saved); if (window.gtag) gtag("event", "generate_lead", { form_name: "quiz", travel_style: saved }); } } catch (e) {}
   function start() { intro.hidden = true; result.hidden = true; gate.hidden = true; form.hidden = false; i = 0; answers = []; render(); }
   $("quiz-start").addEventListener("click", start); $("quiz-start-2").addEventListener("click", start);
   var skip = $("quiz-skip"); if (skip) skip.addEventListener("click", function () { try { showResult(localStorage.getItem("ah-quiz-result")); } catch (e) {} });

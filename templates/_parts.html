@@ -68,8 +68,8 @@
     </div>
     <div class="phone-wrap">
       <div class="iphone">
-        <video class="phone-video" autoplay muted loop playsinline preload="metadata" poster="/images/map-mockup.jpg" aria-hidden="true">
-          <source src="/images/map-mockup.mp4" type="video/mp4">
+        <video class="phone-video" muted loop playsinline preload="none" data-lazy-video poster="/images/map-mockup.jpg" aria-hidden="true">
+          <source data-src="/images/map-mockup.mp4" type="video/mp4">
         </video>
         <img class="phone-still" src="/images/map-mockup.jpg" alt="The NZ Road Trip Adventure Guide map open on a phone" loading="lazy" width="1080" height="1920">
         <img class="iphone-frame" src="/images/iphone-frame.png" alt="" width="432" height="853" loading="lazy">
@@ -96,7 +96,7 @@
     </div>
     <div class="laptop" data-reveal="left">
       <div class="laptop-screen">
-        <video autoplay muted loop playsinline preload="metadata" poster="/images/rexby-inside-poster.jpg" aria-hidden="true"><source src="/images/rexby-inside.mp4" type="video/mp4"></video>
+        <video muted loop playsinline preload="none" data-lazy-video poster="/images/rexby-inside-poster.jpg" aria-hidden="true"><source data-src="/images/rexby-inside.mp4" type="video/mp4"></video>
       </div>
       <div class="laptop-base"></div>
     </div>
@@ -161,11 +161,17 @@
   <div class="side-card">
     <img class="side-photo" src="/images/ab-beanie.jpg" alt="Abigail Hannah laughing in a beanie below Aoraki Mount Cook" loading="lazy" width="900" height="1350">
     <p class="side-hi">oh hey, I'm Abigail</p>
-    <p>and I'm just a little obsessed with New Zealand. I have explored every corner of the country, first in a very beat-up rusty van, then through lots of hiking, and a 2-month sea kayak expedition. Now you'll find me living in a small town and having as many adventures as possible between podcast recordings and building my <a href="{{ cfg.feijoa_social }}">marketing agency</a>. And there's plenty more adventures to be had.</p>
+    <p>and I'm just a little obsessed with New Zealand. I have explored every corner of the country, first in a very beat-up rusty van, then through lots of hiking, and a 2-month sea kayak expedition. Now you'll find me living in a small town and having as many adventures as possible between podcast recordings and building my <a href="{{ cfg.feijoa_social | utm('sidebar') }}">marketing agency</a>. And there's plenty more adventures to be had.</p>
     <p class="side-ctas">
       <a class="btn" href="{{ cfg.rexby_map }}">Get the NZ map</a>
       <a class="btn btn-outline" href="/podcast/">Listen to the podcast</a>
     </p>
+  </div>
+  <div class="side-quiz">
+    <p class="kicker">Free quiz</p>
+    <p class="side-quiz-title">What type of traveller are you?</p>
+    <p>Discover your travel persona and get tailored New Zealand travel recommendations based on what you love doing. It takes about 2 minutes.</p>
+    <p><a class="btn btn-cream" href="/quiz/">Take the quiz</a></p>
   </div>
 </aside>
 {% endmacro %}
