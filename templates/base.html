@@ -26,7 +26,10 @@
   <meta name="twitter:description" content="{{ page_desc }}">
   <meta name="twitter:image" content="{{ og_image }}">
   {% if cfg.gsc_verification %}<meta name="google-site-verification" content="{{ cfg.gsc_verification }}">{% endif %}
-  {% if cfg.ga4_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.ga4_id }}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ cfg.ga4_id }}',{anonymize_ip:true});</script>{% endif %}
+  {% if cfg.ga4_id %}<script>/* Analytics, skipped for automated browsers (bots) so they don't inflate visits */
+  (function(){ if (navigator.webdriver || /HeadlessChrome|PhantomJS|Lighthouse|bot|crawler|spider/i.test(navigator.userAgent)) return;
+    var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id={{ cfg.ga4_id }}'; document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[]; window.gtag=function(){dataLayer.push(arguments);}; gtag('js',new Date()); gtag('config','{{ cfg.ga4_id }}',{anonymize_ip:true}); })();</script>{% endif %}
   <link rel="icon" href="/favicon.png" type="image/png" sizes="40x40">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="Abigail Hannah blog" href="/rss.xml">
