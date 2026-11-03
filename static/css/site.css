@@ -469,6 +469,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .post-layout { width: min(100% - 2 * var(--gutter), calc(var(--measure) + 300px + 4.5rem)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, var(--measure)) 300px; gap: 4.5rem; justify-content: center; align-items: start; }
 .post-main { min-width: 0; }
 .post-main > .hero-art { margin-bottom: 2rem; }
+.post-main > .hero-art:has(+ .hero-caption) { margin-bottom: 0.5rem; }
+.hero-caption { font-size: 0.85rem; color: var(--olive); margin: 0 0 2rem; }
 .side { position: sticky; top: 5.5rem; }
 .side-card { background: var(--sage); color: var(--espresso); padding: 1.6rem 1.5rem 1.4rem; font-size: 0.94rem; line-height: 1.65; }
 .side-photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; margin-bottom: 1.2rem; }

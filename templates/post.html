@@ -22,7 +22,7 @@
   </div>
   <div class="post-layout">
     <div class="post-main">
-      {% if p.image %}<img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800">{% endif %}
+      {% if p.image %}<img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800">{% if p.imageCaption %}<p class="hero-caption">{{ p.imageCaption }}</p>{% endif %}{% endif %}
       <div class="prose">{{ p.html | safe }}</div>
       {% if p.tags %}<div class="tags"><p class="pill-row">{% for t in p.tags %}<span class="pill">{{ t }}</span>{% endfor %}</p></div>{% endif %}
     </div>
