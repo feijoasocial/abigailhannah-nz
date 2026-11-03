@@ -11,6 +11,7 @@ a page loads straight away (it is usually the largest thing on screen) and the r
 they are scrolled near. Video posters switch to a WebP copy too. Never palette-reduces anything.
 """
 import hashlib
+import urllib.request
 import re
 import shutil
 from pathlib import Path
@@ -23,6 +24,8 @@ WIDTHS = (480, 960, 1600)
 MAX_W = 1600   # widest copy; 1920 is added only for full-screen photos that are at least that wide
 QUALITY = 82
 
+REMOTE_HOSTS = ("https://artwork.captivate.fm/",)
+
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
 PROSE_RE = re.compile(r'<div class="prose">.*?</div>\s*(?:<div class="tags"|</div>)', re.S)
 POSTER_RE = re.compile(r'poster="([^"]+\.(?:jpe?g|png))"', re.I)
@@ -31,7 +34,7 @@ SRC, CLS, WID, HEI, LOAD, PRIO = (ATTR(n) for n in ("src", "class", "width", "he
 
 # how wide each kind of image shows on screen, so the browser picks the right copy
 SIZES = {
-    "hero-img": "100vw",
+    "hero-img": "(orientation: portrait) 100vh, 100vw",  # cover-cropped full screen: on a phone the height decides the width needed
     "hero-art": "(max-width: 760px) 100vw, 720px",
     "side-photo": "300px",
     "ap-art": "120px",
@@ -46,7 +49,7 @@ PROSE_SIZES = "(max-width: 760px) 100vw, 720px"
 class Optimiser:
     def __init__(self, dist: Path, base: str = ""):
         self.dist, self.base = dist, base
-        self.made = self.reused = 0
+        self.made = self.reused = self.fetched = self.fetch_failed = 0
         self.info: dict[str, dict | None] = {}
 
     def _local(self, src: str) -> Path | None:
@@ -57,21 +60,43 @@ class Optimiser:
         f = self.dist / src.lstrip("/").split("?")[0].split("#")[0]
         return f if f.suffix.lower() in (".jpg", ".jpeg", ".png") and f.is_file() else None
 
+    def _remote(self, src: str) -> Path | None:
+        """Podcast artwork hosted by Captivate: download once into the cache (the originals are ~3000px)."""
+        if not any(src.startswith(h) for h in REMOTE_HOSTS):
+            return None
+        f = CACHE / "remote" / (hashlib.sha1(src.encode()).hexdigest()[:16] + ".img")
+        if not f.exists():
+            try:
+                req = urllib.request.Request(src, headers={"User-Agent": "abigailhannah.nz build"})
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    data = r.read()
+                f.parent.mkdir(parents=True, exist_ok=True)
+                f.write_bytes(data)
+                self.fetched += 1
+            except Exception as e:  # offline or blocked: keep the original link
+                self.fetch_failed += 1
+                return None
+        return f
+
     def variants(self, src: str) -> dict | None:
-        """{'w': width, 'h': height, 'set': [(url, width), ...]} for a local image, or None."""
+        """{'w': width, 'h': height, 'set': [(url, width), ...]} for a local or podcast-artwork image, or None."""
         if src in self.info:
             return self.info[src]
         f = self._local(src)
+        remote = None
+        if not f:
+            remote = self._remote(src)
+            f = remote
         if not f:
             self.info[src] = None
             return None
         digest = hashlib.sha1(f.read_bytes()).hexdigest()[:10]
-        rel = f.relative_to(self.dist).with_suffix("")
+        rel = Path("remote") / f.stem if remote else f.relative_to(self.dist).with_suffix("")
         try:
             with Image.open(f) as im:
                 im = ImageOps.exif_transpose(im)
                 W, H = im.size
-                widths = sorted({w for w in WIDTHS if w < W * 0.9} | {min(W, MAX_W)} | ({1920} if W >= 1900 else set()))
+                widths = sorted({w for w in WIDTHS if w < W * 0.9} | {min(W, MAX_W)} | ({1920} if W >= 1900 and not remote else set()))
                 out = []
                 for w in widths:
                     name = f"{rel.as_posix()}.{digest}.{w}.webp"
@@ -171,4 +196,5 @@ class Optimiser:
             n = self.page(t)
             if n != t:
                 p.write_text(n, encoding="utf-8")
-        print(f"[images] {len(pages)} pages, {self.made} WebP copies made, {self.reused} reused from imgcache/")
+        print(f"[images] {len(pages)} pages, {self.made} WebP copies made, {self.reused} reused from imgcache/, "
+              f"{self.fetched} podcast artworks downloaded, {self.fetch_failed} could not be downloaded (left as the original link)")
