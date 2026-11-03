@@ -171,13 +171,14 @@
       sides.forEach(function (sd) { sd.querySelectorAll('img').forEach(function (im) { im.addEventListener('load', pin); }); });
       pin();
     }
-    // analytics events (GA4). Key events: listen_click, audio_play, map_click, feijoa_click, email_click, generate_lead
+    // analytics events (GA4). Key events: listen_click, audio_play, map_click, feijoa_click, email_click, generate_lead. Apple review links send review_click
     var track = function (name, params) { if (window.gtag) window.gtag('event', name, params || {}); };
     var area = function (el) { return el.closest('.side') ? 'sidebar' : el.closest('.site-foot') ? 'footer' : el.closest('.site-head') ? 'nav' : el.closest('.map-band, .phone-wrap') ? 'map_band' : 'page'; };
     document.addEventListener('click', function (ev) {
       var a = ev.target.closest && ev.target.closest('a[href]'); if (!a) return;
       var h = a.href, p = { placement: area(a), link_url: h };
       if (/open\.spotify\.com/.test(h)) { p.platform = 'spotify'; track('listen_click', p); }
+      else if (/podcasts\.apple\.com/.test(h) && /see-all=reviews/.test(h)) track('review_click', p);
       else if (/podcasts\.apple\.com/.test(h)) { p.platform = 'apple'; track('listen_click', p); }
       else if (/pod\.link/.test(h)) { p.platform = 'pod.link'; track('listen_click', p); }
       else if (/rexby\.com/.test(h)) track('map_click', p);
