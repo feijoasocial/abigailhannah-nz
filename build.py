@@ -164,6 +164,84 @@ def fetch_feed(offline: bool) -> str:
 
 NSF = {"itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd", "content": "http://purl.org/rss/1.0/modules/content/"}
 
+# ---------- guest links (copied from the Captivate show notes) ----------
+OUTRO_RE = re.compile(r"thank you (so much )?for (tuning in|listening)|keep adventuring", re.I)
+# Abigail's own lines and promos in the show notes: replaced by the two standard lines below
+OWN_LINK_RE = re.compile(r"follow abigail|read the blog|abigailhann|tiktok\.com/@abigail|rexby|nz map|map & guide|1-on-1|"
+                         r"podcast10|aotearoa_adventures|aotearoa adventures on|leave a review|voice message|bit\.ly|podcast awards|"
+                         r"nzpodcastawards|broadcast channel|ig\.me/j/|instagram\.com/j/", re.I)
+URL_TEXT_RE = re.compile(r"(?:https?://|www\.)[^\s<>\"']+|\b(?:instagram|tiktok|youtube|facebook)\.com/[^\s<>\"']*", re.I)
+INVISIBLE_RE = re.compile("[⁠​‌‍﻿]")
+
+def _plain(s: str) -> str:
+    return re.sub(r"\s+", " ", INVISIBLE_RE.sub("", html.unescape(re.sub(r"<[^>]+>", "", s)))).strip()
+
+def _abs_href(h: str) -> str:
+    h = INVISIBLE_RE.sub("", h.strip())
+    if re.match(r"^https?:/[^/]", h): h = re.sub(r"^(https?):/", r"\1://", h)
+    elif h.startswith("//"): h = "https:" + h
+    elif not re.match(r"^(https?:|mailto:|/)", h): h = "https://" + h
+    return h
+
+LABEL_RE = re.compile(r"[A-Za-z]{3}")
+
+def guest_links(desc_html: str) -> list[list[tuple[str, str]]]:
+    """The guest link lines after the show-notes outro, Abigail's own lines and promos removed.
+    Each item is a list of (text, href) pieces; href is "" for plain words."""
+    if not desc_html: return []
+    text = re.sub(r"(?i)<br\s*/?>|</p>|</li>|<p[^>]*>|<li[^>]*>|</?[uo]l>|\n", "\n", desc_html)
+    lines = [l.strip() for l in text.split("\n") if _plain(l)]
+    outro = [i for i, l in enumerate(lines) if OUTRO_RE.search(_plain(l))]
+    if not outro: return []
+    items = []
+    for line in lines[outro[-1] + 1:]:
+        if OUTRO_RE.search(_plain(line)): continue
+        segs, pos = [], 0  # (words before, link text, href)
+        for m in A_RE.finditer(line):
+            segs.append((_plain(line[pos:m.start()]), _plain(m.group(4)), html.unescape(m.group(2))))
+            pos = m.end()
+        rest, rpos = _plain(line[pos:]), 0
+        for u in URL_TEXT_RE.finditer(rest):  # links written as plain text
+            url = u.group(0).rstrip(".,);")
+            segs.append((rest[rpos:u.start()].strip(), url, url))
+            rpos = u.end()
+        cur = None
+        for pre, ltext, href in segs:
+            if not href: continue
+            href = _abs_href(href)
+            if cur and cur[-1][1] == href and not LABEL_RE.search(pre):  # one link split in two by the editor
+                cur[-1] = (cur[-1][0] + pre + ltext, href); continue
+            if not re.search(r"[A-Za-z0-9]", ltext) and any(h == href for it in items for _, h in it):
+                continue  # a stray "/" left over from a split link
+            starts_new = cur is None or not pre or (LABEL_RE.search(pre) and not re.match(r"^(,|&|and\b)", pre, re.I))
+            if starts_new:
+                cur = ([(pre + " ", "")] if pre else []) + [(ltext or href, href)]
+                items.append(cur)
+            else:
+                cur += ([(" " + pre + " ", "")] if pre else [(" ", "")]) + [(ltext or href, href)]
+    return [it for it in items if not OWN_LINK_RE.search(" ".join(t + " " + h for t, h in it))]
+
+def own_links() -> list[list[tuple[str, str]]]:
+    return [[("Follow Abigail on Instagram: ", ""), ("instagram.com/abigailhannnah", cfg["instagram"])],
+            [("Follow Aotearoa Adventures on Instagram: ", ""), ("instagram.com/aotearoa_adventures_", cfg["aa_instagram"])]]
+
+def _li(item) -> str:
+    return "<li>" + "".join(f'<a href="{html.escape(h)}">{html.escape(t)}</a>' if h else html.escape(t) for t, h in item) + "</li>"
+
+def links_block(e: dict) -> str:
+    if e["content"]:
+        return ('<h2 id="links-from-this-episode">Links from this episode</h2><ul class="episode-links">'
+                + "".join(_li(i) for i in e["guest_links"] + own_links()) + "</ul>")
+    # show-notes pages already list the guest's links: add only Abigail's lines that are missing
+    have = (e["description_html"] or "").lower()
+    missing = [i for i in own_links() if i[1][1].rstrip("/").split("//")[-1].lower() not in have]
+    return "".join("<p>" + _li(i)[4:-5] + "</p>" for i in missing)  # same style as the show-notes lines above
+
+def with_links(body: str, block: str) -> str:
+    if not block: return body
+    m = re.search(r"<h2[^>]*>\s*More like this\s*</h2>", body, re.I)
+    return body[:m.start()] + block + body[m.start():] if m else body + block
+
 def parse_feed(xml: str) -> list[dict]:
     ch = ET.fromstring(xml).find("channel")
     out = []
@@ -219,6 +297,8 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
     merged.sort(key=lambda e: e["date"], reverse=True)
     for e in merged:
         e["url"] = f"/{e['slug']}/"; e["label"] = ep_label(e)
+        e["guest_links"] = guest_links(e["description_html"])
+        e["body_html"] = with_links(e["content"]["html"] if e["content"] else e["description_html"], links_block(e))
     return merged
 
 # ---------- episode index (tags for search) ----------

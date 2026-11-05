@@ -38,7 +38,7 @@
     </p>
     {% if e.image %}<img class="hero-art" src="{{ e.image }}" alt="{{ e.content.imageAlt if e.content else '' }}" width="1200" height="800">{% endif %}
     <div class="prose">
-      {% if e.content %}{{ e.content.html | safe }}{% else %}{{ e.description_html | safe }}{% endif %}
+      {{ e.body_html | safe }}
     </div>
   </div>
   {{ parts.about_side() }}
