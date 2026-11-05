@@ -171,3 +171,13 @@ redirects:
   /070-learning-to-surf-in-new-zealand-with-amber-holyoake: /learn-to-surf-new-zealand/
   /087-overlanding-in-new-zealand-up-the-godley-and-havelock-valleys-with-jack-laurent: /overlanding-nz/
   /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-isaac: /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-and-isaac/
+
+# Corrections to the guest links copied from the Captivate show notes, by episode number.
+# match: part of the link address. Either drop the line, or give a new address and link text.
+guest_link_fixes:
+  27:
+    - {match: "nzpohototrips.com", drop: true}   # workshops site has expired; Shadow and Shade line stays
+  170:
+    - {match: "mailto:", drop: true}             # keep Joel's email off the site
+  171:
+    - {match: "instagram.com/shantiwritesthings", href: "https://www.instagram.com/sagarandami/", text: "instagram.com/sagarandami/"}

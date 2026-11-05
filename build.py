@@ -221,6 +221,19 @@ def guest_links(desc_html: str) -> list[list[tuple[str, str]]]:
                 cur += ([(" " + pre + " ", "")] if pre else [(" ", "")]) + [(ltext or href, href)]
     return [it for it in items if not OWN_LINK_RE.search(" ".join(t + " " + h for t, h in it))]
 
+def fix_guest_links(number, items):
+    """Apply guest_link_fixes from config.yml (drop a line, or swap its link address and text)."""
+    fixes = (cfg.get("guest_link_fixes") or {}).get(number) or []
+    out = []
+    for item in items:
+        keep = True
+        for f in fixes:
+            if not any(f["match"] in h for _, h in item if h): continue
+            if f.get("drop"): keep = False; break
+            item = [((f.get("text") or t), f["href"]) if h and f["match"] in h else (t, h) for t, h in item]
+        if keep: out.append(item)
+    return out
+
 def own_links() -> list[list[tuple[str, str]]]:
     return [[("Follow Abigail on Instagram: ", ""), ("instagram.com/abigailhannnah", cfg["instagram"])],
             [("Follow Aotearoa Adventures on Instagram: ", ""), ("instagram.com/aotearoa_adventures_", cfg["aa_instagram"])]]
@@ -297,7 +310,7 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
     merged.sort(key=lambda e: e["date"], reverse=True)
     for e in merged:
         e["url"] = f"/{e['slug']}/"; e["label"] = ep_label(e)
-        e["guest_links"] = guest_links(e["description_html"])
+        e["guest_links"] = fix_guest_links(e["number"], guest_links(e["description_html"]))
         e["body_html"] = with_links(e["content"]["html"] if e["content"] else e["description_html"], links_block(e))
     return merged
 
