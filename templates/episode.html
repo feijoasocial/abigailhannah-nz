@@ -15,7 +15,8 @@
   "author": {"@type": "Person", "name": "Abigail Hannah"}
 }] %}
 {% block main %}
-<section class="band band-olive ep-head">
+<section class="band {{ 'band-photo tint-deep' if e.photo else 'band-olive' }} ep-head">
+  {% if e.photo %}<div class="bg"><img class="ep-banner-img" src="{{ e.photo }}" alt="{{ e.image_alt }}" width="1920" height="1280" style="object-position: 50% 45%"></div>{% endif %}
   <div class="wrap">
     <p class="kicker"><a href="/podcast/">Aotearoa Adventures</a></p>
     <p class="ep-num">{{ "Bonus episode" if e.bonus else "Episode " ~ e.label }}</p>
@@ -36,7 +37,7 @@
       <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
       {% if e.audio_url %}<a class="pill" href="{{ e.audio_url }}">Download</a>{% endif %}
     </p>
-    {% if e.image %}<img class="hero-art" style="object-position: 50% 30%" src="{{ e.image }}" alt="{{ e.image_alt }}" width="1200" height="800">{% endif %}
+    {% if e.image and not e.photo %}<img class="hero-art" src="{{ e.image }}" alt="{{ e.image_alt }}" width="1200" height="800">{% endif %}
     <div class="prose">
       {{ e.body_html | safe }}
     </div>

@@ -35,11 +35,24 @@
   <div class="wrap split">
     <div data-reveal="left">
       <p class="kicker">Latest episode</p>
-      <h2><a href="{{ latest.url }}">{{ latest.title }}</a></h2>
-      <p>{{ latest.summary }}…</p>
-      <p><a class="btn btn-outline" href="{{ latest.url }}">Show notes</a></p>
+      <div class="latest">
+        {{ parts.latest_head(latest) }}
+        <div>
+          <h2 class="latest-title"><a href="{{ latest.url }}">{{ latest.clean_title }}</a></h2>
+          <p class="latest-desc">{{ latest.summary }}…</p>
+          <p><a class="btn btn-outline" href="{{ latest.url }}">Show notes</a></p>
+        </div>
+      </div>
     </div>
     <div data-reveal="right">{{ parts.player(latest) }}</div>
+  </div>
+</section>
+
+<section class="band" id="recent">
+  <div class="wrap">
+    <p class="kicker">Recent episodes</p>
+    <h2 class="display">Fresh from the last couple of months</h2>
+    {{ parts.ep_cards(episodes[1:9]) }}
   </div>
 </section>
 
@@ -79,8 +92,8 @@
       <p class="empty" hidden>No episodes match that yet. Try a region, a track, an activity or a guest's name.</p>
     </div>
     <div id="ep-all">
-      <h2 class="display">All {{ numbered }} episodes</h2>
-      {{ parts.ledger(episodes) }}
+      <h2 class="display">Earlier episodes</h2>
+      {{ parts.ledger(episodes[9:]) }}
       <p class="more"><button class="btn" type="button" id="ep-more">See more episodes</button></p>
     </div>
   </div>

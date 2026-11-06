@@ -38,6 +38,8 @@ SIZES = {
     "hero-art": "(max-width: 760px) 100vw, 720px",
     "side-photo": "300px",
     "ap-art": "120px",
+    "latest-img": "120px",
+    "ep-banner-img": "100vw",
     "thumb": "(max-width: 560px) 100vw, (max-width: 1040px) 50vw, 380px",
     "portrait": "(max-width: 760px) 100vw, 560px",
     "phone-still": "300px",

@@ -15,11 +15,11 @@
 }] %}
 {% block main %}
 <section class="band post-head">
-  <div class="measure">
+  <div class="post-layout post-head-row"><div>
     <p class="kicker">{% for c in p.categories %}<a href="/category/{{ c | slugify }}/">{{ c }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
     <h1>{{ p.title }}</h1>
     <p class="meta-row"><time datetime="{{ p.date.isoformat() }}">{{ p.date | date }}</time> <span>by Abigail Hannah</span></p>
-  </div>
+  </div><div aria-hidden="true"></div></div>
   <div class="post-layout">
     <div class="post-main">
       {% if p.image %}<img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800">{% if p.imageCaption %}<p class="hero-caption">{{ p.imageCaption }}</p>{% endif %}{% endif %}

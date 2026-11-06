@@ -175,3 +175,20 @@
   </div>
 </aside>
 {% endmacro %}
+
+{% macro ep_cards(eps) %}
+<div class="grid grid-4">
+  {% for e in eps %}
+  <a class="card" href="{{ e.url }}">
+    <div class="thumb-wrap"><img class="thumb" src="{{ e.photo or e.cover or cfg.podcast_cover }}" alt="{{ e.image_alt if e.photo else '' }}" loading="lazy" width="800" height="600"></div>
+    <p class="meta ep-card-num">{{ "Bonus" if e.bonus else "Episode " ~ e.label }}</p>
+    <h3>{{ e.clean_title }}</h3>
+    <p class="meta"><time datetime="{{ e.date.isoformat() }}">{{ e.date | date }}</time></p>
+  </a>
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro latest_head(e) %}
+<a class="latest-thumb" href="{{ e.url }}" tabindex="-1" aria-hidden="true"><img class="latest-img" src="{{ e.photo or e.cover or cfg.podcast_cover }}" alt="" loading="lazy" width="240" height="240"></a>
+{% endmacro %}

@@ -318,6 +318,7 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
     merged.sort(key=lambda e: e["date"], reverse=True)
     for e in merged:
         e["url"] = f"/{e['slug']}/"; e["label"] = ep_label(e)
+        e["photo"] = e["image"] if e["image"] and e["image"] != e.get("cover") and "artwork.captivate" not in e["image"] else ""
         e["guest_links"] = fix_guest_links(e["number"], guest_links(e["description_html"]))
         e["body_html"] = with_links(e["content"]["html"] if e["content"] else e["description_html"], links_block(e))
     return merged

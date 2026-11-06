@@ -54,7 +54,10 @@
     <div class="split">
       <div data-reveal>
         <p class="kicker">Latest episode</p>
-        <h3><a href="{{ latest.url }}">{{ latest.title }}</a></h3>
+        <div class="latest">
+          {{ parts.latest_head(latest) }}
+          <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.clean_title }}</a></h3>
+        </div>
         {{ parts.player(latest) }}
       </div>
       <div data-reveal>
