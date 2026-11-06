@@ -51,13 +51,9 @@
 
 <section class="band">
   <div class="wrap">
-    <div class="split">
+    <div class="latest-stack">
       <div data-reveal>
         <p class="kicker">Latest episode</p>
-        <div class="latest">
-          {{ parts.latest_head(latest) }}
-          <h3 class="latest-title"><a href="{{ latest.url }}">{{ latest.clean_title }}</a></h3>
-        </div>
         {{ parts.player(latest) }}
       </div>
       <div data-reveal>

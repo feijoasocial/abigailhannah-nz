@@ -32,20 +32,10 @@
 {% endif %}
 
 <section class="band">
-  <div class="wrap split">
-    <div data-reveal="left">
-      <p class="kicker">Latest episode</p>
-      <div class="latest">
-        {{ parts.latest_head(latest) }}
-        <div>
-          <h2 class="latest-title"><a href="{{ latest.url }}">{{ latest.clean_title }}</a></h2>
-          <p class="latest-desc">{{ latest.summary }}…</p>
-          <p><a class="btn btn-outline" href="{{ latest.url }}">Show notes</a></p>
-        </div>
-      </div>
-    </div>
-    <div data-reveal="right">{{ parts.player(latest) }}</div>
-  </div>
+  <div class="latest-stack"><div data-reveal>
+    <p class="kicker">Latest episode</p>
+    {{ parts.player(latest) }}
+  </div></div>
 </section>
 
 <section class="band" id="recent">

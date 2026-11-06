@@ -189,6 +189,3 @@
 </div>
 {% endmacro %}
 
-{% macro latest_head(e) %}
-<a class="latest-thumb" href="{{ e.url }}" tabindex="-1" aria-hidden="true"><img class="latest-img" src="{{ e.photo or e.cover or cfg.podcast_cover }}" alt="" loading="lazy" width="240" height="240"></a>
-{% endmacro %}

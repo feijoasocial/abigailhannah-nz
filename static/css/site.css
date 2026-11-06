@@ -506,14 +506,9 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .post-head-row { row-gap: 0; }
 .post-head-row > [aria-hidden] { min-height: 0; }
 
-/* latest episode: small photo beside a tighter title */
-.latest { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 1.1rem; align-items: start; margin-bottom: 1.4rem; }
-.latest-thumb { display: block; width: 96px; }
-.latest-img { width: 96px; height: 96px; object-fit: cover; display: block; background: var(--sage); }
-.latest-title { font-size: clamp(1.15rem, 2vw, 1.45rem); line-height: 1.2; margin: 0 0 0.5rem; }
-.latest-desc { font-size: 0.95rem; }
-@media (min-width: 820px) { .latest { grid-template-columns: 120px minmax(0, 1fr); gap: 1.4rem; } .latest-thumb, .latest-img { width: 120px; height: 120px; } }
-
+/* latest episode: the player on its own, centred, with the recent list stacked below */
+.latest-stack { width: min(100% - 2 * var(--gutter), 720px); margin-inline: auto; display: grid; gap: 3rem; }
+.wrap > .latest-stack { width: 100%; max-width: 720px; }
 #recent { padding-top: 0; }
 /* recent episodes: photo cards, 4 across on desktop, 2 on smaller screens */
 .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 1rem; }
