@@ -300,8 +300,10 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         e["spotify"] = (c or {}).get("spotify", "")
         e["content"] = c
         guest_photo = EPISODE_IMAGES.get(f["number"]) if f["number"] is not None and not f["bonus"] else None
-        e["image"] = (c or {}).get("image") or (guest_photo or {}).get("image") or f["image"]
-        e["image_alt"] = (c or {}).get("imageAlt") or ((guest_photo or {}).get("alt") if e["image"] == (guest_photo or {}).get("image") else "")
+        own = (c or {}).get("image") or ""
+        if "23805753-1651389743784" in own: own = ""  # the old podcast cover saved as a post image: use the guest photo instead
+        e["image"] = own or (guest_photo or {}).get("image") or f["image"]
+        e["image_alt"] = (guest_photo or {}).get("alt") if e["image"] == (guest_photo or {}).get("image") else (c or {}).get("imageAlt", "")
         e["cover"] = f["image"] or (c or {}).get("image", "")
         e["description"] = (c or {}).get("description") or f["summary"]
         merged.append(e)

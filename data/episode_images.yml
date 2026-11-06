@@ -1,0 +1,78 @@
+# Guest photo for each episode page, picked from the Visual folders in the Podcast drive (Nov 2026).
+# The photo replaces the podcast cover at the top of the episode page and in link previews.
+# An article's own image: line (content/episodes/) wins over this list.
+
+55: {image: /images/episodes/ep055-guest.jpg, alt: "Renee and her child in the snow with mountains behind"}
+56: {image: /images/episodes/ep056-guest.jpg, alt: "Lisa beside her campervan on a clifftop above the sea"}
+93: {image: /images/episodes/ep093-guest.jpg, alt: "The Paddle for Purpose team together on the beach in their kayaking gear"}
+95: {image: /images/episodes/ep095-guest.jpg, alt: "Hamish and a friend in climbing helmets beside a glacial lake"}
+96: {image: /images/episodes/ep096-guest.jpg, alt: "Anna's children sitting on a railing looking out over a lake"}
+97: {image: /images/episodes/ep097-guest.jpg, alt: "A bright orange backcountry hut in a grassy clearing"}
+98: {image: /images/episodes/ep098-guest.jpg, alt: "Ellena smiling in the bush at Sanctuary Mountain Maungatautari"}
+102: {image: /images/episodes/ep102-guest.jpg, alt: "Sarah on the Routeburn Track with the valley behind her"}
+103: {image: /images/episodes/ep103-guest.jpg, alt: "Barb and Reg with the family on their South Island road trip, with snowy mountains behind"}
+104: {image: /images/episodes/ep104-guest.jpg, alt: "Nick on a snowy ridge above a valley"}
+106: {image: /images/episodes/ep106-guest.jpg, alt: "4WD vehicles on a tussock track in the Old Man Range"}
+107: {image: /images/episodes/ep107-guest.jpg, alt: "A freediver below a red boat in clear turquoise water"}
+108: {image: /images/episodes/ep108-guest.jpg, alt: "Alice looking out over a mountain valley on her fastpacking trip"}
+109: {image: /images/episodes/ep109-guest.jpg, alt: "A 4WD camp beside a lake at the top of the South Island"}
+111: {image: /images/episodes/ep111-guest.jpg, alt: "Kiri's kombi van on a road below a snowy peak at sunset"}
+112: {image: /images/episodes/ep112-guest.jpg, alt: "Britt on her paddleboard on calm water"}
+113: {image: /images/episodes/ep113-guest.jpg, alt: "One of the Blair sisters resting in a tussock valley on the St James Walkway"}
+114: {image: /images/episodes/ep114-guest.jpg, alt: "Kayaking in a yellow kayak along the Hauraki Gulf coastline"}
+116: {image: /images/episodes/ep116-guest.jpg, alt: "Kerry walking a 4WD track through a tussock valley"}
+117: {image: /images/episodes/ep117-guest.jpg, alt: "Tara and Naomi on a snowy ridge with their packs"}
+118: {image: /images/episodes/ep118-guest.jpg, alt: "A red backcountry hut below snowy peaks"}
+120: {image: /images/episodes/ep120-guest.jpg, alt: "Paddling a packraft across a glacial lake beneath the mountains"}
+123: {image: /images/episodes/ep123-guest.jpg, alt: "Veronika and her children on a coastal walk"}
+124: {image: /images/episodes/ep124-guest.jpg, alt: "Jackie's group in front of Aoraki Mount Cook"}
+127: {image: /images/episodes/ep127-guest.jpg, alt: "The house at Gorge River on the South Westland coast"}
+128: {image: /images/episodes/ep128-guest.jpg, alt: "4WD vehicles parked in a riverbed below snowy mountains"}
+129: {image: /images/episodes/ep129-guest.jpg, alt: "Stacey smiling on the track with mountains behind"}
+132: {image: /images/episodes/ep132-guest.jpg, alt: "Naomi smiling on the trail with mountains behind her"}
+134: {image: /images/episodes/ep134-guest.jpg, alt: "Sophie in a red jacket above a sweeping bay"}
+135: {image: /images/episodes/ep135-guest.jpg, alt: "Ivan swimming in open water"}
+136: {image: /images/episodes/ep136-guest.jpg, alt: "Helen sitting on a rock above a misty valley"}
+138: {image: /images/episodes/ep138-guest.jpg, alt: "Hazel smiling in a pink jacket on the snow in Tongariro National Park"}
+139: {image: /images/episodes/ep139-guest.jpg, alt: "Tim and his partner in the snow beside a helicopter"}
+140: {image: /images/episodes/ep140-guest.jpg, alt: "Sarah standing beside a still alpine lake reflecting the mountains"}
+141: {image: /images/episodes/ep141-guest.jpg, alt: "Jasmine and her children ready for an adventure"}
+142: {image: /images/episodes/ep142-guest.jpg, alt: "Kristina looking out to sea at sunset on Aotea Great Barrier Island"}
+143: {image: /images/episodes/ep143-guest.jpg, alt: "Josh and friends at the base of a limestone climbing crag"}
+144: {image: /images/episodes/ep144-guest.jpg, alt: "Grace setting up camp beside her 4WD"}
+145: {image: /images/episodes/ep145-guest.jpg, alt: "Sharon smiling with snowy mountains behind her"}
+146: {image: /images/episodes/ep146-guest.jpg, alt: "Chris and a friend smiling on the track with the valley behind"}
+147: {image: /images/episodes/ep147-guest.jpg, alt: "Laura holding a fish she caught spearfishing"}
+148: {image: /images/episodes/ep148-guest.jpg, alt: "Dom climbing on a snowy ridge high in the Southern Alps"}
+150: {image: /images/episodes/ep150-guest.jpg, alt: "Hunters walking through golden tussock in Fiordland"}
+151: {image: /images/episodes/ep151-guest.jpg, alt: "Jessica with her pack on a bush track"}
+153: {image: /images/episodes/ep153-guest.jpg, alt: "A turquoise alpine lake below rocky peaks"}
+154: {image: /images/episodes/ep154-guest.jpg, alt: "Anne skydiving high above Lake Wānaka"}
+155: {image: /images/episodes/ep155-guest.jpg, alt: "Climbers crossing a wide snowfield below the peaks"}
+156: {image: /images/episodes/ep156-guest.jpg, alt: "Jenn and her children playing in the snow on the mountain"}
+157: {image: /images/episodes/ep157-guest.jpg, alt: "Billy smiling beside a summit sign"}
+160: {image: /images/episodes/ep160-guest.jpg, alt: "A small backcountry hut in a bush clearing"}
+161: {image: /images/episodes/ep161-guest.jpg, alt: "The Wild Chix group celebrating together on a beach"}
+164: {image: /images/episodes/ep164-guest.jpg, alt: "Deni and friends smiling with the ocean behind them"}
+165: {image: /images/episodes/ep165-guest.jpg, alt: "Three friends walking through tussock below the mountains"}
+166: {image: /images/episodes/ep166-guest.jpg, alt: "The family caravan parked on the grass under a big blue sky"}
+168: {image: /images/episodes/ep168-guest.jpg, alt: "A driftwood-strewn beach below bush-covered hills on the Paparoa coast"}
+169: {image: /images/episodes/ep169-guest.jpg, alt: "Verity and a friend outside a backcountry hut"}
+170: {image: /images/episodes/ep170-guest.jpg, alt: "Joel smiling on his sea kayak expedition"}
+171: {image: /images/episodes/ep171-guest.jpg, alt: "Sagar and Ami's campervan parked beside a red-roofed cottage"}
+172: {image: /images/episodes/ep172-guest.jpg, alt: "A track crossing the volcanic landscape of Tongariro, with the mountain behind"}
+173: {image: /images/episodes/ep173-guest.jpg, alt: "Te Aroha with her pack on Te Araroa under a blue sky"}
+184: {image: /images/episodes/ep184-guest.jpg, alt: "Nick smiling on a hilltop above the coast"}
+185: {image: /images/episodes/ep185-guest.jpg, alt: "Shalane smiling on the trail with her pack"}
+186: {image: /images/episodes/ep186-guest.jpg, alt: "Penzy and a friend in bright jackets sharing a moment in the mountains"}
+187: {image: /images/episodes/ep187-guest.jpg, alt: "David trail running through golden tussock"}
+188: {image: /images/episodes/ep188-guest.jpg, alt: "Laura's bikepacking setup beside a lake"}
+189: {image: /images/episodes/ep189-guest.jpg, alt: "Viktoria and a friend smiling on a mountain lookout near Queenstown"}
+190: {image: /images/episodes/ep190-guest.jpg, alt: "Shoshannah looking out over a lake from a high point"}
+191: {image: /images/episodes/ep191-guest.jpg, alt: "Kemi and Niko outside one of their mini huts"}
+193: {image: /images/episodes/ep193-guest.jpg, alt: "Sunset glowing over the ridgeline"}
+194: {image: /images/episodes/ep194-guest.jpg, alt: "Brooke in a bright orange jacket on the trail"}
+195: {image: /images/episodes/ep195-guest.jpg, alt: "Tsewang with his pack looking out over a mountain valley"}
+196: {image: /images/episodes/ep196-guest.jpg, alt: "Tom paddling his packraft on a glacial river"}
+197: {image: /images/episodes/ep197-guest.jpg, alt: "Hazel smiling above a glacial lake in Aoraki Mount Cook National Park"}
+199: {image: /images/episodes/ep199-guest.jpg, alt: "A climber on the via ferrata on Tākaka Hill with the valley far below"}
