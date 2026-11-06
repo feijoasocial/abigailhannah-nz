@@ -282,6 +282,10 @@ def parse_feed(xml: str) -> list[dict]:
         })
     return out
 
+# guest photos for episode pages (picked from the Podcast drive's Visual folders), by episode number
+_ei = ROOT / "data" / "episode_images.yml"
+EPISODE_IMAGES = (yaml.safe_load(_ei.read_text(encoding="utf-8")) or {}) if _ei.exists() else {}
+
 def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
     by_num = {p["episode"]: p for p in posts if p.get("episode") is not None}
     bonus_by_day = {p["date"].date(): p for p in posts if p.get("bonus")}
@@ -295,7 +299,9 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         e["slug"] = c["slug"] if c else f["feed_slug"]
         e["spotify"] = (c or {}).get("spotify", "")
         e["content"] = c
-        e["image"] = (c or {}).get("image") or f["image"]
+        guest_photo = EPISODE_IMAGES.get(f["number"]) if f["number"] is not None and not f["bonus"] else None
+        e["image"] = (c or {}).get("image") or (guest_photo or {}).get("image") or f["image"]
+        e["image_alt"] = (c or {}).get("imageAlt") or ((guest_photo or {}).get("alt") if e["image"] == (guest_photo or {}).get("image") else "")
         e["cover"] = f["image"] or (c or {}).get("image", "")
         e["description"] = (c or {}).get("description") or f["summary"]
         merged.append(e)

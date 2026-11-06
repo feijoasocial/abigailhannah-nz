@@ -36,7 +36,7 @@
       <a class="pill" href="{{ cfg.pod_link }}">Everywhere else</a>
       {% if e.audio_url %}<a class="pill" href="{{ e.audio_url }}">Download</a>{% endif %}
     </p>
-    {% if e.image %}<img class="hero-art" src="{{ e.image }}" alt="{{ e.content.imageAlt if e.content else '' }}" width="1200" height="800">{% endif %}
+    {% if e.image %}<img class="hero-art" src="{{ e.image }}" alt="{{ e.image_alt }}" width="1200" height="800">{% endif %}
     <div class="prose">
       {{ e.body_html | safe }}
     </div>
