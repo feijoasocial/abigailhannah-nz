@@ -171,6 +171,14 @@ redirects:
   /070-learning-to-surf-in-new-zealand-with-amber-holyoake: /learn-to-surf-new-zealand/
   /087-overlanding-in-new-zealand-up-the-godley-and-havelock-valleys-with-jack-laurent: /overlanding-nz/
   /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-isaac: /137-a-5-year-journey-from-budget-diy-van-to-dream-home-on-wheels-with-abigail-and-isaac/
+  # Ivorey-era addresses still in the Search Console 404 list (9 Nov 2026)
+  /home: /
+  /privacy-policy: /privacy/
+  /terms-and-conditions: /terms/
+  /resources: /map/
+  /blog/c/lifestyle-amp-wellbeing: /category/lifestyle-and-wellbeing/
+  /blog/c/lifestyle-amp-wellbeing/b/2020-newyear: /2020-newyear/
+  /blog/c/lifestyle-amp-wellbeing/b/hnry-taxes: /hnry-taxes/
 
 # Corrections to the guest links copied from the Captivate show notes, by episode number.
 # match: part of the link address. Either drop the line, or give a new address and link text.

@@ -461,6 +461,19 @@ def main():
             f'<script>location.replace("{target}"+location.hash)</script></head>'
             f'<body><p>This page has moved to <a href="{target}">{target}</a>.</p></body></html>', encoding="utf-8")
         made += 1
+    # Ivorey kept every post at /blog/b/<slug>: send each one to the post's current address
+    for d in sorted(DIST.iterdir()):
+        if not d.is_dir() or not (d / "index.html").exists() or d.name in ("blog", "category", "podcast", "images", "css", "js"): continue
+        out = DIST / "blog" / "b" / d.name / "index.html"
+        if out.exists(): continue
+        target = cfg["domain"] + "/" + d.name + "/"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(
+            '<!doctype html><html lang="en-NZ"><head><meta charset="utf-8"><title>Page moved</title>'
+            f'<link rel="canonical" href="{target}"><meta http-equiv="refresh" content="0; url={target}">'
+            f'<script>location.replace("{target}"+location.hash)</script></head>'
+            f'<body><p>This page has moved to <a href="{target}">{target}</a>.</p></body></html>', encoding="utf-8")
+        made += 1
     print(f"[redirects] {made} old addresses redirected")
 
     # responsive WebP images, sizes and loading hints on every page
