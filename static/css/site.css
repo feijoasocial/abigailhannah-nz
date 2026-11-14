@@ -386,7 +386,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .ap-title a { color: inherit; text-decoration: none; }
 .ap-title a:hover, .ap-title a:focus-visible { text-decoration: underline; text-underline-offset: .2em; }
 .ap-art-link { display: block; }
-@media (max-width: 480px) { .ap { grid-template-columns: 80px 1fr; } .ap-art { width: 80px; height: 80px; } .ap-sep, .ap-dur { display: none; } }
+@media (max-width: 480px) { .ap { grid-template-columns: 80px 1fr; } .ap-art { width: 80px; height: 80px; } .ap-sep, .ap-dur { display: none; } .ap-skip, .ap-speed { display: none; } .ap-notes { margin-left: 0; } }
 .band-olive .ap, .band-photo .ap { border-color: var(--cream); }
 
 /* quiz hero + gate */
