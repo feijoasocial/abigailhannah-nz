@@ -56,7 +56,7 @@ Billy and I have bonded many times over [fitting out a vehicle](https://abigailh
 
 The story goes back to 2022. Billy had hit a creative rut, and part of that was down to the truck. He'd drive to places he thought would take his photography to the next level, arrive late, set up camp and cook, and never see the best of them, let alone photograph them.
 
-So he and some friends designed a trip up three of New Zealand's river valleys: [the Godley, the Havelock](https://abigailhannah.nz/overlanding-nz/) and the Rakaia. The aim was to take one photo that blew his own socks off and made him proud of himself.
+So he and some friends designed a trip up three of New Zealand's river valleys: the Godley, the Havelock and the Rakaia. The aim was to take one photo that blew his own socks off and made him proud of himself.
 
 They made it up the Godley Valley, no problem. The Havelock Valley was a cool challenge in itself, but unforecast snow and rain pushed the rivers up and almost trapped them for a couple of days, leaving no time for the Rakaia.
 
@@ -66,7 +66,7 @@ Billy says the disappointment wasn't gut-wrenching. They'd pretty much decided i
 
 ## Planning a winter 4WD trip up the Rakaia {#planning-the-trip}
 
-Then last November, his business partner called and said they should give it another go. It's been the fire in Billy's belly ever since.
+Then last November, his business partner, [Jack Laurent](https://abigailhannah.nz/overlanding-nz/), called and said they should give it another go. It's been the fire in Billy's belly ever since.
 
 Billy self-funded the first two projects, and one of his conditions this time was not to. So the two of them set up a business together and got a couple of really cool clients on board.
 
@@ -74,7 +74,7 @@ They first looked at April. That didn't work, and it turned out to be a blessing
 
 They settled on August. It's cold enough that there isn't significant melt, and it misses the heavy rain, high winds and snow that July and September bring. It had been a snowy winter, so they knew they'd have to contend with that.
 
-The river was Billy's key concern. It had beaten them before, and years earlier his business partner blew up a diff trying to cross it.
+The river was Billy's key concern. It had beaten them before, and years earlier Jack blew up a diff trying to cross it.
 
 The catchment is so large that very little rain pumps the river up. On the 2023 attempt, without any flow data on them, they tried to cross at 1,500 cumecs, which the organisation collecting the data rates as a one in ten year event. Last October it ran at just shy of 8,000 cumecs, which Billy calls biblical, end of the world stuff. This time they crossed at 114 cumecs.
 
@@ -84,7 +84,7 @@ In early April, Caia decided she didn't want to run anymore, and the whole fuel 
 
 Billy kept me updated as things went wrong, and it got to the point where I said to Isaac that I really didn't know if they should be doing this trip. How many signs are too many signs? I was so nervous for him once they'd gone.
 
-The week before the ferry was chaos. Billy needed a warrant of fitness, the regular check that says a vehicle is fit for the road. The wobble felt like being grabbed and shaken to bits, in up to three tonnes of truck at 80 kilometres an hour, and it blew the tyre valve stems out three times. One went on the Auckland Harbour Bridge, dropping all 40 psi with no warning, and Billy limped down to Shelly Beach Road with no tools until his business partner came to save the day.
+The week before the ferry was chaos. Billy needed a warrant of fitness, the regular check that says a vehicle is fit for the road. The wobble felt like being grabbed and shaken to bits, in up to three tonnes of truck at 80 kilometres an hour, and it blew the tyre valve stems out three times. One went on the Auckland Harbour Bridge, dropping all 40 psi with no warning, and Billy limped down to Shelly Beach Road with no tools until Jack came to save the day.
 
 The truck was towed to his mechanic in Cambridge, who found some of the suspension hadn't been installed correctly, or at all, and the shaking had bent the radius arms. This was three days before the ferry.
 
@@ -108,7 +108,7 @@ That's where it went wrong. They thought they knew what they were getting into, 
 
 > "if it's hard for you to stand still and the water's pressing against your body you imagine what it's going to do to the side of your truck"
 
-They'd always walked crossings before. This time they were too eager and too excited, and the flow was low. The one thing they did right was attach the first truck, his business partner's Troopy, to someone else's winch.
+They'd always walked crossings before. This time they were too eager and too excited, and the flow was low. The one thing they did right was attach the first truck, Jack's Troopy, to someone else's winch.
 
 The Troopy got stuck, went into reverse and got stuck again, having lost drive. As they winched, it dropped into a rut, and the water came up to the top of the rear door, on a truck with a four-inch lift and massive tyres. Billy says it was really scary. With some clear minds in the crew they got it out, front wheels spinning and rear wheels still, with the remnants of the driveshaft smacking against the truck. Of all their spare parts, a driveshaft wasn't one of them.
 
@@ -130,7 +130,7 @@ Some of the crew found a way across the stream on the western side of Lauper Biv
 
 The valley gets tight, and the [four-wheel driving](https://abigailhannah.nz/128-4wd-adventures-across-the-length-of-the-south-island-with-rich-soult/) gets harder. They rounded the corner towards the glacial lake as the light faded, close enough to almost smell it, and hit boulders. One of the crew rated what lay ahead at 120% of their capacity.
 
-They walked down to the lake, 350 metres away and hidden by a rise. His business partner's call: set up camp and do it tomorrow, even if they only get one vehicle there.
+They walked down to the lake, 350 metres away and hidden by a rise. Jack's call: set up camp and do it tomorrow, even if they only get one vehicle there.
 
 ## Snow, boulders and the glacial lake {#glacial-lake}
 
@@ -142,7 +142,7 @@ Billy explains why it made things harder: the snow doesn't compact in, so you ca
 
 Fifteen metres out of camp it got difficult. They winched trucks through, used the winch to move rocks, put Maxtrax down and built little sections of track. It took an hour and 45 minutes to get the first truck to the lake, and only 45 more minutes to get everyone else's there. The slowest part was walking back for the next vehicle.
 
-Billy says he didn't feel anything at that point. He, his business partner and Caia had been trying since 2022, and he wasn't going to feel it until they were all there. There were big cuddles and a lot of emotion, but it didn't hit him for a couple of days. On the way out, alone, he looked around and started giggling:
+Billy says he didn't feel anything at that point. He, Jack and Caia had been trying since 2022, and he wasn't going to feel it until they were all there. There were big cuddles and a lot of emotion, but it didn't hit him for a couple of days. On the way out, alone, he looked around and started giggling:
 
 > "I have no reason to come back here. I've done what I came for."
 
