@@ -27,7 +27,6 @@ This post covers how the podcast started and what 200 stories have done for my o
 
 **In this episode**
 
-*(Each anchor id becomes a clickable jump link on the website.)*
 
 - [Celebrating 200 episodes of Aotearoa Adventures](#200-episodes)
 - [How guests' stories changed my own adventures](#guest-stories)

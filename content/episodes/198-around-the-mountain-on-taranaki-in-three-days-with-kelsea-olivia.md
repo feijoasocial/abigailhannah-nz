@@ -27,7 +27,6 @@ So this post covers the trip day by day, how they keep each other going when it 
 
 **In this episode**
 
-*(Each anchor id becomes a clickable jump link on the website.)*
 
 - [Kels and Liv, best mates since year one](#kels-and-liv)
 - [Fitting adventures around Auckland work weeks](#auckland-weekends)

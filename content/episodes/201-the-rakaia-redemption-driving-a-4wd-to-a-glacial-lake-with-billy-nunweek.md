@@ -25,7 +25,6 @@ This was my first time hearing the whole story too. So this post covers the lot:
 
 **In this episode**
 
-*(Each anchor id becomes a clickable jump link on the website.)*
 
 - [Landscape photography and a Land Cruiser called Caia](#billy-and-caia)
 - [The Godley, the Havelock and the first Rakaia attempt](#first-attempts)

@@ -25,7 +25,6 @@ This post covers what a via ferrata is, the two and a half years of bureaucracy,
 
 **In this episode**
 
-*(Each anchor id becomes a clickable jump link on the website.)*
 
 - [From paragliding to via ferrata in the Alps](#till-story)
 - [What is a via ferrata?](#what-is-via-ferrata)
