@@ -27,13 +27,13 @@
 </div>
 {% endmacro %}
 
-{% macro player(e) %}
+{% macro player(e, link=true) %}
 {% if e.audio_url %}
 <div class="ap" data-src="{{ e.audio_url }}">
-  <img class="ap-art" src="{{ e.cover or cfg.podcast_cover }}" alt="" width="120" height="120" loading="lazy">
+  {% if link %}<a class="ap-art-link" href="{{ e.url }}" tabindex="-1" aria-hidden="true">{% endif %}<img class="ap-art" src="{{ e.cover or cfg.podcast_cover }}" alt="" width="120" height="120" loading="lazy">{% if link %}</a>{% endif %}
   <div class="ap-main">
     <p class="ap-label">{{ "Bonus episode" if e.bonus else "Episode " ~ e.label }}</p>
-    <p class="ap-title">{{ e.clean_title }}</p>
+    <p class="ap-title">{% if link %}<a href="{{ e.url }}">{{ e.clean_title }}</a>{% else %}{{ e.clean_title }}{% endif %}</p>
     <div class="ap-row">
       <button class="ap-play" type="button" aria-label="Play"><span class="ap-ico" aria-hidden="true"></span></button>
       <div class="ap-bar" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><div class="ap-fill"></div></div>
@@ -43,6 +43,7 @@
       <button class="ap-skip" type="button" data-skip="-15" aria-label="Back 15 seconds">&#8630; 15</button>
       <button class="ap-skip" type="button" data-skip="30" aria-label="Forward 30 seconds">30 &#8631;</button>
       <button class="ap-speed" type="button" aria-label="Playback speed">1&times;</button>
+      {% if link %}<a class="ap-notes" href="{{ e.url }}">Show notes</a>{% endif %}
       <a class="ap-dl" href="{{ e.audio_url }}" download>Download</a>
     </div>
   </div>
