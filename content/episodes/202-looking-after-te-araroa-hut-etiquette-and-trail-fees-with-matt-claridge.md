@@ -1,6 +1,6 @@
 ---
 title: '202: Looking After Te Araroa, Hut Etiquette and Trail Fees with Matt Claridge'
-slug: 202-looking-after-te-araroa-hut-etiquette-and-trail-fees-with-matt-claridge-2
+slug: 202-looking-after-te-araroa-hut-etiquette-and-trail-fees-with-matt-claridge
 date: 2026-11-13
 updated: 2026-11-14
 description: Te Araroa Trust chief executive Matt Claridge on the trail's story, why walkers register and pay, hut etiquette, training, gear and where the trail goes next.
