@@ -1,0 +1,10 @@
+# Guest photos inside episode articles (Nov 2026), picked from the guest's Visual folder in the Podcast drive.
+# Each photo sits after the first paragraph of the section whose heading id is given in "after".
+# Files live in static/images/episodes/gallery/, named for search (episode, place, subject).
+172:
+  - {image: /images/episodes/gallery/ep172-ngauruhoe-sunrise-tongariro-alpine-crossing.jpg, after: crossing-guide, alt: "Ngāuruhoe glowing at sunrise above South Crater and the Blue Lake side of the Tongariro Alpine Crossing"}
+  - {image: /images/episodes/gallery/ep172-tongariro-alpine-crossing-winter-snow.jpg, after: crossing-safety, alt: "Ngāuruhoe and the crater floor under deep snow on the Tongariro Alpine Crossing in winter"}
+  - {image: /images/episodes/gallery/ep172-tongariro-northern-circuit-volcanic-valley.jpg, after: northern-circuit, alt: "A tramper with a pack heading down into a wide volcanic valley on the Tongariro Northern Circuit"}
+  - {image: /images/episodes/gallery/ep172-old-waihohonu-hut-tongariro.jpg, after: northern-circuit, alt: "Two packs and walking poles outside the red corrugated-iron Old Waihohonu Hut"}
+  - {image: /images/episodes/gallery/ep172-tama-lakes-winter-snow.jpg, after: tama-lakes, alt: "Snow-dusted slopes and a Tama lake below the mountain in winter"}
+  - {image: /images/episodes/gallery/ep172-taranaki-falls-tongariro-snack-stop.jpg, after: gear-and-food, alt: "Three trampers laughing with Moro bars in front of Taranaki Falls"}

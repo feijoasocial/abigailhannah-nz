@@ -274,7 +274,7 @@ def parse_feed(xml: str) -> list[dict]:
         out.append({
             "guid": (it.findtext("guid") or "").strip(), "number": number, "bonus": bonus, "title": title,
             "clean_title": clean, "guest": g.group(1).strip() if g else "", "date": parsedate_to_datetime(pub),
-            "description_html": desc, "summary": strip_html(desc)[:160], "link": link,
+            "description_html": desc, "summary": meta_desc(strip_html(desc)), "link": link,
             "feed_slug": link.rstrip("/").split("/")[-1] if link else "",
             "audio_url": enc.get("url") if enc is not None else "", "audio_bytes": int(enc.get("length") or 0) if enc is not None else 0,
             "duration": (it.findtext("itunes:duration", namespaces=NSF) or "").strip(),
@@ -322,6 +322,156 @@ def merge_episodes(feed: list[dict], posts: list[dict]) -> list[dict]:
         e["guest_links"] = fix_guest_links(e["number"], guest_links(e["description_html"]))
         e["body_html"] = with_links(e["content"]["html"] if e["content"] else e["description_html"], links_block(e))
     return merged
+
+# ---------- internal links: travel guides <-> episodes (Nov 2026) ----------
+_gl = ROOT / "data" / "guide_links.yml"
+GUIDE_LINKS = (yaml.safe_load(_gl.read_text(encoding="utf-8")) or {}) if _gl.exists() else {}
+_BROAD_PLACES = {"new zealand", "aotearoa", "north island", "south island", "te ika-a-māui", "te waipounamu", "auckland",
+                 "tāmaki makaurau", "wellington", "christchurch", "ōtautahi", "dunedin", "hamilton", "australia", "canada",
+                 "united kingdom", "england", "europe", "usa", "india"}
+_SKIP_TAGS = {"a", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "figure", "figcaption", "button", "script"}
+
+def _link_first(html_text: str, phrase: str, href: str) -> tuple[str, bool]:
+    """Link the first whole-word mention of phrase in plain text (never inside links, headings or quotes)."""
+    parts = re.split(r"(<[^>]+>)", html_text)
+    depth = 0
+    pat = re.compile(r"(?<![\w-])" + re.escape(phrase) + r"(?![\w-])", re.I)
+    for i, part in enumerate(parts):
+        if part.startswith("<"):
+            m = re.match(r"<(/?)([a-zA-Z0-9]+)", part)
+            if m and m.group(2).lower() in _SKIP_TAGS and not part.endswith("/>"):
+                depth += -1 if m.group(1) else 1
+            continue
+        if depth > 0 or not part.strip():
+            continue
+        mm = pat.search(part)
+        if mm:
+            parts[i] = part[:mm.start()] + f'<a href="{href}">{mm.group(0)}</a>' + part[mm.end():]
+            return "".join(parts), True
+    return html_text, False
+
+def _places_bounds(body: str):
+    m = re.search(r'<h2[^>]*id="places-from-this-episode"[^>]*>.*?</h2>\s*<ul>(.*?)</ul>', body, re.S)
+    return (m.start(1), m.end(1)) if m else None
+
+def _text_start(body: str) -> int:
+    """Where the article proper starts: after the 'In this episode' list, else after the second paragraph."""
+    m = re.search(r"<strong>In this episode</strong>.*?</ul>", body, re.S)
+    if m: return m.end()
+    ends = [x.end() for x in re.finditer(r"</p>", body)]
+    return ends[1] if len(ends) > 1 else 0
+
+def link_guides_and_places(episodes: list[dict], noindex: set[str]):
+    """Episode articles: link the first in-text mention of each travel guide's place, and the items in
+    'Places from this episode' that have their own guide or episode. Text is never changed, only linked."""
+    guide_phr = [(slug, ph) for slug, phrases in GUIDE_LINKS.items() for ph in phrases]
+    focus = {}
+    for e in episodes:
+        c = e.get("content") or {}
+        fk = (c.get("focusKeyword") or "").strip().lower()
+        if fk and e["slug"] not in noindex and c.get("source") == "clickup-blog-articles":
+            focus.setdefault(fk, []).append(e)
+    place_eps = {k: v[0] for k, v in focus.items() if len(v) == 1}
+    cands = [e for e in episodes if e.get("content") and e["slug"] not in noindex]
+    def best_episode(place: str, own: str):
+        """The episode most about a place: its focus keyword, else its title, names the place. Full articles first."""
+        if len(place) < 5 or place in _BROAD_PLACES: return None
+        pat = re.compile(r"(?<![\w-])" + re.escape(place) + r"(?![\w-])")
+        scored = []
+        for x in cands:
+            if x["slug"] == own: continue
+            fk = (x["content"].get("focusKeyword") or "").lower()
+            s = 3 if fk == place else 2 if pat.search(fk) else 1 if pat.search(x["clean_title"].lower()) else 0
+            if s: scored.append((s, x["content"].get("source") == "clickup-blog-articles", x["date"], x))
+        return max(scored, key=lambda y: y[:3])[3] if scored else None
+    for e in episodes:
+        if not e.get("content"): continue
+        body = e["body_html"]
+        start = _text_start(body)
+        pb = _places_bounds(body)
+        end = pb[0] if pb else len(body)
+        main = body[start:end]
+        done = set()
+        for slug, ph in guide_phr:
+            if slug in done or len(done) >= 3: continue
+            main, ok = _link_first(main, ph, f"/{slug}/")
+            if ok: done.add(slug)
+        body = body[:start] + main + body[end:]
+        pb = _places_bounds(body)
+        if pb:
+            def li(m):
+                inner = m.group(1)
+                if "<" in inner: return m.group(0)
+                low = html.unescape(inner).strip().lower()
+                for slug, ph in guide_phr:
+                    if re.search(r"(?<![\w-])" + re.escape(ph.lower()) + r"(?![\w-])", low):
+                        return f'<li><a href="/{slug}/">{inner}</a></li>'
+                t = place_eps.get(low)
+                if not t or t["slug"] == e["slug"]: t = best_episode(low, e["slug"])
+                if t and t["slug"] != e["slug"]:
+                    return f'<li><a href="{t["url"]}">{inner}</a></li>'
+                return m.group(0)
+            lst = re.sub(r"<li>(.*?)</li>", li, body[pb[0]:pb[1]], flags=re.S)
+            body = body[:pb[0]] + lst + body[pb[1]:]
+        e["body_html"] = body
+
+_eg = ROOT / "data" / "episode_gallery.yml"
+EPISODE_GALLERY = (yaml.safe_load(_eg.read_text(encoding="utf-8")) or {}) if _eg.exists() else {}
+
+def add_gallery(episodes: list[dict]):
+    """Guest photos inside the article: each goes after the first paragraph of its section."""
+    from PIL import Image
+    for e in episodes:
+        items = EPISODE_GALLERY.get(e["number"]) if e["number"] is not None and not e["bonus"] else None
+        if not items or not e.get("content"): continue
+        body = e["body_html"]
+        for it in items:
+            m = re.search(r'<h2[^>]*id="%s"[^>]*>.*?</h2>' % re.escape(it["after"]), body, re.S)
+            if not m: raise SystemExit(f"[gallery] ep {e['number']}: no section {it['after']}")
+            p_end = body.find("</p>", m.end())
+            at = p_end + 4 if p_end != -1 else m.end()
+            with Image.open(STATIC / it["image"].lstrip("/")) as im: w, h = im.size
+            fig = (f'<figure class="ep-photo{" ep-photo-tall" if h > w else ""}"><img src="{it["image"]}" alt="{html.escape(it["alt"])}" '
+                   f'width="{w}" height="{h}" loading="lazy" decoding="async"></figure>')
+            # keep photos for the same section in order
+            while body.startswith('<figure class="ep-photo', at):
+                at = body.find("</figure>", at) + 9
+            body = body[:at] + fig + body[at:]
+        e["body_html"] = body
+
+def podcast_links_for_guides(posts: list[dict], episodes: list[dict], noindex: set[str]):
+    """Each travel guide lists the episodes that cover its place, best matches first."""
+    for p in posts:
+        phrases = GUIDE_LINKS.get(p["slug"])
+        if not phrases: continue
+        scored = []
+        for e in episodes:
+            if e["slug"] in noindex or not e.get("content"): continue
+            c = e["content"]
+            fk = (c.get("focusKeyword") or "").lower()
+            text = strip_html(e["body_html"]).lower()
+            pb = _places_bounds(e["body_html"])
+            places = strip_html(e["body_html"][pb[0]:pb[1]]).lower() if pb else ""
+            pat = lambda ph: re.compile(r"(?<![\w-])" + re.escape(ph.lower()) + r"(?![\w-])")
+            s = 0
+            title = e["clean_title"].lower()
+            if any(pat(ph).search(fk) or pat(ph).search(title) for ph in phrases): s = 3
+            elif any(pat(ph).search(places) for ph in phrases): s = 2
+            elif any(pat(ph).search(text) for ph in phrases): s = 1
+            mentions = sum(len(pat(ph).findall(text)) for ph in phrases)
+            if s: scored.append((s, mentions, e))
+        scored.sort(key=lambda x: (x[0], x[1], x[2]["date"]), reverse=True)
+        strong = [x for x in scored if x[0] >= 2]  # the place is the episode's focus, or in its places list
+        pick = strong if len(strong) >= 3 else scored[:3]
+        p["podcast_links"] = [x[2] for x in pick[:6]]
+
+def meta_desc(s: str, n: int = 160) -> str:
+    """Search preview text: the whole description when it fits, otherwise cut at a word, never mid-word."""
+    s = (s or "").strip()
+    if len(s) <= n: return s
+    cut = s[:n - 1]
+    cut = cut[:cut.rfind(" ")] if " " in cut else cut
+    return cut.rstrip(" ,;:-") + "…"
 
 # ---------- episode index (tags for search) ----------
 def load_index_tags() -> dict[int, dict]:
@@ -385,6 +535,10 @@ def main():
     episode_posts = load_collection("episodes")
     posts = load_collection("posts")
     episodes = merge_episodes(parse_feed(fetch_feed(args.offline)), episode_posts)
+    noindex = set(cfg.get("noindex_episodes") or [])
+    link_guides_and_places(episodes, noindex)
+    add_gallery(episodes)
+    podcast_links_for_guides(posts, episodes, noindex)
     numbered = max((e["number"] for e in episodes if e["number"] is not None), default=0)
 
     cats: dict[str, dict] = {}
@@ -393,7 +547,7 @@ def main():
             cats.setdefault(slugify(c), {"name": c, "slug": slugify(c), "posts": []})["posts"].append(p)
 
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-    env.filters.update(date=fmt_date, duration=fmt_duration, clock=fmt_clock, slugify=slugify, tojson=to_jsonld, utm=utm)
+    env.filters.update(metadesc=meta_desc, date=fmt_date, duration=fmt_duration, clock=fmt_clock, slugify=slugify, tojson=to_jsonld, utm=utm)
     now = dt.datetime.now(dt.timezone.utc)
     episodes_asc = [e for e in reversed(episodes) if e["number"] is not None]
     seo_titles = yaml.safe_load((ROOT / "data" / "seo_titles.yml").read_text(encoding="utf-8")) or {}
@@ -421,7 +575,8 @@ def main():
         write(f"/category/{c['slug']}/", "category.html", c["posts"][0]["date"], "0.4", cat=c)
     for i, e in enumerate(episodes):
         related = [x for x in (episodes[i - 1:i] + episodes[i + 1:i + 3]) if x is not e][:3]
-        write(e["url"], "episode.html", (e["content"] or {}).get("updated") or e["date"], "0.7", e=e, related=related)
+        write(e["url"], "episode.html", (e["content"] or {}).get("updated") or e["date"], "0.7", e=e, related=related, noindex=e["slug"] in noindex)
+        if e["slug"] in noindex: pages.pop()  # bonus and announcement pages: live, but kept out of Google and the sitemap
     for p in posts:
         cat = p["categories"][0] if p["categories"] else None
         rel = [x for x in posts if x is not p and (cat in x["categories"] if cat else True)][:3]

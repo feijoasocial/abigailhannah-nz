@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = (e.content.seoTitle if e.content and e.content.seoTitle else e.clean_title) %}
-{% set page_desc = e.description[:152] ~ ("…" if e.description | length > 152 else "") %}
+{% set page_desc = e.description | metadesc %}
 {% set page_image = e.image or "" %}
 {% set og_type = "article" %}
 {% set published = e.date %}
 {% set modified = e.content.updated if e.content else e.date %}
 {% set jsonld = [{
   "@context": "https://schema.org", "@type": "PodcastEpisode", "name": e.title, "url": cfg.domain ~ e.url,
-  "datePublished": e.date.isoformat(), "description": e.description, "episodeNumber": e.number,
+  "datePublished": e.date.isoformat(), "dateModified": (e.content.updated.isoformat() if e.content and e.content.updated.date() > e.date.date() else None), "description": e.description, "episodeNumber": e.number,
   "timeRequired": e.duration, "image": (e.image if e.image.startswith("http") else cfg.domain ~ e.image) if e.image else None,
   "associatedMedia": ({"@type": "MediaObject", "contentUrl": e.audio_url} if e.audio_url else None),
   "partOfSeries": {"@type": "PodcastSeries", "name": cfg.podcast_name, "url": cfg.domain ~ "/podcast/"},

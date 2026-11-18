@@ -522,3 +522,9 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .grid-4 .card h3 { font-size: 0.98rem; line-height: 1.3; margin-top: 0.3rem; }
 .ep-card-num { margin: 0.8rem 0 0; font-family: var(--font-head); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.72rem; }
 @media (max-width: 559px) { .grid-4 .card h3 { font-size: 0.9rem; } }
+/* guest photos inside episode articles (Nov 2026) */
+.ep-photo { margin: 1.8rem 0; }
+.ep-photo img { display: block; width: 100%; height: auto; }
+.ep-photo-tall img { width: auto; max-width: 100%; max-height: 82vh; margin: 0 auto; }
+/* "Hear it on the podcast" list on travel guides */
+.from-podcast { margin-top: 2.4rem; padding-top: 1.6rem; border-top: 1px solid var(--sage); }

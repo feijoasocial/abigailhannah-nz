@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "_parts.html" as parts with context %}
 {% set page_title = p.seoTitle or p.title %}
-{% set page_desc = p.description %}
+{% set page_desc = p.description | metadesc %}
 {% set page_image = p.image %}
 {% set og_type = "article" %}
 {% set published = p.date %}
@@ -24,6 +24,15 @@
     <div class="post-main">
       {% if p.image %}<img class="hero-art" src="{{ p.image }}" alt="{{ p.imageAlt }}" width="1200" height="800">{% if p.imageCaption %}<p class="hero-caption">{{ p.imageCaption }}</p>{% endif %}{% endif %}
       <div class="prose">{{ p.html | safe }}</div>
+      {% if p.podcast_links %}
+      <aside class="prose from-podcast" aria-label="From the podcast">
+        <h2>Hear it on the podcast</h2>
+        <ul>
+          {% for e in p.podcast_links %}<li><a href="{{ e.url }}">{{ e.clean_title }}</a>. {{ e.description }}</li>
+          {% endfor %}
+        </ul>
+      </aside>
+      {% endif %}
       {% if p.tags %}<div class="tags"><p class="pill-row">{% for t in p.tags %}<span class="pill">{{ t }}</span>{% endfor %}</p></div>{% endif %}
     </div>
     {{ parts.about_side() }}

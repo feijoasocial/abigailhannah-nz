@@ -179,6 +179,31 @@ redirects:
   /blog/c/lifestyle-amp-wellbeing: /category/lifestyle-and-wellbeing/
   /blog/c/lifestyle-amp-wellbeing/b/2020-newyear: /2020-newyear/
   /blog/c/lifestyle-amp-wellbeing/b/hnry-taxes: /hnry-taxes/
+  # The last four from the 404 recheck that failed on 14 Nov 2026
+  /feed: /rss.xml
+  /056-east-cape-vanlife: /056-vanlife-the-east-cape-and-life-done-differently-with-lisa-jansen/
+  /bonus-2022-wrapped-: /bonus-2022-wrapped/
+  /_preview: /
+
+# Bonus and announcement episodes Google is told not to list (noindex, kept out of the sitemap).
+# The pages stay live for listeners; links on them still count.
+noindex_episodes:
+  - welcome-to-the-aotearoa-adventures-podcast
+  - were-hitting-pause
+  - 100-celebrating-100-episodes-of-the-aotearoa-adventures-podcast-with-abigail-hannah-and-special-host-olly-dow
+  - 162-we-are-kayaking-from-cape-reinga-to-tauranga-to-raise-20-000-
+  - 178-one-month-into-a-1000km-sea-kayak-expedition-with-isaac-and-abigail
+  - bonus-2022-wrapped
+  - bonus-2023-wrapped
+  - bonus-2025-wrapped
+  - bonus-community-hike-tmaki-makaurau
+  - bonus-creation-in-isolation-podcast-with-billy-nunweek-and-abigail-hannah
+  - bonus-easter-long-weekend
+  - bonus-i-quit-my-corporate-job
+  - bonus-kicking-off-2025-with-abigail-hannah
+  - bonus-kiwi-yarns-with-brodie-kane-and-abigail-hannah
+  - bonus-listen-to-abigail-on-the-kiwi-yarns-podcast
+  - bonus-one-year-of-running-a-business
 
 # Corrections to the guest links copied from the Captivate show notes, by episode number.
 # match: part of the link address. Either drop the line, or give a new address and link text.
