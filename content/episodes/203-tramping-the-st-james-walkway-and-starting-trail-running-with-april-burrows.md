@@ -41,7 +41,7 @@ So this post covers her move, her Christchurch favourites, the St James Walkway 
 
 April lives in Sumner, right on the beach in Christchurch, and she counts herself lucky to call it home.
 
-Her job brought her here. She was living in Germany, working at adidas, when Kathmandu approached her about joining its design team. She was having an awesome time in Germany but was ready for new challenges. She had never visited New Zealand, she'd only heard amazing things about it, and she moved in the middle of COVID, which she doesn't recommend, but they made it work.
+Her job brought her here. She was living in Germany, working at adidas, when [Kathmandu](https://www.kathmandu.co.nz/?utm_source=abigailhannah.nz&utm_medium=referral&utm_campaign=aotearoa-adventures&utm_content=ep203-april-burrows) approached her about joining its design team. She was having an awesome time in Germany but was ready for new challenges. She had never visited New Zealand, she'd only heard amazing things about it, and she moved in the middle of COVID, which she doesn't recommend, but they made it work.
 
 How do you move to a country you've never seen? For April, it comes down to being ready for the unknown. She plays with a decision in her mind, one step at a time, until it starts to feel normal. Then it's time to do it.
 
@@ -188,13 +188,13 @@ I love that she used both approaches: baby steps from 5k to 10k, and then jumpin
 
 ## Designing outdoor gear that lasts {#designing-gear}
 
-April is head of design at Kathmandu, so I brought listener questions.
+April is head of design at [Kathmandu](https://www.kathmandu.co.nz/?utm_source=abigailhannah.nz&utm_medium=referral&utm_campaign=aotearoa-adventures&utm_content=ep203-april-burrows), so I brought listener questions.
 
 ### Customer feedback
 
 On the day we recorded, April had spent a heap of time reading website reviews. Her team reads every customer review, especially when they're working on a new version of something they've made before. They field test with users too. It all goes into the melting pot of information they use to work out what the next generation of product looks like.
 
-I met April earlier this year at the launch of the XT series, and as a guest there, I felt very listened to.
+I met April earlier this year at the launch of the [XT series](https://www.kathmandu.co.nz/?utm_source=abigailhannah.nz&utm_medium=referral&utm_campaign=aotearoa-adventures&utm_content=ep203-april-burrows), and as a guest there, I felt very listened to.
 
 ### Durability and repair
 
