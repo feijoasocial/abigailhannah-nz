@@ -19,7 +19,7 @@ source: clickup-blog-articles
 ---
 I first heard about the [St James Walkway](https://abigailhannah.nz/113-tramping-the-st-james-walkway-and-an-unexpected-encounter-with-olivia-jacinda-and-sarah-blair/) on the [Old Ghost Road](https://abigailhannah.nz/solo-old-ghost-road/). One of the rangers there mentioned it (I can't remember if she was telling me or I was eavesdropping), and it sounded so so interesting, and really beginner friendly too. So when April said it was one of her favourite multi-day hikes in Aotearoa, I was in.
 
-April is originally from the UK, and when we recorded she'd spent the last five and a half years loving life in New Zealand. She's a designer of outdoor technical and sport performance gear, and she moved here for a job at Kathmandu without ever having visited. Which is wild to me.
+April is originally from the UK, and when we recorded she'd spent the last five and a half years loving life in New Zealand. She's a designer of outdoor technical and sport performance gear, and she moved here for a job at [Kathmandu](https://www.kathmandu.co.nz/?utm_source=abigailhannah.nz&utm_medium=referral&utm_campaign=aotearoa-adventures&utm_content=ep203-april-burrows) without ever having visited. Which is wild to me.
 
 And she's honest about not seeing herself as a runner, which is exactly why I wanted to hear how she started trail running.
 
